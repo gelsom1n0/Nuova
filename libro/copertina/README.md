@@ -39,8 +39,8 @@ Requisiti: Python 3, `reportlab`, `numpy`, `Pillow`, `opencv-python-headless` (s
 ## Rigenerare quando cambia il numero di pagine
 
 ```bash
-pdfinfo ../tomo/output/tomo_bozza.pdf | grep Pages     # numero definitivo
-python3 build_copertina_foto.py --pagine 136           # ricalcola dorso, larghezza, barcode
+pdfinfo ../tomo/output/interno_KDP.pdf | grep Pages    # oggi: 132
+python3 build_copertina_foto.py --pagine 132           # ricalcola dorso, larghezza, barcode
 ```
 
 Lo stadio A **non** va rieseguito: non dipende dal numero di pagine. Dopo la rigenerazione:
@@ -49,7 +49,7 @@ Lo stadio A **non** va rieseguito: non dipende dal numero di pagine. Dopo la rig
 2. guarda `copertina_anteprima.png`;
 3. fai commit di PDF, PNG e `build_info.json`.
 
-Esempio: passando da 128 a 136 pagine, il dorso va da 0,2883 a 0,3063 in e la larghezza da 12,5383 a 12,5563 in. **Una copertina generata per un numero di pagine diverso da quello dell'interno viene respinta da KDP.**
+Esempio: con 132 pagine il dorso è 0,2973 in e la larghezza 12,5473 in; passando a 140 pagine diventerebbero 0,3153 in e 12,5653 in. **Una copertina generata per un numero di pagine diverso da quello dell'interno viene respinta da KDP.**
 
 Con meno di ~75 pagine il dorso diventa più stretto della giunzione tra le due metà. Lo script avvisa; in quel caso va rivisto il taglio (`SPLIT`).
 
@@ -58,7 +58,7 @@ Opzioni: `--carta crema` (0,0025 in/pagina), `--colore rgb` solo per prove a sch
 ## Aggiungere l'autore
 
 ```bash
-python3 build_copertina_foto.py --pagine 128 --autore "Nome Cognome"
+python3 build_copertina_foto.py --pagine 132 --autore "Nome Cognome"
 ```
 
 Il nome compare in maiuscolo spaziato in basso sulla prima, sopra «Prima edizione di lavoro», e sul dorso nella metà inferiore, in avorio.
