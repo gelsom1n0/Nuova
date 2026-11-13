@@ -1,6 +1,9 @@
 # Collana «Manuale di farmacologia cardiovascolare»
 
-- `PROMPT_MASTER.md` – prompt riutilizzabile per ogni volume.
+- `PROMPT_LIBRO_TOMO.md` – prompt per scrivere il tomo «Basi di farmacologia clinica» (13 classi, KDP 6×9", B/N).
+- `PROMPT_REVISIONE_E_STAMPA.md` – revisione indipendente, interno KDP e montaggio copertina.
+- `PROMPT_COPERTINA.md` – prompt per generare la grafica di copertina.
+- `PROMPT_MASTER.md` – (superato) prompt del Volume I singolo, A4.
 - `engine/` – motore di impaginazione (WeasyPrint): `build.py`, `style.css`, `check_fill.py`, font Gelasio (OFL).
 - `volumi/01-betabloccanti/` – Volume I: `meta.json`, `frontmatter.md`, `parte-01…11.md`, `output/*.pdf`.
 
