@@ -755,11 +755,10 @@ def main():
         guide_pdf.unlink()
 
     r = a.raccomandata
-    shutil.copy(QUI / f"copertina_KDP_{r}.pdf", QUI / "copertina_KDP.pdf")
-    shutil.copy(anteprime / f"distesa_{r}_guide.png", QUI / "copertina_anteprima.png")
-    shutil.copy(anteprime / f"distesa_{r}.png", QUI / "copertina_anteprima_senza_guide.png")
-    shutil.copy(anteprime / f"prima_{r}.png", QUI / "prima_di_copertina.png")
-
+    # La copertina principale (copertina_KDP.pdf e anteprime principali) ora è
+    # la variante «foto» (build_copertina_foto.py). Questo script produce solo
+    # le varianti vettoriali alternative, senza sovrascrivere i file principali.
+    shutil.copy(QUI / f"copertina_KDP_{r}.pdf", QUI / "copertina_KDP_vettoriale.pdf")
     info = {
         "pagine": geo.pagine,
         "carta": geo.carta,
@@ -778,7 +777,7 @@ def main():
         "autore": a.autore or None,
         "variante_raccomandata": r,
     }
-    (QUI / "build_info.json").write_text(json.dumps(info, indent=2, ensure_ascii=False) + "\n")
+    (QUI / "build_info_vettoriale.json").write_text(json.dumps(info, indent=2, ensure_ascii=False) + "\n")
     print(json.dumps(info, indent=2, ensure_ascii=False))
 
 
