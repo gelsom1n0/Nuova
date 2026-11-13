@@ -39,7 +39,7 @@ Il paradosso degli antiaritmici è che molti possono **provocare** aritmie (effe
 | Digossina | Lanoxin | Controllo della frequenza in FA/scompenso | Orale, EV |
 
 ### Amiodarone {.pa}
-Il più polivalente (classe III con effetti di classe I, II e IV). Rallenta la frequenza e la conduzione, allunga il QT. **EV** nella FA: dose di carico in 20–60 minuti, preferibilmente da accesso centrale, seguita da infusione nelle 24 ore secondo protocollo (ESC 2024); in arresto cardiaco da ritmo defibrillabile: 300 mg in bolo dopo il 3° shock, ulteriori 150 mg dopo il 5° (ERC). Emivita di settimane: accumulo e lunga persistenza degli effetti. Evidenza e dosaggi vanno confrontati con le linee guida di rianimazione e con la FA (ESC 2024).
+Il più polivalente (classe III con effetti di classe I, II e IV). Rallenta la frequenza e la conduzione, allunga il QT. **EV** nella FA: dose di carico in 20–60 minuti, preferibilmente da accesso centrale, seguita da infusione nelle 24 ore secondo protocollo (ESC 2024); in arresto cardiaco da ritmo defibrillabile: 300 mg in bolo dopo il 3° shock, ulteriori 150 mg dopo il 5° (ERC; tempistica nel testo 2025 da verificare). Emivita di settimane: accumulo e lunga persistenza degli effetti. Evidenza e dosaggi vanno confrontati con le linee guida di rianimazione e con la FA (ESC 2024).
 
 ### Flecainide e propafenone {.pa}
 Classe Ic: efficaci per la cardioversione farmacologica e il mantenimento in FA **solo se il cuore è strutturalmente sano** (nessuna cardiopatia ischemica, ipertrofia importante, scompenso). Controindicati dopo infarto: lo studio **CAST** (N Engl J Med 1991) mostrò un aumento della mortalità con antiaritmici di classe Ic dopo infarto. Allargano il QRS; si associano di solito a un farmaco che rallenti il nodo AV (rischio di flutter con conduzione 1:1).
@@ -133,7 +133,7 @@ Sospendere i farmaci che allungano il QT, **magnesio solfato** EV (dose secondo 
 Sospendere, ECG, K e creatinina, correggere K e Mg; nei casi gravi **frammenti Fab anti-digossina** (non presenti tra le confezioni autorizzate in Italia: si reperiscono tramite importazione o Centri Antiveleni) e supporto.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** La **FA post-operatoria** compare in una quota rilevante dei pazienti (indicativamente 20–40% dopo cardiochirurgia, secondo l'intervento). Prevenzione: proseguire il beta-bloccante, correggere K e Mg, evitare squilibri di volume. Trattamento: controllo della frequenza (beta-bloccanti, amiodarone), cardioversione se instabile, valutazione dell'anticoagulazione se persiste. Disponibili elettrocateteri epicardici temporanei per stimolazione.
+    **Cardiochirurgia.** La **FA post-operatoria** compare in una quota rilevante dei pazienti (indicativamente 20–40% dopo cardiochirurgia, secondo l'intervento: dato da verificare). Prevenzione: proseguire il beta-bloccante, correggere K e Mg, evitare squilibri di volume. Trattamento: controllo della frequenza (beta-bloccanti, amiodarone), cardioversione se instabile, valutazione dell'anticoagulazione se persiste. Disponibili elettrocateteri epicardici temporanei per stimolazione.
     **Pronto soccorso.** FA di nuova insorgenza stabile: controllo della frequenza e valutazione del rischio embolico. FA con via accessoria: **evitare i bloccanti nodali**. Sincope con bradicardia: atropina, stimolazione. Intossicazione da digossina in paziente anziano con insufficienza renale: sospettare nei sintomi gastrointestinali con aritmie.
 
 ## Popolazioni speciali

@@ -66,7 +66,7 @@ Sostituzione mineralcorticoide nell'insufficienza surrenalica primaria (0,05–0
 | COVID-19 con ipossiemia | Desametasone 6 mg/die per 10 giorni |
 
 !!! nota "Nota – Corticosteroidi e sepsi"
-    Gli studi **ADRENAL** e **APROCCHSS** (N Engl J Med 2018) hanno valutato l'idrocortisone nello shock settico: l'effetto sulla mortalità è stato discusso (ridotta nello studio francese con fludrocortisone, non in ADRENAL), con più rapido recupero dallo shock. La SSC 2026 continua a suggerire l'idrocortisone in caso di fabbisogno prolungato di vasopressori, ma ha abbassato la certezza delle prove da moderata a bassa; l'aggiunta di fludrocortisone non è di routine (verificare il testo integrale).
+    Gli studi **ADRENAL** e **APROCCHSS** (N Engl J Med 2018) hanno valutato l'idrocortisone nello shock settico: l'effetto sulla mortalità è stato discusso (ridotta nello studio francese con fludrocortisone, non in ADRENAL), con più rapido recupero dallo shock. La SSC 2026 continua a suggerire l'idrocortisone in caso di fabbisogno prolungato di vasopressori, ma ha abbassato la certezza delle prove da moderata a bassa; l'aggiunta di fludrocortisone non è di routine (formulazione da verificare nel testo integrale).
 
 ## Sicurezza
 

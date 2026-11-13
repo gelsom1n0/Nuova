@@ -85,14 +85,14 @@ Beta-bloccante con effetto di classe III. Mantenimento del ritmo sinusale dopo c
 | FA: controllo della frequenza | Prima linea (ESC 2024) | Con FE ≤ 40% evitare diltiazem/verapamil |
 | Ipertensione non complicata | Non di prima linea | Solo con indicazione specifica |
 | QT lungo, CPVT | Prima linea | Nadololo o propranololo |
-| Dissezione aortica acuta | Prima misura EV | Obiettivo didattico FC ≈ 60 bpm e PAS ≤ 120 mmHg (ESC) |
+| Dissezione aortica acuta | Prima misura EV | Obiettivo didattico FC ≈ 60 bpm e PAS ≤ 120 mmHg (valori ESC 2024 da verificare) |
 
 !!! nota "Nota – Le linee guida ESC 2026 sullo scompenso"
     Pubblicate nell'agosto 2026, sostituiscono le edizioni 2021 e 2023. Le novità principali riportate dalle sintesi: due soli fenotipi, **HFrEF con FE < 50%** e HFpEF con FE ≥ 50% (scompare la categoria «lievemente ridotta»); stadi da A a D, dal paziente a rischio allo scompenso avanzato; «scompenso decompensato» al posto di «scompenso acuto»; quattro classi di **terapia fondamentale** nell'HFrEF (beta-bloccante, ACE-inibitore/ARNI/sartano, antialdosteronico, SGLT2 inibitore), da avviare e titolare precocemente. Le classi di raccomandazione vanno lette nel testo originale (European Heart Journal, 2026).
 
 ### Titolazione nell'HFrEF (schema didattico)
 
-Si avvia in paziente **stabile ed euvolemico** e si sale a intervalli di 1–2 settimane o più (le linee guida ESC 2026 spingono verso una titolazione più rapida: verificare il testo), controllando ogni volta frequenza, pressione, peso e sintomi. Se compare un effetto avverso si torna al gradino precedente; l'obiettivo è la **dose più alta tollerata**, anche inferiore al target.
+Si avvia in paziente **stabile ed euvolemico** e si sale a intervalli di 1–2 settimane o più (le linee guida ESC 2026 spingono verso una titolazione più rapida: intervallo esatto da verificare), controllando ogni volta frequenza, pressione, peso e sintomi. Se compare un effetto avverso si torna al gradino precedente; l'obiettivo è la **dose più alta tollerata**, anche inferiore al target.
 
 | Molecola | Avvio | Passaggi intermedi | Dose target |
 |---|---|---|---|
@@ -102,7 +102,7 @@ Si avvia in paziente **stabile ed euvolemico** e si sale a intervalli di 1–2 s
 | Nebivololo | 1,25 mg × 1 | 2,5 → 5 mg | 10 mg × 1 |
 
 !!! nota "Nota – Beta-bloccanti dopo infarto con FE conservata"
-    Gli studi randomizzati recenti hanno rivalutato la terapia indefinita dopo infarto con funzione ventricolare conservata. **REDUCE-AMI** (N Engl J Med 2024, FE ≥ 50%) non ha mostrato un beneficio significativo su morte e nuovo infarto; **ABYSS** (N Engl J Med 2024) non ha dimostrato la non inferiorità dell'interruzione; **REBOOT** (N Engl J Med 2025, FE > 40%) non ha mostrato beneficio, con un segnale esplorativo di possibile svantaggio nelle donne; **BETAMI-DANBLOCK** (N Engl J Med 2025, FE ≥ 40%) ha invece mostrato una riduzione modesta dell'esito composito, dovuta soprattutto a meno reinfarti, senza effetto sulla mortalità. Con le linee guida ESC 2026 la FE 40–49% rientra nell'HFrEF. Il quadro è in evoluzione: decidere caso per caso.
+    Gli studi randomizzati recenti hanno rivalutato la terapia indefinita dopo infarto con funzione ventricolare conservata. **REDUCE-AMI** (N Engl J Med 2024, FE ≥ 50%) non ha mostrato un beneficio significativo su morte e nuovo infarto; **ABYSS** (N Engl J Med 2024) non ha dimostrato la non inferiorità dell'interruzione; **REBOOT** (N Engl J Med 2025, FE > 40%) non ha mostrato beneficio, con un segnale esplorativo di possibile svantaggio nelle donne; **BETAMI-DANBLOCK** (N Engl J Med 2025, FE ≥ 40%) ha invece mostrato una riduzione modesta dell'esito composito, dovuta soprattutto a meno reinfarti, senza effetto sulla mortalità. Le linee guida ESC 2023 sulle sindromi coronariche acute raccomandano il beta-bloccante con FE ≤ 40% e lo lasciano al giudizio clinico negli altri casi; con le linee guida ESC 2026 la FE 40–49% rientra nell'HFrEF. Il quadro è in evoluzione: decidere caso per caso.
 
 ## Sicurezza
 
