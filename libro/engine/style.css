@@ -1,0 +1,137 @@
+/* ==========================================================================
+   Motore tipografico della collana "Manuale di farmacologia cardiovascolare"
+   A4 verticale · margini 2,2 cm (alto/basso) e 2 cm (lati) · 11 pt · interlinea 1,45
+   Font: stack Georgia → Gelasio (clone a metrica identica, OFL) → Liberation Serif
+   ========================================================================== */
+
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: normal; src: url("fonts/gelasio-latin-400-normal.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: italic; src: url("fonts/gelasio-latin-400-italic.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 700; font-style: normal; src: url("fonts/gelasio-latin-700-normal.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 700; font-style: italic; src: url("fonts/gelasio-latin-700-italic.woff2"); }
+
+:root {
+  --navy: #1F3A5F;
+  --ink: #1d1d1f;
+  --grey: #B9C0C8;
+  --grey-text: #5b6470;
+  --th: #E8EEF4;          /* intestazione tabelle */
+  --nota-bg: #FFF8DC;     /* giallo chiaro */
+  --nota-line: #C9A227;   /* oro */
+  --nota-ink: #6B5200;
+}
+
+/* ---------- Pagine ---------- */
+@page {
+  size: A4 portrait;
+  margin: 2.2cm 2cm;
+  @top-left   { content: string(booktitle); font: 8.5pt Georgia, Gelasio, "Liberation Serif", serif; color: var(--grey-text); padding-bottom: 4pt; border-bottom: 0.5pt solid var(--grey); vertical-align: bottom; }
+  @top-right  { content: string(partname);  font: italic 8.5pt Georgia, Gelasio, "Liberation Serif", serif; color: var(--grey-text); padding-bottom: 4pt; border-bottom: 0.5pt solid var(--grey); vertical-align: bottom; }
+  @bottom-center { content: counter(page); font: 9.5pt Georgia, Gelasio, "Liberation Serif", serif; color: var(--grey-text); }
+}
+@page cover { margin: 0; @top-left{content:none;border:0} @top-right{content:none;border:0} @bottom-center{content:none} }
+@page front { @top-left{content:none;border:0} @top-right{content:none;border:0} @bottom-center{ content: counter(page, lower-roman); } }
+@page main  { counter-increment: body; @bottom-center { content: counter(body); } }
+
+.cover { page: cover; }
+.front { page: front; }
+.main  { page: main; }
+
+body {
+  font-family: Georgia, Gelasio, "Liberation Serif", "DejaVu Serif", serif;
+  font-size: 11pt; line-height: 1.45; color: var(--ink);
+  text-align: justify; hyphens: auto; hyphenate-limit-chars: 6 3 3;
+  orphans: 3; widows: 3;
+  string-set: booktitle "Manuale di farmacologia cardiovascolare";
+}
+p { margin: 0 0 6.5pt; }
+strong { font-weight: 700; }
+em { font-style: italic; }
+sub, sup { line-height: 0; font-size: 0.75em; }
+
+/* ---------- Copertina ---------- */
+.cover { height: 297mm; width: 210mm; background: var(--navy); color: #fff; position: relative; text-align: left; hyphens: none; }
+.cover .band { position: absolute; left: 0; right: 0; top: 0; height: 9mm; background: #C9A227; }
+.cover .series { position: absolute; left: 24mm; right: 24mm; top: 62mm; font-size: 12pt; letter-spacing: 0.22em; text-transform: uppercase; color: #E7D9A6; }
+.cover .vol { position: absolute; left: 24mm; top: 76mm; font-size: 13pt; letter-spacing: 0.1em; color: #fff; opacity: .85; }
+.cover h1.title { position: absolute; left: 24mm; right: 24mm; top: 98mm; margin: 0; font-size: 44pt; line-height: 1.12; font-weight: 700; color: #fff; border: 0; background: none; padding: 0; bookmark-level: none; }
+.cover .rule { position: absolute; left: 24mm; top: 150mm; width: 38mm; height: 1.4mm; background: #C9A227; }
+.cover .subtitle { position: absolute; left: 24mm; right: 30mm; top: 160mm; font-size: 17pt; line-height: 1.4; font-style: italic; color: #E8EEF4; }
+.cover .foot { position: absolute; left: 24mm; right: 24mm; bottom: 26mm; font-size: 10.5pt; line-height: 1.5; color: #C9D3DF; }
+
+/* ---------- Pagine preliminari ---------- */
+.front h2.plain { font-size: 17pt; color: var(--navy); margin: 0 0 10pt; padding-bottom: 5pt; border-bottom: 1.2pt solid var(--navy); bookmark-level: 1; }
+.front h3.plain { font-size: 11.5pt; color: var(--navy); margin: 14pt 0 4pt; }
+.front .legend { margin: 6pt 0 8pt; }
+.front .legend td { font-size: 9.5pt; padding: 4pt 7pt; }
+.toc-title { page-break-before: always; }
+.toc { margin-top: 4pt; text-align: left; hyphens: none; }
+.toc a { color: inherit; text-decoration: none; display: block; }
+.toc a .pg { float: right; }
+.toc a::after { content: none; }
+.toc .tc a { display: flex; }
+.toc .tc .t { flex: 1; overflow: hidden; }
+.toc .tc .t::after { content: leader('.'); padding-left: 3pt; color: var(--grey-text); }
+.toc .tc .pg { float: none; padding-left: 4pt; }
+.toc .tp a { display: flex; }
+.toc .tp .t { flex: 1; }
+.toc .tp .pg { float: none; }
+.toc .tp { font-weight: 700; color: var(--navy); font-size: 11.5pt; margin-top: 8pt; padding-top: 4pt; border-top: 0.6pt solid var(--grey); }
+.toc .tc { font-size: 10.2pt; line-height: 1.38; padding-left: 14pt; }
+.toc .tc .n { display: inline-block; width: 24pt; color: var(--grey-text); }
+
+/* ---------- Intestazioni corpo ---------- */
+h1.part {
+  break-before: page; margin: 0 0 12pt; padding: 12pt 16pt 11pt; background: var(--navy); color: #fff;
+  text-align: left; hyphens: none; font-weight: 700; line-height: 1.15;
+  string-set: partname content(text); bookmark-level: 1; bookmark-label: content(text);
+}
+h1.part .plabel { display: block; font-size: 10pt; font-weight: 400; letter-spacing: 0.24em; text-transform: uppercase; color: #E7D9A6; margin-bottom: 4pt; }
+h1.part .ptitle { display: block; font-size: 22pt; }
+h2.chapter {
+  margin: 18pt 0 7pt; padding-top: 7pt; border-top: 1.2pt solid var(--navy); color: var(--navy);
+  font-size: 15pt; line-height: 1.2; font-weight: 700; text-align: left; hyphens: none;
+  break-after: avoid; break-inside: avoid; bookmark-level: 2; bookmark-label: content(text);
+}
+h1.part + .admonition + h2.chapter, h1.part + h2.chapter { margin-top: 6pt; }
+h2.chapter .cnum { display: block; font-size: 9.5pt; font-weight: 400; letter-spacing: 0.2em; text-transform: uppercase; color: var(--nota-line); margin-bottom: 2pt; }
+h3 { margin: 11pt 0 3pt; font-size: 11.5pt; line-height: 1.25; color: var(--navy); font-weight: 700; text-align: left; hyphens: none; break-after: avoid; bookmark-level: none; }
+h4 { margin: 8pt 0 2pt; font-size: 11pt; font-style: italic; font-weight: 700; break-after: avoid; text-align: left; }
+
+ul, ol { margin: 0 0 7pt; padding-left: 18pt; }
+li { margin: 0 0 2.5pt; }
+li > p { margin-bottom: 2pt; }
+
+/* ---------- Tabelle ---------- */
+table { width: 100%; border-collapse: collapse; margin: 6pt 0 11pt; font-size: 9.3pt; line-height: 1.32; text-align: left; hyphens: manual; }
+th, td { border: 0.6pt solid var(--grey); padding: 3.6pt 5.5pt; vertical-align: top; }
+th { background: var(--th); color: var(--navy); font-weight: 700; }
+tr { break-inside: avoid; }
+thead { display: table-header-group; }
+table + p.cap, p.cap { font-size: 8.8pt; color: var(--grey-text); font-style: italic; margin: -6pt 0 10pt; text-align: left; }
+
+/* ---------- Riquadri ---------- */
+.admonition { margin: 8pt 0 11pt; padding: 7pt 11pt 3pt; font-size: 10pt; line-height: 1.4; break-inside: auto; orphans: 2; widows: 2; text-align: left; }
+.admonition p { margin-bottom: 5pt; }
+.admonition ul, .admonition ol { margin-bottom: 5pt; }
+.admonition-title { margin: 0 0 3pt !important; font-weight: 700; font-size: 9.8pt; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.admonition.nota { background: var(--nota-bg); border: 1.3pt solid var(--nota-line); border-radius: 2pt; }
+.admonition.nota .admonition-title { color: var(--nota-ink); }
+
+.admonition.chiave { background: #EEF3F8; border: 0.6pt solid var(--grey); border-left: 3.5pt solid var(--navy); }
+.admonition.chiave .admonition-title { color: var(--navy); }
+
+.admonition.attenzione { background: #FBEDEC; border: 0.6pt solid #E0B4B0; border-left: 3.5pt solid #A93226; }
+.admonition.attenzione .admonition-title { color: #8A2A20; }
+
+.admonition.obiettivi { background: #fff; border: 0.8pt solid var(--navy); }
+.admonition.obiettivi .admonition-title { color: var(--navy); }
+
+.admonition.caso { background: #F6F8FA; border: 0.6pt solid var(--grey); border-top: 2.5pt solid var(--navy); }
+.admonition.caso .admonition-title { color: var(--navy); }
+
+.dichiarazione { margin: 12pt 0 4pt; padding: 9pt 13pt 4pt; border: 1.4pt solid var(--navy); font-size: 10pt; line-height: 1.42; break-inside: auto; }
+.dichiarazione .admonition-title { color: var(--navy); }
+
+li.check { list-style: none; margin-left: -14pt; }
+.cb { display: inline-block; width: 8pt; height: 8pt; border: 0.9pt solid var(--navy); margin-right: 7pt; vertical-align: -0.5pt; }
