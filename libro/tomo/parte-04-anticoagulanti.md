@@ -142,6 +142,9 @@ Compressione, sospendere l'anticoagulante, emocromo, coagulazione, funzione rena
 | Edoxaban | PCC (andexanet non indicato in RCP) |
 | Fondaparinux | Nessun antidoto specifico; supporto; valutazione specialistica |
 
+!!! attenzione "Attenzione – Antagonizzazione prima della chirurgia"
+    L'**andexanet alfa** rende l'organismo poco responsivo all'eparina: secondo la comunicazione di sicurezza dell'AIFA va evitato se è prevista un'eparinizzazione (chirurgia d'urgenza, circolazione extracorporea). In questi casi la scelta dell'antagonista (spesso i complessi protrombinici) spetta all'équipe chirurgica e anestesiologica; l'infermiere segnala orario dell'ultima dose del DOAC e funzione renale.
+
 !!! focus "Focus cardiochirurgia e pronto soccorso"
     **Cardiochirurgia.** In **circolazione extracorporea** si somministra eparina ad alta dose con **ACT** bersaglio (spesso ≥ 400–480 secondi, secondo protocollo); a fine CEC la **protamina** neutralizza l'eparina. Complicanze: ipotensione, reazioni anafilattoidi alla protamina, «rimbalzo» dell'eparina. Nella HIT con necessità di CEC si usa bivalirudina secondo centro. Sospensione preoperatoria: AVK circa 5 giorni, DOAC da 24 a 72 ore (fino a 96 ore e oltre per il dabigatran con funzione renale ridotta) secondo farmaco, CrCl e rischio emorragico; ripresa dopo emostasi, con indicazione chirurgica.
     **Pronto soccorso.** Paziente anticoagulato con **trauma cranico** o emorragia: priorità a valutazione urgente e antagonizzazione. FA di nuova insorgenza: valutare rischio embolico e programmare anticoagulazione prima di eventuale cardioversione (almeno 3 settimane o ecocardiografia transesofagea secondo caso). Embolia polmonare: avviare l'anticoagulazione subito se il sospetto è alto.
@@ -150,7 +153,7 @@ Compressione, sospendere l'anticoagulante, emocromo, coagulazione, funzione rena
 
 | Popolazione | Orientamento |
 |---|---|
-| Insufficienza renale | Preferire EPN in CrCl < 15–30; DOAC con riduzione o evitamento (dabigatran più renale); EBPM ridotta |
+| Insufficienza renale | Preferire EPN in CrCl < 15–30; DOAC a dose ridotta o da evitare (dabigatran il più dipendente dal rene); EBPM ridotta |
 | Anziano e fragile | DOAC (apixaban favorevole); valutare rischio di caduta; non sospendere per timore |
 | Gravidanza e allattamento | EBPM; warfarin teratogeno; DOAC non raccomandati |
 | Obesità e peso estremo | Dosi in base al peso (EBPM); controllo anti-Xa; DOAC con prudenza ai pesi estremi |

@@ -87,6 +87,9 @@ Beta-bloccante con effetto di classe III. Mantenimento del ritmo sinusale dopo c
 | QT lungo, CPVT | Prima linea | Nadololo o propranololo |
 | Dissezione aortica acuta | Prima misura EV | Obiettivo didattico FC ≈ 60 bpm e PAS ≤ 120 mmHg (ESC) |
 
+!!! nota "Nota – Le linee guida ESC 2026 sullo scompenso"
+    Pubblicate nell'agosto 2026, sostituiscono le edizioni 2021 e 2023. Le novità principali riportate dalle sintesi: due soli fenotipi, **HFrEF con FE < 50%** e HFpEF con FE ≥ 50% (scompare la categoria «lievemente ridotta»); stadi da A a D, dal paziente a rischio allo scompenso avanzato; «scompenso decompensato» al posto di «scompenso acuto»; quattro classi di **terapia fondamentale** nell'HFrEF (beta-bloccante, ACE-inibitore/ARNI/sartano, antialdosteronico, SGLT2 inibitore), da avviare e titolare precocemente. Le classi di raccomandazione vanno lette nel testo originale (European Heart Journal, 2026).
+
 ### Titolazione nell'HFrEF (schema didattico)
 
 Si avvia in paziente **stabile ed euvolemico** e si sale a intervalli di 1–2 settimane o più (le linee guida ESC 2026 spingono verso una titolazione più rapida: verificare il testo), controllando ogni volta frequenza, pressione, peso e sintomi. Se compare un effetto avverso si torna al gradino precedente; l'obiettivo è la **dose più alta tollerata**, anche inferiore al target.

@@ -119,7 +119,7 @@ Insulina: aumento di peso, lipodistrofia, edemi. Metformina: gastrointestinali, 
 Siti diversi con rotazione (a distanza di 1–2 cm dai precedenti), pelle pulita e asciutta, plica se ago lungo, angolo 90° con aghi corti (4–6 mm), trattenere l'ago 5–10 secondi con penna; cambiare l'ago a ogni iniezione; evitare zone con lipodistrofia, cicatrici o ematomi.
 
 ### Monitoraggio
-Glicemia capillare prima dei pasti e al bisogno, in ricovero secondo protocollo (di solito prima dei pasti e a bedtime); infusione EV di insulina: glicemia **oraria** all'avvio e dopo ogni variazione, poi secondo protocollo; potassio durante infusione (l'insulina lo sposta nelle cellule). Obiettivi in degenza non critica: indicativamente 140–180 mg/dL.
+Glicemia capillare prima dei pasti e al bisogno, in ricovero secondo protocollo (di solito prima dei pasti e prima di coricarsi); infusione EV di insulina: glicemia **oraria** all'avvio e dopo ogni variazione, poi secondo protocollo; potassio durante infusione (l'insulina lo sposta nelle cellule). Obiettivi in degenza non critica: indicativamente 140–180 mg/dL.
 
 ### Educazione
 1. Riconoscere e trattare l'ipoglicemia; avere sempre zuccheri a portata di mano; informare familiari e colleghi.

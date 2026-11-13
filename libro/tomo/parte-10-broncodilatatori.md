@@ -121,7 +121,7 @@ Dispnea, frequenza respiratoria, saturazione (SpO₂), uso dei muscoli accessori
 ## Emergenza, antidoti e focus cardiochirurgia/pronto soccorso
 
 ### Riacutizzazione grave di asma o BPCO
-Ossigeno per SpO₂ 93–95% nell'asma dell'adulto (GINA) e 88–92% nella BPCO o in chi è a rischio di ipercapnia, SABA ripetuto (più nebulizzazione), ipratropio, **corticosteroide sistemico precoce** (es. prednisone 40–50 mg o idrocortisone EV), valutare magnesio EV nell'asma grave, ventilazione non invasiva in BPCO con acidosi respiratoria. Ricorrere a emogasanalisi. In caso di pericolo di vita: **adrenalina** IM nell'anafilassi con broncospasmo, intubazione.
+Ossigeno per SpO₂ 93–95% nell'asma dell'adulto (GINA) e 88–92% nella BPCO o in chi è a rischio di ipercapnia, SABA ripetuto (più nebulizzazione), ipratropio, **corticosteroide sistemico precoce** (es. prednisone 40–50 mg o idrocortisone EV), valutare magnesio EV nell'asma grave, ventilazione non invasiva in BPCO con acidosi respiratoria. Eseguire l'emogasanalisi. In caso di pericolo di vita: **adrenalina** IM nell'anafilassi con broncospasmo, intubazione.
 
 ### Broncospasmo da farmaco
 Sospendere il farmaco sospetto (beta-bloccante, FANS, ASA nei soggetti sensibili), SABA, ossigeno; eventuale corticosteroide.

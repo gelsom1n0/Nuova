@@ -69,7 +69,7 @@ Oppioidi deboli per dolore moderato. Tramadolo: effetto serotoninergico (**sindr
 Standard degli oppioidi forti. EV: **titolazione con piccoli boli ripetuti** a intervalli brevi, rivalutando dolore, sedazione e frequenza respiratoria prima di ogni dose, secondo prescrizione e protocollo. Effetti: sedazione, **depressione respiratoria**, nausea, stipsi, prurito (rilascio di istamina), ipotensione, ritenzione urinaria. **Metaboliti attivi** che si accumulano in insufficienza renale: preferire fentanil o ossicodone/buprenorfina.
 
 ### Fentanil {.pa}
-Potente, breve durata EV (picco in 5 minuti), poca liberazione di istamina e stabilità emodinamica. Cerotto transdermico: **solo in pazienti già opioid-tolleranti**, insorgenza lenta (12–24 ore) e persistente dopo la rimozione; il calore aumenta l'assorbimento. Fentanil intranasale in pronto soccorso e pediatria.
+Potente, breve durata EV (picco in 5 minuti), poca liberazione di istamina e stabilità emodinamica. Cerotto transdermico: **solo in pazienti già tolleranti agli oppioidi**, insorgenza lenta (12–24 ore) e persistente dopo la rimozione; il calore aumenta l'assorbimento. Fentanil intranasale in pronto soccorso e pediatria.
 
 ### Ossicodone, buprenorfina, tapentadolo {.pa}
 Opzioni orali o transdermiche nel dolore cronico severo. Buprenorfina: agonista parziale, tetto di effetto respiratorio, naloxone poco efficace; tapentadolo: effetto sul dolore neuropatico.
@@ -89,7 +89,7 @@ Antagonista degli oppioidi: sovradosaggio con depressione respiratoria. Titolare
 | Severo (NRS 7–10) | Oppioide forte titolato + paracetamolo ± adiuvanti/blocchi |
 | Neuropatico | Gabapentinoidi, antidepressivi (amitriptilina, duloxetina), lidocaina topica |
 | Colica renale | FANS (diclofenac/ketorolac) ± paracetamolo; oppioide se severo |
-| Dolore toracico ischemico | Ossigenazione/nitrati; analgesia con oppioide EV titrato se necessario |
+| Dolore toracico ischemico | Ossigenazione/nitrati; analgesia con oppioide EV titolato se necessario |
 | Dolore post-operatorio | Multimodale (ERAS): paracetamolo, blocchi regionali, oppioide al bisogno, gabapentinoidi selezionati |
 | Dolore oncologico/cure palliative | Scala OMS, oppioidi per os; rotazione di oppioidi; supporto palliativo |
 
@@ -152,11 +152,11 @@ Intensità (NRS), sede, carattere, fattori che aggravano o alleviano, **risposta
 ## Emergenza, antidoti e focus cardiochirurgia/pronto soccorso
 
 ### Depressione respiratoria da oppioidi
-Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli titrati, monitoraggio prolungato (l'effetto del naloxone è breve). In caso di **sovradosaggio di paracetamolo**: livelli ematici, **N-acetilcisteina**, centro antiveleni.
+Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli titolati, monitoraggio prolungato (l'effetto del naloxone è breve). In caso di **sovradosaggio di paracetamolo**: livelli ematici, **N-acetilcisteina**, centro antiveleni.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** Dopo **sternotomia** il dolore è intenso e limita tosse e respirazione. Approccio **ERAS** (raccomandazioni della ERAS Cardiac Society, 2019, e consenso ERAS Cardiac Society–POQI del 2023 su dolore e uso degli oppioidi): paracetamolo a orario, blocchi regionali (parasternali, del piano dei muscoli erettori della colonna) ove disponibili, **oppioide titrato** a dosi minime efficaci, gabapentinoidi solo in casi selezionati (evidenza discordante), fisioterapia respiratoria; **evitare FANS e inibitori COX-2 dopo CABG** per il rischio cardiovascolare e renale. Valutare il dolore a riposo e **durante la tosse**; sorveglianza di sedazione e di FR per consentire l'estubazione precoce.
-    **Pronto soccorso.** *Dolore toracico ischemico:* l'oppioide EV può ridurre/ritardare l'assorbimento degli antiaggreganti orali e va usato solo se necessario e a boli titrati. *Frattura, trauma:* fentanil intranasale o EV, morfina EV, ketamina a basse dosi; *colica renale:* FANS; *dolore addominale:* analgesia precoce non maschera la diagnosi. Nel paziente anziano ridurre le dosi e sorvegliare delirium.
+    **Cardiochirurgia.** Dopo **sternotomia** il dolore è intenso e limita tosse e respirazione. Approccio **ERAS** (raccomandazioni della ERAS Cardiac Society, 2019, e consenso ERAS Cardiac Society–POQI del 2023 su dolore e uso degli oppioidi): paracetamolo a orario, blocchi regionali (parasternali, del piano dei muscoli erettori della colonna) ove disponibili, **oppioide titolato** a dosi minime efficaci, gabapentinoidi solo in casi selezionati (evidenza discordante), fisioterapia respiratoria; **evitare FANS e inibitori COX-2 dopo CABG** per il rischio cardiovascolare e renale. Valutare il dolore a riposo e **durante la tosse**; sorveglianza di sedazione e di FR per consentire l'estubazione precoce.
+    **Pronto soccorso.** *Dolore toracico ischemico:* l'oppioide EV può ridurre/ritardare l'assorbimento degli antiaggreganti orali e va usato solo se necessario e a boli titolati. *Frattura, trauma:* fentanil intranasale o EV, morfina EV, ketamina a basse dosi; *colica renale:* FANS; *dolore addominale:* l'analgesia precoce non compromette la diagnosi. Nel paziente anziano ridurre le dosi e sorvegliare delirium.
 
 ## Popolazioni speciali
 
@@ -168,7 +168,7 @@ Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli ti
 | Gravidanza e allattamento | Paracetamolo; FANS da evitare nel III trimestre; oppioidi solo se indispensabili |
 | Bambini | Dose per peso; paracetamolo e ibuprofene; evitare codeina e tramadolo nei piccoli |
 | Insufficienza respiratoria/OSAS | Oppioidi con estrema cautela e monitoraggio |
-| Cardiopatici/scompensati | Evitare FANS; oppioidi titrati |
+| Cardiopatici/scompensati | Evitare FANS; oppioidi titolati |
 
 ## Scheda rapida
 
@@ -178,8 +178,8 @@ Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli ti
 | FANS | Mai in scompenso, post-CABG, IRC; rischio sanguinamento e renale |
 | Oppioidi | Titolare; sedazione + FR + SpO₂; lassativi; naloxone pronto |
 | Morfina e rene | Evitare in IRC; preferire fentanil/buprenorfina |
-| Fentanil cerotto | Solo opioid-tolleranti; effetto ritardato; no calore |
-| Naloxone | 0,04–0,1 mg EV titrati; effetto breve |
+| Fentanil cerotto | Solo pazienti tolleranti agli oppioidi; effetto ritardato; no calore |
+| Naloxone | 0,04–0,1 mg EV titolati; effetto breve |
 
 - [ ] NRS/scala comportamentale registrata prima e dopo
 - [ ] Dose, unità e farmaco verificati (doppio controllo per oppioidi)

@@ -2,7 +2,7 @@
    Stile KDP – "Basi di farmacologia clinica"
    Brossura 6 x 9 in · interno bianco e nero · pagine affiancate (margini speculari)
    Margini: interno 0,7 in · esterno 0,5 in · alto/basso 0,75 in (da riverificare col calcolatore KDP)
-   Corpo Gelasio 10 pt, interlinea 1,4. Solo nero e scala di grigi.
+   Corpo Gelasio 10 pt, interlinea 1,4. Solo nero e scala di grigi (tinte minime 10%: --g1 portato da #f1f1f1 a #e5e5e5 in revisione).
    ========================================================================== */
 
 @font-face { font-family: "Gelasio"; font-weight: 400; font-style: normal; src: url("fonts/gelasio-latin-400-normal.woff2"); }
@@ -10,7 +10,7 @@
 @font-face { font-family: "Gelasio"; font-weight: 700; font-style: normal; src: url("fonts/gelasio-latin-700-normal.woff2"); }
 @font-face { font-family: "Gelasio"; font-weight: 700; font-style: italic; src: url("fonts/gelasio-latin-700-italic.woff2"); }
 
-:root { --k: #000; --g1: #f1f1f1; --g2: #e2e2e2; --g3: #8a8a8a; --g4: #555; }
+:root { --k: #000; --g1: #e5e5e5; --g2: #e2e2e2; --g3: #8a8a8a; --g4: #555; }
 
 /* ---------- Pagine (6 x 9 in) ---------- */
 @page { size: 6in 9in; }

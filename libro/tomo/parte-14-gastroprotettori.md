@@ -1,7 +1,7 @@
 # Gastroprotettori
 
 !!! obiettivi "In questa parte"
-    Inibitori di pompa protonica, antagonisti H2, antiacidi, sucralfato e misoprostolo: indicazioni, uso appropriato (Note AIFA), rischi dell'uso prolungato, interazioni (clopidogrel), emorragia digestiva e profilassi dell'ulcera da stress in area critica e cardiochirurgica. Ancorata a ESC 2023–2024 (gastroprotezione con terapia antitrombotica), consenso Maastricht VI (2022) per *H. pylori*, linee guida ESGE 2021 sulle emorragie digestive alte e Note AIFA 1 e 48. Dosi didattiche.
+    Inibitori di pompa protonica, antagonisti H2, antiacidi, sucralfato e misoprostolo: indicazioni, uso appropriato (Note AIFA), rischi dell'uso prolungato, interazioni (clopidogrel), emorragia digestiva e profilassi dell'ulcera da stress in area critica e cardiochirurgica. Ancorata a ESC 2023–2024 (gastroprotezione con terapia antitrombotica), consenso Maastricht VI (2022) per *H. pylori*, linee guida ESGE 2021 sulle emorragie digestive alte e Nota AIFA N01 (2026). Dosi didattiche.
 
 ## Perché servono
 
@@ -62,25 +62,18 @@ Procinetici e antiemetici. **Domperidone**: rischio di QT lungo e aritmie; **met
 |---|---|
 | Malattia da reflusso (GERD), esofagite | IPP 4–8 settimane; poi la dose minima efficace |
 | Ulcera gastrica/duodenale | IPP; eradicazione di *H. pylori* se positivo (Maastricht VI) |
-| Profilassi con FANS in soggetti a rischio (età > 65, ulcera pregressa, anticoagulanti, steroidi) | IPP (**Nota AIFA 1**) |
+| Profilassi con FANS in soggetti a rischio (età > 65, ulcera pregressa, anticoagulanti, steroidi) | IPP (criteri di rimborsabilità nella **Nota AIFA N01**) |
 | Doppia antiaggregazione o antiaggregante + anticoagulante | **IPP raccomandato** se aumentato rischio di sanguinamento gastrointestinale (ESC 2023), preferibilmente pantoprazolo con clopidogrel |
 | Emorragia digestiva alta | IPP EV ad alte dosi dopo/prima dell'endoscopia secondo protocollo (ESGE) |
 | Profilassi dell'ulcera da stress in area critica | Pazienti ad alto rischio: ventilazione > 48 ore, coagulopatia, shock; sospendere quando il rischio cessa (nello studio REVISE, N Engl J Med 2024, il pantoprazolo ha ridotto i sanguinamenti nei ventilati senza effetto sulla mortalità) |
 | Dispepsia funzionale | Test e trattamento di *H. pylori*; IPP per cicli brevi |
 
-!!! nota "Nota – Nota AIFA 48 e durata degli IPP"
-    In Italia la rimborsabilità degli IPP è regolata dalla **Nota AIFA 1** (prevenzione del danno da FANS e antiaggreganti) e dalla **Nota AIFA 48** (cicli di terapia per ulcera, malattia da reflusso e *H. pylori*, con durate stabilite). Il testo vigente va consultato sul sito AIFA.
+!!! nota "Nota – La Nota AIFA N01 e la durata degli IPP"
+    Dal marzo 2026 la rimborsabilità degli IPP (esomeprazolo, lansoprazolo, omeprazolo, pantoprazolo, rabeprazolo) è regolata dalla **Nota AIFA N01** (determina n. 238 del 4 marzo 2026, Gazzetta Ufficiale n. 55 del 7 marzo 2026), che ha abrogato e sostituito le precedenti Note 1 e 48. Famotidina e misoprostolo non rientrano nella nuova Nota e non hanno più limitazioni di prescrizione a carico del SSN. Indicazioni rimborsabili e durate vanno lette nel testo vigente sul sito AIFA.
 
 ### Durata, rivalutazione e sospensione
 
 L'IPP non è «per sempre» solo perché è ben tollerato. A ogni controllo conviene chiedersi: l'indicazione c'è ancora? (FANS, doppia antiaggregazione, esofagite, ulcera, riflusso persistente?) La **sospensione** dopo uso prolungato può provocare un rimbalzo dell'acidità: si riduce la dose o si passa a giorni alterni per qualche settimana e si usano antiacidi al bisogno. Resta indicato proseguire quando c'è un motivo stabile (ad esempio antitrombotici in paziente a rischio, esofagite di Barrett, storia di ulcera complicata).
-
-| Domanda da porsi | Se la risposta è no |
-|---|---|
-| Esiste un'indicazione attiva documentata? | Pianificare la riduzione o sospensione |
-| La dose è la minima efficace? | Ridurre gradualmente |
-| Ci sono eventi avversi (Mg, B12, fratture, infezioni)? | Rivalutare il rapporto rischio/beneficio |
-| Il paziente assume antitrombotici o FANS? | In tal caso proseguire |
 
 ## Sicurezza
 
@@ -151,7 +144,7 @@ Segni: ematemesi, melena, ipotensione, tachicardia. Azioni: ABC, **due accessi v
 | Emorragia digestiva | ABC + 2 accessi + IPP EV + endoscopia entro 24 ore |
 | Antiacidi | Distanziare da altri farmaci di 2 ore |
 
-- [ ] Indicazione e durata dell'IPP scritte (Note AIFA 1 e 48)
+- [ ] Indicazione e durata dell'IPP scritte (Nota AIFA N01)
 - [ ] Orario (30–60 minuti prima del pasto) e via corretti
 - [ ] Interazione con clopidogrel, digossina, ferro, levotiroxina verificata
 - [ ] Segni di sanguinamento ricercati

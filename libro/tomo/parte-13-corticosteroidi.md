@@ -133,7 +133,7 @@ Adrenalina IM per prima; steroidi come adiuvanti per ridurre le reazioni tardive
 | Diabete | Aumentare i controlli glicemici; adeguare l'insulina |
 | Scompenso/ipertensione | Ritenzione idrica: peso, edemi, PA; preferire farmaci con meno effetto mineralcorticoide (metilprednisolone, desametasone) |
 | Epatopatia | Preferire prednisolone a prednisone |
-| Gravidanza | Prednisone/prednisolone/idrocortisone in gran parte metabolizzati dalla placenta; desametasone/betametasone attraversano (usati per maturità fetale) |
+| Gravidanza | Prednisone/prednisolone/idrocortisone in gran parte metabolizzati dalla placenta; desametasone/betametasone attraversano la placenta (usati per la maturazione polmonare fetale) |
 | Bambini | Rischio di ritardo di crescita; schemi brevi o a giorni alterni secondo pediatra |
 | Insufficienza surrenalica | Sostituzione fisiologica e dosi da stress |
 

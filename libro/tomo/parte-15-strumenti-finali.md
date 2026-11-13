@@ -95,18 +95,14 @@ Orientamento didattico, valido per interventi programmati. Le decisioni sono del
 | ACT | Tempo di coagulazione attivato: controllo dell'eparina in CEC |
 | ADR | Reazione avversa a farmaco |
 | AWaRe | Classificazione OMS degli antibiotici: Access, Watch, Reserve |
-| Biodisponibilità | Frazione della dose che raggiunge la circolazione sistemica |
 | CAD | Chetoacidosi diabetica |
 | CEC | Circolazione extracorporea |
 | CHA2DS2-VA | Punteggio del rischio embolico nella FA (ESC 2024) |
-| Clearance | Volume di plasma depurato per unità di tempo |
 | CrCl | Clearance della creatinina |
 | CYP450 | Famiglia di enzimi epatici del metabolismo dei farmaci |
 | DAPT | Doppia terapia antiaggregante |
 | DOAC | Anticoagulante orale diretto |
-| Emivita | Tempo necessario per dimezzare la concentrazione |
 | ERAS | Enhanced Recovery After Surgery: percorsi di recupero accelerato |
-| Finestra terapeutica | Intervallo tra concentrazione efficace e tossica |
 | HIT | Trombocitopenia indotta da eparina |
 | ICS / LABA / LAMA / SABA | Corticosteroide inalatorio / β2-agonisti e antimuscarinici a lunga o breve durata |
 | INR | Rapporto internazionale normalizzato: controllo degli AVK |
@@ -120,7 +116,6 @@ Orientamento didattico, valido per interventi programmati. Le decisioni sono del
 | RAAS | Sistema renina-angiotensina-aldosterone |
 | RCP | Riassunto delle Caratteristiche del Prodotto |
 | Stato stazionario | Equilibrio tra dose assunta ed eliminata (circa 4–5 emivite) |
-| Titolazione | Aggiustamento graduale della dose |
 | Torsione di punta | Tachicardia ventricolare polimorfa associata a QT lungo |
 
 ## Fonti e dichiarazione finale
@@ -130,7 +125,7 @@ Il libro cita linee guida e studi per **nome e anno**. L'elenco è selettivo, no
 ### Linee guida e documenti di riferimento
 - **ESC:** sindromi coronariche acute (2023); sindromi coronariche croniche (2024); fibrillazione atriale (2024); ipertensione arteriosa (2024); malattie arteriose periferiche e aortiche (2024); scompenso cardiaco (2026, che sostituisce le edizioni 2021 e 2023); malattia renale cronica e malattie cardiovascolari, con ERA (2026); riabilitazione cardiologica (2026); aritmie ventricolari e morte cardiaca improvvisa (2022); chirurgia non cardiaca (2022); tachicardie sopraventricolari (2019); endocardite (2023); diabete e malattie cardiovascolari (2023); dislipidemie ESC/EAS (2019, con aggiornamento mirato 2025); gravidanza e malattie cardiovascolari (2025).
 - **Altre:** Surviving Sepsis Campaign (2026); European Resuscitation Council (2025); GOLD (2026) e GINA (2025), a revisione annuale; linea guida SID-AMD sulla terapia del diabete di tipo 2 (Sistema Nazionale Linee Guida 2021, aggiornamento 2023) e ADA Standards of Care; consenso internazionale sulle crisi iperglicemiche dell'adulto (2024); NICE CG174 sui fluidi EV; linee guida europee sull'iponatriemia (2014); ESGE sulle emorragie digestive alte (2021); consenso Maastricht VI su *Helicobacter pylori* (2022); ERAS Cardiac Society (2019; consenso con POQI 2023); classificazione AWaRe dell'OMS.
-- **Normativa e fonti italiane:** Legge 38/2010, art. 7 (rilevazione del dolore in cartella); Note AIFA 1, 13, 48, 97 (aggiornata nel 2026), 99 e 100; Raccomandazioni del Ministero della Salute n. 1 (2008), 7 (2008), 12 (2010), 17 (2014), 18 (2018) e 19 (2019); Nota Informativa Importante AIFA sul ketorolac (2015); decisione della Commissione europea sugli amidi idrossietilici (2022); RCP dei singoli medicinali ed elenco delle confezioni autorizzate nella Banca Dati Farmaci AIFA; Rete Nazionale di Farmacovigilanza.
+- **Normativa e fonti italiane:** Legge 38/2010, art. 7 (rilevazione del dolore in cartella); Note AIFA 13, 97 (aggiornata nel 2026), 99, 100 e N01 (2026, che ha sostituito le Note 1 e 48); Raccomandazioni del Ministero della Salute n. 1 (2008), 7 (2008), 12 (2010), 17 (2014), 18 (2018) e 19 (2019); Nota Informativa Importante AIFA sul ketorolac (2015); decisione della Commissione europea sugli amidi idrossietilici (2022); RCP dei singoli medicinali ed elenco delle confezioni autorizzate nella Banca Dati Farmaci AIFA; Rete Nazionale di Farmacovigilanza.
 
 ### Studi citati
 CIBIS-II, MERIT-HF, COPERNICUS, SENIORS, POISE, REDUCE-AMI, ABYSS, REBOOT, BETAMI-DANBLOCK (beta-bloccanti) · PARADIGM-HF (ARNI) · AUGUSTUS, BRIDGE (antitrombotici) · CAST (antiaritmici) · IMPROVE-IT, FOURIER, ODYSSEY OUTCOMES, CLEAR Outcomes, REDUCE-IT, SAMSON (ipolipemizzanti) · SMART (cristalloidi) · EMPA-REG OUTCOME, DAPA-HF, EMPEROR-Reduced, SUSTAIN-6, LEADER (ipoglicemizzanti) · ADRENAL, APROCCHSS, RECOVERY, DECS, SIRS (corticosteroidi) · REVISE (profilassi dell'ulcera da stress).

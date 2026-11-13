@@ -78,6 +78,9 @@ Fenofibrato per ipertrigliceridemia grave (soprattutto per il rischio di pancrea
 | Ipercolesterolemia familiare | Gestione specialistica; combinazioni precoci |
 | Prevenzione primaria | Secondo il rischio; eventuale terapia in base al rischio individuale |
 
+!!! nota "Nota – L'aggiornamento ESC/EAS 2025"
+    L'aggiornamento mirato pubblicato nel 2025 **conferma gli obiettivi di LDL-C** del 2019 e modifica soprattutto la stima del rischio (algoritmi SCORE2 e SCORE2-OP, con modificatori come l'aterosclerosi subclinica documentata con l'imaging). Raccomanda l'**acido bempedoico** negli intolleranti alle statine e lo propone in aggiunta nei pazienti ad alto o molto alto rischio non a obiettivo; favorisce una riduzione intensiva e precoce dell'LDL-C dopo sindrome coronarica acuta e sconsiglia integratori e vitamine privi di efficacia dimostrata sull'LDL-C.
+
 !!! nota "Nota – Rimborsabilità: Nota AIFA 13"
     In Italia la prescrizione a carico del SSN degli ipolipemizzanti è regolata dalla **Nota AIFA 13** (ultima revisione formale reperita: 2019), che definisce in quali pazienti e con quali obiettivi di LDL-C si possono usare statine ed ezetimibe; anti-PCSK9, inclisiran e acido bempedoico sono rimborsati con piano terapeutico secondo specifiche determine AIFA. Gli obiettivi della Nota non coincidono necessariamente con quelli ESC: il testo vigente va consultato sul sito AIFA.
 
@@ -158,3 +161,12 @@ Sospetto: dolori muscolari intensi, urine scure, debolezza. Sospendere la statin
 - [ ] Educazione su dolori muscolari e urine scure
 - [ ] Penna anti-PCSK9: tecnica e conservazione mostrate
 - [ ] Controllo dei lipidi programmato
+
+### Che cosa fare se… (promemoria operativo)
+
+| Situazione | Azione didattica |
+|---|---|
+| Il paziente riferisce dolori muscolari | Non sospendere di propria iniziativa; segnalare al medico; CK e farmaci interagenti da rivedere |
+| Urine scure, debolezza marcata | Sospetta rabdomiolisi: avvisare subito; CK, creatinina e potassio urgenti |
+| Nuova prescrizione di claritromicina, azolo o amiodarone in paziente in simvastatina/atorvastatina | Segnalare l'interazione prima della somministrazione |
+| Penna anti-PCSK9 lasciata fuori dal frigorifero | Consultare il foglio illustrativo: il tempo massimo a temperatura ambiente varia da prodotto a prodotto |

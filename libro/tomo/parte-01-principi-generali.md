@@ -139,7 +139,16 @@ I farmaci ad alto rischio non sono più frequentemente sbagliati, ma quando si s
 - **Ambiente di preparazione senza interruzioni.**
 - **Prescrizione e identificazione elettroniche**, ove disponibili.
 - **Segnalazione dei quasi-eventi (near miss)**: servono a prevenire gli errori veri.
-- Le **Raccomandazioni del Ministero della Salute** affrontano proprio questi temi: n. 1 (marzo 2008) sulle soluzioni concentrate di cloruro di potassio; n. 7 (marzo 2008) sugli errori in terapia farmacologica; n. 12 (agosto 2010) sui farmaci LASA; n. 17 (dicembre 2014) sulla riconciliazione; n. 18 (settembre 2018) su abbreviazioni, sigle e simboli; n. 19 (ottobre 2019) sulla manipolazione delle forme orali solide. Il testo vigente si consulta sul sito del Ministero.
+- Le **Raccomandazioni del Ministero della Salute** affrontano proprio questi temi (testo vigente sul sito del Ministero):
+
+| N. | Anno | Tema |
+|---|---|---|
+| 1 | 2008 | Corretto utilizzo delle soluzioni concentrate di cloruro di potassio e di altre soluzioni concentrate contenenti potassio |
+| 7 | 2008 | Prevenzione della morte, del coma o del grave danno derivati da errori in terapia farmacologica |
+| 12 | 2010 | Prevenzione degli errori con i farmaci look-alike/sound-alike |
+| 17 | 2014 | Riconciliazione della terapia farmacologica |
+| 18 | 2018 | Errori dovuti all'uso di abbreviazioni, acronimi, sigle e simboli |
+| 19 | 2019 | Manipolazione delle forme farmaceutiche orali solide |
 
 ## Farmacovigilanza e lettura dell'RCP
 
@@ -150,4 +159,7 @@ Una **reazione avversa** (ADR) è un effetto nocivo e non voluto. Si distinguono
 Le sezioni che interessano maggiormente all'assistenza sono: 4.2 posologia e modo di somministrazione; 4.3 controindicazioni; 4.4 avvertenze; 4.5 interazioni; 4.6 gravidanza e allattamento; 4.8 effetti indesiderati; 4.9 sovradosaggio; 6.6 precauzioni per lo smaltimento e la manipolazione (diluizioni e compatibilità). Il documento aggiornato è consultabile nella Banca Dati Farmaci dell'AIFA.
 
 !!! nota "Nota – Le «Note AIFA»"
-    Alcuni farmaci sono rimborsabili dal SSN solo per specifiche condizioni, indicate nelle Note AIFA (ad esempio per statine, inibitori di pompa, anticoagulanti orali). Quando una classe le richiede, il libro lo segnala; il testo vigente va letto sul sito dell'AIFA, perché le Note vengono riviste.
+    Alcuni farmaci sono rimborsabili dal SSN solo per specifiche condizioni, indicate nelle Note AIFA (ad esempio per statine, inibitori di pompa, anticoagulanti orali, farmaci per il diabete di tipo 2 e per la BPCO). Quando una classe le richiede, il libro lo segnala; il testo vigente va letto sul sito dell'AIFA, perché le Note vengono riviste.
+
+!!! nota "Nota – Come sono stati scelti i nomi commerciali"
+    I nomi commerciali delle tabelle «Molecole» sono stati confrontati con l'elenco delle confezioni autorizzate pubblicato dall'AIFA tra i propri dati aperti (consultazione del 13 novembre 2026). Una confezione **autorizzata** non è necessariamente **in commercio** in quel momento: prima di cercare un prodotto in reparto o in farmacia conviene verificarne lo stato nella Banca Dati Farmaci. Dove la tabella riporta «generici» esistono solo prodotti identificati con il nome del principio attivo.
