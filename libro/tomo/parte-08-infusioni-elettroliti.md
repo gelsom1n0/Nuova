@@ -1,7 +1,7 @@
 # Soluzioni infusionali ed elettroliti
 
 !!! obiettivi "In questa parte"
-    Compartimenti dei liquidi, scelta di cristalloidi e colloidi, e uso sicuro di potassio, magnesio, calcio, sodio, fosfato e bicarbonato, compresi i trattamenti d'urgenza dell'iperpotassiemia e dell'iponatriemia. Il potassio concentrato è un farmaco ad alto rischio. Ancorata a Surviving Sepsis Campaign 2021, indicazioni NICE sui fluidi endovenosi e raccomandazioni europee sull'iponatriemia. Dosi didattiche.
+    Compartimenti dei liquidi, scelta di cristalloidi e colloidi, e uso sicuro di potassio, magnesio, calcio, sodio, fosfato e bicarbonato, compresi i trattamenti d'urgenza dell'iperpotassiemia e dell'iponatriemia. Il potassio concentrato è un farmaco ad alto rischio. Ancorata a Surviving Sepsis Campaign 2026, indicazioni NICE sui fluidi endovenosi (CG174), linee guida europee sull'iponatriemia (2014) e Raccomandazione ministeriale n. 1 sul potassio. Dosi didattiche.
 
 ## Perché servono
 
@@ -36,16 +36,16 @@ I fluidi si classificano per composizione e per effetto sull'osmolarità.
 | NaCl 0,45% | Na 77 | Ipotonica; uso specifico |
 | NaCl 3% | Na 513 | Ipertonica; iponatriemia grave sintomatica |
 | Albumina 5% / 20% | Colloide | Volume espansivo; cirrosi, paracentesi, selezione di casi |
-| Amidi idrossietilici (HES) | Colloide sintetico | Da evitare in sepsi e insufficienza renale |
+| Amidi idrossietilici (HES) | Colloide sintetico | Autorizzazioni sospese nell'UE (decisione della Commissione europea, maggio 2022) |
 
 !!! nota "Nota – Cristalloidi bilanciati o fisiologica?"
-    Studi randomizzati su grandi popolazioni di pazienti critici (SMART, N Engl J Med 2018) hanno mostrato meno eventi renali maggiori con soluzioni bilanciate rispetto alla fisiologica; le linee guida Surviving Sepsis Campaign 2021 **suggeriscono** i cristalloidi bilanciati nella rianimazione della sepsi. La fisiologica resta appropriata in alcuni casi (ad esempio ipocloremia, alcuni traumi cranici).
+    Studi randomizzati su grandi popolazioni di pazienti critici (SMART, N Engl J Med 2018) hanno mostrato meno eventi renali maggiori con soluzioni bilanciate rispetto alla fisiologica; le linee guida Surviving Sepsis Campaign 2026 **suggeriscono** i cristalloidi bilanciati nella rianimazione iniziale della sepsi e, quando servono grandi volumi, i soli cristalloidi rispetto all'aggiunta di albumina. La fisiologica resta appropriata in alcuni casi (ad esempio ipocloremia, alcuni traumi cranici).
 
 ## Molecole
 
 | Preparato | Nomi/forme (esempi) | Concentrazione tipica |
 |---|---|---|
-| Cloruro di potassio | Fiale concentrate, sacche premiscelate | Concentrate: **da non tenere nei reparti**; premiscelate secondo protocollo |
+| Cloruro di potassio | Fiale/flaconi concentrati (2 o 3 mEq/mL), sacche premiscelate | Concentrate: **da non tenere nei reparti**; premiscelate secondo protocollo |
 | Magnesio solfato | Fiale | Es. 2 g in 10 mL (≈ 8 mmol) |
 | Calcio gluconato 10% | Fiale 10 mL | ≈ 1 g = 2,3 mmol di calcio |
 | Calcio cloruro 10% | Fiale 10 mL | ≈ 1 g = 6,8 mmol (circa 3 volte più calcio elementare) |
@@ -54,16 +54,16 @@ I fluidi si classificano per composizione e per effetto sull'osmolarità.
 | Fosfato | Fosfato di potassio/sodio | Secondo scheda |
 
 ### Potassio (KCl) {.pa}
-Ipopotassiemia: via orale se possibile; EV con concentrazione e velocità limitate. Valori didattici: concentrazione di norma **≤ 40 mmol/L e velocità ≤ 10 mmol/h per via periferica**; velocità superiori solo con **monitor ECG e accesso centrale**, secondo protocollo e con controllo del potassio ravvicinato. Il bolo EV di potassio concentrato **è letale**. Le Raccomandazioni del Ministero della Salute sul potassio concentrato indicano di non tenerne scorte nei reparti, salvo dove indispensabile (verificare il testo vigente).
+Ipopotassiemia: via orale se possibile; EV con concentrazione e velocità limitate. Valori didattici: concentrazione di norma **≤ 40 mmol/L e velocità ≤ 10 mmol/h per via periferica**; velocità superiori solo con **monitor ECG e accesso centrale**, secondo protocollo e con controllo del potassio ravvicinato. Il bolo EV di potassio concentrato **è letale**. La Raccomandazione del Ministero della Salute n. 1 (marzo 2008) indica di rimuovere le soluzioni concentrate di potassio dalle scorte dei reparti, salvo le aree dove sono indispensabili, e di conservarle separate e segnalate.
 
 ### Magnesio solfato {.pa}
-Ipomagnesiemia, torsione di punta (2 g in 10–15 minuti), preeclampsia/eclampsia (schemi ostetrici), asma grave refrattario (didattico 1,2–2 g EV). Effetti: vampate, ipotensione, perdita dei riflessi tendinei e depressione respiratoria in caso di eccesso; ridurre in insufficienza renale.
+Ipomagnesiemia, torsione di punta, preeclampsia/eclampsia (schemi ostetrici), asma grave refrattario: dose e velocità secondo protocollo (ordine di grandezza: grammi in infusione breve). Effetti: vampate, ipotensione, perdita dei riflessi tendinei e depressione respiratoria in caso di eccesso; ridurre in insufficienza renale.
 
 ### Calcio gluconato e calcio cloruro {.pa}
-Ipocalcemia sintomatica, iperpotassiemia con alterazioni ECG, intossicazione da calcio-antagonisti e beta-bloccanti, trasfusioni massive. **Gluconato** per via periferica (10 mL in 5–10 minuti sotto monitor ECG); **cloruro** più irritante e ricco di calcio: preferire accesso centrale. Stravaso: necrosi tissutale. Non miscelare con bicarbonato o fosfati (precipitazione).
+Ipocalcemia sintomatica, iperpotassiemia con alterazioni ECG, intossicazione da calcio-antagonisti e beta-bloccanti, trasfusioni massive. **Gluconato** per via periferica (infusione lenta sotto monitor ECG, secondo protocollo); **cloruro** più irritante e ricco di calcio: preferire accesso centrale. Stravaso: necrosi tissutale. Non miscelare con bicarbonato o fosfati (precipitazione).
 
 ### Sodio: NaCl 3% e correzione della natriemia {.pa}
-Iponatriemia grave con sintomi (convulsioni, coma): ipertonica 3%, ad esempio **150 mL in 20 minuti** (didattico, raccomandazioni europee), con controllo del sodio e obiettivo di aumento di pochi mmol/L. Il sodio **non deve salire più di 8–10 mmol/L nelle prime 24 ore** (rischio di sindrome da demielinizzazione osmotica).
+Iponatriemia grave con sintomi (convulsioni, coma): ipertonica 3% a **piccoli boli ripetuti** secondo lo schema delle linee guida europee del 2014 e il protocollo, con controllo del sodio dopo ogni bolo e obiettivo di aumento di pochi mmol/L. Il sodio **non deve salire più di 8–10 mmol/L nelle prime 24 ore** (rischio di sindrome da demielinizzazione osmotica).
 
 ### Bicarbonato di sodio {.pa}
 Acidosi metabolica grave (pH < 7,1–7,2) in casi selezionati, iperpotassiemia, intossicazione da antidepressivi triciclici o da bloccanti dei canali del sodio. Rischio di ipernatriemia, ipopotassiemia e ipocalcemia; non miscelare con calcio o con alcune catecolamine.
@@ -78,7 +78,7 @@ Indicazioni NICE (linee guida sui fluidi EV): circa **25–30 mL/kg/die** di acq
 
 | Situazione | Orientamento |
 |---|---|
-| Ipovolemia, sepsi/shock | Cristalloidi bilanciati; boli di 250–500 mL in 15 minuti con rivalutazione (SSC 2021 suggerisce 30 mL/kg nelle prime 3 ore in sepsi con ipoperfusione) |
+| Ipovolemia, sepsi/shock | Cristalloidi bilanciati a boli con rivalutazione dopo ciascuno (SSC 2026 suggerisce almeno 30 mL/kg nelle prime 3 ore in sepsi con ipoperfusione o shock) |
 | Emorragia | Controllo del sanguinamento, emoderivati; limitare i cristalloidi |
 | Chetoacidosi diabetica | NaCl 0,9% o bilanciati + potassio + insulina (Parte 9) |
 | Scompenso cardiaco | Evitare sovraccarico; diuretico; restrizione di sodio |
@@ -136,8 +136,8 @@ Nei pazienti con ritenzione o restrizione: sale, liquidi, farmaci che alterano i
 
 ### Iperpotassiemia (urgenza)
 ECG con onde T alte, QRS largo, bradicardia: priorità. Sequenza didattica:
-1. **Calcio gluconato 10%** 10–20 mL (1–2 g) in 5–10 minuti sotto monitor (stabilizza il miocardio; ripetibile).
-2. **Insulina rapida 10 UI + glucosio** (es. 25 g) per spostare il potassio nelle cellule; controllo della glicemia per le ore successive (rischio di ipoglicemia).
+1. **Calcio EV** (cloruro o gluconato al 10%) sotto monitor, secondo protocollo: stabilizza il miocardio in pochi minuti ed è ripetibile; non abbassa il potassio.
+2. **Insulina rapida EV con glucosio** in dose standard del protocollo (ERC 2025) per spostare il potassio nelle cellule; glicemia ravvicinata per alcune ore (rischio di ipoglicemia, anche tardiva).
 3. **Salbutamolo** nebulizzato ad alte dosi (10–20 mg) come adiuvante.
 4. Eliminazione: diuretici dell'ansa, resine o chelanti (ciclosilicato di sodio e zirconio, patiromer), **dialisi** nei casi gravi o con IRC.
 5. Sospendere i farmaci causali (ACE-i, antialdosteronici, integratori, FANS).
@@ -167,8 +167,8 @@ Potassio EV con ECG continuo, correggere il magnesio, controllo ravvicinato.
 | Mantenimento adulto | 25–30 mL/kg/die; 1 mmol/kg Na, K, Cl; glucosio 50–100 g |
 | Potassio EV | ≤ 40 mmol/L e ≤ 10 mmol/h periferico; mai bolo; monitor se veloce |
 | Iperpotassiemia | Calcio → insulina+glucosio → salbutamolo → eliminazione |
-| Torsione di punta | Magnesio solfato 2 g EV |
-| Iponatriemia grave | NaCl 3% 150 mL in 20 min; non > 8–10 mmol/L in 24 h |
+| Torsione di punta | Magnesio solfato EV secondo protocollo |
+| Iponatriemia grave | NaCl 3% a piccoli boli secondo protocollo; non > 8–10 mmol/L in 24 h |
 | Incompatibilità | Calcio con bicarbonato/fosfati; calcio con ceftriaxone |
 
 - [ ] Esami recenti (Na, K, Mg, Ca, creatinina) disponibili

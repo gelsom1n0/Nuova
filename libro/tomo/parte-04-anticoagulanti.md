@@ -30,32 +30,33 @@ L'anticoagulazione previene l'ictus cardioembolico nella **fibrillazione atriale
 
 | Principio attivo | Nomi commerciali (esempi) | Eliminazione | Antidoto |
 |---|---|---|---|
-| Eparina sodica | Liquemin | Reticolo-endoteliale, renale | Protamina |
+| Eparina sodica | Vari produttori | Reticolo-endoteliale, renale | Protamina |
 | Enoxaparina | Clexane | Renale | Protamina (parziale) |
-| Nadroparina, dalteparina | Fraxiparina, Fragmin | Renale | Protamina (parziale) |
+| Nadroparina | Seleparina, Seledie | Renale | Protamina (parziale) |
 | Fondaparinux | Arixtra | Renale | Nessuno specifico |
 | Warfarin | Coumadin | Epatica (CYP2C9) | Vitamina K, complessi protrombinici |
 | Acenocumarolo | Sintrom | Epatica | Vitamina K, complessi protrombinici |
-| Apixaban | Eliquis | ≈ 27% renale | Andexanet alfa, complessi protrombinici |
-| Rivaroxaban | Xarelto | Renale parziale | Andexanet alfa, complessi protrombinici |
-| Edoxaban | Lixiana | ≈ 50% renale | Andexanet alfa, complessi protrombinici |
-| Dabigatran | Pradaxa | ≈ 80% renale | **Idarucizumab** |
-| Bivalirudina | Angiox | Proteolisi, renale | Nessuno; effetto breve |
+| Apixaban | Eliquis | ≈ 27% renale | Andexanet alfa (Ondexxya), complessi protrombinici |
+| Rivaroxaban | Xarelto | Renale parziale | Andexanet alfa (Ondexxya), complessi protrombinici |
+| Edoxaban | Lixiana | ≈ 50% renale | Complessi protrombinici (andexanet non indicato in RCP) |
+| Dabigatran | Pradaxa | ≈ 80% renale | **Idarucizumab** (Praxbind) |
+| Bivalirudina | Generici | Proteolisi, renale | Nessuno; effetto breve |
+| Argatroban | Novastan | Epatica | Nessuno; effetto breve |
 
 ### Eparina non frazionata {.pa}
-Effetto immediato per via EV, emivita breve e dose-dipendente. Per la tromboembolia venosa: bolo e infusione calcolati sul peso con nomogramma aggiustato sull'aPTT (esempio didattico: 80 UI/kg in bolo, poi 18 UI/kg/h). Preferita se la funzione renale è molto ridotta o se serve reversibilità rapida (CEC, procedure, rischio emorragico). Rischio di **trombocitopenia indotta da eparina (HIT)** tra il 5° e il 10° giorno.
+Effetto immediato per via EV, emivita breve e dose-dipendente. Per la tromboembolia venosa: bolo e infusione calcolati sul peso secondo il **nomogramma aziendale**, con aggiustamenti sull'aPTT (o sull'anti-Xa) e doppio controllo. Preferita se la funzione renale è molto ridotta o se serve reversibilità rapida (CEC, procedure, rischio emorragico). Rischio di **trombocitopenia indotta da eparina (HIT)** tra il 5° e il 10° giorno.
 
 ### Enoxaparina e altre EBPM {.pa}
-Dose profilattica didattica: enoxaparina 40 mg SC/die; terapeutica 1 mg/kg × 2 o 1,5 mg/kg/die. Ridurre se CrCl < 30 mL/min (profilassi 20 mg/die; terapeutica 1 mg/kg/die). Non iniettare per via IM. Controllo piastrine. Prevedibili, non richiedono monitoraggio di routine.
+Dose profilattica didattica: enoxaparina 40 mg SC/die; terapeutica 1 mg/kg × 2 o 1,5 mg/kg/die. Ridurre se CrCl < 30 mL/min (profilassi 20 mg/die; terapeutica 1 mg/kg/die). Nelle confezioni italiane la dose è espressa in **unità internazionali** (4.000 UI = 40 mg): leggere l'etichetta con attenzione. Non iniettare per via IM. Controllo piastrine. Prevedibili, non richiedono monitoraggio di routine.
 
 ### Fondaparinux {.pa}
-Profilassi 2,5 mg SC/die; trattamento secondo il peso. Eliminazione renale: controindicato con CrCl < 20 mL/min. Non provoca HIT; utile in caso di HIT sospetta/storia (secondo il medico).
+Profilassi 2,5 mg SC/die; trattamento secondo il peso. Eliminazione renale: controindicato con CrCl < 20 mL/min in profilassi e < 30 mL/min nel trattamento (verificare l'RCP). Non provoca HIT; utile in caso di HIT sospetta/storia (secondo il medico).
 
 ### Warfarin e acenocumarolo {.pa}
 Effetto dopo 2–3 giorni, **INR** bersaglio abituale 2–3 (protesi meccaniche: dipende dalla valvola). Molte interazioni (antibiotici, azoli, amiodarone, FANS) e **assunzione costante di vitamina K con la dieta** (non evitare gli ortaggi a foglia, mantenerli costanti). Unica scelta nelle valvole meccaniche e nella stenosi mitralica moderata-severa.
 
 ### DOAC: apixaban, rivaroxaban, edoxaban, dabigatran {.pa}
-Dosi didattiche per la FA: apixaban 5 mg × 2 (2,5 mg × 2 se almeno due tra età ≥ 80 anni, peso ≤ 60 kg, creatininemia ≥ 1,5 mg/dL); rivaroxaban 20 mg/die **con il pasto** (15 mg se CrCl 15–49); edoxaban 60 mg/die (30 mg se CrCl 15–50, peso ≤ 60 kg o inibitori della P-gp); dabigatran 150 mg × 2 (110 mg × 2 se età ≥ 80 o con verapamil). **Non** vanno usati nelle protesi valvolari meccaniche. Non richiedono INR, ma servono controlli di creatinina, emocromo ed epatici almeno annuali (più frequenti in anziani e IRC).
+Dosi didattiche per la FA: apixaban 5 mg × 2 (2,5 mg × 2 se almeno due tra età ≥ 80 anni, peso ≤ 60 kg, creatininemia ≥ 1,5 mg/dL, oppure se CrCl 15–29 mL/min); rivaroxaban 20 mg/die **con il pasto** (15 mg se CrCl 15–49); edoxaban 60 mg/die (30 mg se CrCl 15–50, peso ≤ 60 kg o inibitori della P-gp); dabigatran 150 mg × 2 (110 mg × 2 se età ≥ 80 o con verapamil). **Non** vanno usati nelle protesi valvolari meccaniche. Non richiedono INR, ma servono controlli di creatinina, emocromo ed epatici almeno annuali (più frequenti in anziani e IRC).
 
 ### Bivalirudina e argatroban {.pa}
 Inibitori diretti della trombina EV, usati in angioplastica (bivalirudina) e nella HIT (argatroban, bivalirudina) o in cardiochirurgia con HIT. Effetto breve; monitoraggio ACT/aPTT.
@@ -73,7 +74,7 @@ Inibitori diretti della trombina EV, usati in angioplastica (bivalirudina) e nel
 | Gravidanza | EBPM (warfarin teratogeno; DOAC non usati) |
 
 !!! nota "Nota – Rimborsabilità e Nota AIFA"
-    In Italia la prescrizione dei DOAC e degli AVK nella fibrillazione atriale non valvolare è regolata dalla **Nota AIFA 97**; il testo vigente va consultato sul sito dell'AIFA, perché può cambiare.
+    In Italia la prescrizione dei DOAC e degli AVK nella fibrillazione atriale non valvolare è regolata dalla **Nota AIFA 97** (2020), aggiornata con determina del 17 giugno 2026 che ha abolito la scheda di prescrizione e valutazione obbligatoria. La Nota usa ancora il punteggio CHA2DS2-VASc (con il sesso femminile), diverso dal CHA2DS2-VA delle linee guida ESC 2024. Il testo vigente va consultato sul sito dell'AIFA.
 
 !!! nota "Nota – «Bridging» perioperatorio"
     Per i pazienti con FA in terapia con warfarin, lo studio **BRIDGE** (N Engl J Med 2015) ha mostrato che sostituire l'AVK con eparina nei giorni attorno all'intervento non ha ridotto gli eventi tromboembolici e ha aumentato i sanguinamenti: il «ponte» non è di routine. Per i DOAC non serve ponte.
@@ -137,11 +138,12 @@ Compressione, sospendere l'anticoagulante, emocromo, coagulazione, funzione rena
 | EBPM | Protamina (efficacia parziale) |
 | Warfarin/acenocumarolo | **Vitamina K** EV lenta + **complessi protrombinici (PCC)** in caso grave |
 | Dabigatran | **Idarucizumab** (5 g EV, in due dosi da 2,5 g) |
-| Apixaban, rivaroxaban, edoxaban | **Andexanet alfa** dove disponibile, o PCC |
+| Apixaban, rivaroxaban | **Andexanet alfa** (solo per queste due molecole, emorragia pericolosa per la vita) o PCC; evitare l'andexanet se è prevista un'eparinizzazione (es. chirurgia, CEC): rende l'eparina inefficace (comunicazione AIFA) |
+| Edoxaban | PCC (andexanet non indicato in RCP) |
 | Fondaparinux | Nessun antidoto specifico; supporto; valutazione specialistica |
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** In **circolazione extracorporea** si somministra eparina ad alta dose con **ACT** bersaglio (spesso ≥ 400–480 secondi, secondo protocollo); a fine CEC la **protamina** neutralizza l'eparina. Complicanze: ipotensione, reazioni anafilattoidi alla protamina, «rimbalzo» dell'eparina. Nella HIT con necessità di CEC si usa bivalirudina secondo centro. Sospensione preoperatoria: AVK circa 5 giorni, DOAC 24–72 ore secondo farmaco, funzione renale e rischio emorragico; ripresa dopo emostasi, con indicazione chirurgica.
+    **Cardiochirurgia.** In **circolazione extracorporea** si somministra eparina ad alta dose con **ACT** bersaglio (spesso ≥ 400–480 secondi, secondo protocollo); a fine CEC la **protamina** neutralizza l'eparina. Complicanze: ipotensione, reazioni anafilattoidi alla protamina, «rimbalzo» dell'eparina. Nella HIT con necessità di CEC si usa bivalirudina secondo centro. Sospensione preoperatoria: AVK circa 5 giorni, DOAC da 24 a 72 ore (fino a 96 ore e oltre per il dabigatran con funzione renale ridotta) secondo farmaco, CrCl e rischio emorragico; ripresa dopo emostasi, con indicazione chirurgica.
     **Pronto soccorso.** Paziente anticoagulato con **trauma cranico** o emorragia: priorità a valutazione urgente e antagonizzazione. FA di nuova insorgenza: valutare rischio embolico e programmare anticoagulazione prima di eventuale cardioversione (almeno 3 settimane o ecocardiografia transesofagea secondo caso). Embolia polmonare: avviare l'anticoagulazione subito se il sospetto è alto.
 
 ## Popolazioni speciali
@@ -161,7 +163,7 @@ Compressione, sospendere l'anticoagulante, emocromo, coagulazione, funzione rena
 |---|---|
 | FA non valvolare | DOAC preferito (ESC 2024) |
 | Protesi meccaniche | Solo AVK |
-| Antidoti | EPN → protamina; AVK → vit K + PCC; dabigatran → idarucizumab; anti-Xa → andexanet/PCC |
+| Antidoti | EPN → protamina; AVK → vit K + PCC; dabigatran → idarucizumab; apixaban/rivaroxaban → andexanet o PCC; edoxaban → PCC |
 | Controlli | Piastrine con eparine; INR con AVK; creatinina con DOAC/EBPM |
 | Neuroassiale | Rispettare gli intervalli: rischio di ematoma spinale |
 | Mai | IM nei pazienti anticoagulati |

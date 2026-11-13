@@ -1,7 +1,7 @@
 # Antiaritmici
 
 !!! obiettivi "In questa parte"
-    Classificazione di Vaughan Williams, molecole principali (amiodarone, flecainide, propafenone, lidocaina, dronedarone, adenosina, digossina), indicazioni nelle aritmie sopraventricolari e ventricolari, monitoraggio di ECG, QT ed elettroliti, e gestione in rianimazione, cardiochirurgia e pronto soccorso. Ancorata alle linee guida ESC 2020 (tachicardie sopraventricolari), 2022 (aritmie ventricolari) e 2024 (fibrillazione atriale). I beta-bloccanti sono nella Parte 2. Classe ad alto rischio: dosi solo didattiche.
+    Classificazione di Vaughan Williams, molecole principali (amiodarone, flecainide, propafenone, lidocaina, dronedarone, adenosina, digossina), indicazioni nelle aritmie sopraventricolari e ventricolari, monitoraggio di ECG, QT ed elettroliti, e gestione in rianimazione, cardiochirurgia e pronto soccorso. Ancorata alle linee guida ESC 2019 (tachicardie sopraventricolari), 2022 (aritmie ventricolari) e 2024 (fibrillazione atriale) e alle linee guida ERC 2025 sulla rianimazione. I beta-bloccanti sono nella Parte 2. Classe ad alto rischio: dosi solo didattiche.
 
 ## Perché servono
 
@@ -31,7 +31,7 @@ Il paradosso degli antiaritmici è che molti possono **provocare** aritmie (effe
 | Principio attivo | Nomi commerciali (esempi) | Uso principale | Via |
 |---|---|---|---|
 | Amiodarone | Cordarone | FA, TV/FV, tachicardie ventricolari; scompenso | Orale, EV |
-| Flecainide | Almarytm, Tambocor | FA/flutter (cuore strutturalmente sano) | Orale (EV dove disponibile) |
+| Flecainide | Almarytm | FA/flutter (cuore strutturalmente sano) | Orale (EV dove disponibile) |
 | Propafenone | Rytmonorm | FA, aritmie sopraventricolari | Orale |
 | Lidocaina | Lidocaina cloridrato | TV e FV (alternativa) | EV |
 | Dronedarone | Multaq | Mantenimento del ritmo in FA | Orale |
@@ -39,16 +39,16 @@ Il paradosso degli antiaritmici è che molti possono **provocare** aritmie (effe
 | Digossina | Lanoxin | Controllo della frequenza in FA/scompenso | Orale, EV |
 
 ### Amiodarone {.pa}
-Il più polivalente (classe III con effetti di classe I, II e IV). Rallenta la frequenza e la conduzione, allunga il QT. **EV** didattico in FA instabile: 150–300 mg in 10–60 minuti, poi infusione secondo schema; in arresto cardiaco da ritmo defibrillabile: 300 mg in bolo dopo il 3° shock (ulteriori 150 mg). Emivita di settimane: accumulo e lunga persistenza degli effetti. Evidenza e dosaggi vanno confrontati con le linee guida di rianimazione e con la FA (ESC 2024).
+Il più polivalente (classe III con effetti di classe I, II e IV). Rallenta la frequenza e la conduzione, allunga il QT. **EV** nella FA: dose di carico in 20–60 minuti, preferibilmente da accesso centrale, seguita da infusione nelle 24 ore secondo protocollo (ESC 2024); in arresto cardiaco da ritmo defibrillabile: 300 mg in bolo dopo il 3° shock, ulteriori 150 mg dopo il 5° (ERC). Emivita di settimane: accumulo e lunga persistenza degli effetti. Evidenza e dosaggi vanno confrontati con le linee guida di rianimazione e con la FA (ESC 2024).
 
 ### Flecainide e propafenone {.pa}
 Classe Ic: efficaci per la cardioversione farmacologica e il mantenimento in FA **solo se il cuore è strutturalmente sano** (nessuna cardiopatia ischemica, ipertrofia importante, scompenso). Controindicati dopo infarto: lo studio **CAST** (N Engl J Med 1991) mostrò un aumento della mortalità con antiaritmici di classe Ic dopo infarto. Allargano il QRS; si associano di solito a un farmaco che rallenti il nodo AV (rischio di flutter con conduzione 1:1).
 
 ### Lidocaina {.pa}
-Antiaritmico di classe Ib per TV/FV, in alternativa all'amiodarone. EV: bolo 1–1,5 mg/kg, poi infusione 1–4 mg/min. Tossicità neurologica (parestesie periorali, tinnito, confusione, convulsioni): ridurre la dose in epatopatia e scompenso.
+Antiaritmico di classe Ib per TV/FV, in alternativa all'amiodarone. EV: bolo calcolato sul peso (ordine di grandezza 1–1,5 mg/kg in arresto, ERC/AHA 2025), eventuale infusione secondo protocollo. Tossicità neurologica (parestesie periorali, tinnito, confusione, convulsioni): ridurre la dose in epatopatia e scompenso.
 
 ### Dronedarone {.pa}
-Mantenimento del ritmo sinusale in FA, meno efficace dell'amiodarone ma con minori effetti extracardiaci. **Controindicato** in scompenso con NYHA III–IV o recentemente instabile, FA permanente e con altri farmaci che allungano il QT; epatotossicità: controllare gli enzimi epatici.
+Mantenimento del ritmo sinusale in FA, meno efficace dell'amiodarone ma con minori effetti extracardiaci. **Controindicato** (RCP) in caso di scompenso pregresso o in atto, disfunzione sistolica ventricolare sinistra, FA permanente, instabilità emodinamica, bradicardia < 50 bpm, QTc ≥ 500 ms, CrCl < 30 mL/min, insufficienza epatica grave e con dabigatran o altri farmaci che allungano il QT; epatotossicità: controllare gli enzimi epatici e la creatinina.
 
 ### Adenosina {.pa}
 Interrompe le tachicardie da rientro AV: 6 mg in bolo EV **rapido** in vena grossa seguito da flush di fisiologica, poi 12 mg se necessario. Emivita di secondi. Effetti: rossore, oppressione toracica, dispnea, breve pausa o asistolia (preavvertire il paziente). Meno efficace con teofillina/caffeina, più intensa con dipiridamolo (dose ridotta). Registrare l'ECG durante la somministrazione.
@@ -63,9 +63,9 @@ Controllo della frequenza in FA e scompenso. Dosi didattiche 0,125–0,25 mg/die
 | FA: controllo della frequenza | Beta-bloccante, diltiazem/verapamil (FE > 40%), digossina |
 | FA: controllo del ritmo, cuore sano | Flecainide, propafenone; amiodarone/dronedarone secondo caso (ESC 2024) |
 | FA con scompenso o cardiopatia ischemica | Amiodarone (evitare classe Ic) |
-| TSV da rientro | Manovre vagali → adenosina → verapamil/diltiazem o beta-bloccante (ESC 2020) |
-| FA con via accessoria (WPW) | **Non** adenosina, verapamil, digossina o beta-bloccante; cardioversione o procainamide |
-| TV monomorfa stabile | Procainamide o amiodarone; cardioversione se instabile |
+| TSV da rientro | Manovre vagali → adenosina → verapamil/diltiazem o beta-bloccante (ESC 2019) |
+| FA con via accessoria (WPW) | **Non** adenosina, verapamil, digossina o beta-bloccante; cardioversione elettrica; farmaci secondo specialista (ibutilide; procainamide non autorizzata in Italia) |
+| TV monomorfa stabile | Amiodarone (la procainamide, proposta dalle linee guida ESC 2022, non è autorizzata in Italia); cardioversione sincronizzata se instabile o refrattaria |
 | Arresto da FV/TV senza polso | Defibrillazione + amiodarone (o lidocaina) |
 | Torsione di punta | Magnesio solfato, correzione di K, evitare farmaci che allungano il QT, stimolazione |
 
@@ -127,10 +127,10 @@ Il QT va misurato dall'inizio del QRS alla fine dell'onda T (in genere in D2 o V
 Considerare **tachicardia ventricolare** fino a prova contraria. Instabile (ipotensione, dolore toracico, scompenso, alterazione dello stato di coscienza): cardioversione elettrica sincronizzata; senza polso: algoritmo di rianimazione (defibrillazione, adrenalina, amiodarone). Le dosi e le sequenze vanno confrontate con le linee guida di rianimazione in vigore (ERC/AHA, aggiornamenti recenti).
 
 ### Torsione di punta
-Sospendere i farmaci che allungano il QT, **magnesio solfato** EV (didattico 2 g in 10–15 minuti), correzione di potassio, stimolazione (overdrive) o isoproterenolo in casi selezionati, defibrillazione se senza polso.
+Sospendere i farmaci che allungano il QT, **magnesio solfato** EV (dose secondo protocollo; ERC: 2 g), correzione di potassio, stimolazione (overdrive) o isoproterenolo in casi selezionati, defibrillazione se senza polso.
 
 ### Intossicazione da digossina
-Sospendere, ECG, K e creatinina, correggere K e Mg; nei casi gravi **frammenti Fab anti-digossina** (dove disponibili) e supporto.
+Sospendere, ECG, K e creatinina, correggere K e Mg; nei casi gravi **frammenti Fab anti-digossina** (non presenti tra le confezioni autorizzate in Italia: si reperiscono tramite importazione o Centri Antiveleni) e supporto.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
     **Cardiochirurgia.** La **FA post-operatoria** compare in una quota rilevante dei pazienti (indicativamente 20–40% dopo cardiochirurgia, secondo l'intervento). Prevenzione: proseguire il beta-bloccante, correggere K e Mg, evitare squilibri di volume. Trattamento: controllo della frequenza (beta-bloccanti, amiodarone), cardioversione se instabile, valutazione dell'anticoagulazione se persiste. Disponibili elettrocateteri epicardici temporanei per stimolazione.

@@ -1,7 +1,7 @@
 # Broncodilatatori
 
 !!! obiettivi "In questa parte"
-    Farmaci che dilatano le vie aeree: beta-2 agonisti a breve e lunga durata, antimuscarinici (SAMA e LAMA), associazioni con corticosteroidi inalatori, metilxantine e magnesio. Uso in asma e BPCO, tecnica dei dispositivi, riacutizzazioni in pronto soccorso e rapporti con i farmaci cardiovascolari. Ancorata a GOLD (BPCO) e GINA (asma) nelle versioni correnti. Dosi didattiche.
+    Farmaci che dilatano le vie aeree: beta-2 agonisti a breve e lunga durata, antimuscarinici (SAMA e LAMA), associazioni con corticosteroidi inalatori, metilxantine e magnesio. Uso in asma e BPCO, tecnica dei dispositivi, riacutizzazioni in pronto soccorso e rapporti con i farmaci cardiovascolari. Ancorata ai documenti GOLD 2026 (BPCO) e GINA 2025 (asma), da ricontrollare a ogni edizione annuale. Dosi didattiche.
 
 ## Perché servono
 
@@ -21,7 +21,7 @@ Nelle vie aeree il tono bronchiale è regolato dal sistema nervoso autonomo: la 
 | SAMA (ipratropio) | Antimuscarinico | 6–8 h | Riacutizzazioni, associazione al SABA |
 | LAMA (tiotropio, glicopirronio, umeclidinio, aclidinio) | Antimuscarinico | 12–24 h | Mantenimento BPCO |
 | ICS (beclometasone, budesonide, fluticasone) | Antinfiammatorio | — | Asma; BPCO con eosinofilia/riacutizzazioni |
-| Metilxantine (teofillina) | Inibitore PDE, antagonista dell'adenosina | variabile | Casi selezionati; finestra stretta |
+| Metilxantine (teofillina, aminofillina, doxofillina) | Inibitore PDE, antagonista dell'adenosina | variabile | Casi selezionati; finestra stretta |
 | Magnesio solfato EV | Rilassa il muscolo liscio | breve | Asma grave refrattario |
 
 ## Molecole
@@ -36,7 +36,7 @@ Nelle vie aeree il tono bronchiale è regolato dal sistema nervoso autonomo: la 
 | Beclometasone/formoterolo | Foster | ICS/LABA |
 | Budesonide/formoterolo | Symbicort | ICS/LABA (anche come terapia al bisogno) |
 | Fluticasone/salmeterolo | Seretide | ICS/LABA |
-| Teofillina | Teofillina RP | Livelli plasmatici |
+| Aminofillina, doxofillina | Aminofillina (EV, vari produttori); Ansimar | Livelli plasmatici (aminofillina) |
 
 ### Salbutamolo {.pa}
 SABA di riferimento: 100 µg per erogazione, 1–2 puff al bisogno (didattico); in riacutizzazione 4–10 puff ogni 10–20 minuti con distanziatore oppure nebulizzazione 2,5–5 mg. Effetti: tremore, tachicardia, ipopotassiemia (si somma a diuretici e corticosteroidi), palpitazioni.
@@ -50,8 +50,8 @@ Ipratropio: SAMA in riacutizzazione, aerosol 0,25–0,5 mg. Tiotropio e altri LA
 ### Associazioni con corticosteroidi inalatori {.pa}
 Beclometasone, budesonide e fluticasone con LABA: terapia cardine dell'asma persistente. Risciacquare la bocca dopo l'uso (candidosi orale e disfonia). Nella BPCO gli ICS si riservano ai pazienti con riacutizzazioni frequenti o eosinofilia elevata (GOLD); possono aumentare il rischio di polmonite.
 
-### Teofillina {.pa}
-Broncodilatatore con **finestra terapeutica stretta** (livelli ematici usuali 10–20 mg/L, più bassi nella pratica attuale); tossicità: nausea, tremore, tachiaritmie, convulsioni. Interazioni: ciprofloxacina, macrolidi, cimetidina (aumentano i livelli), fumo e rifampicina (riducono). Oggi seconda linea.
+### Teofillina e aminofillina {.pa}
+Broncodilatatore con **finestra terapeutica stretta** (livelli ematici usuali 10–20 mg/L, più bassi nella pratica attuale); tossicità: nausea, tremore, tachiaritmie, convulsioni. Interazioni: ciprofloxacina, macrolidi, cimetidina (aumentano i livelli), fumo e rifampicina (riducono). Oggi seconda linea. Nell'elenco AIFA delle confezioni autorizzate (novembre 2026) non compare teofillina orale: sono disponibili l'**aminofillina** EV (sale di teofillina, stesse cautele) e la **doxofillina**.
 
 ### Magnesio solfato {.pa}
 Nell'asma grave refrattario si usa 1,2–2 g EV in 20 minuti (didattico); effetto limitato, soprattutto nei casi gravi.
@@ -68,7 +68,7 @@ Nell'asma grave refrattario si usa 1,2–2 g EV in 20 minuti (didattico); effett
 | Bronchiolite/pazienti pediatrici | Secondo specialista |
 
 !!! nota "Nota – Rimborsabilità e Piani terapeutici"
-    Alcune associazioni e terapie biologiche per asma e BPCO richiedono il **piano terapeutico** prescritto da centri specialistici. Verificare le Note AIFA vigenti.
+    Nella BPCO la rimborsabilità della terapia inalatoria di mantenimento (LABA, LAMA, ICS e associazioni) è regolata dalla **Nota AIFA 99** (2021), che richiede la conferma spirometrica della diagnosi; la triplice associazione e i farmaci biologici per l'asma grave richiedono il **piano terapeutico** specialistico. Verificare le Note AIFA vigenti.
 
 ## Sicurezza
 
@@ -121,7 +121,7 @@ Dispnea, frequenza respiratoria, saturazione (SpO₂), uso dei muscoli accessori
 ## Emergenza, antidoti e focus cardiochirurgia/pronto soccorso
 
 ### Riacutizzazione grave di asma o BPCO
-Ossigeno per SpO₂ 94–98% nell'asma e 88–92% nella BPCO (rischio di ipercapnia), SABA ripetuto (più nebulizzazione), ipratropio, **corticosteroide sistemico precoce** (es. prednisone 40–50 mg o idrocortisone EV), valutare magnesio EV nell'asma grave, ventilazione non invasiva in BPCO con acidosi respiratoria. Ricorrere a emogasanalisi. In caso di pericolo di vita: **adrenalina** IM nell'anafilassi con broncospasmo, intubazione.
+Ossigeno per SpO₂ 93–95% nell'asma dell'adulto (GINA) e 88–92% nella BPCO o in chi è a rischio di ipercapnia, SABA ripetuto (più nebulizzazione), ipratropio, **corticosteroide sistemico precoce** (es. prednisone 40–50 mg o idrocortisone EV), valutare magnesio EV nell'asma grave, ventilazione non invasiva in BPCO con acidosi respiratoria. Ricorrere a emogasanalisi. In caso di pericolo di vita: **adrenalina** IM nell'anafilassi con broncospasmo, intubazione.
 
 ### Broncospasmo da farmaco
 Sospendere il farmaco sospetto (beta-bloccante, FANS, ASA nei soggetti sensibili), SABA, ossigeno; eventuale corticosteroide.

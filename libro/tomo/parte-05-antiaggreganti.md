@@ -19,7 +19,7 @@ Nelle arterie con placca aterosclerotica la rottura della placca espone collagen
 | Inibitori della COX-1 | Blocco irreversibile del tromboxano A2 | acido acetilsalicilico |
 | Inibitori di P2Y12 irreversibili (profarmaci) | Bloccano il recettore dell'ADP | clopidogrel, prasugrel |
 | Inibitori di P2Y12 reversibili | Bloccano direttamente il recettore | ticagrelor (orale), cangrelor (EV) |
-| Inibitori di GP IIb/IIIa | Bloccano la via finale dell'aggregazione | tirofiban, eptifibatide, abciximab |
+| Inibitori di GP IIb/IIIa | Bloccano la via finale dell'aggregazione | tirofiban, eptifibatide (abciximab non più autorizzato in Italia) |
 | Inibitori delle fosfodiesterasi | ↑ cAMP piastrinico | dipiridamolo, cilostazolo |
 
 L'effetto di acido acetilsalicilico, clopidogrel e prasugrel dura quanto la vita della piastrina (7–10 giorni), perché il blocco è irreversibile.
@@ -33,7 +33,7 @@ L'effetto di acido acetilsalicilico, clopidogrel e prasugrel dura quanto la vita
 | Prasugrel | Efient | Orale | Più potente; non dopo ictus/TIA |
 | Ticagrelor | Brilique | Orale | Reversibile; dispnea |
 | Cangrelor | Kengrexal | EV | Effetto rapido e breve, in PCI |
-| Tirofiban, eptifibatide | Aggrastat, Integrilin | EV | Uso in PCI selezionata |
+| Tirofiban, eptifibatide | Aggrastat; eptifibatide generico | EV | Uso in PCI selezionata |
 | Dipiridamolo | Persantin | Orale | Spesso con ASA nella prevenzione dell'ictus |
 
 ### Acido acetilsalicilico {.pa}
@@ -58,7 +58,7 @@ Associato all'acido acetilsalicilico per la prevenzione secondaria dell'ictus is
 
 | Situazione | Orientamento (ESC) |
 |---|---|
-| Sindrome coronarica acuta (SCA) | Doppia antiaggregazione (DAPT) per **12 mesi**: ASA + ticagrelor o prasugrel (preferiti al clopidogrel); durata ridotta se rischio emorragico elevato |
+| Sindrome coronarica acuta (SCA) | Doppia antiaggregazione (DAPT) per **12 mesi**: ASA + ticagrelor o prasugrel (preferiti al clopidogrel; prasugrel preferibile al ticagrelor nella SCA trattata con PCI, ESC 2023); durata ridotta se rischio emorragico elevato |
 | Sindrome coronarica cronica dopo PCI | ASA + clopidogrel per circa **6 mesi**, poi monoterapia; durata individualizzata |
 | Prevenzione secondaria stabile | ASA 75–100 mg/die o clopidogrel 75 mg/die |
 | Pazienti con indicazione anticoagulante (FA) dopo PCI | Terapia breve con ASA, poi **anticoagulante + clopidogrel** (evitare la triplice a lungo; studio AUGUSTUS, N Engl J Med 2019, con apixaban) |

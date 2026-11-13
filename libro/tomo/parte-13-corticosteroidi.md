@@ -1,7 +1,7 @@
 # Corticosteroidi
 
 !!! obiettivi "In questa parte"
-    Fisiologia dell'asse ipotalamo-ipofisi-surrene, potenza ed equivalenze dei corticosteroidi sistemici, indicazioni, effetti avversi e monitoraggio, sospensione graduale, insufficienza surrenalica, anafilassi, shock settico e uso in cardiochirurgia e pronto soccorso. Ancorata a Surviving Sepsis Campaign 2021 e alle linee guida GOLD/GINA per le riacutizzazioni (da verificare nelle versioni correnti). Dosi didattiche.
+    Fisiologia dell'asse ipotalamo-ipofisi-surrene, potenza ed equivalenze dei corticosteroidi sistemici, indicazioni, effetti avversi e monitoraggio, sospensione graduale, insufficienza surrenalica, anafilassi, shock settico e uso in cardiochirurgia e pronto soccorso. Ancorata a Surviving Sepsis Campaign 2026, ERC 2025 (anafilassi) e ai documenti GOLD/GINA per le riacutizzazioni (edizioni annuali). Dosi didattiche.
 
 ## Perché servono
 
@@ -29,16 +29,16 @@ Il corticosteroide entra nella cellula, si lega al recettore dei glucocorticoidi
 
 | Principio attivo | Nomi commerciali (esempi) | Via |
 |---|---|---|
-| Idrocortisone | Flebocortid, Solu-Cortef | EV, IM |
+| Idrocortisone | Flebocortid, Sofacor | EV, IM |
 | Prednisone | Deltacortene | Orale |
 | Prednisolone | Prednisolone | Orale, EV |
-| Metilprednisolone | Medrol, Urbason, Solu-Medrol | Orale, EV, IM |
+| Metilprednisolone | Medrol, Urbason, Urbason solubile | Orale, EV, IM |
 | Desametasone | Soldesam, Decadron | Orale, EV, IM |
 | Betametasone | Bentelan | Orale, IM |
-| Fludrocortisone | Florinef | Orale |
+| Fludrocortisone | Non autorizzato in Italia (importazione tramite farmacia) | Orale |
 
 ### Idrocortisone {.pa}
-Preferita in **emergenze surrenaliche** e shock settico per l'attività mineralcorticoide e la breve emivita. Crisi surrenalica: 100 mg EV in bolo, poi circa 200 mg/24 ore in infusione o frazionati (didattico). Shock settico con vasopressori persistenti: 200 mg/die (50 mg ogni 6 ore) secondo linee guida (SSC 2021 la suggerisce).
+Preferita in **emergenze surrenaliche** e shock settico per l'attività mineralcorticoide e la breve emivita. Crisi surrenalica: 100 mg EV in bolo, poi circa 200 mg/24 ore in infusione o frazionati (didattico). Shock settico con fabbisogno persistente di vasopressori: 200 mg/die, di solito a dosi frazionate (la SSC 2026 lo suggerisce, con certezza delle prove bassa).
 
 ### Prednisone e prednisolone {.pa}
 Standard orale per malattie infiammatorie/immunitarie. Dose didattica 0,5–1 mg/kg/die in fase d'attacco, poi riduzione. Prednisone è un pro-farmaco epatico (convertito in prednisolone): in grave epatopatia preferire il **prednisolone**. Riacutizzazione di BPCO/asma: ad esempio **prednisone 40 mg/die per 5 giorni** (GOLD).
@@ -59,14 +59,14 @@ Sostituzione mineralcorticoide nell'insufficienza surrenalica primaria (0,05–0
 | Riacutizzazione di asma/BPCO | Prednisone 40 mg per 5 giorni (o equivalente EV) |
 | Anafilassi | **Adrenalina prima**; gli steroidi sono adiuvanti e non sostituiscono l'adrenalina |
 | Crisi surrenalica | Idrocortisone 100 mg EV subito, fluidi, glucosio |
-| Shock settico con vasopressori | Idrocortisone 200 mg/die (SSC 2021) |
+| Shock settico con vasopressori | Idrocortisone 200 mg/die (SSC 2026) |
 | Malattie autoimmuni, reumatiche, vasculiti | Specialistico: dosi d'attacco e riduzione lenta |
 | Edema cerebrale, neurologia | Desametasone |
 | Nausea da chemioterapia | Desametasone |
 | COVID-19 con ipossiemia | Desametasone 6 mg/die per 10 giorni |
 
 !!! nota "Nota – Corticosteroidi e sepsi"
-    Gli studi **ADRENAL** e **APROCCHSS** (N Engl J Med 2018) hanno valutato l'idrocortisone nello shock settico: l'effetto sulla mortalità è stato discusso (ridotta nello studio francese con fludrocortisone, non in ADRENAL), con più rapido recupero dallo shock. La SSC 2021 suggerisce l'impiego in caso di fabbisogno di vasopressori prolungato.
+    Gli studi **ADRENAL** e **APROCCHSS** (N Engl J Med 2018) hanno valutato l'idrocortisone nello shock settico: l'effetto sulla mortalità è stato discusso (ridotta nello studio francese con fludrocortisone, non in ADRENAL), con più rapido recupero dallo shock. La SSC 2026 continua a suggerire l'idrocortisone in caso di fabbisogno prolungato di vasopressori, ma ha abbassato la certezza delle prove da moderata a bassa; l'aggiunta di fludrocortisone non è di routine (verificare il testo integrale).
 
 ## Sicurezza
 

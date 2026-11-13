@@ -1,7 +1,7 @@
 # Insulina e ipoglicemizzanti
 
 !!! obiettivi "In questa parte"
-    Diabete mellito e controllo glicemico: tipi di insulina e schemi, metformina, SGLT2 inibitori, agonisti del GLP-1, DPP-4 inibitori, sulfaniluree e pioglitazone; ipoglicemia, chetoacidosi, gestione perioperatoria e in cardiochirurgia. Ancorata a Standard italiani per la cura del diabete (AMD-SID), ADA Standards of Care e linee guida ESC 2023 su diabete e malattie cardiovascolari (da verificare nelle versioni correnti). L'insulina è un farmaco ad alto rischio: dosi solo didattiche.
+    Diabete mellito e controllo glicemico: tipi di insulina e schemi, metformina, SGLT2 inibitori, agonisti del GLP-1, DPP-4 inibitori, sulfaniluree e pioglitazone; ipoglicemia, chetoacidosi, gestione perioperatoria e in cardiochirurgia. Ancorata alla linea guida SID-AMD sulla terapia del diabete di tipo 2 (Sistema Nazionale Linee Guida, 2021, aggiornata nel 2023), agli ADA Standards of Care (edizione annuale), al consenso internazionale 2024 sulle crisi iperglicemiche e alle linee guida ESC 2023 su diabete e malattie cardiovascolari. L'insulina è un farmaco ad alto rischio: dosi solo didattiche.
 
 ## Perché servono
 
@@ -38,7 +38,7 @@ Il glucosio è la principale fonte di energia delle cellule; l'**insulina**, sec
 | Tipo | Esempi | Inizio, picco, durata (indicativi) | Uso |
 |---|---|---|---|
 | Ultrarapida/rapida (analoghi) | lispro, aspart, glulisina | 10–20 min; 1–3 h; 3–5 h | Pasti, correzioni |
-| Rapida (regolare) | umana regolare | 30–60 min; 2–4 h; 6–8 h | Pasti; **unica per via EV** |
+| Rapida (regolare) | umana regolare | 30–60 min; 2–4 h; 6–8 h | Pasti; **di riferimento per via EV** |
 | Intermedia (NPH) | NPH | 1–2 h; 4–10 h; 12–18 h | Basale 1–2 volte/die |
 | Lenta (analoghi) | glargine, detemir, degludec | 1–3 h; poco o nessun picco; 20–42 h | Basale 1 volta/die |
 | Premiscelate | miscele rapida/NPH | Doppio effetto | Schemi semplificati |
@@ -46,13 +46,13 @@ Il glucosio è la principale fonte di energia delle cellule; l'**insulina**, sec
 I nomi commerciali sono numerosi e cambiano (ad esempio per glargine, aspart, lispro, degludec): verificare nella Banca Dati AIFA e **identificare il prodotto con nome e tipo, non solo con la sigla**.
 
 ### Insulina {.pa}
-Via SC (addome, coscia, braccio, gluteo), alternando i siti per evitare lipodistrofia; assorbimento più rapido nell'addome. **Per via EV solo insulina umana rapida** (in infusione con pompa). Schema basale-bolo: basale 1 volta/die più dosi ai pasti e correzioni. Unità: sempre scritte per esteso («unità», non «U», che può essere letta «0»).
+Via SC (addome, coscia, braccio, gluteo), alternando i siti per evitare lipodistrofia; assorbimento più rapido nell'addome. **Per via EV** si usa di norma l'insulina umana regolare in infusione con pompa; alcuni analoghi rapidi sono autorizzati anche per via EV, ma solo se previsto dall'RCP e dal protocollo. Mai insuline intermedie, lente o premiscelate per via EV. Schema basale-bolo: basale 1 volta/die più dosi ai pasti e correzioni. Unità: sempre scritte per esteso («unità», non «U», che può essere letta «0»).
 
 ### Metformina {.pa}
 Prima linea storica nel tipo 2: 500–2000 mg/die in 1–3 dosi con i pasti. Effetti: disturbi gastrointestinali, rischio raro di **acidosi lattica**. Sospendere in caso di disidratazione, sepsi, mezzo di contrasto iodato in IRC o insufficienza renale acuta; non usare con eGFR < 30 mL/min/1,73 m² (ridurre la dose se 30–45).
 
 ### SGLT2 inibitori (dapagliflozin, empagliflozin) {.pa}
-Beneficio su scompenso, malattia renale e eventi cardiovascolari (studi EMPA-REG OUTCOME, N Engl J Med 2015; DAPA-HF, N Engl J Med 2019; EMPEROR-Reduced, N Engl J Med 2020), indipendentemente dal diabete nello scompenso e nella nefropatia. Effetti: infezioni genitali, deplezione di volume, **chetoacidosi euglicemica** (rara ma grave). **Sospendere circa 3 giorni prima** di interventi e in caso di malattia acuta o digiuno prolungato.
+Beneficio su scompenso, malattia renale e eventi cardiovascolari (studi EMPA-REG OUTCOME, N Engl J Med 2015; DAPA-HF, N Engl J Med 2019; EMPEROR-Reduced, N Engl J Med 2020), indipendentemente dal diabete nello scompenso e nella nefropatia. Effetti: infezioni genitali, deplezione di volume, **chetoacidosi euglicemica** (rara ma grave). **Sospendere almeno 3 giorni prima** di interventi a rischio intermedio-alto (ESC 2022; per l'ertugliflozin l'RCP indica 4 giorni) e in caso di malattia acuta o digiuno prolungato.
 
 ### GLP-1 agonisti (semaglutide, liraglutide, dulaglutide) {.pa}
 SC settimanali o giornalieri (semaglutide anche orale). Calo di peso, riduzione di eventi cardiovascolari maggiori (SUSTAIN-6, LEADER). Effetti: nausea, vomito, diarrea, pancreatite (raro), colelitiasi; ritardato svuotamento gastrico (attenzione all'**anestesia** e ai protocolli di digiuno: seguire le indicazioni locali).
@@ -75,7 +75,7 @@ Glibenclamide, glimepiride, gliclazide: stimolano l'insulina; rischio di **ipogl
 | Gravidanza | Insulina (altri farmaci secondo specialista) |
 
 !!! nota "Nota – Rimborsabilità e piani terapeutici"
-    Alcuni ipoglicemizzanti (ad esempio incretine e gliflozine) sono prescrivibili con **piano terapeutico** AIFA da centri specialistici. Verificare nel sito AIFA le condizioni vigenti.
+    Dal 2022 la prescrizione a carico del SSN di gliflozine, agonisti del GLP-1, gliptine e (dal 2023) doppi agonisti GIP/GLP-1 nel diabete di tipo 2 è regolata dalla **Nota AIFA 100**, che consente la prescrizione anche al medico di medicina generale con apposita scheda; la Nota è stata aggiornata nel luglio 2025. Verificare nel sito AIFA le condizioni vigenti.
 
 ## Sicurezza
 
@@ -83,7 +83,7 @@ Glibenclamide, glimepiride, gliclazide: stimolano l'insulina; rischio di **ipogl
 - **Cause:** dose in eccesso, pasto saltato, esercizio, alcol, insufficienza renale, errore di tipo di insulina.
 - **Sintomi:** tremore, sudorazione, tachicardia, fame, ansia (adrenergici); confusione, irritabilità, convulsioni, coma (neuroglicopenici). I **beta-bloccanti mascherano** tachicardia e tremore.
 - **Trattamento (regola dei 15):** 15–20 g di glucosio/zuccheri semplici per os (es. 3–4 zollette, 150–200 mL succo, compresse di glucosio); ricontrollare dopo 15 minuti e ripetere se < 70 mg/dL; poi uno spuntino.
-- **Ipoglicemia grave (paziente non cosciente):** **glucosio EV** (didattico: 20–25 g in bolo, ad esempio 50 mL di G50% o 100–150 mL di G20%) o **glucagone** 1 mg IM/SC; accesso venoso e monitoraggio.
+- **Ipoglicemia grave (paziente non cosciente):** **glucosio EV** (didattico: 20–25 g, ad esempio 100–150 mL di G20%; le soluzioni più concentrate sono irritanti per le vene) o **glucagone** 1 mg IM/SC oppure 3 mg per via nasale; accesso venoso e monitoraggio.
 
 ### Chetoacidosi diabetica (CAD) e stato iperosmolare
 Iperglicemia con acidosi e chetoni (CAD); disidratazione severa; emergenza che richiede fluidi, insulina EV, potassio e ricerca del fattore scatenante.
@@ -135,10 +135,10 @@ Glicemia capillare prima dei pasti e al bisogno, in ricovero secondo protocollo 
 Paziente cosciente: zuccheri per os. Non cosciente: **glucosio EV** o **glucagone**, controllo glicemico a 15 minuti, ripetizione e alimentazione. Nelle ipoglicemie da sulfaniluree o insuline a lunga durata monitorare per ore (rischio di recidiva); valutare ricovero.
 
 ### Chetoacidosi diabetica (schema didattico)
-Fluidi (cristalloidi) per correggere la disidratazione; **insulina EV a infusione continua** (didattico 0,05–0,1 unità/kg/h) dopo aver verificato un potassio ≥ 3,3 mmol/L; potassio aggiunto in base al valore; controllo ogni ora di glicemia e ogni 2–4 ore di elettroliti e gas; ricerca della causa (infezione, omissione di insulina, ischemia).
+Fluidi (cristalloidi) per correggere la disidratazione; **insulina EV a infusione continua** a velocità fissa calcolata sul peso secondo protocollo, iniziata solo con potassio ≥ 3,5 mmol/L (consenso internazionale 2024; se più basso si corregge prima il potassio); potassio aggiunto in base al valore; controllo ogni ora di glicemia e ogni 2–4 ore di elettroliti e gas; ricerca della causa (infezione, omissione di insulina, ischemia).
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** L'iperglicemia perioperatoria aumenta infezioni della ferita sternale e complicanze: si usa di norma **infusione di insulina EV** con obiettivi glicemici intorno a 140–180 mg/dL (secondo protocollo del centro), controlli frequenti, controllo del potassio. Gli **SGLT2i** vanno sospesi almeno 3 giorni prima dell'intervento; la **metformina** secondo protocollo (spesso sospesa il giorno dell'intervento); i **GLP-1 agonisti** richiedono attenzione per il ritardato svuotamento gastrico (seguire le indicazioni anestesiologiche locali). La somministrazione di corticosteroidi o di cardioplegia può aumentare la glicemia.
+    **Cardiochirurgia.** L'iperglicemia perioperatoria aumenta infezioni della ferita sternale e complicanze: si usa di norma **infusione di insulina EV** con obiettivi glicemici intorno a 140–180 mg/dL (secondo protocollo del centro), controlli frequenti, controllo del potassio. Gli **SGLT2i** vanno sospesi almeno 3 giorni prima dell'intervento (4 per l'ertugliflozin); la **metformina** secondo protocollo (spesso sospesa il giorno dell'intervento); i **GLP-1 agonisti** richiedono attenzione per il ritardato svuotamento gastrico (seguire le indicazioni anestesiologiche locali). La somministrazione di corticosteroidi o di cardioplegia può aumentare la glicemia.
     **Pronto soccorso.** Sempre misurare la glicemia in presenza di alterazione dello stato di coscienza, convulsioni, sudorazione profusa, deficit focali: l'ipoglicemia imita l'ictus. Iperglicemia con malessere: chetoni, gas, elettroliti per escludere CAD.
 
 ## Popolazioni speciali
@@ -157,9 +157,9 @@ Fluidi (cristalloidi) per correggere la disidratazione; **insulina EV a infusion
 | Elemento | Promemoria |
 |---|---|
 | Ipoglicemia | < 70 mg/dL: 15–20 g di zuccheri, ricontrollo dopo 15 minuti |
-| Grave | Glucosio EV o glucagone 1 mg IM/SC |
-| Unico per via EV | Insulina umana rapida, in infusione con pompa |
-| SGLT2i | Sospendere ≈ 3 giorni prima di interventi/digiuno; rischio di chetoacidosi euglicemica |
+| Grave | Glucosio EV o glucagone (IM/SC o nasale) |
+| Via EV | Insulina rapida (di norma umana regolare) solo in infusione con pompa |
+| SGLT2i | Sospendere ≥ 3 giorni prima di interventi/digiuno; rischio di chetoacidosi euglicemica |
 | Metformina | Non con eGFR < 30; sospendere con disidratazione |
 | Evitare | Pioglitazone nello scompenso; glibenclamide nell'anziano |
 

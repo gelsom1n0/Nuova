@@ -74,7 +74,7 @@ Alcuni farmaci sono **vescicanti o irritanti** (esempi: potassio concentrato, no
 
 ### Sondino e deglutizione
 
-Prima di frantumare una compressa o aprire una capsula verificare con l'RCP o il farmacista che la formulazione lo consenta: forme a rilascio prolungato, gastroresistenti e capsule a microgranuli non vanno alterate. Somministrare i farmaci uno alla volta, con risciacquo del sondino tra l'uno e l'altro.
+Prima di frantumare una compressa o aprire una capsula verificare con l'RCP o il farmacista che la formulazione lo consenta: forme a rilascio prolungato, gastroresistenti e capsule a microgranuli non vanno alterate. La manipolazione si esegue solo se necessaria e subito prima della somministrazione (Raccomandazione del Ministero della Salute n. 19, ottobre 2019). Somministrare i farmaci uno alla volta, con risciacquo del sondino tra l'uno e l'altro.
 
 ## Calcoli di dosi e infusioni
 
@@ -94,7 +94,7 @@ Gli errori di calcolo sono una causa frequente di eventi gravi. Regola generale:
 
 1. **Infusione di 500 mL in 4 ore** con set da 20 gocce/mL: 500 × 20 / 240 ≈ **42 gocce/min**; con pompa: 125 mL/h.
 2. **Farmaco in µg/kg/min:** 50 µg/kg/min per un paziente di 70 kg, soluzione da 10 mg/mL (= 10.000 µg/mL): 50 × 70 × 60 / 10.000 = **21 mL/h**.
-3. **Eparina in infusione:** 25.000 UI in 500 mL (= 50 UI/mL); dose 18 UI/kg/h per un paziente di 80 kg = 1.440 UI/h → 1.440 / 50 = **28,8 mL/h**.
+3. **Eparina in infusione** (esercizio di calcolo, non nomogramma): 25.000 UI in 500 mL (= 50 UI/mL); dose prescritta 18 UI/kg/h per un paziente di 80 kg = 1.440 UI/h → 1.440 / 50 = **28,8 mL/h**. Nella pratica dose, concentrazione e aggiustamenti seguono il nomogramma aziendale e il doppio controllo.
 4. **Glucosata al 5%:** 5 g ogni 100 mL = 50 mg/mL; una sacca da 500 mL contiene 25 g di glucosio.
 
 !!! attenzione "Attenzione"
@@ -139,7 +139,7 @@ I farmaci ad alto rischio non sono più frequentemente sbagliati, ma quando si s
 - **Ambiente di preparazione senza interruzioni.**
 - **Prescrizione e identificazione elettroniche**, ove disponibili.
 - **Segnalazione dei quasi-eventi (near miss)**: servono a prevenire gli errori veri.
-- Le **Raccomandazioni del Ministero della Salute** affrontano proprio questi temi (potassio concentrato, errori in terapia, farmaci LASA, riconciliazione): numeri e anni vanno verificati sul sito del Ministero.
+- Le **Raccomandazioni del Ministero della Salute** affrontano proprio questi temi: n. 1 (marzo 2008) sulle soluzioni concentrate di cloruro di potassio; n. 7 (marzo 2008) sugli errori in terapia farmacologica; n. 12 (agosto 2010) sui farmaci LASA; n. 17 (dicembre 2014) sulla riconciliazione; n. 18 (settembre 2018) su abbreviazioni, sigle e simboli; n. 19 (ottobre 2019) sulla manipolazione delle forme orali solide. Il testo vigente si consulta sul sito del Ministero.
 
 ## Farmacovigilanza e lettura dell'RCP
 

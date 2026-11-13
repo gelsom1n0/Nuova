@@ -5,9 +5,9 @@
 
 ## Perché servono
 
-Le lipoproteine ricche di apolipoproteina B, in particolare il **colesterolo LDL (LDL-C)**, sono una causa dimostrata di aterosclerosi: ogni riduzione di LDL-C si traduce in una riduzione proporzionale degli eventi cardiovascolari, tanto più quanto più precoce e prolungata. Le linee guida europee ESC/EAS sulle dislipidemie (2019, con aggiornamenti successivi da verificare) propongono obiettivi di LDL-C in base al rischio:
+Le lipoproteine ricche di apolipoproteina B, in particolare il **colesterolo LDL (LDL-C)**, sono una causa dimostrata di aterosclerosi: ogni riduzione di LDL-C si traduce in una riduzione proporzionale degli eventi cardiovascolari, tanto più quanto più precoce e prolungata. Le linee guida europee ESC/EAS sulle dislipidemie (2019, con aggiornamento mirato del 2025 che ha confermato gli obiettivi) propongono obiettivi di LDL-C in base al rischio:
 
-| Rischio cardiovascolare | Obiettivo LDL-C (ESC/EAS 2019) |
+| Rischio cardiovascolare | Obiettivo LDL-C (ESC/EAS 2019, confermati nel 2025) |
 |---|---|
 | Molto alto (malattia coronarica, ictus, diabete con danno d'organo) | **< 55 mg/dL** e riduzione ≥ 50% rispetto al basale |
 | Alto | < 70 mg/dL e riduzione ≥ 50% |
@@ -37,14 +37,14 @@ Le **statine ad alta intensità** (atorvastatina 40–80 mg, rosuvastatina 20–
 
 | Principio attivo | Nomi commerciali (esempi) | Note |
 |---|---|---|
-| Atorvastatina | Torvast, Lipitor | Alta intensità; assunzione a qualsiasi ora |
+| Atorvastatina | Torvast | Alta intensità; assunzione a qualsiasi ora |
 | Rosuvastatina | Crestor | Alta intensità; meno interazioni CYP |
-| Simvastatina | Zocor | Moderata; assunzione serale; molte interazioni |
+| Simvastatina | Sinvacor, Zocor | Moderata; assunzione serale; molte interazioni |
 | Pravastatina | Pravaselect | Idrofila, poche interazioni |
 | Ezetimibe | Ezetrol | In associazione a statina |
 | Evolocumab, alirocumab | Repatha, Praluent | SC ogni 2–4 settimane |
 | Inclisiran | Leqvio | SC: 2 dosi iniziali a 3 mesi, poi ogni 6 mesi |
-| Acido bempedoico | Nilemdo | In associazione, in intolleranti alle statine |
+| Acido bempedoico (± ezetimibe) | Nilemdo; Nustendi | In associazione, in intolleranti alle statine |
 
 ### Atorvastatina e rosuvastatina {.pa}
 Prima scelta per l'alta intensità. Atorvastatina 10–80 mg/die; rosuvastatina 5–20 mg/die (la dose di 40 mg solo in casi selezionati e con funzione renale conservata). Rosuvastatina: dose ridotta e massima limitata nell'insufficienza renale.
@@ -62,7 +62,7 @@ Anticorpi monoclonali SC; evolocumab 140 mg ogni 2 settimane (o 420 mg al mese),
 siRNA somministrato dal personale sanitario per via SC con schema semestrale dopo le prime due dosi; riduzione di LDL-C circa 50%. Reazioni al sito di iniezione.
 
 ### Acido bempedoico {.pa}
-Per pazienti intolleranti alle statine o non a target; riduce LDL-C di circa il 15–20% e, nello studio CLEAR Outcomes (N Engl J Med 2023), alcuni eventi cardiovascolari in intolleranti alle statine. Può aumentare l'acido urico (rischio di gotta) e i tendini (rotture).
+Per pazienti intolleranti alle statine o non a target; riduce LDL-C di circa il 15–20% e, nello studio CLEAR Outcomes (N Engl J Med 2023), alcuni eventi cardiovascolari in intolleranti alle statine. L'aggiornamento ESC/EAS 2025 lo raccomanda negli intolleranti alle statine e lo considera in aggiunta nei pazienti non a target. Può aumentare l'acido urico (rischio di gotta) e il rischio di rottura tendinea.
 
 ### Fibrati e omega-3 {.pa}
 Fenofibrato per ipertrigliceridemia grave (soprattutto per il rischio di pancreatite); gemfibrozil **da evitare con le statine** (rischio di miopatia). Icosapent etile ha ridotto eventi in pazienti ad alto rischio con trigliceridi elevati (REDUCE-IT, N Engl J Med 2019); gli omega-3 non sono indicati per ridurre LDL.
@@ -72,14 +72,14 @@ Fenofibrato per ipertrigliceridemia grave (soprattutto per il rischio di pancrea
 | Situazione | Orientamento |
 |---|---|
 | Prevenzione secondaria (infarto, stent, ictus ischemico, arteriopatia) | Statina ad alta intensità subito; obiettivo LDL-C < 55 mg/dL |
-| Dopo sindrome coronarica acuta | Statina ad alta intensità precoce (anche in ricovero); se non a target dopo 4–6 settimane, **aggiungere ezetimibe**; considerare anti-PCSK9 (ESC 2023) |
+| Dopo sindrome coronarica acuta | Statina ad alta intensità precoce (anche in ricovero); se non a target dopo 4–6 settimane, **aggiungere ezetimibe**; considerare anti-PCSK9 (ESC 2023); l'aggiornamento ESC/EAS 2025 favorisce una riduzione intensiva più precoce, anche con associazione iniziale |
 | Non a target nonostante statina+ezetimibe | Anti-PCSK9 o inclisiran; acido bempedoico |
 | Intolleranza alle statine | Rivalutare, cambiare molecola o dose, ezetimibe, bempedoico, anti-PCSK9 |
 | Ipercolesterolemia familiare | Gestione specialistica; combinazioni precoci |
 | Prevenzione primaria | Secondo il rischio; eventuale terapia in base al rischio individuale |
 
 !!! nota "Nota – Rimborsabilità: Nota AIFA 13"
-    In Italia la prescrizione a carico del SSN degli ipolipemizzanti è regolata dalla **Nota AIFA 13**, che definisce in quali pazienti e con quali obiettivi di LDL-C si possono usare statine, ezetimibe e inibitori di PCSK9. Il testo vigente va consultato sul sito AIFA.
+    In Italia la prescrizione a carico del SSN degli ipolipemizzanti è regolata dalla **Nota AIFA 13** (ultima revisione formale reperita: 2019), che definisce in quali pazienti e con quali obiettivi di LDL-C si possono usare statine ed ezetimibe; anti-PCSK9, inclisiran e acido bempedoico sono rimborsati con piano terapeutico secondo specifiche determine AIFA. Gli obiettivi della Nota non coincidono necessariamente con quelli ESC: il testo vigente va consultato sul sito AIFA.
 
 ## Sicurezza
 
@@ -146,7 +146,7 @@ Sospetto: dolori muscolari intensi, urine scure, debolezza. Sospendere la statin
 
 | Elemento | Promemoria |
 |---|---|
-| Obiettivo LDL-C | < 55 mg/dL nel rischio molto alto (ESC/EAS 2019) |
+| Obiettivo LDL-C | < 55 mg/dL nel rischio molto alto (ESC/EAS 2019–2025) |
 | Alta intensità | Atorvastatina 40–80, rosuvastatina 20–40 |
 | Aggiunte | Ezetimibe → anti-PCSK9/inclisiran → acido bempedoico |
 | Controlli | Lipidi a 4–12 settimane; CK solo se sintomi |

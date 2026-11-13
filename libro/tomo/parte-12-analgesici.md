@@ -5,7 +5,7 @@
 
 ## Perché servono
 
-Il dolore è un sintomo complesso, soggettivo e va **misurato e documentato**: in Italia la **Legge 38/2010** richiede di riportare la rilevazione del dolore nella cartella clinica. Il dolore **nocicettivo** (da stimolazione dei nocicettori: somatico, viscerale) risponde bene ad analgesici e FANS; quello **neuropatico** (da danno nervoso) richiede adiuvanti (gabapentinoidi, antidepressivi). Il dolore non trattato aumenta consumo di ossigeno miocardico, tachicardia, ipertensione, complicanze respiratorie e delirium.
+Il dolore è un sintomo complesso, soggettivo e va **misurato e documentato**: in Italia la **Legge 38/2010** (art. 7) richiede di riportare la rilevazione del dolore, la tecnica antalgica, i farmaci usati, i dosaggi e il risultato nella cartella clinica. Il dolore **nocicettivo** (da stimolazione dei nocicettori: somatico, viscerale) risponde bene ad analgesici e FANS; quello **neuropatico** (da danno nervoso) richiede adiuvanti (gabapentinoidi, antidepressivi). Il dolore non trattato aumenta consumo di ossigeno miocardico, tachicardia, ipertensione, complicanze respiratorie e delirium.
 
 | Scala | Uso |
 |---|---|
@@ -42,7 +42,7 @@ La **scala OMS** (gradino 1: non oppioidi; 2: oppioidi deboli; 3: oppioidi forti
 | Paracetamolo | Tachipirina, Efferalgan | Orale, EV, rettale |
 | Ibuprofene | Brufen, Moment | Orale |
 | Diclofenac | Voltaren | Orale, IM, topico |
-| Ketorolac | Toradol | EV/IM (brevi cicli) |
+| Ketorolac | Tora-Dol | EV/IM, orale (brevi cicli) |
 | Etoricoxib, celecoxib | Arcoxia, Celebrex | Orale (COX-2) |
 | Metamizolo | Novalgina | Orale, EV |
 | Tramadolo | Contramal | Orale, EV |
@@ -51,13 +51,13 @@ La **scala OMS** (gradino 1: non oppioidi; 2: oppioidi deboli; 3: oppioidi forti
 | Ossicodone | OxyContin, Targin | Orale |
 | Buprenorfina | Transtec | Cerotto, sublinguale |
 | Tapentadolo | Palexia | Orale |
-| Naloxone | Narcan | EV, IM, intranasale |
+| Naloxone | Generici; Nyxoid, Ventizolve (spray nasale) | EV, IM, intranasale |
 
 ### Paracetamolo {.pa}
 Prima linea per dolore lieve-moderato e base dell'analgesia multimodale. Adulto: 1 g ogni 6–8 ore, **massimo 3–4 g/die** (ridurre a ≤ 3 g in fragili, malnutriti, epatopatici, alcolisti; peso < 50 kg: 15 mg/kg per dose, max 60 mg/kg/die). EV in 15 minuti. **Epatotossicità** da sovradosaggio: antidoto **N-acetilcisteina**; attenzione ai farmaci che contengono paracetamolo (doppie assunzioni).
 
 ### FANS (ibuprofene, diclofenac, ketorolac, COX-2) {.pa}
-Dolore infiammatorio, colica renale, dolore muscoloscheletrico. Ibuprofene 400 mg × 3 (didattico). Rischi: **ulcera e sanguinamento gastrointestinale, insufficienza renale acuta, ipertensione, ritenzione idrica, eventi cardiovascolari**. Ketorolac: cicli brevissimi per via parenterale (verificare l'RCP). **Controindicati in scompenso cardiaco, dopo infarto recente, e nel periodo perioperatorio di CABG**; evitare con anticoagulanti/antiaggreganti, ACE-i/sartani + diuretici.
+Dolore infiammatorio, colica renale, dolore muscoloscheletrico. Ibuprofene 400 mg × 3 (didattico). Rischi: **ulcera e sanguinamento gastrointestinale, insufficienza renale acuta, ipertensione, ritenzione idrica, eventi cardiovascolari**. Ketorolac: per via iniettabile al massimo 2 giorni, per via orale al massimo 5 giorni, solo per il dolore acuto moderato-severo (Nota Informativa Importante AIFA 2015; verificare l'RCP). **Controindicati in scompenso cardiaco, dopo infarto recente, e nel periodo perioperatorio di CABG**; evitare con anticoagulanti/antiaggreganti, ACE-i/sartani + diuretici.
 
 ### Metamizolo {.pa}
 Antidolorifico e antipiretico molto usato in Italia; **agranulocitosi** rara ma grave (segnalare febbre, mal di gola), ipotensione se EV rapido.
@@ -66,7 +66,7 @@ Antidolorifico e antipiretico molto usato in Italia; **agranulocitosi** rara ma 
 Oppioidi deboli per dolore moderato. Tramadolo: effetto serotoninergico (**sindrome serotoninergica** con SSRI/IMAO/linezolid), convulsioni, ipoglicemia, metabolismo CYP2D6 variabile. Codeina: pro-farmaco (variabilità genetica); evitata nei bambini e nell'allattamento.
 
 ### Morfina {.pa}
-Standard degli oppioidi forti. EV: **titolazione con boli piccoli** (didattico 2–3 mg ogni 5–10 minuti con rivalutazione); orale a rilascio immediato 5–10 mg ogni 4 ore. Effetti: sedazione, **depressione respiratoria**, nausea, stipsi, prurito (rilascio di istamina), ipotensione, ritenzione urinaria. **Metaboliti attivi** che si accumulano in insufficienza renale: preferire fentanil o ossicodone/buprenorfina.
+Standard degli oppioidi forti. EV: **titolazione con piccoli boli ripetuti** a intervalli brevi, rivalutando dolore, sedazione e frequenza respiratoria prima di ogni dose, secondo prescrizione e protocollo. Effetti: sedazione, **depressione respiratoria**, nausea, stipsi, prurito (rilascio di istamina), ipotensione, ritenzione urinaria. **Metaboliti attivi** che si accumulano in insufficienza renale: preferire fentanil o ossicodone/buprenorfina.
 
 ### Fentanil {.pa}
 Potente, breve durata EV (picco in 5 minuti), poca liberazione di istamina e stabilità emodinamica. Cerotto transdermico: **solo in pazienti già opioid-tolleranti**, insorgenza lenta (12–24 ore) e persistente dopo la rimozione; il calore aumenta l'assorbimento. Fentanil intranasale in pronto soccorso e pediatria.
@@ -105,7 +105,7 @@ Antagonista degli oppioidi: sovradosaggio con depressione respiratoria. Titolare
 - **Gabapentinoidi:** IRC senza aggiustamenti, abuso di oppioidi.
 
 ### Effetti avversi principali
-FANS: gastrite/ulcera, IRA, edemi, ipertensione, eventi tromboembolici. Oppioidi: **depressione respiratoria**, sedazione, nausea, vomito, **stipsi** (laxativi profilattici), prurito, ipotensione, delirio, ritenzione urinaria, dipendenza. Paracetamolo: epatotossicità.
+FANS: gastrite/ulcera, IRA, edemi, ipertensione, eventi tromboembolici. Oppioidi: **depressione respiratoria**, sedazione, nausea, vomito, **stipsi** (lassativi profilattici), prurito, ipotensione, delirio, ritenzione urinaria, dipendenza. Paracetamolo: epatotossicità.
 
 ### Interazioni
 
@@ -123,7 +123,7 @@ FANS: gastrite/ulcera, IRA, edemi, ipertensione, eventi tromboembolici. Oppioidi
     - **Verifica indipendente** di farmaco, dose, concentrazione e unità (mg o µg; **non confondere morfina e idromorfone, mg e mL**).
     - Pompe PCA e infusioni con **limiti e blocchi** programmati; segnalare ogni modifica.
     - **Scala di sedazione** (es. POSS, RASS), **frequenza respiratoria**, SpO₂ (e, se disponibile, capnografia) prima e dopo ogni dose e regolarmente in infusione.
-    - **Naloxone** e ossigeno disponibili; laxativi profilattici.
+    - **Naloxone** e ossigeno disponibili; lassativi profilattici.
     - Cerotti: un solo cerotto alla volta, sede e data scritte, rimozione del precedente.
     - Stupefacenti: registro di carico/scarico secondo la normativa.
 
@@ -155,7 +155,7 @@ Intensità (NRS), sede, carattere, fattori che aggravano o alleviano, **risposta
 Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli titrati, monitoraggio prolungato (l'effetto del naloxone è breve). In caso di **sovradosaggio di paracetamolo**: livelli ematici, **N-acetilcisteina**, centro antiveleni.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** Dopo **sternotomia** il dolore è intenso e limita tosse e respirazione. Approccio **ERAS** (consenso della Enhanced Recovery After Cardiac Surgery Society): paracetamolo a orario, blocchi regionali (parasternali, del piano dei muscoli erettori della colonna) ove disponibili, **oppioide titrato** a dosi minime efficaci, gabapentinoidi selezionati, fisioterapia respiratoria; **evitare FANS e inibitori COX-2 dopo CABG** per il rischio cardiovascolare e renale. Valutare il dolore a riposo e **durante la tosse**; sorveglianza di sedazione e di FR per consentire l'estubazione precoce.
+    **Cardiochirurgia.** Dopo **sternotomia** il dolore è intenso e limita tosse e respirazione. Approccio **ERAS** (raccomandazioni della ERAS Cardiac Society, 2019, e consenso ERAS Cardiac Society–POQI del 2023 su dolore e uso degli oppioidi): paracetamolo a orario, blocchi regionali (parasternali, del piano dei muscoli erettori della colonna) ove disponibili, **oppioide titrato** a dosi minime efficaci, gabapentinoidi solo in casi selezionati (evidenza discordante), fisioterapia respiratoria; **evitare FANS e inibitori COX-2 dopo CABG** per il rischio cardiovascolare e renale. Valutare il dolore a riposo e **durante la tosse**; sorveglianza di sedazione e di FR per consentire l'estubazione precoce.
     **Pronto soccorso.** *Dolore toracico ischemico:* l'oppioide EV può ridurre/ritardare l'assorbimento degli antiaggreganti orali e va usato solo se necessario e a boli titrati. *Frattura, trauma:* fentanil intranasale o EV, morfina EV, ketamina a basse dosi; *colica renale:* FANS; *dolore addominale:* analgesia precoce non maschera la diagnosi. Nel paziente anziano ridurre le dosi e sorvegliare delirium.
 
 ## Popolazioni speciali
@@ -176,7 +176,7 @@ Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli ti
 |---|---|
 | Paracetamolo | Max 3–4 g/die; attenzione ai prodotti combinati; antidoto NAC |
 | FANS | Mai in scompenso, post-CABG, IRC; rischio sanguinamento e renale |
-| Oppioidi | Titolare; sedazione + FR + SpO₂; laxativi; naloxone pronto |
+| Oppioidi | Titolare; sedazione + FR + SpO₂; lassativi; naloxone pronto |
 | Morfina e rene | Evitare in IRC; preferire fentanil/buprenorfina |
 | Fentanil cerotto | Solo opioid-tolleranti; effetto ritardato; no calore |
 | Naloxone | 0,04–0,1 mg EV titrati; effetto breve |
@@ -184,6 +184,6 @@ Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli ti
 - [ ] NRS/scala comportamentale registrata prima e dopo
 - [ ] Dose, unità e farmaco verificati (doppio controllo per oppioidi)
 - [ ] Frequenza respiratoria, SpO₂ e sedazione monitorate
-- [ ] Naloxone, ossigeno e laxativi disponibili
+- [ ] Naloxone, ossigeno e lassativi disponibili
 - [ ] Controindicazioni ai FANS escluse
 - [ ] Educazione e registro stupefacenti aggiornati

@@ -42,17 +42,17 @@ Orientamento didattico, valido per interventi programmati. Le decisioni sono del
 | Farmaco | Orientamento abituale |
 |---|---|
 | Beta-bloccanti | **Continuare**, anche il giorno dell'intervento; non avviare di routine |
-| ACE-i/sartani | Considerare la sospensione 24 ore prima nell'ipertensione (ESC 2022); nello scompenso decidere con il cardiologo |
+| ACE-i/sartani | Chirurgia non cardiaca: considerare la sospensione il giorno dell'intervento se non c'è scompenso (ESC 2022); nello scompenso e in cardiochirurgia decidere con cardiologo e anestesista |
 | Diuretici | Spesso sospesi la mattina dell'intervento |
 | Statine | **Continuare** |
 | Acido acetilsalicilico | Continuare nella maggior parte dei casi (in CABG sì) |
 | Clopidogrel / ticagrelor / prasugrel | Circa 5 / 3 / 7 giorni prima di chirurgia a rischio emorragico (cardiochirurgia secondo protocollo) |
 | Warfarin | Circa 5 giorni prima, INR controllato; «ponte» solo in casi selezionati |
-| DOAC | Circa 24–72 ore prima, in base a farmaco, funzione renale e rischio emorragico |
+| DOAC | Circa 24–72 ore prima (fino a 96 ore e oltre per il dabigatran con CrCl ridotta), in base a farmaco, funzione renale e rischio emorragico |
 | Antiaritmici (amiodarone, digossina) | Di norma proseguire |
 | Insulina | Adeguare le dosi (spesso basale ridotta), infusione EV in cardiochirurgia |
 | Metformina | Spesso sospesa il giorno dell'intervento o prima, secondo protocollo |
-| SGLT2i | Sospendere circa 3 giorni prima |
+| SGLT2i | Sospendere almeno 3 giorni prima (4 per l'ertugliflozin) |
 | GLP-1 agonisti | Seguire le indicazioni anestesiologiche locali |
 | Corticosteroidi cronici | **Continuare**; valutare la dose da stress |
 | Broncodilatatori/ICS | **Continuare**, inclusi quelli al mattino dell'intervento |
@@ -67,7 +67,7 @@ Orientamento didattico, valido per interventi programmati. Le decisioni sono del
 | Insulina | Tipo, unità, orario, glicemia; doppio controllo EV; mai «U» |
 | Potassio EV | Concentrazione, velocità, via, monitor; mai bolo; nessuna scorta concentrata |
 | Anticoagulanti | Doppio controllo EPN; peso, creatinina, piastrine; mai IM |
-| Oppioidi | Dose e unità (mg/µg); sedazione, FR, SpO₂; naloxone; laxativi |
+| Oppioidi | Dose e unità (mg/µg); sedazione, FR, SpO₂; naloxone; lassativi |
 | Antiaritmici EV | Monitor; pompa; K e Mg; QTc |
 | Beta-bloccanti EV | Monitor ECG/PA; mai con verapamil/diltiazem EV |
 | Vasodilatatori EV (nitroprussiato) | Pompa; PA continua; protezione dalla luce; limite di durata |
@@ -128,12 +128,12 @@ Orientamento didattico, valido per interventi programmati. Le decisioni sono del
 Il libro cita linee guida e studi per **nome e anno**. L'elenco è selettivo, non esaustivo, e non contiene riferimenti non verificabili. I dettagli completi (volume, pagine, DOI) vanno ripresi dalle fonti originali (ad esempio PubMed e i siti delle società scientifiche). Le raccomandazioni vengono aggiornate: prima di ogni uso clinico verificare la versione in vigore.
 
 ### Linee guida e documenti di riferimento
-- **ESC:** sindromi coronariche acute (2023); sindromi coronariche croniche (2024); fibrillazione atriale (2024); ipertensione arteriosa (2024); malattie arteriose periferiche e aortiche (2024); scompenso cardiaco (2021 con aggiornamento 2023); aritmie ventricolari e morte cardiaca improvvisa (2022); chirurgia non cardiaca (2022); tachicardie sopraventricolari (2020); endocardite (2023); diabete e malattie cardiovascolari (2023); dislipidemie ESC/EAS (2019, con aggiornamenti successivi da verificare); gravidanza e malattie cardiovascolari (2018, con aggiornamento successivo da verificare).
-- **Altre:** Surviving Sepsis Campaign (2021); GOLD (BPCO) e GINA (asma) nelle edizioni correnti; Standard italiani per la cura del diabete mellito (AMD-SID) e ADA Standards of Care; ESGE sulle emorragie digestive alte; consenso Maastricht VI su *Helicobacter pylori*; linee guida ERAS in cardiochirurgia; classificazione AWaRe dell'OMS.
-- **Normativa e fonti italiane:** Legge 38/2010 (cure palliative e terapia del dolore); Note AIFA applicabili (tra cui 1, 13, 48, 97: verificare numero e testo vigente); Raccomandazioni del Ministero della Salute sulla sicurezza della terapia farmacologica; RCP dei singoli medicinali nella Banca Dati Farmaci AIFA; Rete Nazionale di Farmacovigilanza.
+- **ESC:** sindromi coronariche acute (2023); sindromi coronariche croniche (2024); fibrillazione atriale (2024); ipertensione arteriosa (2024); malattie arteriose periferiche e aortiche (2024); scompenso cardiaco (2026, che sostituisce le edizioni 2021 e 2023); malattia renale cronica e malattie cardiovascolari, con ERA (2026); riabilitazione cardiologica (2026); aritmie ventricolari e morte cardiaca improvvisa (2022); chirurgia non cardiaca (2022); tachicardie sopraventricolari (2019); endocardite (2023); diabete e malattie cardiovascolari (2023); dislipidemie ESC/EAS (2019, con aggiornamento mirato 2025); gravidanza e malattie cardiovascolari (2025).
+- **Altre:** Surviving Sepsis Campaign (2026); European Resuscitation Council (2025); GOLD (2026) e GINA (2025), a revisione annuale; linea guida SID-AMD sulla terapia del diabete di tipo 2 (Sistema Nazionale Linee Guida 2021, aggiornamento 2023) e ADA Standards of Care; consenso internazionale sulle crisi iperglicemiche dell'adulto (2024); NICE CG174 sui fluidi EV; linee guida europee sull'iponatriemia (2014); ESGE sulle emorragie digestive alte (2021); consenso Maastricht VI su *Helicobacter pylori* (2022); ERAS Cardiac Society (2019; consenso con POQI 2023); classificazione AWaRe dell'OMS.
+- **Normativa e fonti italiane:** Legge 38/2010, art. 7 (rilevazione del dolore in cartella); Note AIFA 1, 13, 48, 97 (aggiornata nel 2026), 99 e 100; Raccomandazioni del Ministero della Salute n. 1 (2008), 7 (2008), 12 (2010), 17 (2014), 18 (2018) e 19 (2019); Nota Informativa Importante AIFA sul ketorolac (2015); decisione della Commissione europea sugli amidi idrossietilici (2022); RCP dei singoli medicinali ed elenco delle confezioni autorizzate nella Banca Dati Farmaci AIFA; Rete Nazionale di Farmacovigilanza.
 
 ### Studi citati
-CIBIS-II, MERIT-HF, COPERNICUS, SENIORS, POISE, REDUCE-AMI, ABYSS, REBOOT (beta-bloccanti) · PARADIGM-HF (ARNI) · AUGUSTUS, BRIDGE (antitrombotici) · CAST (antiaritmici) · IMPROVE-IT, FOURIER, ODYSSEY OUTCOMES, CLEAR Outcomes, REDUCE-IT, SAMSON (ipolipemizzanti) · SMART (cristalloidi) · EMPA-REG OUTCOME, DAPA-HF, EMPEROR-Reduced, SUSTAIN-6, LEADER (ipoglicemizzanti) · ADRENAL, APROCCHSS, RECOVERY, DECS, SIRS (corticosteroidi).
+CIBIS-II, MERIT-HF, COPERNICUS, SENIORS, POISE, REDUCE-AMI, ABYSS, REBOOT, BETAMI-DANBLOCK (beta-bloccanti) · PARADIGM-HF (ARNI) · AUGUSTUS, BRIDGE (antitrombotici) · CAST (antiaritmici) · IMPROVE-IT, FOURIER, ODYSSEY OUTCOMES, CLEAR Outcomes, REDUCE-IT, SAMSON (ipolipemizzanti) · SMART (cristalloidi) · EMPA-REG OUTCOME, DAPA-HF, EMPEROR-Reduced, SUSTAIN-6, LEADER (ipoglicemizzanti) · ADRENAL, APROCCHSS, RECOVERY, DECS, SIRS (corticosteroidi) · REVISE (profilassi dell'ulcera da stress).
 
 !!! nota "Nota – Verifica prima dell'uso"
     I contenuti riflettono lo stato delle linee guida e dei prodotti alla data di redazione. Nomi commerciali, dosi, Note AIFA e raccomandazioni possono essere cambiati. L'uso corretto del libro prevede di confrontare i dati con le fonti originali e con i protocolli della propria struttura.

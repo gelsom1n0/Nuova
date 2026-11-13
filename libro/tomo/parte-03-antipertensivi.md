@@ -31,26 +31,27 @@ Le linee guida ESC 2024 classificano la pressione misurata in ambulatorio in tre
 
 ## Molecole
 
-Nomi commerciali: esempi indicativi, da verificare nella Banca Dati AIFA.
+Nomi commerciali: esempi controllati sull'elenco AIFA delle confezioni autorizzate (novembre 2026); la commercializzazione effettiva va verificata nella Banca Dati Farmaci AIFA.
 
 | Principio attivo | Nomi commerciali (esempi) | Classe | Eliminazione |
 |---|---|---|---|
 | Ramipril | Triatec | ACE-i | Renale (metaboliti) |
 | Lisinopril | Zestril | ACE-i | Renale |
-| Enalapril | Reniten | ACE-i | Renale |
+| Enalapril | Enapren | ACE-i | Renale |
 | Perindopril | Coversyl | ACE-i | Renale |
-| Valsartan | Tareg, Diovan | Sartano | Biliare/fecale |
-| Losartan | Cozaar | Sartano | Epatica |
-| Candesartan, telmisartan | Atacand, Micardis | Sartano | Epatica/biliare |
+| Valsartan | Tareg | Sartano | Biliare/fecale |
+| Losartan | Lortaan | Sartano | Epatica |
+| Candesartan, telmisartan | Ratacand, Blopress; Micardis | Sartano | Epatica/biliare |
 | Sacubitril/valsartan | Entresto | ARNI | Renale/epatica |
 | Amlodipina | Norvasc | Ca-antagonista DHP | Epatica |
-| Lercanidipina | Zanidip | Ca-antagonista DHP | Epatica |
+| Lercanidipina | Zanedip, Lercadip | Ca-antagonista DHP | Epatica |
 | Verapamil, diltiazem | Isoptin, Altiazem | Ca-antagonista non DHP | Epatica |
 | Idroclorotiazide | Esidrex | Tiazidico | Renale |
 | Clortalidone, indapamide | Igroton, Natrilix | Simil-tiazidico | Renale/epatica |
 | Furosemide | Lasix | Dell'ansa | Renale |
 | Spironolattone, eplerenone | Aldactone, Inspra | Antialdosteronico | Epatica/renale |
 | Doxazosina | Cardura | Alfa-bloccante | Epatica |
+| Urapidil | Ebrantil | Alfa-bloccante (EV) | Epatica/renale |
 
 ### ACE-inibitori (ramipril, lisinopril, enalapril, perindopril) {.pa}
 Protezione cardiovascolare e renale. Ramipril didattico 2,5–10 mg/die (scompenso: avvio 1,25–2,5 mg). Iniziare a dosi basse, soprattutto in anziani, ipovolemici o in terapia diuretica. Tosse secca nel 5–20% circa; **angioedema** raro ma grave. Controindicati in gravidanza.
@@ -151,7 +152,7 @@ ACE-i: tosse, ipotensione alla prima dose, iperpotassiemia, peggioramento della 
 
 ### Crisi ipertensive
 - **Urgenza** (PA molto alta, senza danno d'organo acuto): riduzione graduale in ore o giorni con farmaci orali; il calo rapido è dannoso.
-- **Emergenza** (con danno d'organo acuto: encefalopatia, edema polmonare, sindrome coronarica acuta, dissezione aortica, eclampsia): riduzione controllata per via EV in ambiente monitorato. Nell'emergenza ipertensiva si usano labetalolo, nicardipina, urapidil, nitroglicerina (anche nell'edema polmonare e nell'ischemia) o nitroprussiato; nella dissezione aortica si abbassano rapidamente frequenza e PA sistolica (obiettivo didattico < 120 mmHg), iniziando dal beta-bloccante.
+- **Emergenza** (con danno d'organo acuto: encefalopatia, edema polmonare, sindrome coronarica acuta, dissezione aortica, eclampsia): riduzione controllata per via EV in ambiente monitorato. Nell'emergenza ipertensiva si usano labetalolo, urapidil, clevidipina, nitroglicerina (anche nell'edema polmonare e nell'ischemia) o, dove disponibili, nicardipina EV e nitroprussiato (non presenti nell'elenco AIFA delle confezioni autorizzate a novembre 2026: di norma si ricorre all'importazione; verificare con la farmacia); nella dissezione aortica si abbassano rapidamente frequenza e PA sistolica (obiettivo didattico < 120 mmHg), iniziando dal beta-bloccante.
 
 ### Angioedema da ACE-inibitore
 Sospendere il farmaco, proteggere le vie aeree (ossigeno, valutazione dell'anestesista/ORL), su prescrizione adrenalina, corticosteroidi e antistaminici; l'adrenalina può essere poco efficace perché il meccanismo è mediato dalla bradichinina.
@@ -160,7 +161,7 @@ Sospendere il farmaco, proteggere le vie aeree (ossigeno, valutazione dell'anest
 Sospendere i farmaci causali, ECG, valutazione medica; il trattamento (calcio EV, insulina con glucosio, β2-agonisti, resine o chelanti, dialisi) è descritto nella Parte 8.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** Nel pre-operatorio la **sospensione di ACE-inibitori/sartani 24 ore prima** di un intervento maggiore è considerata nei pazienti ipertesi (ESC 2022 sulla chirurgia non cardiaca); nell'HFrEF la decisione va individualizzata. Dopo CEC è frequente la **vasoplegia** (PA bassa con resistenze basse): si usano noradrenalina e vasopressina. Dopo CABG con arteria radiale si utilizzano vasodilatatori (nitrati, calcio-antagonisti) contro lo spasmo. Diuretici dell'ansa EV per il sovraccarico post-CEC con controllo di K e Mg.
+    **Cardiochirurgia.** Per la chirurgia non cardiaca le linee guida ESC 2022 suggeriscono di **considerare la sospensione di ACE-inibitori/sartani il giorno dell'intervento** nei pazienti senza scompenso, per prevenire l'ipotensione (evidenza debole); in cardiochirurgia la gestione segue il protocollo del centro e nell'HFrEF la decisione va individualizzata. Dopo CEC è frequente la **vasoplegia** (PA bassa con resistenze basse): si usano noradrenalina e vasopressina. Dopo CABG con arteria radiale si utilizzano vasodilatatori (nitrati, calcio-antagonisti) contro lo spasmo. Diuretici dell'ansa EV per il sovraccarico post-CEC con controllo di K e Mg.
     **Pronto soccorso.** Pressione molto alta senza sintomi: ripetere la misura, escludere cause (dolore, ansia, scarsa aderenza), non abbassare rapidamente. Con sintomi (cefalea, deficit neurologici, dolore toracico, dispnea) trattare come emergenza ipertensiva e cercare il danno d'organo.
 
 ## Popolazioni speciali
@@ -183,7 +184,7 @@ Sospendere i farmaci causali, ECG, valutazione medica; il trattamento (calcio EV
 | Controlli | K e creatinina a 1–2 settimane da avvio/aumento |
 | Triplice a rischio | ACE-i/sartano + diuretico + FANS |
 | Gravidanza | Evitare ACE-i, sartani, ARNI |
-| Emergenza | Labetalolo, nicardipina, urapidil, nitrati in ambiente monitorato |
+| Emergenza | Labetalolo, urapidil, nitrati, clevidipina in ambiente monitorato |
 
 - [ ] PA e frequenza misurate (seduto e in piedi se a rischio)
 - [ ] Potassio e creatinina recenti

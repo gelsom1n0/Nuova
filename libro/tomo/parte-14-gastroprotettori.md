@@ -1,7 +1,7 @@
 # Gastroprotettori
 
 !!! obiettivi "In questa parte"
-    Inibitori di pompa protonica, antagonisti H2, antiacidi, sucralfato e misoprostolo: indicazioni, uso appropriato (Note AIFA), rischi dell'uso prolungato, interazioni (clopidogrel), emorragia digestiva e profilassi dell'ulcera da stress in area critica e cardiochirurgica. Ancorata a ESC 2023 (gastroprotezione con terapia antitrombotica), consenso Maastricht VI per *H. pylori* e linee guida ESGE sulle emorragie digestive (da verificare nelle versioni correnti). Dosi didattiche.
+    Inibitori di pompa protonica, antagonisti H2, antiacidi, sucralfato e misoprostolo: indicazioni, uso appropriato (Note AIFA), rischi dell'uso prolungato, interazioni (clopidogrel), emorragia digestiva e profilassi dell'ulcera da stress in area critica e cardiochirurgica. Ancorata a ESC 2023–2024 (gastroprotezione con terapia antitrombotica), consenso Maastricht VI (2022) per *H. pylori*, linee guida ESGE 2021 sulle emorragie digestive alte e Note AIFA 1 e 48. Dosi didattiche.
 
 ## Perché servono
 
@@ -9,7 +9,7 @@ La mucosa gastrica è esposta ad acido cloridrico e pepsina; la difesa dipende d
 
 !!! chiave "Punti chiave"
     - Gli **inibitori di pompa (IPP)** sono i gastroprotettori più efficaci e più usati.
-    - Nei pazienti in **doppia antiaggregazione** o anticoagulati con altri antitrombotici, un IPP è raccomandato (ESC 2023).
+    - Nei pazienti in terapia antitrombotica (in particolare doppia antiaggregazione o anticoagulante più antiaggregante) con **aumentato rischio di sanguinamento gastrointestinale**, un IPP è raccomandato (ESC 2023).
     - L'uso **cronico senza indicazione** espone a effetti avversi: rivalutare periodicamente.
 
 ## Meccanismo e classificazione
@@ -42,7 +42,7 @@ La mucosa gastrica è esposta ad acido cloridrico e pepsina; la difesa dipende d
 Dose didattica: 20–40 mg/die, **30–60 minuti prima della colazione** (a stomaco vuoto per la massima efficacia). EV: pantoprazolo/esomeprazolo 40 mg. Non frantumare le compresse gastroresistenti; le capsule possono essere aperte e disperse su cibo morbido (non masticare i granuli) o somministrate in sospensione per sondino secondo istruzioni. Il **pantoprazolo** ha minori interazioni; **omeprazolo ed esomeprazolo** riducono l'effetto del **clopidogrel** (CYP2C19).
 
 ### Antagonisti H2 {.pa}
-Famotidina 20–40 mg × 1–2: meno potente degli IPP; utile per sintomi notturni o come alternativa. La **ranitidina** è stata ritirata dal commercio nel 2020 per contaminazione da NDMA. Effetti: confusione negli anziani e nell'IRC, interazioni (cimetidina con warfarin, teofillina, fenitoina).
+Famotidina 20–40 mg × 1–2: meno potente degli IPP; utile per sintomi notturni o come alternativa. La **ranitidina** è stata sospesa nell'Unione europea nel 2020 (EMA) per la presenza di impurezze nitrosamminiche (NDMA). Effetti: confusione negli anziani e nell'IRC, interazioni (cimetidina con warfarin, teofillina, fenitoina).
 
 ### Antiacidi e alginati {.pa}
 Sollievo rapido e breve. Idrossidi di alluminio e magnesio: possono dare stipsi (Al) o diarrea (Mg); attenzione nell'insufficienza renale (accumulo). **Distanziare di almeno 2 ore** da fluorochinoloni, tetracicline, levotiroxina, ferro e digossina (ridotto assorbimento).
@@ -63,9 +63,9 @@ Procinetici e antiemetici. **Domperidone**: rischio di QT lungo e aritmie; **met
 | Malattia da reflusso (GERD), esofagite | IPP 4–8 settimane; poi la dose minima efficace |
 | Ulcera gastrica/duodenale | IPP; eradicazione di *H. pylori* se positivo (Maastricht VI) |
 | Profilassi con FANS in soggetti a rischio (età > 65, ulcera pregressa, anticoagulanti, steroidi) | IPP (**Nota AIFA 1**) |
-| Doppia antiaggregazione o antiaggregante + anticoagulante | **IPP raccomandato** (ESC 2023), preferibilmente pantoprazolo con clopidogrel |
+| Doppia antiaggregazione o antiaggregante + anticoagulante | **IPP raccomandato** se aumentato rischio di sanguinamento gastrointestinale (ESC 2023), preferibilmente pantoprazolo con clopidogrel |
 | Emorragia digestiva alta | IPP EV ad alte dosi dopo/prima dell'endoscopia secondo protocollo (ESGE) |
-| Profilassi dell'ulcera da stress in area critica | Pazienti ad alto rischio: ventilazione > 48 ore, coagulopatia, shock; sospendere quando il rischio cessa |
+| Profilassi dell'ulcera da stress in area critica | Pazienti ad alto rischio: ventilazione > 48 ore, coagulopatia, shock; sospendere quando il rischio cessa (nello studio REVISE, N Engl J Med 2024, il pantoprazolo ha ridotto i sanguinamenti nei ventilati senza effetto sulla mortalità) |
 | Dispepsia funzionale | Test e trattamento di *H. pylori*; IPP per cicli brevi |
 
 !!! nota "Nota – Nota AIFA 48 e durata degli IPP"
