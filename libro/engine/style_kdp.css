@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Stile KDP – "Basi di farmacologia clinica"
+   Brossura 6 x 9 in · interno bianco e nero · pagine affiancate (margini speculari)
+   Margini: interno 0,7 in · esterno 0,5 in · alto/basso 0,75 in (da riverificare col calcolatore KDP)
+   Corpo Gelasio 10 pt, interlinea 1,4. Solo nero e scala di grigi.
+   ========================================================================== */
+
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: normal; src: url("fonts/gelasio-latin-400-normal.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: italic; src: url("fonts/gelasio-latin-400-italic.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 700; font-style: normal; src: url("fonts/gelasio-latin-700-normal.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 700; font-style: italic; src: url("fonts/gelasio-latin-700-italic.woff2"); }
+
+:root { --k: #000; --g1: #f1f1f1; --g2: #e2e2e2; --g3: #8a8a8a; --g4: #555; }
+
+/* ---------- Pagine (6 x 9 in) ---------- */
+@page { size: 6in 9in; }
+@page :right { margin: 0.75in 0.5in 0.75in 0.7in; }
+@page :left  { margin: 0.75in 0.7in 0.75in 0.5in; }
+
+/* intestazioni: pagina sinistra = titolo libro, destra = Parte corrente; numero agli angoli esterni */
+@page main:left  {
+  counter-increment: body;
+  @top-left { content: string(booktitle); font: 7.5pt Georgia, Gelasio, "Liberation Serif", serif; color: var(--g4); padding-bottom: 3pt; border-bottom: 0.4pt solid var(--g3); vertical-align: bottom; }
+  @bottom-left { content: counter(body); font: 8.5pt Georgia, Gelasio, "Liberation Serif", serif; }
+}
+@page main:right {
+  counter-increment: body;
+  @top-right { content: string(partname); font: italic 7.5pt Georgia, Gelasio, "Liberation Serif", serif; color: var(--g4); padding-bottom: 3pt; border-bottom: 0.4pt solid var(--g3); vertical-align: bottom; }
+  @bottom-right { content: counter(body); font: 8.5pt Georgia, Gelasio, "Liberation Serif", serif; }
+}
+@page front:left  { @bottom-left  { content: counter(page, lower-roman); font: 8.5pt Georgia, Gelasio, serif; } }
+@page front:right { @bottom-right { content: counter(page, lower-roman); font: 8.5pt Georgia, Gelasio, serif; } }
+@page titlepage { }
+@page back:left  { @bottom-left  { content: counter(page); font: 8.5pt Georgia, Gelasio, serif; } }
+@page back:right { @bottom-right { content: counter(page); font: 8.5pt Georgia, Gelasio, serif; } }
+
+.titlepage { page: titlepage; }
+.front { page: front; }
+.main  { page: main; }
+.back  { page: back; }
+
+body {
+  font-family: Georgia, Gelasio, "Liberation Serif", "DejaVu Serif", serif;
+  font-size: 10pt; line-height: 1.4; color: var(--k);
+  text-align: justify; hyphens: auto; hyphenate-limit-chars: 6 3 3;
+  orphans: 3; widows: 3;
+  string-set: booktitle "Basi di farmacologia clinica";
+}
+p { margin: 0 0 5pt; }
+strong { font-weight: 700; }
+sub, sup { line-height: 0; font-size: 0.75em; }
+
+/* ---------- Frontespizio e copyright ---------- */
+.titlepage { text-align: center; hyphens: none; padding-top: 1.6in; }
+.titlepage .rule { width: 1.2in; border-top: 1.4pt solid var(--k); margin: 0 auto 0.35in; }
+.titlepage h1.title { font-size: 30pt; line-height: 1.12; margin: 0 0 0.25in; font-weight: 700; }
+.titlepage .subtitle { font-size: 12.5pt; font-style: italic; line-height: 1.4; margin: 0 0.2in 0.5in; }
+.titlepage .edition { font-size: 9.5pt; letter-spacing: 0.12em; text-transform: uppercase; color: var(--g4); }
+.copyright { page-break-before: always; font-size: 8.8pt; line-height: 1.45; text-align: left; hyphens: none; padding-top: 2.2in; }
+.copyright p { margin-bottom: 4pt; }
+
+.front h2.plain { break-before: page; font-size: 15pt; margin: 0 0 8pt; padding-bottom: 4pt; border-bottom: 1.4pt solid var(--k); text-align: left; hyphens: none; bookmark-level: 1; }
+.front h3 { font-size: 10.5pt; margin: 10pt 0 3pt; text-align: left; hyphens: none; }
+
+/* ---------- Indice ---------- */
+.toc { text-align: left; hyphens: none; font-size: 8.8pt; line-height: 1.3; }
+.toc a { color: inherit; text-decoration: none; display: flex; }
+.toc .t { flex: 1; }
+.toc .t::after { content: leader('.'); padding-left: 3pt; color: var(--g4); }
+.toc .tp { font-weight: 700; font-size: 9.6pt; margin-top: 6pt; padding-top: 3pt; border-top: 0.5pt solid var(--g3); }
+.toc .tp .t::after { content: leader(' '); }
+.toc .tc { padding-left: 12pt; }
+.toc .tc .n { display: inline-block; width: 21pt; color: var(--g4); }
+.toc .pg { padding-left: 4pt; }
+
+/* ---------- Intestazioni corpo ---------- */
+h1.part { break-before: page; margin: 0 0 10pt; padding: 8pt 0 7pt; border-top: 3pt solid var(--k); border-bottom: 0.8pt solid var(--k); text-align: left; hyphens: none; line-height: 1.12; bookmark-level: 1; bookmark-label: content(text); }
+h1.part .plabel { display: block; font-size: 8.5pt; font-weight: 400; letter-spacing: 0.26em; text-transform: uppercase; color: var(--g4); margin-bottom: 3pt; }
+h1.part .ptitle { display: block; font-size: 19pt; font-weight: 700; }
+h1.plain-index { break-before: page; margin: 0 0 8pt; padding: 8pt 0 7pt; border-top: 3pt solid var(--k); border-bottom: 0.8pt solid var(--k); font-size: 19pt; text-align: left; hyphens: none; }
+h2.sezione { margin: 14pt 0 5pt; padding-top: 5pt; border-top: 0.8pt solid var(--k); font-size: 12.5pt; line-height: 1.2; text-align: left; hyphens: none; break-after: avoid; break-inside: avoid; bookmark-level: 2; bookmark-label: content(text); }
+h2.sezione .snum { font-weight: 400; color: var(--g4); margin-right: 5pt; }
+h1.part + .admonition + h2.sezione, h1.part + h2.sezione { margin-top: 4pt; }
+h3 { margin: 8pt 0 2pt; font-size: 10.4pt; line-height: 1.25; font-weight: 700; text-align: left; hyphens: none; break-after: avoid; }
+h3.pa { margin-top: 9pt; border-bottom: 0.4pt solid var(--g3); padding-bottom: 1pt; }
+h4 { margin: 6pt 0 2pt; font-size: 10pt; font-style: italic; font-weight: 700; break-after: avoid; text-align: left; }
+ul, ol { margin: 0 0 5pt; padding-left: 14pt; }
+li { margin: 0 0 2pt; }
+li > p { margin-bottom: 2pt; }
+li.check { list-style: none; margin-left: -12pt; }
+.cb { display: inline-block; width: 6.5pt; height: 6.5pt; border: 0.8pt solid var(--k); margin-right: 5pt; vertical-align: -0.5pt; }
+
+/* ---------- Tabelle ---------- */
+table { width: 100%; border-collapse: collapse; margin: 5pt 0 8pt; font-size: 8.4pt; line-height: 1.28; text-align: left; hyphens: manual; }
+th, td { border: 0.5pt solid var(--g4); padding: 2.6pt 4pt; vertical-align: top; }
+th { background: var(--g2); font-weight: 700; }
+tr { break-inside: avoid; }
+thead { display: table-header-group; }
+
+/* ---------- Riquadri (distinti per forma, non per colore) ---------- */
+.admonition { margin: 6pt 0 8pt; padding: 5pt 8pt 2pt; font-size: 9.2pt; line-height: 1.35; text-align: left; break-inside: auto; orphans: 2; widows: 2; }
+.admonition p { margin-bottom: 4pt; }
+.admonition ul, .admonition ol { margin-bottom: 4pt; }
+.admonition-title { margin: 0 0 2pt !important; font-weight: 700; font-size: 8.4pt; letter-spacing: 0.08em; text-transform: uppercase; }
+
+.admonition.nota { background: var(--g1); border: 1.2pt solid var(--k); }
+.admonition.chiave { background: #fff; border-left: 3pt solid var(--k); border-top: 0.4pt solid var(--g3); border-bottom: 0.4pt solid var(--g3); }
+.admonition.attenzione { background: #fff; border: 1.5pt double var(--k); }
+.admonition.rischio { background: #fff; border: 1.5pt solid var(--k); padding-top: 0; }
+.admonition.rischio .admonition-title { background: var(--k); color: #fff; margin: 0 -8pt 4pt !important; padding: 2.5pt 8pt; }
+.admonition.focus { background: #fff; border: 1pt dashed var(--k); }
+.admonition.focus .admonition-title { text-decoration: underline; }
+.admonition.obiettivi { background: #fff; border: 0.8pt solid var(--k); }
+.dichiarazione { margin: 10pt 0 2pt; padding: 7pt 10pt 2pt; border: 1.5pt solid var(--k); font-size: 9pt; line-height: 1.4; break-inside: auto; }
+
+/* ---------- Indice analitico dei principi attivi ---------- */
+.pa-index { columns: 2; column-gap: 14pt; font-size: 8.6pt; line-height: 1.32; text-align: left; hyphens: none; }
+.pa-index .let { font-weight: 700; font-size: 10pt; margin: 6pt 0 2pt; border-bottom: 0.4pt solid var(--g3); break-after: avoid; }
+.pa-index a { color: inherit; text-decoration: none; display: flex; }
+.pa-index .t { flex: 1; }
+.pa-index .t::after { content: leader('.'); padding-left: 2pt; color: var(--g4); }
+
+.front h2.plain.cont { break-before: auto; margin-top: 16pt; }
