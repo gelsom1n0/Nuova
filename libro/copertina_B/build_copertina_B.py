@@ -162,7 +162,7 @@ def rgb_a_cmyk(rgb: np.ndarray, nero="ricco") -> np.ndarray:
 # ---------------------------------------------------------------------------
 # Font
 # ---------------------------------------------------------------------------
-PESI = ("Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Italic")
+PESI = ("Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Italic", "LightItalic")
 
 
 def registra_font():
@@ -307,7 +307,7 @@ STILI = {
     "C": (arte.Stile(nome="C", forma="compressa", n_facce=1500,
                      rotazioni=(("x", 38.0), ("z", -20.0)), dissolvenza=0.48,
                      direzione_dissolvenza=(1.0, 0.35), reticolo=1.0, molecole=14,
-                     particelle=1800, seme=5), (3.0, 6.95), 4.5, "sigmoide"),
+                     particelle=1800, seme=5), (3.0, 6.95), 4.5, "pk_dose"),
 }
 
 
@@ -368,6 +368,43 @@ def motivo(variante, lato, trim_w, L: LayoutPrima):
         out["linee"].append((pts, False))
         out["linee"] += [(a_, True) for a_ in anelli]
         out["punti"] = [(x, y, 0.018) for x, y in nodi]
+    elif tipo == "pk_dose":
+        # curva concentrazione-tempo dopo UNA dose orale (Bateman):
+        #   C(t) = A · (e^(-ke·t) - e^(-ka·t))
+        # la dose (D) è nella compressa; il picco cade dove la compressa si
+        # dissolve nel reticolo; a destra la fase di eliminazione.
+        yb = BLEED + L.y_ecg + 0.45
+        out["y_base"] = yb
+        if lato == "prima":
+            xd, ka, ke, amp = 3.3, 1.6, 0.55, 1.35
+            xs = np.arange(0.0, x1 + 0.004, 0.004)
+            t = np.clip(xs - xd, 0, None)
+            c = np.where(xs > xd, np.exp(-ke * t) - np.exp(-ka * t), 0.0)
+            tmax = np.log(ka / ke) / (ka - ke)
+            cmax = np.exp(-ke * tmax) - np.exp(-ka * tmax)
+            y = yb - amp * c / cmax
+            out["linee"].append((np.stack([xs, y], 1), False))
+            Y = lambda cc: yb - amp * cc / cmax
+            Cf = lambda tt: np.exp(-ke * tt) - np.exp(-ka * tt)
+            # t½ in fase di eliminazione: da t1 a t1 + ln2/ke la concentrazione si dimezza
+            t1 = tmax + 0.6
+            t2 = t1 + np.log(2) / ke
+            mec = 0.35 * cmax
+            # attraversamenti della MEC (inizio e fine dell'effetto)
+            tt = np.linspace(0, 8, 8001)
+            sopra = Cf(tt) >= mec
+            on, off = tt[np.argmax(sopra)], tt[len(sopra) - 1 - np.argmax(sopra[::-1])]
+            out["pk"] = {
+                "yb": yb, "xd": xd,
+                "picco": (xd + tmax, Y(cmax)),
+                "t12": ((xd + t1, Y(Cf(t1))), (xd + t2, Y(Cf(t2)))),
+                "mec_y": Y(mec), "onset": (xd + on, Y(mec)), "offset": (xd + off, Y(mec)),
+                "x_fine": trim_w - 0.52,
+            }
+            out["punti"] = [(xd + tmax, Y(cmax), 0.026), (xd + t1, Y(Cf(t1)), 0.022),
+                            (xd + t2, Y(Cf(t2)), 0.022), (xd + on, Y(mec), 0.018), (xd + off, Y(mec), 0.018)]
+        else:
+            out["linee"].append((np.array([[0.0, yb], [x1, yb]]), False))
     else:  # sigmoide
         yb = BLEED + L.y_ecg + 0.45
         out["y_base"] = yb
@@ -522,6 +559,148 @@ def ecg_vettoriale(c, pal, pts, ox, H_in, colore, larg, sfuma_da=None, sfuma_a=N
         c.drawPath(p, stroke=1, fill=0)
 
 
+# ---------------------------------------------------------------------------
+# Notazione farmacologica (vettoriale, corsivo light, minimale)
+# ---------------------------------------------------------------------------
+FONT_F = "Montserrat-LightItalic"
+COL_ETICHETTE = "#A9DFF2"     # etichette sulla curva
+COL_GUIDE = "#3E7F9C"         # guide tratteggiate
+COL_FORMULE = "#17242E"       # formule di sfondo: appena percettibili sul nero
+
+
+def _f_larghezza(items, size):
+    w = 0.0
+    for it in items:
+        if isinstance(it, str):
+            w += larghezza(it, FONT_F, size)
+        elif it[0] == "sub":
+            w += larghezza(it[1], FONT_F, max(CORPO_MIN, size * 0.66))
+        elif it[0] == "sup":
+            w += _f_larghezza(it[1], max(CORPO_MIN, size * 0.66))
+        elif it[0] == "frac":
+            w += max(_f_larghezza(it[1], size * 0.9), _f_larghezza(it[2], size * 0.9)) + size * 0.25
+    return w
+
+
+def formula_alone(c, pal, items, x, y, size, align="left", colore=None, alone=0.55):
+    """Etichetta leggibile sopra la maglia luminosa: lo stesso testo ripetuto in
+    nero con piccoli spostamenti (alone sottile), poi il testo chiaro sopra.
+    Vettoriale, nessuna trasparenza."""
+    c.setFillColor(pal(NERO))
+    c.setStrokeColor(pal(NERO))
+    for k in range(12):
+        a_ = 2 * np.pi * k / 12
+        formula(c, items, x + alone * np.cos(a_), y + alone * np.sin(a_), size, align)
+    c.setFillColor(pal(colore or COL_ETICHETTE))
+    c.setStrokeColor(pal(colore or COL_ETICHETTE))
+    formula(c, items, x, y, size, align)
+
+
+def _testo(c, x, y, t, font, size):
+    c.setFont(font, size)
+    c.drawString(x, y, t)
+
+
+def formula(c, items, x, y, size, align="left"):
+    """Mini-impaginatore: testo, ("sub", s), ("sup", [..]), ("frac", [num], [den]).
+    y = linea di base. Pedici e apici mai sotto il corpo minimo KDP (7 pt)."""
+    if align == "center":
+        x -= _f_larghezza(items, size) / 2
+    for it in items:
+        if isinstance(it, str):
+            _testo(c, x, y, it, FONT_F, size)
+            x += larghezza(it, FONT_F, size)
+        elif it[0] == "sub":
+            ss = max(CORPO_MIN, size * 0.66)
+            _testo(c, x, y - size * 0.18, it[1], FONT_F, ss)
+            x += larghezza(it[1], FONT_F, ss)
+        elif it[0] == "sup":
+            ss = max(CORPO_MIN, size * 0.66)
+            x = formula(c, it[1], x, y + size * 0.42, ss)
+        elif it[0] == "frac":
+            fs = size * 0.9
+            wn, wd = _f_larghezza(it[1], fs), _f_larghezza(it[2], fs)
+            wf = max(wn, wd) + size * 0.25
+            asse = y + size * 0.30
+            c.setLineWidth(max(0.4, size * 0.04))
+            c.line(x, asse, x + wf, asse)
+            formula(c, it[1], x + (wf - wn) / 2, asse + fs * 0.28, fs)
+            formula(c, it[2], x + (wf - wd) / 2, asse - fs * 0.92, fs)
+            x += wf
+    return x
+
+
+FORMULE_PRIMA = [   # (x dal rifilo sinistro della prima, y dall'alto del rifilo, corpo, formula)
+    (0.70, 4.42, 13, ["C(t) = C", ("sub", "0"), " · e", ("sup", ["\u2212k", ("sub", "e"), "·t"])]),
+    (4.25, 4.62, 12, ["t", ("sub", "½"), " = ", ("frac", ["0,693 · V", ("sub", "d")], ["CL"])]),
+    (0.70, 9.30, 13, ["AUC = ", ("frac", ["F · D"], ["CL"])]),
+    (3.70, 9.36, 12, ["C", ("sub", "ss"), " = ", ("frac", ["k", ("sub", "0")], ["CL"])]),   # infusione continua
+]
+FORMULE_QUARTA = [  # (x dal rifilo sinistro della quarta, y dall'alto del rifilo, corpo, formula)
+    (0.68, 5.95, 13, ["E = ", ("frac", ["E", ("sub", "max"), " · C"], ["EC", ("sub", "50"), " + C"])]),
+    (3.70, 6.55, 12, ["V", ("sub", "d"), " = ", ("frac", ["D"], ["C", ("sub", "0")])]),
+    (1.55, 7.10, 12, ["k", ("sub", "e"), " = ", ("frac", ["ln 2"], ["t", ("sub", "½")])]),
+]
+
+
+def formule_sfondo(c, pal, geo, H_in):
+    c.setFillColor(pal(COL_FORMULE))
+    c.setStrokeColor(pal(COL_FORMULE))
+    for x, y, size, f in FORMULE_PRIMA:
+        formula(c, f, (geo.spine_x1 + x) * I, (H_in - BLEED - y) * I, size)
+    for x, y, size, f in FORMULE_QUARTA:
+        formula(c, f, (BLEED + x) * I, (H_in - BLEED - y) * I, size)
+
+
+def annotazioni_pk(c, pal, pk, ox, H_in):
+    """Parametri farmacocinetici nei punti in cui si leggono davvero:
+    D alla somministrazione, MEC come soglia, Cmax al picco, tmax sull'asse dei
+    tempi, t½ come intervallo in fase di eliminazione, AUC sotto la curva."""
+    X = lambda x: (ox + x) * I
+    Yp = lambda y: (H_in - y) * I
+    yb = pk["yb"]
+    xp, yp = pk["picco"]
+    (x1, y1), (x2, y2) = pk["t12"]
+    c.setLineCap(1)
+    # MEC: soglia tratteggiata
+    c.setStrokeColor(pal(COL_GUIDE))
+    c.setLineWidth(0.45)
+    c.setDash(4, 3)
+    c.line(X(pk["onset"][0] - 0.55), Yp(pk["mec_y"]), X(pk["x_fine"]), Yp(pk["mec_y"]))
+    # guide verticali tratteggiate: tmax e t½ fino all'asse dei tempi
+    c.setDash(1, 2.2)
+    for xx, yy in ((xp, yp), (x1, y1), (x2, y2)):
+        c.line(X(xx), Yp(yy + 0.04), X(xx), Yp(yb))
+    c.setDash()
+    # parentesi del t½ sotto l'asse dei tempi
+    yq = yb + 0.13
+    c.setStrokeColor(pal(COL_ETICHETTE))
+    c.setLineWidth(0.55)
+    c.line(X(x1), Yp(yq), X(x2), Yp(yq))
+    for xx in (x1, x2):
+        c.line(X(xx), Yp(yq - 0.045), X(xx), Yp(yq + 0.045))
+    # freccia della dose
+    xd = pk["xd"]
+    c.line(X(xd), Yp(yb + 0.22), X(xd), Yp(yb + 0.03))
+    p = c.beginPath()
+    p.moveTo(X(xd), Yp(yb + 0.03))
+    p.lineTo(X(xd) - 2.2, Yp(yb + 0.085))
+    p.lineTo(X(xd) + 2.2, Yp(yb + 0.085))
+    p.close()
+    c.setFillColor(pal(COL_ETICHETTE))
+    c.drawPath(p, stroke=0, fill=1)
+    # etichette (con alone nero per staccarle dalla maglia)
+    e = 9.5
+    F_ = lambda items, x, y, size=e: formula_alone(c, pal, items, x, y, size, "center")
+    F_(["D"], X(xd), Yp(yb + 0.38))
+    F_(["C", ("sub", "max")], X(xp), Yp(yp - 0.13))
+    F_(["t", ("sub", "max")], X(xp), Yp(yb + 0.30))
+    F_(["t", ("sub", "½")], X((x1 + x2) / 2), Yp(yq + 0.20))
+    F_(["MEC"], X(pk["x_fine"] - 0.05), Yp(pk["mec_y"] + 0.16), 8.5)
+    F_(["AUC"], X(xp + 0.62), Yp(yb - 0.22))
+    F_(["t"], X(pk["x_fine"] + 0.12), Yp(yb + 0.16))
+
+
 def _punti_vettoriali(c, pal, punti, ox, H_in, colore, sfuma=None):
     """Nodi (atomi / punti sperimentali): cerchietti pieni."""
     rc, rn = np.array(hex_rgb(colore)), np.array(hex_rgb(NERO))
@@ -575,6 +754,10 @@ def costruisci(out: Path, geo: Geo, variante, mode, nero, autore, con_guide, tmp
     for pts, chiusa in mp["linee"]:
         ecg_vettoriale(c, pal, np.vstack([pts, pts[:1]]) if chiusa else pts, geo.spine_x1, H_in, TRACCIATO, 0.85)
     _punti_vettoriali(c, pal, mp["punti"], geo.spine_x1, H_in, TRACCIATO)
+    if "pk" in mp:
+        annotazioni_pk(c, pal, mp["pk"], geo.spine_x1, H_in)
+    if STILI[variante][3] == "pk_dose":
+        formule_sfondo(c, pal, geo, H_in)
 
     # ------------------------------ PRIMA ------------------------------
     x0 = geo.spine_x1                         # rifilo sinistro della prima
@@ -736,7 +919,7 @@ def main():
     ap.add_argument("--trim", default="7x10", help="formato di rifilo in pollici, es. 7x10")
     ap.add_argument("--carta", choices=sorted(SPINE_COEF), default="bianca")
     ap.add_argument("--autore", default="")
-    ap.add_argument("--variante", choices=sorted(STILI), default="A")
+    ap.add_argument("--variante", choices=sorted(STILI), default="C")
     ap.add_argument("--tutte", action="store_true", help="genera anche le altre varianti (PDF + anteprime)")
     ap.add_argument("--colore", choices=("cmyk", "rgb"), default="cmyk")
     ap.add_argument("--nero", choices=("ricco", "solo-k"), default="ricco")
