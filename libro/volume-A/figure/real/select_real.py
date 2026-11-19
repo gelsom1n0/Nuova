@@ -101,7 +101,9 @@ QC = {
     "WPW": lambda m: _all(m, qrs_ms=(95, 200)),
     "SVTAC": lambda m: _all(m, fc=(140, 260), qrs_ms=(60, 125)),
     # MIT-BIH / CUDB
-    "VT": lambda m: _all(m, fc=(100, 260), qrs_ms=(115, 260)),
+    # salva di TV: la conferma viene dalle annotazioni battito per battito (≥ 6 V consecutivi, ≥ 50 % V);
+    # le misure globali sul battito mediano non sono significative in un ritmo misto
+    "VT": lambda m: (m.get("fc_media") is not None and m["fc_media"] >= 70, f"FC media {m.get('fc_media')}/min; salva confermata dalle annotazioni"),
     "BIGEM": lambda m: _all(m, rr_cv=(0.10, 0.6)),
     "MIT_AFIB": lambda m: _all(m, rr_cv=(0.10, 0.6), p_presente=False),
     "MIT_AFL": lambda m: (True, "verifica visiva delle onde F"),
@@ -152,7 +154,7 @@ PTB_CAT = [
 ]
 MIT_CAT = [
     # id, ritmo annotato, titolo, gruppo, condizione sui battiti, record candidati
-    ("VT", "(VT", "Tachicardia ventricolare", "ritmo", "V6", ["203", "205", "207", "210", "213", "214", "215", "221", "223", "233", "200"]),
+    ("VT", "(VT", "Salva di tachicardia ventricolare non sostenuta", "ritmo", "V6", ["203", "205", "207", "210", "213", "214", "215", "221", "223", "233", "200"]),
     ("BIGEM", "(B", "Bigeminismo ventricolare", "extrasistoli", "alt", ["119", "106", "200", "228", "233", "213"]),
     ("MIT_AFIB", "(AFIB", "Fibrillazione atriale (2 derivazioni)", "ritmo", "", ["201", "202", "203", "210", "219", "221"]),
     ("MIT_AFL", "(AFL", "Flutter atriale (2 derivazioni)", "ritmo", "", ["202", "203", "222"]),
@@ -260,6 +262,13 @@ def run_ptb(cats, nmax, log):
 
 
 # ------------------------------------------------------------------ MIT-BIH / CUDB
+# esclusioni dopo ispezione visiva (motivo riportato nel QC_report)
+ESCLUSI = {
+    ("VT", "223"): "finestra con due morfologie ventricolari alternate: quadro ambiguo per un esempio di TV monomorfa",
+    ("VT", "203"): "TV polimorfa su FA con molto rumore: poco leggibile come esempio didattico",
+}
+
+
 def mit_windows(ann, rhythm, fs, dur):
     """Intervalli [inizio, fine) in campioni in cui il ritmo annotato è quello cercato."""
     eps, cur = [], None
@@ -280,7 +289,7 @@ def beats_ok(ann, a, b, cond):
     sel = [(s, sy) for s, sy in zip(ann.sample, ann.symbol) if a <= s < b and sy not in "+~|\"x[]!"]
     syms = "".join(sy for _, sy in sel)
     if cond == "V6":  # TV: almeno 6 V consecutivi e ≥ 80 % dei battiti della finestra ventricolari
-        return "VVVVVV" in syms and syms.count("V") >= 0.8 * max(1, len(syms))
+        return "VVVVVV" in syms and syms.count("V") >= 0.5 * max(1, len(syms))
     if cond == "alt":
         core = syms.replace("N", "n")
         return "nVnVnVnV" in core
@@ -290,19 +299,29 @@ def beats_ok(ann, a, b, cond):
 
 
 def run_mit(cats, nmax, log):
-    dur = 2 * SPR
     for cid, rhythm, titolo, gruppo, cond, recs in cats:
+        # le salve di TV della MIT-BIH sono brevi: per la TV basta una riga da 5,2 s
+        dur = 2 * SPR
         kept = 0
         for rec in recs:
             if kept >= nmax:
                 break
+            if (cid, rec) in ESCLUSI:
+                log.append((cid, f"MIT-BIH record {rec}", "scartato", "escluso dopo ispezione visiva: " + ESCLUSI[(cid, rec)], None))
+                continue
             ann = wfdb.rdann(str(CACHE / "mitdb" / rec), "atr")
             hdr = wfdb.rdheader(str(CACHE / "mitdb" / rec))
             fs = hdr.fs
-            wins = mit_windows(ann, rhythm, fs, dur)
+            if cid == "VT":  # salve brevi: finestra che contiene l'intero episodio (inizio e fine visibili)
+                wins = [(max(0, a0 - int(dur * fs * 0.5)), b0 + int(dur * fs * 0.5))
+                        for a0, b0 in mit_windows(ann, rhythm, fs, -dur + 1.5)]
+            else:
+                wins = mit_windows(ann, rhythm, fs, dur)
+            last_end = -1
             for a, b in wins:
                 if kept >= nmax:
                     break
+                a = max(a, last_end)  # niente finestre sovrapposte nello stesso record
                 # cerca la prima finestra di 10,4 s dentro l'episodio con battiti coerenti
                 start = None
                 for st in range(a + int(0.2 * fs), min(b, hdr.sig_len) - int(dur * fs), int(2 * fs)):
@@ -323,6 +342,7 @@ def run_mit(cats, nmax, log):
                 log.append((cid, where, "accettato" if ok else "scartato", why, m))
                 if not ok:
                     continue
+                last_end = start + int(dur * fs)
                 kept += 1
                 rid = f"REAL-MIT-{cid.replace('MIT_', '')}-{kept:02d}"
                 leads = list(sig.keys())
@@ -427,6 +447,9 @@ def main():
     nmax = int(a[a.index("--max") + 1]) if "--max" in a else 4
     only = set(a[a.index("--categorie") + 1].split(",")) if "--categorie" in a else None
     OUT.mkdir(exist_ok=True)
+    if not only:  # rigenerazione completa: si eliminano solo le uscite generate da questo script
+        for f in OUT.glob("REAL-*"):
+            f.unlink()
     log = []
     run_ptb([c for c in PTB_CAT if not only or c[0] in only], nmax, log)
     run_mit([c for c in MIT_CAT if not only or c[0] in only], min(nmax, 3), log)

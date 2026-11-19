@@ -1,6 +1,6 @@
 {
  "pdf": "/home/user/Nuova/libro/volume-A/engine/prova/output/prova_7x10.pdf",
- "pagine_totali": 20,
+ "pagine_totali": 19,
  "pagine_preliminari": 5,
  "parti": [
   "3",
@@ -23,7 +23,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-FA-01.svg",
    "tipo": "simulato",
-   "pagina": 4
+   "pagina": 3
   },
   "SIM-BAV-02": {
    "num": "3.3",
@@ -32,7 +32,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-BAV-02.svg",
    "tipo": "simulato",
-   "pagina": 5
+   "pagina": 4
   },
   "SIM-BB-01": {
    "num": "3.4",
@@ -41,7 +41,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-BB-01.svg",
    "tipo": "simulato",
-   "pagina": 6
+   "pagina": 5
   },
   "SIM-PM-03": {
    "num": "3.5",
@@ -50,7 +50,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-PM-03.svg",
    "tipo": "simulato",
-   "pagina": 7
+   "pagina": 6
   },
   "SIM-MI-02": {
    "num": "3.6",
@@ -77,7 +77,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-FL-02.svg",
    "tipo": "simulato",
-   "pagina": 11
+   "pagina": 10
   },
   "SIM-TV-01": {
    "num": "3.9",
@@ -86,7 +86,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-TV-01.svg",
    "tipo": "simulato",
-   "pagina": 12
+   "pagina": 11
   },
   "SIM-RS-05": {
    "num": "4.1",
@@ -95,7 +95,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-RS-05.svg",
    "tipo": "simulato",
-   "pagina": 13
+   "pagina": 12
   },
   "REAL-PTBXL-AFIB-01": {
    "num": "4.2",
@@ -104,7 +104,7 @@
    "stato": "da_validare",
    "file": "real/out/REAL-PTBXL-AFIB-01.svg",
    "tipo": "reale",
-   "pagina": 14
+   "pagina": 13
   },
   "SCH-EINTH": {
    "num": "4.3",
@@ -113,7 +113,7 @@
    "stato": "da_validare",
    "file": "schemi/out/SCH-EINTH.svg",
    "tipo": "schema",
-   "pagina": 14
+   "pagina": 13
   }
  },
  "figure_da_validare": [
@@ -132,15 +132,9 @@
  ],
  "spostamenti_figure": [
   {
-   "figura": "SIM-EL-05",
-   "pagina_prima": 14,
-   "blocchi_saltati": -1,
-   "motivo": "figura spezzata tra due pagine"
-  },
-  {
-   "figura": "SIM-FA-01",
-   "pagina_prima": 9,
-   "blocchi_saltati": 2
+   "figura": "SIM-MI-02",
+   "pagina_prima": 13,
+   "blocchi_saltati": 3
   }
  ],
  "voci_indice": 17,

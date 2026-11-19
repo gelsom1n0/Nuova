@@ -197,19 +197,21 @@ def render_strip(signals: dict, fs: float, out_base, leads=None, t_start=0.0, du
     for ld, t0, t1 in rows:
         i0, i1 = int(round(t0 * fs)), int(round(t1 * fs))
         segs[(ld, t0)] = np.asarray(signals[ld][i0:i1], float)
-    # altezza riga uniforme (stessa per tutte le righe: confronto visivo onesto)
-    lo, hi = _row_extent(list(segs.values()))
-    row_h = (hi - lo) * MM_PER_MV
+    # altezza di riga: uguale per tutte le righe della STESSA derivazione (confronto onesto tra righe),
+    # ma propria di ogni derivazione (una V1 molto ampia non deve allargare la II)
+    ext = {ld: _row_extent([v for (l2, _), v in segs.items() if l2 == ld]) for ld in leads}
+    heights = [(ext[ld][1] - ext[ld][0]) * MM_PER_MV for ld, _, _ in rows]
     w_mm = (CAL_MARGIN_S + spr) * MM_PER_S
     foot = 4.0 if (show_speed or label) else 0.0
-    h_mm = row_h * len(rows) + foot
+    h_mm = sum(heights) + foot
     w_mm = math.ceil(w_mm / 5) * 5
     h_mm = math.ceil(h_mm / 5) * 5
     fig, ax = _new_fig(w_mm, h_mm, scale)
     _grid(ax, 0, w_mm, 0, h_mm, scale)
 
+    top = h_mm
     for r, (ld, t0, t1) in enumerate(rows):
-        top = h_mm - r * row_h
+        lo, hi = ext[ld]
         base = top - hi * MM_PER_MV
         _calibration(ax, 1.0, base)
         y = np.clip(segs[(ld, t0)], lo - 0.05, hi - 0.1)  # spike tagliati al bordo della riga
@@ -221,6 +223,7 @@ def render_strip(signals: dict, fs: float, out_base, leads=None, t_start=0.0, du
         if r == 0 and annotations:
             _draw_annotations(ax, annotations, lambda t: CAL_MARGIN_S * MM_PER_S + (t - t0) * MM_PER_S,
                               base, t0, t1)
+        top -= heights[r]
     _footer(ax, w_mm, label, show_speed)
     files = _finish(fig, out_base, formats, dpi)
     return {"file": files, "larghezza_mm": w_mm * scale, "altezza_mm": h_mm * scale, "scala": scale,

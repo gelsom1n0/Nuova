@@ -82,8 +82,10 @@ Generato da `select_real.py`. Per ogni candidato con etichetta ad alta confidenz
 | WPW | PTB-XL ecg_id 9795 | accettato | coerente | 50.7 | 0.017 | 94 | 154 | 401 |
 | WPW | PTB-XL ecg_id 9823 | accettato | coerente | 64.0 | 0.012 | 146 | 120 | 426 |
 | SVTAC | — | **NESSUN CANDIDATO** | 0 candidati esaminati, nessuno coerente |  |  |  |  |  |
-| VT | MIT-BIH record 223, da 9:38.5 | accettato | coerente | 109.1 | 0.125 | None | 167 | 539 |
-| VT | MIT-BIH record 223, da 17:23.4 | accettato | coerente | 107.5 | 0.149 | None | 136 | 416 |
+| VT | MIT-BIH record 203 | **scartato** | escluso dopo ispezione visiva: TV polimorfa su FA con molto rumore: poco leggibile come esempio didattico |  |  |  |  |  |
+| VT | MIT-BIH record 205, da 4:53.8 | accettato | FC media 128.3/min; salva confermata dalle annotazioni | 168.8 | 0.361 | 167 | 97 | 554 |
+| VT | MIT-BIH record 205, da 24:15.5 | accettato | FC media 120.2/min; salva confermata dalle annotazioni | 154.3 | 0.499 | 139 | 81 | 552 |
+| VT | MIT-BIH record 205, da 24:26.1 | accettato | FC media 88.9/min; salva confermata dalle annotazioni | 84.0 | 0.203 | 342 | 158 | 500 |
 | BIGEM | MIT-BIH record 119, da 21:31.9 | accettato | coerente | 61.8 | 0.438 | None | 89 | 615 |
 | BIGEM | MIT-BIH record 119, da 22:08.9 | accettato | coerente | 64.1 | 0.423 | None | 122 | 666 |
 | BIGEM | MIT-BIH record 119, da 24:45.2 | accettato | coerente | 64.9 | 0.401 | None | 125 | 679 |
@@ -106,4 +108,4 @@ Generato da `select_real.py`. Per ogni candidato con etichetta ad alta confidenz
 | VF | CUDB cu03, da 466.2 s | accettato | ampiezza max 1.9 mV |  |  |  |  |  |
 | VF | CUDB cu04, da 155.8 s | accettato | ampiezza max 1.22 mV |  |  |  |  |  |
 
-Totale: 93 accettati, 7 scartati, 1 categorie senza candidati.
+Totale: 94 accettati, 8 scartati, 1 categorie senza candidati.
