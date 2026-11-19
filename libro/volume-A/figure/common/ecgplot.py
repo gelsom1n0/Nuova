@@ -50,7 +50,8 @@ matplotlib.rcParams.update({
     "font.family": "DejaVu Sans",
     "font.size": 6.5,
     "svg.hashsalt": "ecg-volume-A",  # SVG deterministici (diff puliti in git)
-    "path.simplify": False,
+    "path.simplify": True,          # unisce i segmenti quasi collineari (errore < 0,02 mm)
+    "path.simplify_threshold": 0.05,
 })
 
 
@@ -65,10 +66,12 @@ def _grid(ax, x0_mm, x1_mm, y0_mm, y1_mm, scale=1.0):
     if scale < 0.75:
         xs = [i for i in range(int(math.floor(x0_mm)), int(math.ceil(x1_mm)) + 1)]
         ys = [j for j in range(int(math.floor(y0_mm)), int(math.ceil(y1_mm)) + 1)]
-        px = [(i, j) for i in xs for j in ys if i % 5 and j % 5]
-        if px:
-            a = np.array(px, float)
-            ax.scatter(a[:, 0], a[:, 1], s=0.9, c=GRID_DOT, marker="s", linewidths=0, zorder=1)
+        # punti come linee verticali tratteggiate (un tratto quasi nullo con estremità tonde = un punto
+        # ogni 1 mm): pochi oggetti nel file vettoriale invece di migliaia di marcatori
+        step_pt = 72 / 25.4 * scale  # 1 mm in punti alla scala della figura
+        dots = [[(i, y0_mm), (i, y1_mm)] for i in xs if i % 5]
+        ax.add_collection(LineCollection(dots, colors=GRID_DOT, linewidths=LW_MINOR_PT, capstyle="round",
+                                         linestyles=[(0, (0.001, step_pt / LW_MINOR_PT))], zorder=1))
         for i in xs:
             if i % 5 == 0:
                 major.append([(i, y0_mm), (i, y1_mm)])
@@ -116,6 +119,9 @@ def _finish(fig, out_base: Path, formats, dpi):
         if fmt == "pdf":
             kw["metadata"] = {"CreationDate": None, "ModDate": None}
         fig.savefig(p, format=fmt, facecolor="white", **kw)
+        if fmt == "png":  # scala di grigi a 8 bit: più leggero e garantito senza colore
+            from PIL import Image
+            Image.open(p).convert("L").save(p, optimize=True, dpi=(dpi, dpi))
         written.append(str(p))
     plt.close(fig)
     return written
