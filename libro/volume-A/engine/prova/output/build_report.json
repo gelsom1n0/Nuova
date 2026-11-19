@@ -1,0 +1,132 @@
+{
+ "pdf": "/home/user/Nuova/libro/volume-A/engine/prova/output/prova_7x10.pdf",
+ "pagine_totali": 20,
+ "pagine_preliminari": 5,
+ "parti": [
+  "3",
+  "4"
+ ],
+ "figure": {
+  "SIM-RS-02": {
+   "num": "3.1",
+   "anchor": "fig-SIM-RS-02",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-RS-02.svg",
+   "tipo": "simulato",
+   "pagina": 2
+  },
+  "SIM-FA-01": {
+   "num": "3.2",
+   "anchor": "fig-SIM-FA-01",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-FA-01.svg",
+   "tipo": "simulato",
+   "pagina": 4
+  },
+  "SIM-BAV-02": {
+   "num": "3.3",
+   "anchor": "fig-SIM-BAV-02",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-BAV-02.svg",
+   "tipo": "simulato",
+   "pagina": 5
+  },
+  "SIM-BB-01": {
+   "num": "3.4",
+   "anchor": "fig-SIM-BB-01",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-BB-01.svg",
+   "tipo": "simulato",
+   "pagina": 6
+  },
+  "SIM-PM-03": {
+   "num": "3.5",
+   "anchor": "fig-SIM-PM-03",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-PM-03.svg",
+   "tipo": "simulato",
+   "pagina": 7
+  },
+  "SIM-MI-02": {
+   "num": "3.6",
+   "anchor": "fig-SIM-MI-02",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-MI-02.svg",
+   "tipo": "simulato",
+   "pagina": 9
+  },
+  "SIM-EL-05": {
+   "num": "3.7",
+   "anchor": "fig-SIM-EL-05",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-EL-05.svg",
+   "tipo": "simulato",
+   "pagina": 10
+  },
+  "SIM-FL-02": {
+   "num": "3.8",
+   "anchor": "fig-SIM-FL-02",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-FL-02.svg",
+   "tipo": "simulato",
+   "pagina": 11
+  },
+  "SIM-TV-01": {
+   "num": "3.9",
+   "anchor": "fig-SIM-TV-01",
+   "parte": 3,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-TV-01.svg",
+   "tipo": "simulato",
+   "pagina": 12
+  },
+  "SIM-RS-05": {
+   "num": "4.1",
+   "anchor": "fig-SIM-RS-05",
+   "parte": 4,
+   "stato": "da_validare",
+   "file": "sim/out/SIM-RS-05.svg",
+   "tipo": "simulato",
+   "pagina": 14
+  }
+ },
+ "figure_da_validare": [
+  "SIM-BAV-02",
+  "SIM-BB-01",
+  "SIM-EL-05",
+  "SIM-FA-01",
+  "SIM-FL-02",
+  "SIM-MI-02",
+  "SIM-PM-03",
+  "SIM-RS-02",
+  "SIM-RS-05",
+  "SIM-TV-01"
+ ],
+ "spostamenti_figure": [
+  {
+   "figura": "SIM-FA-01",
+   "pagina_prima": 9,
+   "blocchi_saltati": 2
+  },
+  {
+   "figura": "SIM-MI-02",
+   "pagina_prima": 14,
+   "blocchi_saltati": 2
+  },
+  {
+   "figura": "SIM-MI-02",
+   "pagina_prima": 14,
+   "blocchi_saltati": 1
+  }
+ ],
+ "voci_indice": 17,
+ "avvisi": []
+}

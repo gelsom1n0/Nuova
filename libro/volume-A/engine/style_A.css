@@ -1,0 +1,188 @@
+/* ==========================================================================
+   Stile KDP – Volume A «ABC della cardiologia clinica»
+   Brossura 7 x 10 in (504 x 720 pt) · interno bianco e nero, carta bianca · pagine affiancate
+   Margini: interno 0,8 in · esterno 0,55 in · alto/basso 0,75 in.
+     Minimi KDP verificati (help topic GVBQ3CMEQW3W2VL6, nov. 2026): interno 0,375 in (24–150 pag.),
+     0,5 in (151–300), 0,625 in (301–500), 0,75 in (501–700), 0,875 in (701–828); esterno/alto/basso
+     ≥ 0,25 in senza abbondanza. Con 0,8 in il margine interno è valido fino a 700 pagine.
+   Gabbia del testo: 5,65 x 8,5 in = 143,5 x 215,9 mm.
+   Corpo Gelasio 10,3 pt, interlinea 1,4; tabelle 8,6 pt. Solo nero e grigi: tinta minima 10 %
+   (#e6e6e6), linee ≥ 0,75 pt (raccomandazioni KDP, Paperback Submission Guidelines G201857950).
+   ========================================================================== */
+
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: normal; src: url("fonts/gelasio-latin-400-normal.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 400; font-style: italic; src: url("fonts/gelasio-latin-400-italic.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 700; font-style: normal; src: url("fonts/gelasio-latin-700-normal.woff2"); }
+@font-face { font-family: "Gelasio"; font-weight: 700; font-style: italic; src: url("fonts/gelasio-latin-700-italic.woff2"); }
+
+/* Simboli assenti dal sottoinsieme latino di Gelasio (≥ ≤ → ≈ ▶ ✗, greco β Δ…): DejaVu Sans,
+   incorporato esplicitamente e limitato a questi intervalli Unicode (licenza in fonts/LICENSE-DejaVu.txt) */
+@font-face { font-family: "SimboliA"; font-weight: 400; src: url("fonts/DejaVuSans.ttf");
+  unicode-range: U+0370-03FF, U+2010-2011, U+2070-209F, U+2190-21FF, U+2200-22FF, U+2300-23FF, U+25A0-25FF, U+2600-27BF; }
+@font-face { font-family: "SimboliA"; font-weight: 700; src: url("fonts/DejaVuSans-Bold.ttf");
+  unicode-range: U+0370-03FF, U+2010-2011, U+2070-209F, U+2190-21FF, U+2200-22FF, U+2300-23FF, U+25A0-25FF, U+2600-27BF; }
+
+:root {
+  --k: #000;
+  --g10: #e6e6e6;   /* tinta minima ammessa (10 %) */
+  --g15: #d9d9d9;
+  --g50: #808080;
+  --g70: #4d4d4d;
+}
+
+/* ---------- Pagine ---------- */
+@page { size: 7in 10in; }
+@page :right { margin: 0.75in 0.55in 0.75in 0.8in; }
+@page :left  { margin: 0.75in 0.8in 0.75in 0.55in; }
+
+/* corpo: intestazione corrente (sinistra = titolo del libro, destra = Parte); numero agli angoli esterni */
+@page main:left {
+  counter-increment: body;
+  @top-left { content: string(booktitle); font: 8pt Gelasio, SimboliA, serif; color: var(--g70); padding-bottom: 3pt; border-bottom: 0.75pt solid var(--g50); vertical-align: bottom; }
+  @bottom-left { content: counter(body); font: 9pt Gelasio, serif; }
+}
+@page main:right {
+  counter-increment: body;
+  @top-right { content: string(partname); font: italic 8pt Gelasio, SimboliA, serif; color: var(--g70); padding-bottom: 3pt; border-bottom: 0.75pt solid var(--g50); vertical-align: bottom; }
+  @bottom-right { content: counter(body); font: 9pt Gelasio, serif; }
+}
+@page front:left  { @bottom-left  { content: counter(page, lower-roman); font: 9pt Gelasio, serif; } }
+@page front:right { @bottom-right { content: counter(page, lower-roman); font: 9pt Gelasio, serif; } }
+@page titlepage { }
+
+.titlepage { page: titlepage; }
+.front { page: front; }
+.main  { page: main; }
+
+body {
+  font-family: Gelasio, SimboliA, serif;
+  font-size: 10.3pt; line-height: 1.4; color: var(--k);
+  text-align: justify; hyphens: auto; hyphenate-limit-chars: 6 3 3;
+  orphans: 3; widows: 3;
+  string-set: booktitle "ABC della cardiologia clinica";
+}
+p { margin: 0 0 5pt; }
+strong { font-weight: 700; }
+sub, sup { line-height: 0; font-size: 0.75em; }
+a { color: inherit; text-decoration: none; }
+
+/* ---------- Frontespizio e copyright ---------- */
+.titlepage { text-align: center; hyphens: none; padding-top: 2.0in; }
+.titlepage .rule { width: 1.4in; border-top: 1.5pt solid var(--k); margin: 0 auto 0.4in; }
+.titlepage h1.title { font-size: 32pt; line-height: 1.12; margin: 0 0 0.28in; font-weight: 700; }
+.titlepage .subtitle { font-size: 13pt; font-style: italic; line-height: 1.4; margin: 0 0.3in 0.6in; }
+.titlepage .edition { font-size: 9.5pt; letter-spacing: 0.12em; text-transform: uppercase; color: var(--g70); }
+.copyright { break-before: page; font-size: 8.8pt; line-height: 1.45; text-align: left; hyphens: none; padding-top: 3.2in; }
+.copyright p { margin-bottom: 4pt; }
+
+/* ---------- Pagine preliminari («Parte 0») ---------- */
+.front h1.prelim, .front h2.plain { break-before: page; font-size: 16pt; margin: 0 0 8pt; padding: 6pt 0 4pt; border-top: 3pt solid var(--k); border-bottom: 0.75pt solid var(--k); text-align: left; hyphens: none; bookmark-level: 1; bookmark-label: content(text); }
+.front h2.prelim-sec { font-size: 12pt; margin: 12pt 0 4pt; text-align: left; hyphens: none; break-after: avoid; }
+.front h3 { font-size: 10.6pt; margin: 10pt 0 3pt; text-align: left; hyphens: none; break-after: avoid; }
+
+/* ---------- Indice generale ---------- */
+.toc { text-align: left; hyphens: none; font-size: 9.2pt; line-height: 1.32; }
+.toc a { display: flex; }
+.toc .t { flex: 1; }
+.toc .t::after { content: leader('.'); padding-left: 3pt; color: var(--g70); }
+.toc .tp { font-weight: 700; font-size: 10pt; margin-top: 7pt; padding-top: 3pt; border-top: 0.75pt solid var(--g50); break-after: avoid; }
+.toc .tp .t::after { content: leader(' '); }
+.toc .tc { padding-left: 14pt; }
+.toc .tc .n { display: inline-block; width: 24pt; color: var(--g70); }
+.toc .pg { padding-left: 4pt; }
+
+/* ---------- Titoli del corpo ---------- */
+h1.part { break-before: page; margin: 0 0 12pt; padding: 10pt 0 8pt; border-top: 4pt solid var(--k); border-bottom: 0.75pt solid var(--k); text-align: left; hyphens: none; line-height: 1.12; bookmark-level: 1; bookmark-label: content(text); }
+h1.part .plabel { display: block; font-size: 9pt; font-weight: 400; letter-spacing: 0.28em; text-transform: uppercase; color: var(--g70); margin-bottom: 4pt; }
+h1.part .ptitle { display: block; font-size: 22pt; font-weight: 700; }
+h1.indice { break-before: page; margin: 0 0 10pt; padding: 10pt 0 8pt; border-top: 4pt solid var(--k); border-bottom: 0.75pt solid var(--k); font-size: 22pt; text-align: left; hyphens: none; bookmark-level: 1; }
+h2.sezione { margin: 15pt 0 5pt; padding-top: 5pt; border-top: 0.75pt solid var(--k); font-size: 13pt; line-height: 1.2; text-align: left; hyphens: none; break-after: avoid; break-inside: avoid; bookmark-level: 2; bookmark-label: content(text); }
+h2.sezione .snum { font-weight: 400; color: var(--g70); margin-right: 6pt; }
+h1.part + h2.sezione, h1.part + .admonition + h2.sezione { margin-top: 4pt; }
+h3 { margin: 9pt 0 2pt; font-size: 10.8pt; line-height: 1.25; font-weight: 700; text-align: left; hyphens: none; break-after: avoid; }
+h4 { margin: 6pt 0 2pt; font-size: 10.3pt; font-style: italic; font-weight: 700; break-after: avoid; text-align: left; }
+ul, ol { margin: 0 0 5pt; padding-left: 15pt; }
+li { margin: 0 0 2pt; }
+li > p { margin-bottom: 2pt; }
+li.check { list-style: none; margin-left: -13pt; }
+.cb { display: inline-block; width: 7pt; height: 7pt; border: 0.75pt solid var(--k); margin-right: 5pt; vertical-align: -0.5pt; }
+
+/* termini indicizzati: nessun effetto grafico (solo ancora per l'indice analitico) */
+span.ix, span.pa { }
+
+/* ---------- Tabelle ---------- */
+table { width: 100%; border-collapse: collapse; margin: 5pt 0 9pt; font-size: 8.6pt; line-height: 1.3; text-align: left; hyphens: manual; }
+th, td { border: 0.75pt solid var(--g50); padding: 2.8pt 4.5pt; vertical-align: top; }
+th { background: var(--g15); font-weight: 700; }
+tr { break-inside: avoid; }
+thead { display: table-header-group; }
+
+/* ---------- Riquadri: distinti per FORMA, non per colore ---------- */
+.admonition { margin: 7pt 0 9pt; padding: 6pt 9pt 3pt; font-size: 9.4pt; line-height: 1.36; text-align: left; break-inside: auto; orphans: 2; widows: 2; }
+.admonition p { margin-bottom: 4pt; }
+.admonition ul, .admonition ol { margin-bottom: 4pt; }
+.admonition-title { margin: 0 0 3pt !important; font-weight: 700; font-size: 8.6pt; letter-spacing: 0.08em; text-transform: uppercase; break-after: avoid; }
+
+/* Nota clinica: fondo grigio 10 %, bordo pieno */
+.admonition.nota { background: var(--g10); border: 1.2pt solid var(--k); }
+/* Regola / Mnemonico: barra nera laterale */
+.admonition.chiave { background: #fff; border-left: 4pt solid var(--k); border-top: 0.75pt solid var(--g50); border-bottom: 0.75pt solid var(--g50); }
+/* Allarme: bordo doppio */
+.admonition.allarme { background: #fff; border: 2.4pt double var(--k); }
+/* Errore classico: bordo tratteggiato */
+.admonition.errore { background: #fff; border: 1.2pt dashed var(--k); }
+.admonition.errore .admonition-title::before { content: "✗  "; }
+/* Autotest: bordo sottile + righe per la risposta */
+.admonition.autotest { background: #fff; border: 0.75pt solid var(--k); border-top: 2pt solid var(--k); }
+.admonition.autotest .riga { height: 15pt; border-bottom: 0.75pt solid var(--g50); margin: 0 0 1pt; }
+.admonition.autotest .righe { margin: 4pt 0 5pt; }
+/* SBAR: «Cosa dico al medico», due colonne */
+.admonition.sbar { background: #fff; border: 1.2pt solid var(--k); padding: 0 0 2pt; }
+.admonition.sbar .admonition-title { background: var(--g15); border-bottom: 0.75pt solid var(--k); margin: 0 0 0 !important; padding: 3pt 9pt; }
+.admonition.sbar table.sbar-t { margin: 0; font-size: 9.2pt; }
+.admonition.sbar table.sbar-t td { border: none; border-bottom: 0.75pt solid var(--g50); padding: 3pt 9pt 3pt 6pt; }
+.admonition.sbar table.sbar-t tr:last-child td { border-bottom: none; }
+.admonition.sbar td.sbar-k { width: 25%; font-weight: 700; border-right: 0.75pt solid var(--g50) !important; }
+.admonition.sbar td.sbar-k .lettera { display: inline-block; width: 13pt; height: 13pt; line-height: 13pt; text-align: center; background: var(--k); color: #fff; margin-right: 5pt; }
+/* Farmaco ad alto rischio: titolo in negativo */
+.admonition.rischio { background: #fff; border: 1.5pt solid var(--k); padding-top: 0; }
+.admonition.rischio .admonition-title { background: var(--k); color: #fff; margin: 0 -9pt 4pt !important; padding: 3pt 9pt; }
+/* Focus cardiochirurgia / PS: angoli marcati (bordo superiore e inferiore spessi) */
+.admonition.focus { background: #fff; border-top: 3pt solid var(--k); border-bottom: 3pt solid var(--k); border-left: 0.75pt solid var(--k); border-right: 0.75pt solid var(--k); }
+.admonition.focus .admonition-title::before { content: "▶  "; }
+.admonition.obiettivi { background: #fff; border: 0.75pt solid var(--k); }
+
+/* ---------- Figure ---------- */
+figure.fig { margin: 8pt 0 10pt; padding: 0; break-inside: avoid; text-align: center; }
+figure.fig img { max-width: 100%; display: block; margin: 0 auto; }
+figure.fig.mezza { float: right; width: 48%; margin: 2pt 0 6pt 10pt; clear: right; }
+figure.fig.mezza.sinistra { float: left; margin: 2pt 10pt 6pt 0; }
+figure.fig.pagina { break-before: page; break-after: page; }
+figcaption { margin-top: 4pt; font-size: 8.6pt; line-height: 1.3; text-align: left; hyphens: auto; }
+figcaption .fnum { font-weight: 700; margin-right: 4pt; }
+figcaption .fsrc { display: block; margin-top: 1.5pt; font-size: 7.6pt; font-style: italic; color: var(--g70); }
+
+/* ---------- Esercizi ECG e soluzioni ---------- */
+.ecg-esercizio { margin: 8pt 0 10pt; padding: 6pt 9pt 4pt; border: 0.75pt solid var(--k); break-inside: avoid; }
+.ecg-esercizio .es-titolo { font-weight: 700; font-size: 8.6pt; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 4pt; }
+.ecg-esercizio figure.fig { margin: 4pt 0 4pt; }
+.ecg-esercizio .es-domanda { font-size: 9.4pt; }
+.ecg-esercizio .es-rimando { font-size: 8pt; font-style: italic; color: var(--g70); text-align: right; }
+.soluzioni { margin-top: 12pt; }
+.soluzioni h2 { font-size: 12pt; margin: 0 0 4pt; border-top: 2pt solid var(--k); padding-top: 4pt; text-align: left; }
+.soluzioni .sol { font-size: 9pt; line-height: 1.35; margin: 0 0 5pt; text-align: left; }
+.soluzioni .sol b { margin-right: 4pt; }
+
+/* ---------- Indice analitico ---------- */
+.ix-index { columns: 2; column-gap: 16pt; font-size: 8.8pt; line-height: 1.33; text-align: left; hyphens: none; }
+.ix-index h2 { column-span: all; font-size: 12pt; margin: 8pt 0 4pt; border-bottom: 0.75pt solid var(--k); }
+.ix-index .let { font-weight: 700; font-size: 10pt; margin: 6pt 0 2pt; border-bottom: 0.75pt solid var(--g50); break-after: avoid; }
+.ix-index .voce { display: flex; }
+.ix-index .t { flex: 1; }
+.ix-index .t::after { content: leader('.'); padding-left: 2pt; color: var(--g70); }
+.ix-index .pgs { padding-left: 3pt; }
+.ix-index .pgs b { font-weight: 700; }
+
+/* ---------- Varie ---------- */
+.dichiarazione { margin: 10pt 0 2pt; padding: 7pt 10pt 2pt; border: 1.5pt solid var(--k); font-size: 9pt; line-height: 1.4; }
+hr { border: none; border-top: 0.75pt solid var(--g50); margin: 8pt 0; }
