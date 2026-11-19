@@ -1,6 +1,6 @@
 {
  "pdf": "/home/user/Nuova/libro/volume-A/engine/prova/output/prova_7x10.pdf",
- "pagine_totali": 20,
+ "pagine_totali": 19,
  "pagine_preliminari": 5,
  "parti": [
   "3",
@@ -59,7 +59,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-MI-02.svg",
    "tipo": "simulato",
-   "pagina": 9
+   "pagina": 8
   },
   "SIM-EL-05": {
    "num": "3.7",
@@ -68,7 +68,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-EL-05.svg",
    "tipo": "simulato",
-   "pagina": 10
+   "pagina": 9
   },
   "SIM-FL-02": {
    "num": "3.8",
@@ -95,7 +95,7 @@
    "stato": "da_validare",
    "file": "sim/out/SIM-RS-05.svg",
    "tipo": "simulato",
-   "pagina": 14
+   "pagina": 13
   }
  },
  "figure_da_validare": [
@@ -112,19 +112,15 @@
  ],
  "spostamenti_figure": [
   {
+   "figura": "SIM-EL-05",
+   "pagina_prima": 14,
+   "blocchi_saltati": -1,
+   "motivo": "figura spezzata tra due pagine"
+  },
+  {
    "figura": "SIM-FA-01",
    "pagina_prima": 9,
    "blocchi_saltati": 2
-  },
-  {
-   "figura": "SIM-MI-02",
-   "pagina_prima": 14,
-   "blocchi_saltati": 2
-  },
-  {
-   "figura": "SIM-MI-02",
-   "pagina_prima": 14,
-   "blocchi_saltati": 1
   }
  ],
  "voci_indice": 17,

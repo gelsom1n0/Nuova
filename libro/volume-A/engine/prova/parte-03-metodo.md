@@ -133,25 +133,26 @@ Gli elettroliti lasciano sull'ECG un'impronta caratteristica. Il potassio alto r
 Molti farmaci allungano il QT: tra quelli di uso cardiologico l'[amiodarone]{.pa} e il [sotalolo]{.pa}; fuori dalla cardiologia alcuni antibiotici macrolidi e fluorochinolonici, antipsicotici, antiemetici come l'ondansetron e il metadone. Il rischio si somma, per questo la rilevazione del QTc all'inizio di una terapia e dopo ogni aumento di dose è un compito di sorveglianza importante.
 
 !!! autotest "Autotest"
-    1. Un paziente ha QT 0,44 s con frequenza 100/min (RR 0,60 s). Il QTc di Bazett è normale?
-    ---
-    ---
-    2. Quale alterazione elettrolitica sospetti davanti a T alte e appuntite con QRS che si allarga?
-    ---
-    ---
+    **1.** Un paziente ha QT 0,44 s con frequenza 100/min (RR 0,60 s). Il QTc di Bazett è normale?
+
+    {{righe:2}}
+
+    **2.** Quale alterazione elettrolitica sospetti davanti a T alte e appuntite con QRS che si allarga?
+
+    {{righe:2}}
 
 ## Esercizi
+
+I due tracciati seguenti si leggono con i sette passi; il flutter dell'[[es:SIM-FL-02]] va confrontato con la fibrillazione atriale della [[fig:SIM-FA-01]]. Le soluzioni sono in fondo alla Parte.
 
 ::: ecg-esercizio SIM-FL-02
 Descrivi il ritmo con i sette passi. Quante onde atriali ci sono per ogni QRS? Qual è la frequenza ventricolare?
 ---
-**Flutter atriale con conduzione 4:1.** Frequenza ventricolare 75/min, regolare; onde F a dente di sega a circa 300/min, negative in II e positive in V1, quattro per ogni QRS; QRS stretto. Il rischio tromboembolico è sovrapponibile a quello della fibrillazione atriale.
+**Flutter atriale con conduzione 4:1.** Frequenza ventricolare 75/min, regolare; onde F a dente di sega a circa 300/min, negative in II e positive in V1, quattro per ogni QRS; QRS stretto.
 :::
 
 ::: ecg-esercizio SIM-TV-01
 Il paziente è cosciente, PA 95/60 mmHg. Che ritmo è? Che cosa fai per primo?
 ---
-**Tachicardia ventricolare monomorfa** a circa 170/min: QRS larghi e identici, regolari, con onde P dissociate. Il paziente ha polso: si chiama subito il medico, si prepara il defibrillatore (cardioversione sincronizzata se instabile) e si posiziona l'accesso venoso; ogni tachicardia a QRS largo si tratta come una TV finché non si dimostra il contrario.
+**Tachicardia ventricolare monomorfa** a circa 170/min: QRS larghi e identici, regolari, con onde P dissociate. Il paziente ha polso: si chiama subito il medico, si prepara il defibrillatore (cardioversione sincronizzata se instabile) e si posiziona l'accesso venoso.
 :::
-
-Il rimando incrociato funziona così: il flutter dell'[[es:SIM-FL-02]] va confrontato con la fibrillazione atriale della [[fig:SIM-FA-01]].

@@ -96,10 +96,18 @@ def _calibration(ax, x_mm, base_mm, gain=MM_PER_MV):
     ax.plot(xs, ys, color=TRACE, lw=LW_TRACE_PT, solid_joinstyle="miter", zorder=4)
 
 
+def _robust(s):
+    """Segnale senza gli spike di stimolazione (≤ 3 ms): l'altezza della riga dipende dalle onde,
+    non dagli spike, che vengono poi tagliati al bordo della riga."""
+    from scipy.signal import medfilt
+    s = np.asarray(s, float)
+    return medfilt(s, 9) if len(s) > 9 else s
+
+
 def _row_extent(segments, pad_mv=0.25):
     """Restituisce (min, max) in mV di un insieme di segmenti, arrotondati al quadretto grande."""
-    lo = min(float(np.nanmin(s)) for s in segments)
-    hi = max(float(np.nanmax(s)) for s in segments)
+    lo = min(float(np.nanmin(_robust(s))) for s in segments)
+    hi = max(float(np.nanmax(_robust(s))) for s in segments)
     lo = min(lo - pad_mv, -0.5)
     hi = max(hi + pad_mv, 1.2)          # spazio per l'impulso di calibrazione (1 mV)
     lo = math.floor(lo * 2) / 2          # multipli di 0,5 mV = 5 mm
@@ -204,7 +212,7 @@ def render_strip(signals: dict, fs: float, out_base, leads=None, t_start=0.0, du
         top = h_mm - r * row_h
         base = top - hi * MM_PER_MV
         _calibration(ax, 1.0, base)
-        y = segs[(ld, t0)]
+        y = np.clip(segs[(ld, t0)], lo - 0.05, hi - 0.1)  # spike tagliati al bordo della riga
         x = CAL_MARGIN_S * MM_PER_S + np.arange(len(y)) / fs * MM_PER_S
         ax.plot(x, base + y * MM_PER_MV, color=TRACE, lw=LW_TRACE_PT, solid_joinstyle="round",
                 solid_capstyle="round", zorder=4)
@@ -277,6 +285,7 @@ def render_12(signals: dict, fs: float, out_base, t_start=0.0, rhythm_lead="II",
                 t0, dur, x0 = t_start + c * col_s, col_s, (CAL_MARGIN_S + c * col_s) * MM_PER_S
             i0, i1 = int(round(t0 * fs)), int(round((t0 + dur) * fs))
             y = np.asarray(signals[ld][i0:i1], float)
+            y = np.clip(y, lo - 0.05, hi - 0.1)
             x = x0 + np.arange(len(y)) / fs * MM_PER_S
             ax.plot(x, base + y * MM_PER_MV, color=TRACE, lw=LW_TRACE_PT, solid_joinstyle="round", zorder=4)
             if c > 0 and len(row) > 1:  # piccolo marcatore di cambio derivazione
@@ -319,6 +328,7 @@ def render_6x2(signals: dict, fs: float, out_base, t_start=0.0, col_s=2.6, scale
             t0 = t_start + c * col_s
             x0 = (CAL_MARGIN_S + c * col_s) * MM_PER_S
             y = np.asarray(signals[ld][int(round(t0 * fs)):int(round((t0 + col_s) * fs))], float)
+            y = np.clip(y, lo - 0.05, hi - 0.1)
             x = x0 + np.arange(len(y)) / fs * MM_PER_S
             ax.plot(x, base + y * MM_PER_MV, color=TRACE, lw=LW_TRACE_PT, solid_joinstyle="round", zorder=4)
             if c > 0:

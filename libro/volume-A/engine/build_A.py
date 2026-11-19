@@ -21,7 +21,7 @@ Convenzioni Markdown (oltre al Markdown standard con tabelle)
   [β-bloccante]{.pa voce="Beta-bloccanti"}  -> occorrenza indicizzata sotto un'altra voce
   !!! tipo "Titolo"                -> riquadro (corpo indentato di 4 spazi). Tipi:
         nota (Nota clinica) · chiave (Regola/Mnemonico) · allarme · errore (Errore classico) ·
-        autotest (righe per la risposta: '---' nel corpo = una riga; nessuna = 3 righe) ·
+        autotest (righe per la risposta: '{{righe:N}}' dove servono; se assente, 3 righe in fondo) ·
         sbar (Cosa dico al medico: elenco «- S: …», «- B: …», «- A: …», «- R: …») ·
         rischio (Farmaco ad alto rischio) · focus (Cardiochirurgia e PS) · obiettivi
       Senza titolo si usa quello predefinito del tipo.
@@ -231,8 +231,9 @@ def post_admonitions(h: str):
         inner = re.sub(r'<p class="admonition-title">' + re.escape(tipo.capitalize()) + r"</p>",
                        f'<p class="admonition-title">{TITOLI_RIQUADRI.get(tipo, tipo.capitalize())}</p>', inner, count=1)
         if tipo == "autotest":
-            if "<hr" in inner:
-                inner = re.sub(r"<hr\s*/?>", '<div class="righe"><div class="riga"></div></div>', inner)
+            if "{{righe" in inner:
+                inner = re.sub(r"\{\{righe:(\d+)\}\}",
+                               lambda m: '<div class="righe">' + '<div class="riga"></div>' * int(m.group(1)) + "</div>", inner)
             else:
                 inner += '<div class="righe">' + '<div class="riga"></div>' * 3 + "</div>"
         if tipo == "sbar":
@@ -431,7 +432,8 @@ def layout_info(doc):
             bottom = max(bottom, y1)
             k = int(k)
             if k not in info:
-                info[k] = {"page": pi, "y0": y0, "y1": y1, "tag": el.tag, "fig": el.get("data-fig")}
+                fig = el.get("data-fig") or ("esercizio" if "ecg-esercizio" in (el.get("class") or "") else None)
+                info[k] = {"page": pi, "y0": y0, "y1": y1, "tag": el.tag, "fig": fig}
             else:
                 info[k].setdefault("pages", set()).add(pi)
         fill[pi] = (bottom - top) / h if h else 0
@@ -448,6 +450,16 @@ def float_figures(blocks, doc, moved_log, max_shift=3, soglia=0.82):
         by_page.setdefault(v["page"], []).append(k)
     changed = False
     idx = {int(re.search(r'data-b="(\d+)"', b).group(1)): i for i, b in enumerate(blocks) if 'data-b="' in b[:80]}
+    # figure spezzate tra due pagine (succede ai float «mezza»): si anticipano di un blocco
+    for k, v in sorted(info.items()):
+        if v["fig"] and v.get("pages") and k in idx and idx[k] > 0:
+            i = idx[k]
+            if re.match(r"<h[12]", blocks[i - 1]):
+                continue
+            blocks[i - 1], blocks[i] = blocks[i], blocks[i - 1]
+            moved_log.append({"figura": v["fig"], "pagina_prima": v["page"] + 1, "blocchi_saltati": -1,
+                              "motivo": "figura spezzata tra due pagine"})
+            return True
     for k, v in sorted(info.items()):
         if not v["fig"] or "pagina" in blocks[idx[k]][:120]:
             continue

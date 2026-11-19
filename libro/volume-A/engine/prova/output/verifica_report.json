@@ -1,0 +1,50 @@
+{
+ "pagine": 19,
+ "font": [
+  "IWEWIB+Gelasio-Bold",
+  "GHZZHF+Gelasio-Italic",
+  "BUTTGB+Gelasio",
+  "EYOQPP+SimboliA",
+  "YBJPTN+SimboliA-Bold"
+ ],
+ "parti": [
+  {
+   "pagine": [
+    6,
+    17
+   ],
+   "ultima_pagina_%": 98,
+   "interne_sotto_80": [
+    [
+     8,
+     73
+    ],
+    [
+     11,
+     73
+    ],
+    [
+     15,
+     65
+    ],
+    [
+     16,
+     73
+    ]
+   ]
+  },
+  {
+   "pagine": [
+    18,
+    18
+   ],
+   "ultima_pagina_%": 62,
+   "interne_sotto_80": []
+  }
+ ],
+ "errori": [],
+ "avvisi": [
+  "  pagine interne sotto l'80%: [(8, 73), (11, 73), (15, 65), (16, 73)]",
+  "Parte con inizio a p.18: p.18-18 (1 pag.); ultima pagina al 62% (< 65%)"
+ ]
+}
