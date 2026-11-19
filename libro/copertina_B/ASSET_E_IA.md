@@ -6,9 +6,11 @@
 |---|---|---|
 | Capsula, capsula aperta e compressa a maglia low-poly | Procedurale, originale. `pillola_mesh.py`: campi di distanza impliciti (capsula in due pezzi con gradino di giunzione, gusci aperti con spessore, compressa biconvessa con linea di frattura), superficie estratta con marching cubes e decimata con decimazione quadrica (`fast-simplification`). Maglie in `sorgenti/capsula_1800.npz`, `capsula_aperta_2400.npz`, `compressa_1500.npz` | Nessuno strumento di generazione di immagini; nessuna impronta, marchio o colore di farmaci reali |
 | Rendering (spigoli, nodi, bagliore, particelle, granuli di principio attivo, molecole esagonali, reticolo esagonale, mappatura tonale azzurra) | Procedurale, originale. `arte_mesh.py` (NumPy, OpenCV) | Rendering proprio, non un modello di immagini |
-| Tracciati (curva di concentrazione plasmatica, catena molecolare, sigmoide dose-risposta), rete low-poly del retro, polvere luminosa, alone del titolo | Procedurali (`arte_mesh.py`, `build_copertina_B.py`; SciPy, OpenCV, Pillow) | Alone del titolo calcolato dal font |
+| Tracciati (curva di concentrazione plasmatica a dosi ripetute, catena molecolare, curva concentrazione-tempo di Bateman della variante C), rete low-poly del retro, polvere luminosa, alone del titolo | Procedurali (`arte_mesh.py`, `build_copertina_B.py`; SciPy, OpenCV, Pillow) | Alone del titolo calcolato dal font |
 | Icona a capsula del dorso | Vettoriale, disegnata nel codice | |
 | Font | Montserrat (SIL Open Font License), `fonts/` con `OFL.txt` | Incorporati nel PDF come subset |
+| Montserrat Light Italic (`fonts/Montserrat-LightItalic.ttf`) | Istanza statica wght 300 generata con fontTools dal font variabile ufficiale OFL `google/fonts`, `ofl/montserrat/Montserrat-Italic[wght].ttf`. Nessun font di terzi non OFL | Usato per annotazioni e formule di sfondo della variante C |
+| Annotazioni e formule di sfondo (D, MEC, Cmax, tmax, t½, AUC, t; formule PK/PD) | Testo vettoriale scritto nel codice (`build_copertina_B.py`), alone nero come copie vettoriali sfalsate | Nessun asset esterno |
 | Testi (titolo, sottotitolo, quarta, avvertenza) | Scritti per il libro; costanti in `build_copertina_B.py` | Sottotitolo e quarta sono testi di lavoro, da confermare con l'autore |
 | Immagini stock, illustrazioni o elementi di terzi | Nessuno | |
 | Copertine esistenti | Non copiate né tracciate | Layout condiviso solo con il volume A, dello stesso progetto |

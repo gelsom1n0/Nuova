@@ -6,10 +6,10 @@ Copertina per brossura KDP, 7 x 10 in, interno B/N su carta bianca, 290 pagine (
 
 | File | Contenuto |
 |---|---|
-| `copertina_KDP.pdf` | PDF da caricare su KDP (variante A, CMYK) |
-| `copertina_KDP_variante_B.pdf`, `copertina_KDP_variante_C.pdf` | Altre due varianti, stesso formato |
+| `copertina_KDP.pdf` | PDF da caricare su KDP (variante C, CMYK) |
+| `copertina_KDP_variante_A.pdf`, `copertina_KDP_variante_B.pdf` | Alternative, stesso formato |
 | `copertina_anteprima.png` | Anteprima della distesa con guide (rifilo, bleed, zone di sicurezza 0,125 e 0,25 in, dorso, area barcode) |
-| `copertina_anteprima_senza_guide.png`, `prima_di_copertina.png` | Distesa pulita e solo la prima, variante A |
+| `copertina_anteprima_senza_guide.png`, `prima_di_copertina.png` | Distesa pulita e solo la prima, variante C |
 | `anteprime/` | `distesa_{A,B,C}.png`, `distesa_{A,B,C}_guide.png`, `prima_{A,B,C}.png` |
 | `build_copertina_B.py` | Generatore (layout, testi, PDF, anteprime) |
 | `arte_mesh.py`, `pillola_mesh.py` | Rendering procedurale e geometrie 3D (capsula, capsula aperta, compressa) |
@@ -17,20 +17,46 @@ Copertina per brossura KDP, 7 x 10 in, interno B/N su carta bianca, 290 pagine (
 | `PROMPT_COPERTINA_B.md` | Brief eseguito per questa copertina |
 | `CHECKLIST_COPERTINA.md` | Verifica del file rispetto ai requisiti, e passi per il caricamento |
 | `ASSET_E_IA.md` | Origine degli asset e questione della dichiarazione IA |
-| `fonts/` | Montserrat (OFL) |
+| `fonts/` | Montserrat (OFL), incl. `Montserrat-LightItalic.ttf` (istanza statica wght 300 ricavata dal font variabile ufficiale, vedi `ASSET_E_IA.md`) |
 | `sorgenti/` | Maglie (`capsula_1800.npz`, `capsula_aperta_2400.npz`, `compressa_1500.npz`); `sorgenti/cache/` = raster dei piatti (ignorata da git) |
 
 ## Le tre varianti
 
-- **A, capsula che si dematerializza + curva farmacocinetica (consigliata)**: capsula in due pezzi, inclinata in diagonale, che si dissolve in alto a destra in particelle, granuli di principio attivo e piccole molecole esagonali. Il tracciato è una curva di concentrazione plasmatica con dosi ripetute fino allo stato stazionario e finestra terapeutica tratteggiata: è l'equivalente farmacologico dell'ECG del volume A. Anteprima: `anteprime/prima_A.png`.
-- **B, capsula aperta + catena molecolare**: le due metà separate, con un flusso di granuli e molecole tra l'una e l'altra; il tracciato è una catena molecolare (legami a zig-zag con anelli esagonali). Anteprima: `anteprime/prima_B.png`.
-- **C, compressa + curva dose-risposta**: compressa rotonda con linea di frattura, vista a 3/4, il cui bordo diventa un reticolo esagonale; il tracciato è una sigmoide dose-risposta con punti sperimentali. Anteprima: `anteprime/prima_C.png`.
+Scelta dell'autore: **C**. `copertina_KDP.pdf` è la variante C; le alternative sono `copertina_KDP_variante_A.pdf` e `copertina_KDP_variante_B.pdf` (non esiste più un file `variante_C`).
 
-Motivo della raccomandazione di A: l'oggetto (capsula) e la dissoluzione sono riconoscibili anche in miniatura, e la curva a picchi e valli si legge subito come farmacocinetica e richiama l'ECG del volume A, rafforzando la serie.
+- **C, compressa + curva concentrazione-tempo (scelta, consigliata)**: compressa rotonda con linea di frattura, vista a 3/4, il cui bordo diventa un reticolo esagonale. Il tracciato è la curva di concentrazione plasmatica in funzione del tempo dopo una singola dose orale (modello di Bateman, C(t) ∝ e^(−ke·t) − e^(−ka·t)). Narrativa: la dose D è dentro la compressa, l'assorbimento avviene attraverso la compressa, la Cmax cade dove la compressa si dissolve nel reticolo, l'eliminazione scende verso destra. Anteprima: `anteprime/prima_C.png`.
+- **A, capsula che si dematerializza + curva farmacocinetica**: capsula in due pezzi, inclinata in diagonale, che si dissolve in particelle e molecole esagonali; tracciato a dosi ripetute fino allo stato stazionario con finestra terapeutica tratteggiata. Anteprima: `anteprime/prima_A.png`.
+- **B, capsula aperta + catena molecolare**: le due metà separate, con un flusso di granuli e molecole; tracciato a catena molecolare (legami a zig-zag con anelli esagonali). Anteprima: `anteprime/prima_B.png`.
 
-## Dati del file (variante A, 290 pagine)
+### Perché la curva di C non è più una sigmoide dose-risposta
 
-Distesa 1073,02 x 738 pt = 14,9031 x 10,25 in; dorso 0,6531 in; 2 raster CMYK 2850 x 4100 px a 400 ppi; file circa 7,6 MB (B: 8,1 MB; C: 7,8 MB). Dettaglio e verifiche in `CHECKLIST_COPERTINA.md`.
+Su richiesta dell'autore la curva riporta emivita e Cmax, che appartengono a una curva concentrazione-tempo; su una curva dose-risposta sarebbero errate (lì le etichette corrette sarebbero EC50 ed Emax). Per questo la sigmoide è stata sostituita dalla curva di Bateman.
+
+### Annotazioni della variante C
+
+Vettoriali, Montserrat Light Italic, azzurro chiaro #A9DFF2 con sottile alone nero (0,55 pt, 12 copie sfalsate, nessuna trasparenza):
+
+| Annotazione | Significato |
+|---|---|
+| **D** con freccia, sull'asse dei tempi al momento della somministrazione | Dose |
+| **MEC** (linea tratteggiata) | Concentrazione minima efficace (soglia) |
+| **Cmax** al picco | Concentrazione massima |
+| **tmax** sull'asse dei tempi, con guida punteggiata dal picco | Tempo al picco |
+| **t½** come parentesi sull'asse dei tempi, tra due punti della fase di eliminazione in cui la concentrazione si dimezza (t2 − t1 = ln2/ke) | Emivita |
+| **AUC** sotto la curva | Area sotto la curva (esposizione) |
+| **t** a fine asse | Tempo |
+
+Punti sulla curva: Cmax, i due punti di t½ e i due attraversamenti della MEC (inizio e fine dell'effetto).
+
+### Formule di sfondo
+
+Appena visibili (vettoriali, Montserrat Light Italic, colore #17242E su nero), solo nelle zone nere vuote.
+- Fronte: C(t) = C0 · e^(−ke·t); t½ = 0,693 · Vd / CL; AUC = F · D / CL; Css = k0 / CL (infusione continua; scelta al posto di F·D/(CL·τ) perché Montserrat non ha la τ greca).
+- Retro: E = Emax · C / (EC50 + C); Vd = D / C0; ke = ln 2 / t½.
+
+## Dati del file (variante C, 290 pagine)
+
+Distesa 1073,02 x 738 pt = 14,9031 x 10,25 in; dorso 0,6531 in; 2 raster CMYK 2850 x 4100 px a 400 ppi; file circa 7,8 MB (A: 7,6 MB; B: 8,1 MB). Dettaglio e verifiche in `CHECKLIST_COPERTINA.md`.
 
 ## Rigenerare con un nuovo numero di pagine
 
@@ -46,7 +72,7 @@ I due piatti raster sono ancorati ai bordi esterni del file: cambiando le pagine
 |---|---|
 | `--pagine N` | Numero di pagine (default 290) |
 | `--autore "Nome Cognome"` | Nome dell'autore (campo parametrico, oggi vuoto) |
-| `--variante A\|B\|C` | Variante del PDF principale `copertina_KDP.pdf` (default A) |
+| `--variante A\|B\|C` | Variante del PDF principale `copertina_KDP.pdf` (default C) |
 | `--tutte` | Genera anche le altre varianti (`copertina_KDP_variante_X.pdf` + anteprime) |
 | `--trim LxA` | Formato di rifilo in pollici (default `7x10`) |
 | `--carta bianca\|crema` | Coefficiente del dorso (0,002252 o 0,0025 in per pagina) |
