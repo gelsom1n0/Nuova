@@ -129,8 +129,8 @@ def campo(p: np.ndarray) -> np.ndarray:
     d = smin(d, tubo(p, dx, 0.38, 0.3), 0.15)
 
     # vena cava superiore (a sinistra) e inferiore (stub in basso)
-    vcs = _decasteljau(np.array([(-1.45, 1.0, -0.1), (-1.4, 2.3, -0.1), (-1.3, 3.45, -0.15)]), 18)
-    d = smin(d, tubo(p, vcs, 0.5, 0.46), 0.35)
+    vcs = _decasteljau(np.array([(-1.45, 1.0, -0.1), (-1.4, 2.1, -0.1), (-1.32, 3.05, -0.15)]), 18)
+    d = smin(d, tubo(p, vcs, 0.46, 0.42), 0.35)
     vci = _decasteljau(np.array([(-1.45, -0.2, -0.45), (-1.5, -1.0, -0.6), (-1.5, -1.6, -0.65)]), 10)
     d = smin(d, tubo(p, vci, 0.45, 0.42), 0.25)
 
@@ -139,6 +139,36 @@ def campo(p: np.ndarray) -> np.ndarray:
                  ((0.1, 1.3, -1.15), (-0.5, 1.5, -1.5))]:
         d = smin(d, tubo(p, np.array([a, b]), 0.24, 0.2), 0.15)
     return d
+
+
+def sulla_superficie(punti, iterazioni=25, h=1e-3):
+    """Porta punti 3D vicini al cuore esattamente sulla superficie (campo = 0)
+    con passi di Newton lungo il gradiente."""
+    p = np.asarray(punti, float).copy()
+    for _ in range(iterazioni):
+        f = campo(p)
+        g = np.stack([(campo(p + np.eye(3)[i] * h) - f) / h for i in range(3)], axis=-1)
+        p -= (f / np.maximum(np.sum(g * g, axis=-1), 1e-9))[:, None] * g
+    return p
+
+
+def coronarie():
+    """Arterie coronarie principali (vista anteriore): discendente anteriore
+    lungo il solco interventricolare con rami diagonali, circonflessa e coronaria
+    destra nel solco atrio-ventricolare. Curve 3D appoggiate sulla superficie."""
+    rami = {
+        "IVA": [(0.2, 0.75, 1.4), (0.35, 0.0, 1.55), (0.55, -0.9, 1.45), (0.95, -1.9, 1.05), (1.35, -2.55, 0.45)],
+        "D1": [(0.38, -0.1, 1.55), (0.95, -0.55, 1.3), (1.55, -1.05, 0.9)],
+        "D2": [(0.62, -1.05, 1.42), (1.15, -1.45, 1.05), (1.6, -1.8, 0.6)],
+        "CX": [(0.3, 0.75, 1.3), (1.0, 0.55, 1.1), (1.8, 0.25, 0.5), (2.2, -0.15, -0.2)],
+        "CDx": [(-0.1, 0.6, 1.35), (-0.9, 0.15, 1.35), (-1.55, -0.6, 0.95), (-1.6, -1.4, 0.4)],
+        "MA": [(-1.2, -0.3, 1.2), (-0.6, -1.0, 1.4), (-0.1, -1.7, 1.35)],
+    }
+    out = {}
+    for k, pts in rami.items():
+        c = _decasteljau(np.array(pts, float), 40)
+        out[k] = sulla_superficie(c)
+    return out
 
 
 # ---------------------------------------------------------------------------
