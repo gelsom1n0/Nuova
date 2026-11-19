@@ -50,7 +50,7 @@ Punti sulla curva: Cmax, i due punti di t½ e i due attraversamenti della MEC (i
 
 ### Formule di sfondo
 
-Appena visibili (vettoriali, Montserrat Light Italic, colore #17242E su nero), solo nelle zone nere vuote.
+Appena visibili (vettoriali, Montserrat Light Italic, colore #383838 (bianco al 22 % su nero: grigio equivalente, senza trasparenza) su nero), solo nelle zone nere vuote.
 - Fronte: C(t) = C0 · e^(−ke·t); t½ = 0,693 · Vd / CL; AUC = F · D / CL; Css = k0 / CL (infusione continua; scelta al posto di F·D/(CL·τ) perché Montserrat non ha la τ greca).
 - Retro: E = Emax · C / (EC50 + C); Vd = D / C0; ke = ln 2 / t½.
 
