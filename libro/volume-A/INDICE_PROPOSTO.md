@@ -23,9 +23,10 @@ Formato proposto 7 × 10 in, interno B/N, circa 290–300 pagine. **Bozza per ap
 | 7 | **ECG, elettroliti, farmaci e dispositivi** | 16 |
 | 8 | **Farmaci cardiovascolari** | 60 |
 | 9 | **Elettroliti e liquidi** | 12 |
-| 10 | **Cardiochirurgia e pronto soccorso: i casi da turno** | 20 |
-| 11 | Strumenti: glossario, schede rapide, indice analitico, fonti | 10 |
-| | **Totale** | **≈ 310** (da stringere a ≈ 290–300) |
+| 10 | **Il paziente cardiochirurgico: aritmie e anomalie di conduzione del post-operatorio** | 26 |
+| 11 | **Pronto soccorso e casi da turno (10 casi)** | 18 |
+| 12 | Strumenti: glossario, schede rapide, indice analitico, fonti | 10 |
+| | **Totale** | **≈ 335** (da stringere a ≈ 300 dopo il confronto con l'indice di Dubin) |
 
 ## Contenuto per Parte
 
@@ -102,12 +103,21 @@ Ogni aritmia segue lo stesso schema: **Come si riconosce · Cosa succede · Caus
 ### Parte 9 – Elettroliti e liquidi
 Dal tomo, **con la nuova sezione per singolo disturbo** (cause, sintomi, ECG, trattamento di Na, K, Ca, Mg, fosfato).
 
-### Parte 10 – Cardiochirurgia e pronto soccorso: i casi da turno
-10.1 Percorsi: dolore toracico e SCA in PS, FA rapida, scompenso acuto, shock cardiogeno, arresto cardiaco.
-10.2 Il paziente cardiochirurgico: preparazione e farmaci da sospendere, post-operatorio immediato, aritmie post-operatorie, fili epicardici, tamponamento, drenaggi.
-10.3 **10 casi da turno**: scenario → ECG → ragionamento → decisione → farmaco → assistenza → «cosa dico al medico» (formato SBAR).
+### Parte 10 – Il paziente cardiochirurgico: aritmie e anomalie di conduzione del post-operatorio
+10.1 Il paziente dopo cardiochirurgia: cosa è cambiato nel cuore (CEC, cardioplegia, ipotermia, edema, infiammazione), monitoraggio e fili epicardici.
+10.2 **Fibrillazione atriale post-operatoria**: perché compare, quando (picco tra il 2° e il 4° giorno), prevenzione (beta-bloccanti, elettroliti, amiodarone), controllo di frequenza o ritmo, cardioversione, anticoagulazione, cosa fa l'infermiere.
+10.3 Flutter e tachicardie atriali; tachicardia sopraventricolare e sinusale da cause non cardiache (dolore, ipovolemia, anemia, febbre).
+10.4 **Blocchi atrioventricolari e bradiaritmie dopo l'intervento** (soprattutto valvolari e aortiche): BAV 1°–3° grado, blocchi di branca nuovi, disfunzione sinusale; **stimolazione epicardica temporanea** (modalità, soglie, sensing, malfunzionamenti), quando si impianta un pacemaker definitivo.
+10.5 Extrasistoli ventricolari, tachicardia ventricolare, fibrillazione ventricolare e arresto nel post-operatorio: cause (ischemia, squilibri elettrolitici, tamponamento) e gestione (algoritmi e defibrillazione, ruolo del rientro in sala).
+10.6 Altre anomalie dell'ECG post-operatorio: modifiche ST-T, pericardite post-pericardiotomia, ischemia perioperatoria e infarto periprocedurale, tamponamento (bassa tensione, alternanza elettrica).
+10.7 Farmaci e elettroliti del post-operatorio (K ≥ 4,0, Mg ≥ 2,0; amiodarone, beta-bloccanti, digossina, inotropi e vasopressori) e passaggio di consegne.
+*A fine Parte:* 15 tracciati (reali e simulati) con soluzione; scheda «aritmia post-operatoria: riconoscimento → azione → farmaco → chi chiamare».
 
-### Parte 11 – Strumenti
+### Parte 11 – Pronto soccorso e casi da turno
+11.1 Percorsi in PS: dolore toracico e SCA, FA rapida, scompenso acuto, shock cardiogeno, arresto cardiaco.
+11.2 **10 casi da turno** (ECG → ragionamento → decisione → farmaco → assistenza → «cosa dico al medico», formato SBAR), con almeno 3 casi cardiochirurgici.
+
+### Parte 12 – Strumenti
 Glossario, schede rapide (7 passi, ritmi, farmaci d'emergenza), indice analitico dei farmaci e delle aritmie, fonti e dichiarazione finale.
 
 ## Il modello di «Nota clinica» (descrittiva e autosufficiente)
