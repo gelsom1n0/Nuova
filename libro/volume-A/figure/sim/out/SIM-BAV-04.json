@@ -1,0 +1,225 @@
+{
+ "id": "SIM-BAV-04",
+ "titolo": "Blocco AV di 3° grado con scappamento giunzionale",
+ "tipo": "simulato",
+ "gruppo": "blocchi",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "bav",
+  "parametri": {
+   "durata": 10.4,
+   "grado": "3",
+   "hr_atriale": 80,
+   "scappamento": "giunzionale"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-BAV-04.svg",
+  "png": "sim/out/SIM-BAV-04.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  55.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "P regolari 80/min e QRS stretti regolari 45/min, senza relazione tra loro (PR variabile).",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 45.0,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.0,
+   "ok": true
+  },
+  {
+   "criterio": "rapporto_p_qrs",
+   "misura": 1.75,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "P e QRS indipendenti",
+  "P che cadono nel QRS e nella T"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 45.0,
+  "fc_media": 45.0,
+  "rr_cv": 0.0,
+  "rmssd_ms": 0.8,
+  "n_qrs": 8,
+  "qrs_ms": 99,
+  "pr_ms": null,
+  "qt_ms": 438,
+  "qtc_bazett_ms": 379,
+  "qtc_fridericia_ms": 398,
+  "asse_gradi": 41,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.016,
+  "t_ampiezza_mv": 0.434,
+  "u_ampiezza_mv": 0.001,
+  "ampiezza_max_mv": 1.048,
+  "rapporto_p_qrs": 1.75,
+  "st_j60_mv": {
+   "I": 0.0,
+   "II": 0.0,
+   "III": 0.0,
+   "aVR": -0.0,
+   "aVL": -0.0,
+   "aVF": 0.0,
+   "V1": -0.001,
+   "V2": -0.001,
+   "V3": -0.001,
+   "V4": -0.001,
+   "V5": -0.0,
+   "V6": 0.0
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P (non condotta)",
+   "t": 0.25,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 1.002,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 1.752,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 2.501,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 3.249,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 3.997,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 4.747,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 5.495,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 6.244,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 6.994,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 7.744,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 8.49,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 9.242,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 9.989,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 10.741,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 11.492,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 0.55,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 1.883,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 3.217,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 4.55,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 5.883,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 7.217,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 8.55,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 9.883,
+   "qrs": 0.09,
+   "qt": 0.451
+  },
+  {
+   "tipo": "QRS di scappamento giunzionale",
+   "t": 11.217,
+   "qrs": 0.09,
+   "qt": 0.451
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

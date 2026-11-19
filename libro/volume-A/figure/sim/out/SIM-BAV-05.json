@@ -1,0 +1,208 @@
+{
+ "id": "SIM-BAV-05",
+ "titolo": "Blocco AV di 3° grado con scappamento ventricolare",
+ "tipo": "simulato",
+ "gruppo": "blocchi",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "bav",
+  "parametri": {
+   "durata": 10.4,
+   "grado": "3",
+   "hr_atriale": 78,
+   "scappamento": "ventricolare"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-BAV-05.svg",
+  "png": "sim/out/SIM-BAV-05.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  65.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "P regolari ≈ 78/min, QRS larghi lenti ≈ 34/min, dissociati.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 34.0,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 189,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "dissociazione AV completa",
+  "scappamento a QRS largo"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 34.0,
+  "fc_media": 34.0,
+  "rr_cv": 0.0,
+  "rmssd_ms": 1.1,
+  "n_qrs": 6,
+  "qrs_ms": 189,
+  "pr_ms": null,
+  "qt_ms": 548,
+  "qtc_bazett_ms": 412,
+  "qtc_fridericia_ms": 453,
+  "asse_gradi": -123,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.021,
+  "t_ampiezza_mv": -0.458,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 1.078,
+  "rapporto_p_qrs": 2.33,
+  "st_j60_mv": {
+   "I": 0.0,
+   "II": -0.003,
+   "III": -0.004,
+   "aVR": 0.001,
+   "aVL": 0.002,
+   "aVF": -0.003,
+   "V1": 0.001,
+   "V2": 0.002,
+   "V3": 0.002,
+   "V4": 0.001,
+   "V5": 0.0,
+   "V6": -0.0
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P (non condotta)",
+   "t": 0.25,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 1.021,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 1.791,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 2.559,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 3.326,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 4.093,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 4.862,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 5.63,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 6.398,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 7.167,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 7.936,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 8.702,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 9.472,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 10.238,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 11.01,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P (non condotta)",
+   "t": 11.781,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS di scappamento ventricolare",
+   "t": 0.8,
+   "qrs": 0.16,
+   "qt": 0.568
+  },
+  {
+   "tipo": "QRS di scappamento ventricolare",
+   "t": 2.565,
+   "qrs": 0.16,
+   "qt": 0.568
+  },
+  {
+   "tipo": "QRS di scappamento ventricolare",
+   "t": 4.329,
+   "qrs": 0.16,
+   "qt": 0.568
+  },
+  {
+   "tipo": "QRS di scappamento ventricolare",
+   "t": 6.094,
+   "qrs": 0.16,
+   "qt": 0.568
+  },
+  {
+   "tipo": "QRS di scappamento ventricolare",
+   "t": 7.859,
+   "qrs": 0.16,
+   "qt": 0.568
+  },
+  {
+   "tipo": "QRS di scappamento ventricolare",
+   "t": 9.624,
+   "qrs": 0.16,
+   "qt": 0.568
+  },
+  {
+   "tipo": "QRS di scappamento ventricolare",
+   "t": 11.388,
+   "qrs": 0.16,
+   "qt": 0.568
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

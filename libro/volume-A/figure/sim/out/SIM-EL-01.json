@@ -1,0 +1,239 @@
+{
+ "id": "SIM-EL-01",
+ "titolo": "Iperpotassiemia lieve: T appuntite",
+ "tipo": "simulato",
+ "gruppo": "elettroliti",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "elettroliti",
+  "parametri": {
+   "durata": 10.4,
+   "quadro": "iperK_lieve"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EL-01.svg",
+  "png": "sim/out/SIM-EL-01.png",
+  "svg_3x4": "sim/out/SIM-EL-01_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  170.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "T alte, simmetriche, appuntite e a base stretta (soprattutto V2–V4); QRS e P normali.",
+ "criteri_automatici": [
+  {
+   "criterio": "t_ampiezza_mv",
+   "misura": 0.923,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 100,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "T «a tenda» a base stretta",
+  "QRS stretto"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 72.0,
+  "fc_media": 72.0,
+  "rr_cv": 0.004,
+  "rmssd_ms": 6.2,
+  "n_qrs": 12,
+  "qrs_ms": 100,
+  "pr_ms": 154,
+  "qt_ms": 364,
+  "qtc_bazett_ms": 399,
+  "qtc_fridericia_ms": 387,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.13,
+  "t_ampiezza_mv": 0.923,
+  "u_ampiezza_mv": 0.001,
+  "ampiezza_max_mv": 0.996,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.002,
+   "II": -0.003,
+   "III": -0.001,
+   "aVR": 0.003,
+   "aVL": -0.001,
+   "aVF": -0.002,
+   "V1": -0.0,
+   "V2": -0.002,
+   "V3": -0.004,
+   "V4": -0.005,
+   "V5": -0.004,
+   "V6": -0.003
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.135,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.295,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.973,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.133,
+   "qrs": 0.09,
+   "qt": 0.368
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.8,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.96,
+   "qrs": 0.09,
+   "qt": 0.366
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.639,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.799,
+   "qrs": 0.09,
+   "qt": 0.368
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.472,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.632,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.303,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.463,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.134,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.294,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.963,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.123,
+   "qrs": 0.09,
+   "qt": 0.366
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.796,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.956,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.632,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.792,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.627,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.303,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.463,
+   "qrs": 0.09,
+   "qt": 0.367
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.131,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.291,
+   "qrs": 0.09,
+   "qt": 0.366
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

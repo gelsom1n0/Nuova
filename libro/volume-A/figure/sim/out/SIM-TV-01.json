@@ -1,0 +1,356 @@
+{
+ "id": "SIM-TV-01",
+ "titolo": "Tachicardia ventricolare monomorfa",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "tachicardia_ventricolare",
+  "parametri": {
+   "durata": 10.4,
+   "fc": 170
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-TV-01.svg",
+  "png": "sim/out/SIM-TV-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  145.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Tachicardia regolare a QRS largo (≥ 0,14 s) ≈ 170/min, complessi identici; P dissociate.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 170.0,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.002,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 171,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "QRS larghi e uguali",
+  "dissociazione AV (P che «marciano» indipendenti)"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 170.0,
+  "fc_media": 170.0,
+  "rr_cv": 0.002,
+  "rmssd_ms": 1.2,
+  "n_qrs": 29,
+  "qrs_ms": 171,
+  "pr_ms": 191,
+  "qt_ms": 348,
+  "qtc_bazett_ms": 586,
+  "qtc_fridericia_ms": 492,
+  "asse_gradi": 74,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.448,
+  "t_ampiezza_mv": 0.448,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 1.223,
+  "rapporto_p_qrs": 0.45,
+  "st_j60_mv": {
+   "I": -0.077,
+   "II": -0.424,
+   "III": -0.347,
+   "aVR": 0.25,
+   "aVL": 0.135,
+   "aVF": -0.385,
+   "V1": 0.27,
+   "V2": 0.444,
+   "V3": 0.365,
+   "V4": 0.206,
+   "V5": 0.019,
+   "V6": -0.128
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "QRS (TV)",
+   "t": 0.2,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 0.553,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 0.906,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 1.259,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 1.612,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 1.965,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 2.318,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 2.671,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 3.024,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 3.376,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 3.729,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 4.082,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 4.435,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 4.788,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 5.141,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 5.494,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 5.847,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 6.2,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 6.553,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 6.906,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 7.259,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 7.612,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 7.965,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 8.318,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 8.671,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 9.024,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 9.376,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 9.729,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 10.082,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 10.435,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 10.788,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "QRS (TV)",
+   "t": 11.141,
+   "qrs": 0.15,
+   "qt": 0.311
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 0.45,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 1.219,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 1.988,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 2.758,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 3.527,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 4.296,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 5.065,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 5.835,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 6.604,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 7.373,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 8.142,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 8.912,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 9.681,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 10.45,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P dissociata",
+   "t": 11.219,
+   "durata": 0.1
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

@@ -1,0 +1,250 @@
+{
+ "id": "SIM-RS-02",
+ "titolo": "Ritmo sinusale normale (striscia II)",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ritmo_condotto",
+  "parametri": {
+   "durata": 10.4,
+   "hr": 72,
+   "pr": 0.16
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-RS-02.svg",
+  "png": "sim/out/SIM-RS-02.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  55.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Ritmo regolare 72/min, ogni QRS preceduto da una P positiva con PR costante 0,16 s.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 71.9,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.003,
+   "ok": true
+  },
+  {
+   "criterio": "p_presente",
+   "misura": true,
+   "ok": true
+  },
+  {
+   "criterio": "pr_ms",
+   "misura": 154,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "RR costanti",
+  "una P per ogni QRS",
+  "PR costante"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 71.9,
+  "fc_media": 72.0,
+  "rr_cv": 0.003,
+  "rmssd_ms": 2.8,
+  "n_qrs": 12,
+  "qrs_ms": 100,
+  "pr_ms": 154,
+  "qt_ms": 377,
+  "qtc_bazett_ms": 413,
+  "qtc_fridericia_ms": 401,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.13,
+  "t_ampiezza_mv": 0.446,
+  "u_ampiezza_mv": 0.003,
+  "ampiezza_max_mv": 1.011,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.015,
+   "II": 0.02,
+   "III": 0.006,
+   "aVR": -0.017,
+   "aVL": 0.004,
+   "aVF": 0.013,
+   "V1": -0.0,
+   "V2": 0.009,
+   "V3": 0.02,
+   "V4": 0.028,
+   "V5": 0.025,
+   "V6": 0.017
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.134,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.294,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.127,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.802,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.962,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.636,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.796,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.627,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.302,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.462,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.14,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.3,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.976,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.136,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.807,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.967,
+   "qrs": 0.09,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.636,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.796,
+   "qrs": 0.09,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.627,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.301,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.461,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.126,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.286,
+   "qrs": 0.09,
+   "qt": 0.385
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

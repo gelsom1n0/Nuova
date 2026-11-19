@@ -1,0 +1,239 @@
+{
+ "id": "SIM-BAV-03",
+ "titolo": "Blocco AV di 2° grado Mobitz II (3:2)",
+ "tipo": "simulato",
+ "gruppo": "blocchi",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "bav",
+  "parametri": {
+   "durata": 10.4,
+   "grado": "2II",
+   "hr_atriale": 84,
+   "pr": 0.18,
+   "m": "bbd"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-BAV-03.svg",
+  "png": "sim/out/SIM-BAV-03.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  125.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "PR costante nei battiti condotti, P bloccata improvvisamente (ogni 3 P); QRS largo (BBD associato).",
+ "criteri_automatici": [
+  {
+   "criterio": "rapporto_p_qrs",
+   "misura": 1.5,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "PR costante prima e dopo la P bloccata",
+  "P bloccata senza allungamento del PR"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 83.8,
+  "fc_media": 58.2,
+  "rr_cv": 0.344,
+  "rmssd_ms": 713.6,
+  "n_qrs": 10,
+  "qrs_ms": 153,
+  "pr_ms": 175,
+  "qt_ms": 375,
+  "qtc_bazett_ms": 443,
+  "qtc_fridericia_ms": 419,
+  "asse_gradi": 134,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.132,
+  "t_ampiezza_mv": -0.514,
+  "u_ampiezza_mv": 0.074,
+  "ampiezza_max_mv": 1.038,
+  "rapporto_p_qrs": 1.5,
+  "st_j60_mv": {
+   "I": 0.082,
+   "II": 0.101,
+   "III": 0.019,
+   "aVR": -0.092,
+   "aVL": 0.031,
+   "aVF": 0.06,
+   "V1": -0.137,
+   "V2": -0.197,
+   "V3": -0.144,
+   "V4": -0.059,
+   "V5": 0.036,
+   "V6": 0.093
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.25,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 0.43,
+   "qrs": 0.135,
+   "qt": 0.384
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 0.966,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 1.146,
+   "qrs": 0.135,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 1.681,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.394,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 2.574,
+   "qrs": 0.135,
+   "qt": 0.484
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.107,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 3.287,
+   "qrs": 0.135,
+   "qt": 0.384
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 3.818,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.533,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 4.713,
+   "qrs": 0.135,
+   "qt": 0.484
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.246,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 5.426,
+   "qrs": 0.135,
+   "qt": 0.384
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 5.959,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.673,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 6.853,
+   "qrs": 0.135,
+   "qt": 0.484
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.387,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 7.567,
+   "qrs": 0.135,
+   "qt": 0.384
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 8.098,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.814,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 8.994,
+   "qrs": 0.135,
+   "qt": 0.484
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.525,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 9.705,
+   "qrs": 0.135,
+   "qt": 0.384
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 10.242,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.957,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 11.137,
+   "qrs": 0.135,
+   "qt": 0.485
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.671,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 11.851,
+   "qrs": 0.135,
+   "qt": 0.384
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

@@ -1,0 +1,229 @@
+{
+ "id": "SIM-EX-04",
+ "titolo": "Bigeminismo ventricolare",
+ "tipo": "simulato",
+ "gruppo": "extrasistoli",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "extrasistoli",
+  "parametri": {
+   "durata": 10.4,
+   "tipo": "ESV",
+   "hr": 72,
+   "bigeminismo": true
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EX-04.svg",
+  "png": "sim/out/SIM-EX-04.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  145.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Alternanza regolare battito sinusale – extrasistole ventricolare, con pause compensatorie.",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "ogni battito sinusale è seguito da una ESV",
+  "accoppiamento fisso"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 36.0,
+  "fc_media": 36.0,
+  "rr_cv": 0.0,
+  "rmssd_ms": 0.9,
+  "n_qrs": 6,
+  "qrs_ms": 99,
+  "pr_ms": 167,
+  "qt_ms": 635,
+  "qtc_bazett_ms": 492,
+  "qtc_fridericia_ms": 536,
+  "asse_gradi": 40,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.134,
+  "t_ampiezza_mv": -1.632,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 1.236,
+  "rapporto_p_qrs": 2.0,
+  "st_j60_mv": {
+   "I": -0.01,
+   "II": -0.029,
+   "III": -0.019,
+   "aVR": 0.019,
+   "aVL": 0.004,
+   "aVF": -0.024,
+   "V1": 0.015,
+   "V2": 0.021,
+   "V3": 0.013,
+   "V4": 0.002,
+   "V5": -0.008,
+   "V6": -0.013
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "ESV",
+   "t": 0.943,
+   "qrs": 0.15,
+   "qt": 0.345
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.133,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.127,
+   "qrs": 0.09,
+   "qt": 0.486
+  },
+  {
+   "tipo": "ESV",
+   "t": 2.61,
+   "qrs": 0.15,
+   "qt": 0.345
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.8,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.633,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.793,
+   "qrs": 0.09,
+   "qt": 0.486
+  },
+  {
+   "tipo": "ESV",
+   "t": 4.277,
+   "qrs": 0.15,
+   "qt": 0.345
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.46,
+   "qrs": 0.09,
+   "qt": 0.486
+  },
+  {
+   "tipo": "ESV",
+   "t": 5.943,
+   "qrs": 0.15,
+   "qt": 0.345
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.133,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.127,
+   "qrs": 0.09,
+   "qt": 0.486
+  },
+  {
+   "tipo": "ESV",
+   "t": 7.61,
+   "qrs": 0.15,
+   "qt": 0.345
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.8,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.633,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.793,
+   "qrs": 0.09,
+   "qt": 0.486
+  },
+  {
+   "tipo": "ESV",
+   "t": 9.277,
+   "qrs": 0.15,
+   "qt": 0.345
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.46,
+   "qrs": 0.09,
+   "qt": 0.486
+  },
+  {
+   "tipo": "ESV",
+   "t": 10.943,
+   "qrs": 0.15,
+   "qt": 0.345
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.133,
+   "durata": 0.1
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

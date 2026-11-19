@@ -1,0 +1,76 @@
+{
+ "id": "SIM-AS-01",
+ "titolo": "Asistolia",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "asistolia",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-AS-01.svg",
+  "png": "sim/out/SIM-AS-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  45.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Linea quasi piatta con lieve deriva; nessuna attività elettrica organizzata.",
+ "criteri_automatici": [
+  {
+   "criterio": "ampiezza_max_mv",
+   "misura": 0.006,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "nessuna onda P né QRS"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 14.0,
+  "fc_media": 14.0,
+  "rr_cv": 0.167,
+  "rmssd_ms": 1431.0,
+  "n_qrs": 3,
+  "qrs_ms": 111,
+  "pr_ms": null,
+  "qt_ms": 662,
+  "qtc_bazett_ms": 320,
+  "qtc_fridericia_ms": 408,
+  "asse_gradi": 162,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.0,
+  "t_ampiezza_mv": -0.006,
+  "u_ampiezza_mv": 0.002,
+  "ampiezza_max_mv": 0.006,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": -0.002,
+   "II": 0.001,
+   "III": 0.003,
+   "aVR": 0.0,
+   "aVL": -0.002,
+   "aVF": 0.002,
+   "V1": -0.0,
+   "V2": -0.002,
+   "V3": -0.002,
+   "V4": -0.003,
+   "V5": -0.002,
+   "V6": -0.001
+  }
+ },
+ "eventi": [],
+ "stato_validazione": "da_validare"
+}

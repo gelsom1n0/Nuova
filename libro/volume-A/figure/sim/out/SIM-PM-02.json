@@ -1,0 +1,205 @@
+{
+ "id": "SIM-PM-02",
+ "titolo": "Stimolazione ventricolare (VVI) su FA",
+ "tipo": "simulato",
+ "gruppo": "pacemaker",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "pacemaker",
+  "parametri": {
+   "durata": 10.4,
+   "modo": "VVI",
+   "fc": 60
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-PM-02.svg",
+  "png": "sim/out/SIM-PM-02.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  245.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Spike ventricolare seguito da QRS largo (asse superiore, morfologia tipo BBS), FC 60/min; onde f di FA.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 60.0,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 211,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "spike immediatamente prima di ogni QRS",
+  "QRS largo con T discordante"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 60.0,
+  "fc_media": 60.0,
+  "rr_cv": 0.001,
+  "rmssd_ms": 2.1,
+  "n_qrs": 11,
+  "qrs_ms": 211,
+  "pr_ms": null,
+  "qt_ms": 468,
+  "qtc_bazett_ms": 468,
+  "qtc_fridericia_ms": 468,
+  "asse_gradi": -54,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.046,
+  "t_ampiezza_mv": 0.614,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 0.829,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": -0.048,
+   "II": 0.059,
+   "III": 0.108,
+   "aVR": -0.009,
+   "aVL": -0.079,
+   "aVF": 0.083,
+   "V1": 0.113,
+   "V2": 0.175,
+   "V3": 0.158,
+   "V4": 0.11,
+   "V5": 0.024,
+   "V6": -0.04
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "spike ventricolare",
+   "t": 0.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 0.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 1.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 1.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 2.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 2.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 3.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 3.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 4.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 4.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 5.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 5.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 6.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 6.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 7.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 7.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 8.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 8.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 9.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 9.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 10.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 10.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 11.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 11.304,
+   "qrs": 0.155,
+   "qt": 0.46
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

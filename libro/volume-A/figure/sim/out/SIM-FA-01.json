@@ -1,0 +1,221 @@
+{
+ "id": "SIM-FA-01",
+ "titolo": "Fibrillazione atriale a risposta ventricolare elevata",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "fibrillazione_atriale",
+  "parametri": {
+   "durata": 10.4,
+   "fc_media": 110
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-FA-01.svg",
+  "png": "sim/out/SIM-FA-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  125.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "RR irregolarmente irregolari, nessuna P, onde f fini (meglio visibili in V1), QRS stretti; FC media ≈ 110/min.",
+ "criteri_automatici": [
+  {
+   "criterio": "p_presente",
+   "misura": false,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.184,
+   "ok": true
+  },
+  {
+   "criterio": "fc_media",
+   "misura": 109.1,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 99,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "assenza di P",
+  "linea di base fibrillatoria",
+  "RR senza schema ripetitivo"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 106.6,
+  "fc_media": 109.1,
+  "rr_cv": 0.184,
+  "rmssd_ms": 151.5,
+  "n_qrs": 19,
+  "qrs_ms": 99,
+  "pr_ms": null,
+  "qt_ms": 332,
+  "qtc_bazett_ms": 442,
+  "qtc_fridericia_ms": 402,
+  "asse_gradi": 41,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.05,
+  "t_ampiezza_mv": 0.43,
+  "u_ampiezza_mv": 0.009,
+  "ampiezza_max_mv": 1.035,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": 0.022,
+   "II": 0.027,
+   "III": 0.007,
+   "aVR": -0.025,
+   "aVL": 0.007,
+   "aVF": 0.017,
+   "V1": 0.008,
+   "V2": 0.03,
+   "V3": 0.038,
+   "V4": 0.045,
+   "V5": 0.037,
+   "V6": 0.026
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "QRS (FA)",
+   "t": 0.25,
+   "qrs": 0.09,
+   "qt": 0.335
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 0.76,
+   "qrs": 0.09,
+   "qt": 0.328
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 1.412,
+   "qrs": 0.09,
+   "qt": 0.355
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 2.027,
+   "qrs": 0.09,
+   "qt": 0.349
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 2.583,
+   "qrs": 0.09,
+   "qt": 0.337
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 3.209,
+   "qrs": 0.09,
+   "qt": 0.351
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 3.569,
+   "qrs": 0.09,
+   "qt": 0.292
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 4.237,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 4.668,
+   "qrs": 0.09,
+   "qt": 0.31
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 5.028,
+   "qrs": 0.09,
+   "qt": 0.292
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 5.606,
+   "qrs": 0.09,
+   "qt": 0.342
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 6.236,
+   "qrs": 0.09,
+   "qt": 0.351
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 6.728,
+   "qrs": 0.09,
+   "qt": 0.324
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 7.144,
+   "qrs": 0.09,
+   "qt": 0.306
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 7.693,
+   "qrs": 0.09,
+   "qt": 0.336
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 8.232,
+   "qrs": 0.09,
+   "qt": 0.334
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 8.946,
+   "qrs": 0.09,
+   "qt": 0.366
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 9.581,
+   "qrs": 0.09,
+   "qt": 0.352
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 10.15,
+   "qrs": 0.09,
+   "qt": 0.34
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 10.829,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "QRS (FA)",
+   "t": 11.349,
+   "qrs": 0.09,
+   "qt": 0.33
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

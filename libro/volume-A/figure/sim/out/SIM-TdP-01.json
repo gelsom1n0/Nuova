@@ -1,0 +1,279 @@
+{
+ "id": "SIM-TdP-01",
+ "titolo": "Torsione di punta",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "torsione_di_punta",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-TdP-01.svg",
+  "png": "sim/out/SIM-TdP-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  85.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Due battiti con QT molto lungo, poi TV polimorfa ≈ 230/min con complessi che cambiano ampiezza e polarità ruotando attorno alla linea di base.",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "QT lungo nei battiti di base",
+  "innesco precoce (R su T)",
+  "fusi di ampiezza alternanti"
+ ],
+ "affidabilita_modello": "schematica",
+ "nota": "Modello fenomenologico: affiancare un tracciato reale prima dell'uso nel testo.",
+ "misure": {
+  "fc": null,
+  "rr_cv": null,
+  "n_qrs": 2,
+  "ampiezza_max_mv": 1.061,
+  "rapporto_p_qrs": 1.0
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.1,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.26,
+   "qrs": 0.09,
+   "qt": 0.64
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.25,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.41,
+   "qrs": 0.09,
+   "qt": 0.65
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 1.91,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 2.171,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 2.443,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 2.713,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 2.97,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 3.229,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 3.485,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 3.751,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 4.011,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 4.278,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 4.524,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 4.797,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 5.057,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 5.324,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 5.583,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 5.841,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 6.106,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 6.373,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 6.632,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 6.892,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 7.158,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 7.412,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 7.661,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 7.925,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 8.181,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 8.427,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 8.681,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 8.939,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 9.19,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 9.439,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 9.7,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 9.968,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 10.227,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 10.482,
+   "qrs": 0.16,
+   "qt": 0.28
+  },
+  {
+   "tipo": "complesso TdP",
+   "t": 10.746,
+   "qrs": 0.16,
+   "qt": 0.28
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

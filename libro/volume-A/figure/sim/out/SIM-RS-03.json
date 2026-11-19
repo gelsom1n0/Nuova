@@ -1,0 +1,365 @@
+{
+ "id": "SIM-RS-03",
+ "titolo": "Tachicardia sinusale",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ritmo_condotto",
+  "parametri": {
+   "durata": 10.4,
+   "hr": 125,
+   "pr": 0.14
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-RS-03.svg",
+  "png": "sim/out/SIM-RS-03.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  55.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Ritmo sinusale regolare 125/min; P visibili prima di ogni QRS (vicine alla T precedente).",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 125.0,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.003,
+   "ok": true
+  },
+  {
+   "criterio": "p_presente",
+   "misura": true,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "P sinusali distinguibili dalla T",
+  "QT accorciato in proporzione"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 125.0,
+  "fc_media": 125.1,
+  "rr_cv": 0.003,
+  "rmssd_ms": 2.0,
+  "n_qrs": 21,
+  "qrs_ms": 97,
+  "pr_ms": 141,
+  "qt_ms": 314,
+  "qtc_bazett_ms": 453,
+  "qtc_fridericia_ms": 401,
+  "asse_gradi": 42,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.128,
+  "t_ampiezza_mv": 0.45,
+  "u_ampiezza_mv": 0.115,
+  "ampiezza_max_mv": 0.954,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.044,
+   "II": 0.061,
+   "III": 0.017,
+   "aVR": -0.052,
+   "aVL": 0.014,
+   "aVF": 0.039,
+   "V1": 0.003,
+   "V2": 0.034,
+   "V3": 0.067,
+   "V4": 0.088,
+   "V5": 0.079,
+   "V6": 0.051
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.44,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 0.78,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.92,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.26,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.4,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.741,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.881,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.221,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.361,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.7,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.84,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.181,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.321,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.664,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.804,
+   "qrs": 0.09,
+   "qt": 0.322
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.145,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.285,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.624,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.764,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.102,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.242,
+   "qrs": 0.09,
+   "qt": 0.32
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.58,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.72,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.061,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.201,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.536,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.676,
+   "qrs": 0.09,
+   "qt": 0.32
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.016,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.156,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.493,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.633,
+   "qrs": 0.09,
+   "qt": 0.32
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.972,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.112,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.451,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.591,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.93,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.07,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.411,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.551,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.893,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.033,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.373,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.513,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.855,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.995,
+   "qrs": 0.09,
+   "qt": 0.322
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.334,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.474,
+   "qrs": 0.09,
+   "qt": 0.321
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.815,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.955,
+   "qrs": 0.09,
+   "qt": 0.321
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

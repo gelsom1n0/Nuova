@@ -1,0 +1,253 @@
+{
+ "id": "SIM-BB-02",
+ "titolo": "Blocco di branca sinistra",
+ "tipo": "simulato",
+ "gruppo": "morfologia_conduzione",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ritmo_condotto",
+  "parametri": {
+   "durata": 10.4,
+   "hr": 72,
+   "pr": 0.16,
+   "m": "bbs"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-BB-02.svg",
+  "png": "sim/out/SIM-BB-02.png",
+  "svg_3x4": "sim/out/SIM-BB-02_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  185.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "QRS ≥ 0,12 s; R larga e intaccata in I, aVL, V5–V6 senza q; QS o rS in V1–V3; ST-T discordanti.",
+ "criteri_automatici": [
+  {
+   "criterio": "qrs_ms",
+   "misura": 174,
+   "ok": true
+  },
+  {
+   "criterio": "amp:V6.min",
+   "misura": -0.07,
+   "ok": true
+  },
+  {
+   "criterio": "amp:V1.min",
+   "misura": -1.7,
+   "ok": true
+  },
+  {
+   "criterio": "ST V2 ≥0.15",
+   "misura": 0.483,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "assenza di q settale in I e V6",
+  "R monofasica larga in V6",
+  "QS/rS in V1",
+  "discordanza appropriata"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 71.9,
+  "fc_media": 72.0,
+  "rr_cv": 0.003,
+  "rmssd_ms": 3.1,
+  "n_qrs": 12,
+  "qrs_ms": 174,
+  "pr_ms": 148,
+  "qt_ms": 415,
+  "qtc_bazett_ms": 454,
+  "qtc_fridericia_ms": 441,
+  "asse_gradi": -5,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.132,
+  "t_ampiezza_mv": 0.834,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 0.481,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.144,
+   "II": -0.038,
+   "III": 0.105,
+   "aVR": 0.091,
+   "aVL": -0.125,
+   "aVF": 0.033,
+   "V1": 0.316,
+   "V2": 0.483,
+   "V3": 0.407,
+   "V4": 0.248,
+   "V5": 0.017,
+   "V6": -0.147
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 0.46,
+   "qrs": 0.15,
+   "qt": 0.423
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.134,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 1.294,
+   "qrs": 0.15,
+   "qt": 0.424
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 2.127,
+   "qrs": 0.15,
+   "qt": 0.423
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.802,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 2.962,
+   "qrs": 0.15,
+   "qt": 0.424
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.636,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 3.796,
+   "qrs": 0.15,
+   "qt": 0.424
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 4.627,
+   "qrs": 0.15,
+   "qt": 0.423
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.302,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 5.462,
+   "qrs": 0.15,
+   "qt": 0.424
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.14,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 6.3,
+   "qrs": 0.15,
+   "qt": 0.424
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.976,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 7.136,
+   "qrs": 0.15,
+   "qt": 0.424
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.807,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 7.967,
+   "qrs": 0.15,
+   "qt": 0.423
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.636,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 8.796,
+   "qrs": 0.15,
+   "qt": 0.423
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 9.627,
+   "qrs": 0.15,
+   "qt": 0.423
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.301,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 10.461,
+   "qrs": 0.15,
+   "qt": 0.423
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.126,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBS",
+   "t": 11.286,
+   "qrs": 0.15,
+   "qt": 0.422
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

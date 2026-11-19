@@ -1,0 +1,420 @@
+{
+ "id": "SIM-TSV-01",
+ "titolo": "Tachicardia da rientro nodale (TSV)",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "tsv_rientro",
+  "parametri": {
+   "durata": 10.4,
+   "fc": 182
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-TSV-01.svg",
+  "png": "sim/out/SIM-TSV-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  125.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Tachicardia regolare a QRS stretto ≈ 180/min, senza P visibili prima del QRS (pseudo-r' in V1).",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 182.4,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.002,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 96,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "regolarità assoluta",
+  "QRS stretto",
+  "P non visibili / retrograde nel QRS"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 182.4,
+  "fc_media": 182.1,
+  "rr_cv": 0.002,
+  "rmssd_ms": 0.8,
+  "n_qrs": 31,
+  "qrs_ms": 96,
+  "pr_ms": 201,
+  "qt_ms": 276,
+  "qtc_bazett_ms": 481,
+  "qtc_fridericia_ms": 400,
+  "asse_gradi": 37,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.446,
+  "t_ampiezza_mv": 0.446,
+  "u_ampiezza_mv": 0.29,
+  "ampiezza_max_mv": 0.953,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.085,
+   "II": 0.116,
+   "III": 0.031,
+   "aVR": -0.1,
+   "aVL": 0.027,
+   "aVF": 0.073,
+   "V1": 0.004,
+   "V2": 0.064,
+   "V3": 0.127,
+   "V4": 0.168,
+   "V5": 0.151,
+   "V6": 0.098
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 0.2,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 0.255,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 0.53,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 0.585,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 0.86,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 0.915,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 1.189,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 1.244,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 1.518,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 1.573,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 1.847,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 1.902,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 2.176,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 2.231,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 2.506,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 2.561,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 2.837,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 2.892,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 3.166,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 3.221,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 3.495,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 3.55,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 3.825,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 3.88,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 4.155,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 4.21,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 4.485,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 4.54,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 4.814,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 4.869,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 5.144,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 5.199,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 5.474,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 5.529,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 5.803,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 5.858,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 6.132,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 6.187,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 6.46,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 6.515,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 6.789,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 6.844,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 7.118,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 7.173,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 7.447,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 7.502,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 7.776,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 7.831,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 8.106,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 8.161,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 8.436,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 8.491,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 8.765,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 8.82,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 9.093,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 9.148,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 9.423,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 9.478,
+   "durata": 0.06
+  },
+  {
+   "tipo": "QRS (TRNAV)",
+   "t": 9.752,
+   "qrs": 0.09,
+   "qt": 0.283
+  },
+  {
+   "tipo": "P retrograda",
+   "t": 9.807,
+   "durata": 0.06
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

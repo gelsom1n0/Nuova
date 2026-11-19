@@ -1,0 +1,77 @@
+{
+ "id": "SIM-FV-02",
+ "titolo": "Fibrillazione ventricolare a onde fini",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "fibrillazione_ventricolare",
+  "parametri": {
+   "durata": 10.4,
+   "grossolana": false,
+   "seed": 14
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-FV-02.svg",
+  "png": "sim/out/SIM-FV-02.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  45.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "FV fine: ondulazioni di bassa ampiezza; non confondere con l'asistolia (controllare guadagno e derivazioni).",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "ampiezza bassa ma attività presente"
+ ],
+ "affidabilita_modello": "schematica",
+ "nota": "",
+ "misure": {
+  "fc": 87.4,
+  "fc_media": 77.1,
+  "rr_cv": 0.588,
+  "rmssd_ms": 742.5,
+  "n_qrs": 13,
+  "qrs_ms": 154,
+  "pr_ms": null,
+  "qt_ms": 484,
+  "qtc_bazett_ms": 584,
+  "qtc_fridericia_ms": 549,
+  "asse_gradi": -21,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.184,
+  "t_ampiezza_mv": 0.219,
+  "u_ampiezza_mv": 0.209,
+  "ampiezza_max_mv": 0.142,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": 0.068,
+   "II": -0.005,
+   "III": -0.078,
+   "aVR": -0.037,
+   "aVL": 0.08,
+   "aVF": -0.033,
+   "V1": 0.002,
+   "V2": 0.027,
+   "V3": 0.07,
+   "V4": 0.096,
+   "V5": 0.104,
+   "V6": 0.074
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "FV",
+   "grossolana": false
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

@@ -1,0 +1,233 @@
+{
+ "id": "SIM-EL-05",
+ "titolo": "Ipocalcemia: QT lungo",
+ "tipo": "simulato",
+ "gruppo": "elettroliti",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "elettroliti",
+  "parametri": {
+   "durata": 10.4,
+   "quadro": "ipoCa"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EL-05.svg",
+  "png": "sim/out/SIM-EL-05.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  55.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "QT lungo (QTc ≈ 0,52 s) per allungamento del tratto ST; T di forma e durata normali.",
+ "criteri_automatici": [
+  {
+   "criterio": "qtc_bazett_ms",
+   "misura": 527,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "tratto ST lungo e piatto",
+  "T non allargata"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 72.0,
+  "fc_media": 72.0,
+  "rr_cv": 0.004,
+  "rmssd_ms": 6.2,
+  "n_qrs": 12,
+  "qrs_ms": 100,
+  "pr_ms": 153,
+  "qt_ms": 481,
+  "qtc_bazett_ms": 527,
+  "qtc_fridericia_ms": 511,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.13,
+  "t_ampiezza_mv": 0.445,
+  "u_ampiezza_mv": 0.001,
+  "ampiezza_max_mv": 1.018,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.0,
+   "II": -0.0,
+   "III": 0.0,
+   "aVR": 0.0,
+   "aVL": -0.0,
+   "aVF": 0.0,
+   "V1": -0.001,
+   "V2": -0.002,
+   "V3": -0.002,
+   "V4": -0.002,
+   "V5": -0.001,
+   "V6": -0.0
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.489
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.135,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.295,
+   "qrs": 0.09,
+   "qt": 0.49
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.973,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.133,
+   "qrs": 0.09,
+   "qt": 0.49
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.8,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.96,
+   "qrs": 0.09,
+   "qt": 0.488
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.639,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.799,
+   "qrs": 0.09,
+   "qt": 0.49
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.472,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.632,
+   "qrs": 0.09,
+   "qt": 0.489
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.303,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.463,
+   "qrs": 0.09,
+   "qt": 0.489
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.134,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.294,
+   "qrs": 0.09,
+   "qt": 0.489
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.963,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.123,
+   "qrs": 0.09,
+   "qt": 0.489
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.796,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.956,
+   "qrs": 0.09,
+   "qt": 0.489
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.632,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.792,
+   "qrs": 0.09,
+   "qt": 0.49
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.627,
+   "qrs": 0.09,
+   "qt": 0.49
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.303,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.463,
+   "qrs": 0.09,
+   "qt": 0.49
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.131,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.291,
+   "qrs": 0.09,
+   "qt": 0.488
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

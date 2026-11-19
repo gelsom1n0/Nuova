@@ -1,0 +1,235 @@
+{
+ "id": "SIM-EL-03",
+ "titolo": "Ipopotassiemia: onda U",
+ "tipo": "simulato",
+ "gruppo": "elettroliti",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "elettroliti",
+  "parametri": {
+   "durata": 10.4,
+   "quadro": "ipoK"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EL-03.svg",
+  "png": "sim/out/SIM-EL-03.png",
+  "svg_3x4": "sim/out/SIM-EL-03_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  170.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "T appiattite, lieve sottoslivellamento ST, onda U evidente (più ampia della T in V2–V3).",
+ "criteri_automatici": [
+  {
+   "criterio": "u_ampiezza_mv",
+   "misura": 0.3,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "U ben visibile dopo la T",
+  "T piatta",
+  "ST lievemente sottoslivellato"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 72.0,
+  "fc_media": 72.0,
+  "rr_cv": 0.004,
+  "rmssd_ms": 6.2,
+  "n_qrs": 12,
+  "qrs_ms": 97,
+  "pr_ms": 164,
+  "qt_ms": 548,
+  "qtc_bazett_ms": 600,
+  "qtc_fridericia_ms": 582,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.13,
+  "t_ampiezza_mv": 0.3,
+  "u_ampiezza_mv": 0.3,
+  "ampiezza_max_mv": 1.039,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.029,
+   "II": -0.052,
+   "III": -0.023,
+   "aVR": 0.04,
+   "aVL": -0.003,
+   "aVF": -0.037,
+   "V1": -0.01,
+   "V2": -0.037,
+   "V3": -0.06,
+   "V4": -0.072,
+   "V5": -0.06,
+   "V6": -0.035
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.47,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.135,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.305,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.973,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.143,
+   "qrs": 0.09,
+   "qt": 0.387
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.8,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.97,
+   "qrs": 0.09,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.639,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.809,
+   "qrs": 0.09,
+   "qt": 0.387
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.472,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.642,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.303,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.473,
+   "qrs": 0.09,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.134,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.304,
+   "qrs": 0.09,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.963,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.133,
+   "qrs": 0.09,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.796,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.966,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.632,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.802,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.637,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.303,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.473,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.131,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.301,
+   "qrs": 0.09,
+   "qt": 0.385
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

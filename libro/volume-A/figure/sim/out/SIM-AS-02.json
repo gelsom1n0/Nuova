@@ -1,0 +1,124 @@
+{
+ "id": "SIM-AS-02",
+ "titolo": "Asistolia ventricolare con onde P",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "asistolia",
+  "parametri": {
+   "durata": 10.4,
+   "onde_p": true
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-AS-02.svg",
+  "png": "sim/out/SIM-AS-02.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  45.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Solo onde P regolari, nessun QRS (blocco AV completo senza scappamento).",
+ "criteri_automatici": [
+  {
+   "criterio": "ampiezza_max_mv",
+   "misura": 0.129,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "P presenti",
+  "nessun QRS"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 45.0,
+  "fc_media": 45.0,
+  "rr_cv": 0.001,
+  "rmssd_ms": 1.6,
+  "n_qrs": 8,
+  "qrs_ms": 113,
+  "pr_ms": null,
+  "qt_ms": 663,
+  "qtc_bazett_ms": 574,
+  "qtc_fridericia_ms": 602,
+  "asse_gradi": 50,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.0,
+  "t_ampiezza_mv": 0.006,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 0.129,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.001,
+   "II": -0.0,
+   "III": -0.0,
+   "aVR": 0.0,
+   "aVL": -0.0,
+   "aVF": -0.001,
+   "V1": 0.001,
+   "V2": 0.001,
+   "V3": 0.001,
+   "V4": 0.001,
+   "V5": -0.0,
+   "V6": -0.0
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.5,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.833,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.167,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.5,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.833,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.167,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.5,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.833,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.167,
+   "durata": 0.1
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

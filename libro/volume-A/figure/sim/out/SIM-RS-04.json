@@ -1,0 +1,194 @@
+{
+ "id": "SIM-RS-04",
+ "titolo": "Bradicardia sinusale",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ritmo_condotto",
+  "parametri": {
+   "durata": 10.4,
+   "hr": 46,
+   "pr": 0.17
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-RS-04.svg",
+  "png": "sim/out/SIM-RS-04.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  55.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Ritmo sinusale regolare 46/min, PR normale.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 46.0,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.002,
+   "ok": true
+  },
+  {
+   "criterio": "p_presente",
+   "misura": true,
+   "ok": true
+  },
+  {
+   "criterio": "pr_ms",
+   "misura": 168,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "RR lunghi e costanti",
+  "morfologia normale"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 46.0,
+  "fc_media": 46.0,
+  "rr_cv": 0.002,
+  "rmssd_ms": 3.3,
+  "n_qrs": 8,
+  "qrs_ms": 100,
+  "pr_ms": 168,
+  "qt_ms": 435,
+  "qtc_bazett_ms": 381,
+  "qtc_fridericia_ms": 398,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.127,
+  "t_ampiezza_mv": 0.436,
+  "u_ampiezza_mv": 0.003,
+  "ampiezza_max_mv": 1.015,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.002,
+   "II": 0.003,
+   "III": 0.001,
+   "aVR": -0.002,
+   "aVL": 0.0,
+   "aVF": 0.002,
+   "V1": -0.001,
+   "V2": -0.001,
+   "V3": 0.0,
+   "V4": 0.001,
+   "V5": 0.002,
+   "V6": 0.002
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.47,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.605,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.775,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.909,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.079,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.216,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.386,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.521,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.691,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.823,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.993,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.129,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.299,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.44,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.61,
+   "qrs": 0.09,
+   "qt": 0.449
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.749,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.919,
+   "qrs": 0.09,
+   "qt": 0.449
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

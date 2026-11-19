@@ -1,0 +1,76 @@
+{
+ "id": "SIM-FV-01",
+ "titolo": "Fibrillazione ventricolare a onde ampie",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "fibrillazione_ventricolare",
+  "parametri": {
+   "durata": 10.4,
+   "grossolana": true
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-FV-01.svg",
+  "png": "sim/out/SIM-FV-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  55.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Attività caotica, irregolare, senza QRS, onde T o P identificabili.",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "nessun complesso organizzato"
+ ],
+ "affidabilita_modello": "schematica",
+ "nota": "Modello fenomenologico: preferire un tracciato reale (CUDB/VFDB).",
+ "misure": {
+  "fc": 69.2,
+  "fc_media": 60.7,
+  "rr_cv": 0.585,
+  "rmssd_ms": 936.0,
+  "n_qrs": 11,
+  "qrs_ms": 234,
+  "pr_ms": null,
+  "qt_ms": 710,
+  "qtc_bazett_ms": 763,
+  "qtc_fridericia_ms": 745,
+  "asse_gradi": -110,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.403,
+  "t_ampiezza_mv": -0.627,
+  "u_ampiezza_mv": 0.627,
+  "ampiezza_max_mv": 0.59,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": -0.199,
+   "II": -0.277,
+   "III": -0.132,
+   "aVR": 0.241,
+   "aVL": -0.043,
+   "aVF": -0.209,
+   "V1": -0.008,
+   "V2": -0.205,
+   "V3": -0.401,
+   "V4": -0.483,
+   "V5": -0.322,
+   "V6": -0.225
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "FV",
+   "grossolana": true
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

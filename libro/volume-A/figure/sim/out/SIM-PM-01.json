@@ -1,0 +1,280 @@
+{
+ "id": "SIM-PM-01",
+ "titolo": "Stimolazione atriale (AAI)",
+ "tipo": "simulato",
+ "gruppo": "pacemaker",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "pacemaker",
+  "parametri": {
+   "durata": 10.4,
+   "modo": "AAI",
+   "fc": 70
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-PM-01.svg",
+  "png": "sim/out/SIM-PM-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  95.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Spike atriale seguito da P, poi QRS stretto condotto spontaneamente; FC 70/min.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 70.0,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 98,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "spike prima di ogni P",
+  "QRS stretto"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 70.0,
+  "fc_media": 70.0,
+  "rr_cv": 0.0,
+  "rmssd_ms": 0.4,
+  "n_qrs": 12,
+  "qrs_ms": 98,
+  "pr_ms": 174,
+  "qt_ms": 379,
+  "qtc_bazett_ms": 409,
+  "qtc_fridericia_ms": 399,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.12,
+  "t_ampiezza_mv": 0.446,
+  "u_ampiezza_mv": 0.003,
+  "ampiezza_max_mv": 1.012,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.013,
+   "II": 0.018,
+   "III": 0.005,
+   "aVR": -0.016,
+   "aVL": 0.004,
+   "aVF": 0.012,
+   "V1": -0.0,
+   "V2": 0.008,
+   "V3": 0.018,
+   "V4": 0.025,
+   "V5": 0.023,
+   "V6": 0.015
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "spike atriale",
+   "t": 0.3
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 0.31,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 0.5,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 1.157
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 1.167,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 1.357,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 2.014
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 2.024,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 2.214,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 2.871
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 2.881,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 3.071,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 3.729
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 3.739,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 3.929,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 4.586
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 4.596,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 4.786,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 5.443
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 5.453,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 5.643,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 6.3
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 6.31,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 6.5,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 7.157
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 7.167,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 7.357,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 8.014
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 8.024,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 8.214,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 8.871
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 8.881,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 9.071,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 9.729
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 9.739,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 9.929,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "spike atriale",
+   "t": 10.586
+  },
+  {
+   "tipo": "P stimolata",
+   "t": 10.596,
+   "durata": 0.11
+  },
+  {
+   "tipo": "QRS condotto",
+   "t": 10.786,
+   "qrs": 0.09,
+   "qt": 0.389
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

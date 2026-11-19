@@ -1,0 +1,178 @@
+{
+ "id": "SIM-FL-02",
+ "titolo": "Flutter atriale con conduzione 4:1",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "flutter",
+  "parametri": {
+   "durata": 10.4,
+   "conduzione": 4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-FL-02.svg",
+  "png": "sim/out/SIM-FL-02.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  125.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Onde F a dente di sega ben visibili, 4 onde F per ogni QRS; FC ventricolare 75/min regolare.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 75.0,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.0,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "linea di base a dente di sega senza tratto isoelettrico",
+  "rapporto F:QRS = 4:1"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 75.0,
+  "fc_media": 75.0,
+  "rr_cv": 0.0,
+  "rmssd_ms": 0.0,
+  "n_qrs": 13,
+  "qrs_ms": 98,
+  "pr_ms": 54,
+  "qt_ms": 358,
+  "qtc_bazett_ms": 400,
+  "qtc_fridericia_ms": 386,
+  "asse_gradi": 3,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.065,
+  "t_ampiezza_mv": 0.751,
+  "u_ampiezza_mv": 0.306,
+  "ampiezza_max_mv": 0.972,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": 0.015,
+   "II": 0.053,
+   "III": 0.038,
+   "aVR": -0.034,
+   "aVL": -0.012,
+   "aVF": 0.046,
+   "V1": -0.034,
+   "V2": -0.053,
+   "V3": -0.04,
+   "V4": -0.018,
+   "V5": 0.005,
+   "V6": 0.021
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 0.25,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 1.05,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 1.85,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 2.65,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 3.45,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 4.25,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 5.05,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 5.85,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 6.65,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 7.45,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 8.25,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 9.05,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 9.85,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 10.65,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "QRS (flutter 4:1)",
+   "t": 11.45,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "onde F",
+   "frequenza": 300
+  }
+ ],
+ "stato_validazione": "da_validare"
+}
