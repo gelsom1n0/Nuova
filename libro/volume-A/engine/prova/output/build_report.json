@@ -1,6 +1,6 @@
 {
  "pdf": "/home/user/Nuova/libro/volume-A/engine/prova/output/prova_7x10.pdf",
- "pagine_totali": 19,
+ "pagine_totali": 20,
  "pagine_preliminari": 5,
  "parti": [
   "3",
@@ -96,9 +96,29 @@
    "file": "sim/out/SIM-RS-05.svg",
    "tipo": "simulato",
    "pagina": 13
+  },
+  "REAL-PTBXL-AFIB-01": {
+   "num": "4.2",
+   "anchor": "fig-REAL-PTBXL-AFIB-01",
+   "parte": 4,
+   "stato": "da_validare",
+   "file": "real/out/REAL-PTBXL-AFIB-01.svg",
+   "tipo": "reale",
+   "pagina": 14
+  },
+  "SCH-EINTH": {
+   "num": "4.3",
+   "anchor": "fig-SCH-EINTH",
+   "parte": 4,
+   "stato": "da_validare",
+   "file": "schemi/out/SCH-EINTH.svg",
+   "tipo": "schema",
+   "pagina": 14
   }
  },
  "figure_da_validare": [
+  "REAL-PTBXL-AFIB-01",
+  "SCH-EINTH",
   "SIM-BAV-02",
   "SIM-BB-01",
   "SIM-EL-05",

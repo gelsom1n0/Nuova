@@ -1,0 +1,26 @@
+{
+ "id": "SCH-PA-VENT",
+ "titolo": "Potenziale d'azione del miocita ventricolare",
+ "tipo": "schema",
+ "gruppo": "schemi",
+ "fonte": "Schema originale generato con codice (figure/schemi/genera_schemi.py)",
+ "licenza": "Originale del volume",
+ "file": {
+  "svg": "schemi/out/SCH-PA-VENT.svg",
+  "png": "schemi/out/SCH-PA-VENT.png"
+ },
+ "dimensioni_mm": [
+  140,
+  null
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Fasi 0–4 del potenziale d'azione ventricolare con le correnti ioniche principali e il periodo refrattario assoluto.",
+ "criteri_revisore": [
+  "riposo ≈ −90 mV",
+  "fase 0 rapida (Na⁺)",
+  "plateau (Ca²⁺)",
+  "fase 3 (K⁺)",
+  "durata ≈ 250–300 ms"
+ ],
+ "stato_validazione": "da_validare"
+}

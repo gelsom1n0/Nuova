@@ -1,5 +1,5 @@
 {
- "pagine": 19,
+ "pagine": 20,
  "font": [
   "IWEWIB+Gelasio-Bold",
   "GHZZHF+Gelasio-Italic",
@@ -36,15 +36,20 @@
   {
    "pagine": [
     18,
-    18
+    19
    ],
-   "ultima_pagina_%": 62,
-   "interne_sotto_80": []
+   "ultima_pagina_%": 98,
+   "interne_sotto_80": [
+    [
+     18,
+     62
+    ]
+   ]
   }
  ],
  "errori": [],
  "avvisi": [
   "  pagine interne sotto l'80%: [(8, 73), (11, 73), (15, 65), (16, 73)]",
-  "Parte con inizio a p.18: p.18-18 (1 pag.); ultima pagina al 62% (< 65%)"
+  "  pagine interne sotto l'80%: [(18, 62)]"
  ]
 }

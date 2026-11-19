@@ -1,0 +1,23 @@
+{
+ "id": "SCH-CONDUZ",
+ "titolo": "Sistema di conduzione (schema a blocchi)",
+ "tipo": "schema",
+ "gruppo": "schemi",
+ "fonte": "Schema originale generato con codice (figure/schemi/genera_schemi.py)",
+ "licenza": "Originale del volume",
+ "file": {
+  "svg": "schemi/out/SCH-CONDUZ.svg",
+  "png": "schemi/out/SCH-CONDUZ.png"
+ },
+ "dimensioni_mm": [
+  140,
+  null
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Sequenza di attivazione dal nodo del seno alle fibre di Purkinje, con onde/intervalli corrispondenti e frequenze dei pacemaker di riserva.",
+ "criteri_revisore": [
+  "frequenze intrinseche (seno 60–100, giunzione 40–60, ventricoli 20–40)",
+  "corrispondenza P / PR / QRS"
+ ],
+ "stato_validazione": "da_validare"
+}

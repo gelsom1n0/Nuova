@@ -1,0 +1,24 @@
+{
+ "id": "SCH-PRECORD",
+ "titolo": "Posizione degli elettrodi precordiali",
+ "tipo": "schema",
+ "gruppo": "schemi",
+ "fonte": "Schema originale generato con codice (figure/schemi/genera_schemi.py)",
+ "licenza": "Originale del volume",
+ "file": {
+  "svg": "schemi/out/SCH-PRECORD.svg",
+  "png": "schemi/out/SCH-PRECORD.png"
+ },
+ "dimensioni_mm": [
+  100,
+  null
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Schema geometrico del torace con spazi intercostali e linee di repere; posizione di V1–V6.",
+ "criteri_revisore": [
+  "V1–V2 al 4° spazio intercostale ai lati dello sterno",
+  "V4 al 5° spazio sull'emiclaveare",
+  "V5–V6 allo stesso livello orizzontale di V4"
+ ],
+ "stato_validazione": "da_validare"
+}

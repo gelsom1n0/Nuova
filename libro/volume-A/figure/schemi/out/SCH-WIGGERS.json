@@ -1,0 +1,25 @@
+{
+ "id": "SCH-WIGGERS",
+ "titolo": "Ciclo cardiaco (diagramma di Wiggers semplificato)",
+ "tipo": "schema",
+ "gruppo": "schemi",
+ "fonte": "Schema originale generato con codice (figure/schemi/genera_schemi.py)",
+ "licenza": "Originale del volume",
+ "file": {
+  "svg": "schemi/out/SCH-WIGGERS.svg",
+  "png": "schemi/out/SCH-WIGGERS.png"
+ },
+ "dimensioni_mm": [
+  140,
+  null
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Pressioni in aorta, ventricolo e atrio sinistri, volume ventricolare, ECG e toni cardiaci in un ciclo a 75/min; fasi isovolumetriche evidenziate.",
+ "criteri_revisore": [
+  "sequenza delle valvole",
+  "valori indicativi (Ao 120/80, VS 120/8, AS 5–12 mmHg)",
+  "S1 alla chiusura delle AV, S2 alla chiusura delle semilunari",
+  "QRS precede la salita della pressione ventricolare"
+ ],
+ "stato_validazione": "da_validare"
+}

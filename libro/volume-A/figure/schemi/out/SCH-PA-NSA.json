@@ -1,0 +1,25 @@
+{
+ "id": "SCH-PA-NSA",
+ "titolo": "Potenziale d'azione della cellula del nodo del seno",
+ "tipo": "schema",
+ "gruppo": "schemi",
+ "fonte": "Schema originale generato con codice (figure/schemi/genera_schemi.py)",
+ "licenza": "Originale del volume",
+ "file": {
+  "svg": "schemi/out/SCH-PA-NSA.svg",
+  "png": "schemi/out/SCH-PA-NSA.png"
+ },
+ "dimensioni_mm": [
+  140,
+  null
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Automatismo: fase 4 instabile che raggiunge la soglia; fase 0 lenta da calcio; nessun plateau. Frequenza dell'esempio 75/min.",
+ "criteri_revisore": [
+  "potenziale diastolico massimo ≈ −60 mV",
+  "soglia ≈ −40 mV",
+  "fase 0 lenta",
+  "assenza delle fasi 1–2"
+ ],
+ "stato_validazione": "da_validare"
+}

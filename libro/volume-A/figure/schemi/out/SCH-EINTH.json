@@ -1,0 +1,24 @@
+{
+ "id": "SCH-EINTH",
+ "titolo": "Triangolo di Einthoven e sistema esassiale",
+ "tipo": "schema",
+ "gruppo": "schemi",
+ "fonte": "Schema originale generato con codice (figure/schemi/genera_schemi.py)",
+ "licenza": "Originale del volume",
+ "file": {
+  "svg": "schemi/out/SCH-EINTH.svg",
+  "png": "schemi/out/SCH-EINTH.png"
+ },
+ "dimensioni_mm": [
+  140,
+  null
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Derivazioni bipolari I, II, III sul triangolo di Einthoven (II = I + III) e sistema esassiale con le sei derivazioni periferiche e l'intervallo dell'asse normale.",
+ "criteri_revisore": [
+  "polarità delle derivazioni",
+  "angoli: I 0°, II +60°, III +120°, aVF +90°, aVL −30°, aVR −150°",
+  "asse normale −30°/+90°"
+ ],
+ "stato_validazione": "da_validare"
+}

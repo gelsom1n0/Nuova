@@ -1,0 +1,24 @@
+{
+ "id": "SCH-TERRIT",
+ "titolo": "Territori coronarici sullo schema delle 12 derivazioni",
+ "tipo": "schema",
+ "gruppo": "schemi",
+ "fonte": "Schema originale generato con codice (figure/schemi/genera_schemi.py)",
+ "licenza": "Originale del volume",
+ "file": {
+  "svg": "schemi/out/SCH-TERRIT.svg",
+  "png": "schemi/out/SCH-TERRIT.png"
+ },
+ "dimensioni_mm": [
+  140,
+  null
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Le 12 derivazioni nella disposizione 3×4 raggruppate per territorio (inferiore, settale, anteriore, laterale) con l'arteria più spesso coinvolta; aVR esclusa.",
+ "criteri_revisore": [
+  "raggruppamento delle derivazioni contigue",
+  "arterie indicate come «più spesso», non in modo assoluto",
+  "aVR non assegnata"
+ ],
+ "stato_validazione": "da_validare"
+}

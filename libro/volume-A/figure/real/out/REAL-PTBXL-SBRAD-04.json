@@ -1,0 +1,72 @@
+{
+ "id": "REAL-PTBXL-SBRAD-04",
+ "titolo": "Bradicardia sinusale",
+ "tipo": "reale",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato reale",
+ "fonte": "PTB-XL 1.0.3 (Wagner et al., PhysioNet 2022)",
+ "licenza": "CC BY 4.0",
+ "attribuzione_breve": "PTB-XL ecg_id 225 (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato",
+ "elaborazione": "filtro passa-alto 0,5 Hz e passa-basso 40 Hz (fase zero); nessun'altra modifica del segnale",
+ "file": {
+  "svg": "real/out/REAL-PTBXL-SBRAD-04.svg",
+  "png": "real/out/REAL-PTBXL-SBRAD-04.png"
+ },
+ "dimensioni_mm": [
+  135.0,
+  105.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Bradicardia sinusale (etichetta della banca dati); vedi misure e criteri del gruppo «ritmo» in CHECKLIST_VALIDAZIONE.md",
+ "criteri_revisore": [
+  "l'etichetta della banca dati corrisponde a ciò che si vede",
+  "qualità sufficiente per la stampa (nessun artefatto fuorviante)",
+  "nessun altro reperto rilevante non dichiarato"
+ ],
+ "qc_automatico": {
+  "esito": "superato",
+  "motivo": "coerente"
+ },
+ "misure": {
+  "fc": 59.5,
+  "fc_media": 59.6,
+  "rr_cv": 0.031,
+  "rr_min": 0.966,
+  "rr_max": 1.074,
+  "qrs_ms": 88,
+  "pr_ms": 196,
+  "qt_ms": 398,
+  "qtc_bazett_ms": 396,
+  "asse_gradi": 64,
+  "p_presente": true,
+  "t_ampiezza_mv": 0.434,
+  "st_j60_mv": {
+   "I": -0.0,
+   "II": 0.032,
+   "III": 0.028,
+   "aVR": -0.021,
+   "aVL": -0.015,
+   "aVF": 0.028,
+   "V1": 0.017,
+   "V2": 0.065,
+   "V3": 0.114,
+   "V4": 0.066,
+   "V5": 0.022,
+   "V6": 0.013
+  }
+ },
+ "sorgente": {
+  "ecg_id": 225,
+  "scp_codes": {
+   "NORM": 100.0,
+   "SBRAD": 0.0
+  },
+  "referto_originale": "sinusbradykardie lagetyp normal schlechte r-progression v1-3 st-hebung in v3 t neg in v2",
+  "eta": 84.0,
+  "sesso": "F",
+  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "strat_fold": 7,
+  "infarction_stadium1": null
+ },
+ "stato_validazione": "da_validare"
+}

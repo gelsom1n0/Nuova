@@ -1,0 +1,72 @@
+{
+ "id": "REAL-PTBXL-ASMI-04",
+ "titolo": "Infarto anterosettale",
+ "tipo": "reale",
+ "gruppo": "ischemia",
+ "etichetta_figura": "Tracciato reale",
+ "fonte": "PTB-XL 1.0.3 (Wagner et al., PhysioNet 2022)",
+ "licenza": "CC BY 4.0",
+ "attribuzione_breve": "PTB-XL ecg_id 1278 (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato",
+ "elaborazione": "filtro passa-alto 0,5 Hz e passa-basso 40 Hz (fase zero); nessun'altra modifica del segnale",
+ "file": {
+  "svg": "real/out/REAL-PTBXL-ASMI-04.svg",
+  "png": "real/out/REAL-PTBXL-ASMI-04.png",
+  "svg_3x4": "real/out/REAL-PTBXL-ASMI-04_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  190.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Infarto anterosettale (etichetta della banca dati); vedi misure e criteri del gruppo «ischemia» in CHECKLIST_VALIDAZIONE.md",
+ "criteri_revisore": [
+  "l'etichetta della banca dati corrisponde a ciò che si vede",
+  "qualità sufficiente per la stampa (nessun artefatto fuorviante)",
+  "nessun altro reperto rilevante non dichiarato"
+ ],
+ "qc_automatico": {
+  "esito": "superato",
+  "motivo": "coerente"
+ },
+ "misure": {
+  "fc": 102.0,
+  "fc_media": 102.3,
+  "rr_cv": 0.02,
+  "rr_min": 0.556,
+  "rr_max": 0.606,
+  "qrs_ms": 74,
+  "pr_ms": 144,
+  "qt_ms": 328,
+  "qtc_bazett_ms": 428,
+  "asse_gradi": 40,
+  "p_presente": true,
+  "t_ampiezza_mv": 0.635,
+  "st_j60_mv": {
+   "I": -0.009,
+   "II": 0.003,
+   "III": 0.014,
+   "aVR": 0.005,
+   "aVL": -0.011,
+   "aVF": 0.006,
+   "V1": 0.161,
+   "V2": 0.308,
+   "V3": 0.222,
+   "V4": 0.163,
+   "V5": 0.064,
+   "V6": -0.011
+  }
+ },
+ "sorgente": {
+  "ecg_id": 1278,
+  "scp_codes": {
+   "ASMI": 100.0
+  },
+  "referto_originale": "sinustachykardi avvikande qrs(t) fÖrlopp    anteroseptal infarkt     sannolikt Äldre",
+  "eta": 33.0,
+  "sesso": "F",
+  "derivazioni": "12 derivazioni (6×2 a scala reale; 3×4 ridotto)",
+  "strat_fold": 8,
+  "infarction_stadium1": "unknown"
+ },
+ "stato_validazione": "da_validare"
+}

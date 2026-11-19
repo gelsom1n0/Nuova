@@ -9,3 +9,11 @@ Pagina di collaudo del cambio di Parte: la Parte inizia su una pagina nuova, l'i
 :::
 
 L'aritmia sinusale respiratoria è fisiologica, soprattutto nei giovani: non richiede trattamento. Si distingue dalla fibrillazione atriale perché le onde P ci sono, sono tutte uguali e precedono ogni QRS con lo stesso PR.
+
+::: fig REAL-PTBXL-AFIB-01
+Fibrillazione atriale in un tracciato reale: confrontare con la versione simulata della [[fig:SIM-FA-01]]. Le onde f sono meno regolari e la linea di base è meno «pulita».
+:::
+
+::: fig SCH-EINTH
+Il triangolo di Einthoven e il sistema esassiale: ogni derivazione periferica «guarda» il cuore da un angolo diverso del piano frontale.
+:::

@@ -1,0 +1,73 @@
+{
+ "id": "REAL-PTBXL-NORM-01",
+ "titolo": "Ritmo sinusale normale",
+ "tipo": "reale",
+ "gruppo": "morfologia_normale",
+ "etichetta_figura": "Tracciato reale",
+ "fonte": "PTB-XL 1.0.3 (Wagner et al., PhysioNet 2022)",
+ "licenza": "CC BY 4.0",
+ "attribuzione_breve": "PTB-XL ecg_id 3 (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato",
+ "elaborazione": "filtro passa-alto 0,5 Hz e passa-basso 40 Hz (fase zero); nessun'altra modifica del segnale",
+ "file": {
+  "svg": "real/out/REAL-PTBXL-NORM-01.svg",
+  "png": "real/out/REAL-PTBXL-NORM-01.png",
+  "svg_3x4": "real/out/REAL-PTBXL-NORM-01_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  150.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Ritmo sinusale normale (etichetta della banca dati); vedi misure e criteri del gruppo «morfologia_normale» in CHECKLIST_VALIDAZIONE.md",
+ "criteri_revisore": [
+  "l'etichetta della banca dati corrisponde a ciò che si vede",
+  "qualità sufficiente per la stampa (nessun artefatto fuorviante)",
+  "nessun altro reperto rilevante non dichiarato"
+ ],
+ "qc_automatico": {
+  "esito": "superato",
+  "motivo": "coerente"
+ },
+ "misure": {
+  "fc": 64.1,
+  "fc_media": 63.6,
+  "rr_cv": 0.021,
+  "rr_min": 0.916,
+  "rr_max": 0.974,
+  "qrs_ms": 76,
+  "pr_ms": 144,
+  "qt_ms": 410,
+  "qtc_bazett_ms": 424,
+  "asse_gradi": 18,
+  "p_presente": true,
+  "t_ampiezza_mv": 0.307,
+  "st_j60_mv": {
+   "I": 0.021,
+   "II": 0.013,
+   "III": -0.011,
+   "aVR": -0.015,
+   "aVL": 0.019,
+   "aVF": -0.0,
+   "V1": 0.024,
+   "V2": 0.06,
+   "V3": 0.064,
+   "V4": 0.032,
+   "V5": 0.022,
+   "V6": 0.022
+  }
+ },
+ "sorgente": {
+  "ecg_id": 3,
+  "scp_codes": {
+   "NORM": 100.0,
+   "SR": 0.0
+  },
+  "referto_originale": "sinusrhythmus normales ekg",
+  "eta": 37.0,
+  "sesso": "F",
+  "derivazioni": "12 derivazioni (6×2 a scala reale; 3×4 ridotto)",
+  "strat_fold": 5,
+  "infarction_stadium1": null
+ },
+ "stato_validazione": "da_validare"
+}
