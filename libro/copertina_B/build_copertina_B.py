@@ -565,7 +565,7 @@ def ecg_vettoriale(c, pal, pts, ox, H_in, colore, larg, sfuma_da=None, sfuma_a=N
 FONT_F = "Montserrat-LightItalic"
 COL_ETICHETTE = "#A9DFF2"     # etichette sulla curva
 COL_GUIDE = "#3E7F9C"         # guide tratteggiate
-COL_FORMULE = "#383838"       # formule di sfondo: bianco al 22 % (grigio equivalente, nessuna trasparenza)
+COL_FORMULE = "#595959"       # formule di sfondo: bianco al 35 % (grigio equivalente, nessuna trasparenza)
 
 
 def _f_larghezza(items, size):
