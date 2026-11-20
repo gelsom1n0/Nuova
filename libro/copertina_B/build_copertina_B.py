@@ -373,7 +373,9 @@ def motivo(variante, lato, trim_w, L: LayoutPrima):
         #   C(t) = A · (e^(-ke·t) - e^(-ka·t))
         # la dose (D) è nella compressa; il picco cade dove la compressa si
         # dissolve nel reticolo; a destra la fase di eliminazione.
-        yb = BLEED + L.y_ecg + 0.45
+        # stessa quota dell'ECG del Volume A (BLEED + L.y_ecg, senza scarto):
+        # i due tracciati attraversano il dorso alla stessa altezza sullo scaffale.
+        yb = BLEED + L.y_ecg
         out["y_base"] = yb
         if lato == "prima":
             xd, ka, ke, amp = 3.3, 1.6, 0.55, 1.35
