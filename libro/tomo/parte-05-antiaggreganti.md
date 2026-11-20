@@ -33,36 +33,36 @@ L'effetto di acido acetilsalicilico, clopidogrel e prasugrel dura quanto la vita
 | Prasugrel | Efient | Orale | Più potente; non dopo ictus/TIA |
 | Ticagrelor | Brilique | Orale | Reversibile; dispnea |
 | Cangrelor | Kengrexal | EV | Effetto rapido e breve, in PCI |
-| Tirofiban, eptifibatide | Aggrastat; eptifibatide generico | EV | Uso in PCI selezionata |
-| Dipiridamolo | Persantin | Orale | Spesso con ASA nella prevenzione dell'ictus |
+| Tirofiban, eptifibatide | Aggrastat; eptifibatide (autorizzata ma attualmente non commercializzata in Italia) | EV | Uso in PCI selezionata |
+| Dipiridamolo | Persantin | Orale | In Italia indicato come terapia aggiuntiva agli anticoagulanti orali nelle protesi valvolari meccaniche |
 
 ### Acido acetilsalicilico {.pa}
-Prevenzione secondaria: 75–100 mg/die. In sindrome coronarica acuta: dose di carico 150–300 mg orale (masticata). Effetti: dispepsia, ulcera e sanguinamento gastrointestinale, broncospasmo nella sensibilità al farmaco (asma da aspirina). Prevenire il danno gastrico con inibitore di pompa nei soggetti a rischio. L'**ibuprofene** può antagonizzare l'effetto antiaggregante.
+Prevenzione secondaria: 75–100 mg/die. In sindrome coronarica acuta: dose di carico 150–300 mg orale, masticata, con una formulazione **non gastroresistente** (le compresse gastroresistenti non vanno masticate né frantumate), oppure per via EV. Effetti: dispepsia, ulcera e sanguinamento gastrointestinale, broncospasmo nella sensibilità al farmaco (asma da aspirina). Prevenire il danno gastrico con inibitore di pompa nei soggetti a rischio. L'**ibuprofene** può antagonizzare l'effetto antiaggregante.
 
 ### Clopidogrel {.pa}
-Carico 300–600 mg, poi 75 mg/die. Profarmaco attivato dal CYP2C19: **omeprazolo ed esomeprazolo** ne riducono l'effetto; preferire pantoprazolo se serve gastroprotezione. Scelta preferita in caso di anticoagulazione concomitante o di alto rischio emorragico.
+Carico 300–600 mg (600 mg se PCI programmata; nello STEMI trattato con fibrinolisi 300 mg, senza carico oltre i 75 anni), poi 75 mg/die. Profarmaco attivato dal CYP2C19: **omeprazolo ed esomeprazolo** ne riducono l'effetto; preferire pantoprazolo se serve gastroprotezione. Scelta preferita in caso di anticoagulazione concomitante o di alto rischio emorragico.
 
 ### Prasugrel {.pa}
-Carico 60 mg, poi 10 mg/die (5 mg se peso < 60 kg o età ≥ 75 anni). **Controindicato** dopo ictus o TIA. Efficace in SCA sottoposte a PCI; più sanguinamenti.
+Carico 60 mg, poi 10 mg/die (5 mg se peso < 60 kg). Nei pazienti ≥ 75 anni l'uso non è generalmente raccomandato; se ritenuto necessario, mantenimento 5 mg. **Controindicato** dopo ictus o TIA e nell'insufficienza epatica severa. **La compressa non va schiacciata né rotta.** Efficace in SCA sottoposte a PCI; più sanguinamenti.
 
 ### Ticagrelor {.pa}
-Carico 180 mg, poi 90 mg × 2 (60 mg × 2 nel trattamento prolungato oltre 12 mesi). **Dispnea** frequente (spesso transitoria), pause ventricolari e bradiaritmie, aumento dell'uricemia. Evitare inibitori forti del CYP3A4; limitare la simvastatina a 40 mg/die. Compresse frantumabili per somministrazione per sondino (verificare l'RCP).
+Carico 180 mg, poi 90 mg × 2 per 12 mesi, con ASA 75–150 mg/die; 60 mg × 2 nei pazienti con infarto da almeno un anno e alto rischio aterotrombotico. **Dispnea** frequente (spesso transitoria), pause ventricolari e bradiaritmie, aumento dell'uricemia. **Controindicato** con inibitori forti del CYP3A4 (ketoconazolo, claritromicina, ritonavir), con storia di emorragia intracranica e nell'insufficienza epatica severa; gli induttori forti (rifampicina, carbamazepina) ne riducono l'efficacia; simvastatina e lovastatina non oltre 40 mg/die; monitorare la digossina. Le compresse possono essere frantumate e somministrate in acqua o per sondino secondo RCP.
 
 ### Cangrelor, tirofiban ed eptifibatide {.pa}
-Cangrelor: infusione EV con effetto rapido, utile in PCI quando non si può usare un orale. Gli inibitori della GP IIb/IIIa sono riservati a casi selezionati (trombo massivo, complicanze in PCI): rischio di sanguinamento e trombocitopenia, controllo dell'emocromo.
+Cangrelor: infusione EV con effetto rapido, utile in PCI quando non si può usare un orale. Gli inibitori della GP IIb/IIIa sono riservati a casi selezionati (trombo massivo, complicanze in PCI): rischio di sanguinamento e trombocitopenia (conta piastrinica prima, entro 6 ore dall'inizio e poi almeno ogni giorno); eptifibatide controindicata con CrCl < 30 mL/min, in dialisi o con piastrine < 100.000/mm³; tirofiban a dose ridotta del 50% con CrCl < 30 mL/min e controindicato con piastrine < 100.000/mm³. Il cangrelor è autorizzato solo durante la PCI.
 
 ### Dipiridamolo {.pa}
-Associato all'acido acetilsalicilico per la prevenzione secondaria dell'ictus ischemico; cefalea, vertigini; evitare nell'angina instabile.
+In Italia il dipiridamolo orale è indicato solo come terapia aggiuntiva all'anticoagulante orale per prevenire l'embolia nelle protesi valvolari meccaniche; l'associazione con ASA nella prevenzione secondaria dell'ictus, prevista da alcune linee guida, non è un'indicazione autorizzata e l'associazione fissa non è in commercio. La forma EV si usa come stress farmacologico in diagnostica. Cefalea, vertigini; cautela nell'angina instabile e nell'infarto recente.
 
 ## Indicazioni e scelta
 
 | Situazione | Orientamento (ESC) |
 |---|---|
 | Sindrome coronarica acuta (SCA) | Doppia antiaggregazione (DAPT) per **12 mesi**: ASA + ticagrelor o prasugrel (preferiti al clopidogrel; prasugrel preferibile al ticagrelor nella SCA trattata con PCI, ESC 2023); durata ridotta se rischio emorragico elevato |
-| Sindrome coronarica cronica dopo PCI | ASA + clopidogrel per circa **6 mesi**, poi monoterapia; durata individualizzata |
+| Sindrome coronarica cronica dopo PCI | ASA + clopidogrel per **6 mesi** (1–3 mesi se alto rischio emorragico), poi monoterapia; durata individualizzata |
 | Prevenzione secondaria stabile | ASA 75–100 mg/die o clopidogrel 75 mg/die |
-| Pazienti con indicazione anticoagulante (FA) dopo PCI | Terapia breve con ASA, poi **anticoagulante + clopidogrel** (evitare la triplice a lungo; studio AUGUSTUS, N Engl J Med 2019, con apixaban) |
-| Ictus ischemico/TIA | Secondo neurologia: ASA, clopidogrel, DAPT breve o ASA/dipiridamolo |
+| Pazienti con indicazione anticoagulante (FA) dopo PCI | Triplice terapia breve (di norma fino a 1 settimana; fino a 30 giorni se alto rischio ischemico), poi **anticoagulante + clopidogrel** fino a 12 mesi dopo SCA o 6 mesi dopo PCI in sindrome cronica, quindi anticoagulante da solo (studio AUGUSTUS, N Engl J Med 2019: apixaban meno emorragico del warfarin; l'ASA aggiunto aumentava i sanguinamenti) |
+| Ictus ischemico/TIA | Secondo neurologia: ASA, clopidogrel, DAPT breve (ASA + dipiridamolo: fuori indicazione in Italia) |
 
 !!! nota "Nota – Strategie di de-escalation"
     Le linee guida ESC 2023 e 2024 riconoscono approcci che riducono i sanguinamenti: abbreviare la DAPT nei pazienti ad alto rischio emorragico (criteri ARC-HBR), passare a monoterapia con inibitore P2Y12 dopo un breve periodo di DAPT o scegliere il clopidogrel come opzione meno potente. La decisione compete al cardiologo e si basa su rischio ischemico ed emorragico.
@@ -81,7 +81,7 @@ La gestione degli antiaggreganti prima di una procedura dipende dal **rischio em
 ## Sicurezza
 
 ### Controindicazioni e cautele
-Sanguinamento attivo, ipersensibilità, ictus emorragico (prasugrel anche ischemico), trombocitopenia, ulcera attiva, epatopatia severa, gravidanza (a dosi non basse, secondo caso). L'**asma da aspirina** (ASA e FANS) è una controindicazione.
+Sanguinamento attivo, ipersensibilità, ictus emorragico o qualsiasi pregressa emorragia intracranica (ticagrelor), pregresso ictus o TIA (prasugrel), trombocitopenia, ulcera attiva, epatopatia severa (ticagrelor, prasugrel), terzo trimestre di gravidanza per l'ASA a dosi > 100 mg/die, associazione di ASA con metotrexato ≥ 15 mg/settimana. L'**asma da aspirina** (ASA e FANS) è una controindicazione.
 
 ### Effetti avversi
 Sanguinamento (gastrointestinale, cutaneo, epistassi), dispepsia, dispnea (ticagrelor), cefalea, trombocitopenia (inibitori GP IIb/IIIa), ipersensibilità, ipoacusia con dosi alte di ASA.
@@ -102,8 +102,8 @@ Sanguinamento (gastrointestinale, cutaneo, epistassi), dispepsia, dispnea (ticag
 
 ### Prima e durante la terapia
 - Verificare allergie (ASA), storia di sanguinamento, anticoagulanti in corso, piastrine ed emoglobina.
-- ASA con il cibo in caso di dispepsia (preferire formulazioni gastroresistenti per la prevenzione a lungo termine, secondo RCP).
-- Nei pazienti con **sondino o difficoltà di deglutizione** in SCA: alcuni antiaggreganti (ticagrelor, prasugrel) possono essere frantumati e somministrati in acqua secondo RCP e protocollo, per un effetto più rapido.
+- Le compresse gastroresistenti di ASA (per esempio Cardioaspirin) si assumono con abbondante acqua almeno 30 minuti prima dei pasti e non vanno masticate, frantumate o divise; le formulazioni non gastroresistenti si possono assumere a stomaco pieno in caso di dispepsia.
+- Nei pazienti con **sondino o difficoltà di deglutizione** in SCA: il ticagrelor può essere frantumato e somministrato in acqua o per sondino secondo RCP; per il prasugrel l'RCP indica di **non schiacciare né rompere** la compressa (un uso frantumato è fuori RCP e spetta a una decisione medica).
 - Segnalare melena, ematemesi, ematuria, ecchimosi estese, epistassi.
 
 ### Educazione
@@ -119,15 +119,15 @@ Sanguinamento (gastrointestinale, cutaneo, epistassi), dispepsia, dispnea (ticag
 Compressione, sospensione, valutazione medica. **Non esiste un antidoto di routine**: l'effetto del ticagrelor, del clopidogrel e del prasugrel regredisce con il tempo; trasfusioni di piastrine hanno efficacia limitata soprattutto con ticagrelor circolante; desmopressina e antifibrinolitici possono essere considerati in sanguinamenti gravi su indicazione specialistica.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** Per un **CABG programmato** si sospendono di norma il ticagrelor circa 3 giorni, il clopidogrel circa 5 giorni e il prasugrel circa 7 giorni prima (indicazioni ESC; verificare protocollo del centro); l'**ASA si continua**. In casi ad alto rischio di trombosi di stent si può attuare un «ponte» con inibitori EV a breve durata d'azione (cangrelor, tirofiban) secondo cardiologia. Dopo l'intervento la ripresa della DAPT segue la decisione cardiochirurgica.
-    **Pronto soccorso.** Sospetta SCA: ECG entro 10 minuti, ASA masticata (se non allergico), **inibitore P2Y12 secondo il protocollo** (in alcuni centri solo dopo la coronarografia), eparina, analgesia, cardiologia interventistica. Ictus emorragico o grave sanguinamento in antiaggregazione: sospendere e valutare l'antagonizzazione con il medico.
+    **Cardiochirurgia.** Per un **CABG programmato** si sospendono di norma il ticagrelor almeno 3 giorni, il clopidogrel almeno 5 giorni e il prasugrel almeno 7 giorni prima (indicazioni ESC; gli RCP indicano 5 giorni per il ticagrelor e 7 per il clopidogrel; verificare il protocollo del centro); l'**ASA si continua**. In casi ad alto rischio di trombosi di stent si può attuare un «ponte» con inibitori EV a breve durata d'azione (cangrelor, tirofiban) secondo cardiologia (impiego fuori indicazione: il cangrelor è autorizzato solo durante la PCI). Dopo l'intervento la ripresa della DAPT segue la decisione cardiochirurgica.
+    **Pronto soccorso.** Sospetta SCA: ECG entro 10 minuti, ASA masticata (se non allergico), **inibitore P2Y12 secondo il protocollo** (in alcuni centri solo dopo la coronarografia; la morfina e gli altri oppioidi ritardano e riducono l'assorbimento degli inibitori P2Y12 orali), eparina, analgesia, cardiologia interventistica. Ictus emorragico o grave sanguinamento in antiaggregazione: sospendere e valutare l'antagonizzazione con il medico.
 
 ## Popolazioni speciali
 
 | Popolazione | Orientamento |
 |---|---|
-| Anziano | Più sanguinamenti: durata più breve di DAPT e gastroprotezione; prasugrel a dose ridotta o evitato (≥ 75 anni) |
-| Insufficienza renale | Attenzione ai sanguinamenti; dose standard degli orali |
+| Anziano | Più sanguinamenti: durata più breve di DAPT e gastroprotezione; prasugrel sconsigliato dai 75 anni (5 mg solo se indispensabile) |
+| Insufficienza renale | Attenzione ai sanguinamenti; dose standard degli orali (nessun aggiustamento per clopidogrel, prasugrel, ticagrelor); adeguare o evitare gli inibitori GP IIb/IIIa |
 | Epatopatia | Cautela con tutte le molecole |
 | Gravidanza | ASA a basse dosi in alcuni contesti (prevenzione della preeclampsia secondo ginecologo); altri antiaggreganti da valutare |
 | Allergia o asma da ASA | Valutare alternative (clopidogrel) o desensibilizzazione specialistica |
@@ -140,7 +140,7 @@ Compressione, sospensione, valutazione medica. **Non esiste un antidoto di routi
 | DAPT in SCA | 12 mesi (ASA + ticagrelor/prasugrel); abbreviabile se alto rischio emorragico |
 | DAPT dopo PCI cronica | ≈ 6 mesi (ASA + clopidogrel) |
 | Con anticoagulante | Anticoagulante + clopidogrel; ASA breve |
-| Prasugrel | No dopo ictus/TIA; dose ridotta per peso < 60 kg o età ≥ 75 |
+| Prasugrel | No dopo ictus/TIA; 5 mg se peso < 60 kg; ≥ 75 anni sconsigliato (5 mg solo se indispensabile); non frantumare |
 | Clopidogrel | Evitare omeprazolo/esomeprazolo |
 | Prima di CABG | Sospendere ticagrelor ≈ 3 gg, clopidogrel ≈ 5 gg, prasugrel ≈ 7 gg; continuare ASA |
 
