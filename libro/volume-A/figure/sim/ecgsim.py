@@ -105,6 +105,9 @@ class VMorph:
     t_shape: tuple = (0.15, 0.11)  # sigma sin/dx della T come frazione del QT
     st_vec: np.ndarray | None = None   # vettore di corrente di lesione (sopra/sottoslivellamento ST)
     u_vec: np.ndarray | None = None    # onda U
+    st_profilo: str = "plateau"        # 'plateau' (lesione) | 'precoce' (J che si esaurisce, de Winter)
+                                       # | 'cucchiaio' (sottoslivellamento concavo, effetto digitalico)
+    j_vec: np.ndarray | None = None    # onda J (di Osborn) alla fine del QRS
     qtc: float = 0.410             # s (correzione di Fridericia)
     qt_fisso: float | None = None  # se dato, ignora la frequenza
 
@@ -196,10 +199,13 @@ class Tracciato:
         self.eventi = []   # verità di riferimento (per metadati e annotazioni)
 
     # --- onda P
-    def add_p(self, t_on, comps=P_SINUS, dur=0.10, scale=1.0, tipo="P sinusale"):
+    def add_p(self, t_on, comps=P_SINUS, dur=0.10, scale=1.0, tipo="P sinusale", ta_vec=None, ta_end=None):
         for c in comps:
             g = agauss(self.t, t_on + c.c * dur, c.s * dur, (c.sr or c.s) * dur)
             self.H += np.outer(g, c.v * scale)
+        if ta_vec is not None and ta_end:  # lesione atriale: tratto PR spostato (pericardite)
+            plat = sigm(self.t, t_on + dur * 0.9, 0.008) * (1 - sigm(self.t, ta_end, 0.004))
+            self.H += np.outer(plat, ta_vec)
         self.eventi.append({"tipo": tipo, "t": round(t_on, 3), "durata": dur})
 
     # --- QRS + ripolarizzazione
@@ -215,10 +221,17 @@ class Tracciato:
         t_peak = t_end - 2.3 * sr
         gT = agauss(self.t, t_peak, sl, sr)
         self.H += np.outer(gT, m.t_vec * t_scale)
-        if m.st_vec is not None:  # corrente di lesione: plateau dal punto J alla fine della T
+        if m.st_vec is not None:
             j = t_on + D
-            plat = sigm(self.t, j - 0.005, 0.006) * (1 - sigm(self.t, t_end - 0.05, 0.03))
+            if m.st_profilo == "precoce":      # massimo al punto J, si esaurisce prima del picco della T
+                plat = sigm(self.t, j - 0.005, 0.006) * np.exp(-np.clip(self.t - j, 0, None) / 0.05)
+            elif m.st_profilo == "cucchiaio":  # concavità del tratto ST che si fonde con la T
+                plat = agauss(self.t, j + 0.45 * (t_peak - j), 0.04, 0.07) * sigm(self.t, j - 0.005, 0.006)
+            else:                              # corrente di lesione: plateau dal punto J alla fine della T
+                plat = sigm(self.t, j - 0.005, 0.006) * (1 - sigm(self.t, t_end - 0.05, 0.03))
             self.H += np.outer(plat, m.st_vec)
+        if m.j_vec is not None:  # onda J: gobba lenta subito dopo il QRS
+            self.H += np.outer(agauss(self.t, t_on + D * 0.95, 0.012, 0.030), m.j_vec)
         if m.u_vec is not None:
             gU = agauss(self.t, t_end + 0.07, 0.04, 0.045)
             self.H += np.outer(gU, m.u_vec)
@@ -268,7 +281,7 @@ def _sinus_times(durata, hr, t0=0.25, mod=None, jitter=0.004, rng=None):
 
 
 def ritmo_condotto(durata, hr=72, pr=0.16, m: VMorph = None, p_comps=P_SINUS, p_dur=0.10,
-                   mod=None, seed=0, t0=0.30, p_scale=1.0, rumore=0.0):
+                   mod=None, seed=0, t0=0.30, p_scale=1.0, rumore=0.0, ta_vec=None):
     """Ritmo sinusale (o atriale) condotto 1:1 con PR costante."""
     m = m or m_normale()
     tr = Tracciato(durata, seed=seed)
@@ -277,7 +290,7 @@ def ritmo_condotto(durata, hr=72, pr=0.16, m: VMorph = None, p_comps=P_SINUS, p_
     for tp in ps:
         tq = tp + pr
         rr = (tq - prev) if prev else 60 / hr
-        tr.add_p(tp, p_comps, p_dur, scale=p_scale)
+        tr.add_p(tp, p_comps, p_dur, scale=p_scale, ta_vec=ta_vec, ta_end=tq)
         tr.add_qrs(tq, m, rr)
         prev = tq
     tr.add_noise(rumore)
@@ -605,3 +618,78 @@ def stemi(durata, territorio="anteriore", hr=82, onde_q=False, seed=23):
     if onde_q:
         m.qrs = m.qrs + [Comp(0.22, 0.11, info["q"])]
     return ritmo_condotto(durata, hr, 0.16, m, seed=seed)
+
+
+# ------------------------------------------------------------------ quadri aggiunti (v2)
+def m_wpw():
+    """Pre-eccitazione ventricolare: la via accessoria attiva precocemente e LENTAMENTE una parte dei
+    ventricoli (onda delta = rampa iniziale impastata che sfuma nell'R), poi l'attivazione normale;
+    PR corto, QRS ≈ 0,12 s, ripolarizzazione secondaria opposta alla delta.
+    Vettore della delta qui scelto in basso-a sinistra-in avanti (delta positiva in I, II, aVF, V2–V6):
+    la localizzazione della via accessoria NON è rappresentata."""
+    base = qrs_normale(axis=55)
+    q = [Comp(0.46, 0.30, fvec(45, 0.70, 0.30), sr=0.06)]           # onda delta (rampa lenta)
+    q += [Comp(0.38 + 0.62 * c.c, 0.62 * c.s, 0.85 * c.v) for c in base]
+    return VMorph("WPW", q, 0.125, t_vec=fvec(-140, 0.16, -0.18), qtc=0.43)
+
+
+def wpw(durata, hr=72, seed=31):
+    # PR (inizio P -> inizio della delta) ≈ 0,10 s
+    return ritmo_condotto(durata, hr, pr=0.095, m=m_wpw(), seed=seed)
+
+
+def pericardite(durata, hr=92, seed=33):
+    """Pericardite acuta (fase 1): sopraslivellamento ST diffuso a concavità superiore (vettore di lesione
+    verso l'apice: ST↑ in I, II, aVF, V2–V6; ST↓ in aVR e spesso V1) e sottoslivellamento del PR
+    (lesione atriale: PR↓ nelle stesse derivazioni, PR↑ in aVR); nessuna onda Q."""
+    m = m_normale(qtc=0.42)
+    m.st_vec = fvec(55, 0.17, 0.07)
+    m.t_vec = m.t_vec + fvec(55, 0.08, 0.03)
+    return ritmo_condotto(durata, hr, 0.16, m, seed=seed, ta_vec=-fvec(60, 0.055, 0.0))
+
+
+def infarto_posteriore(durata, hr=80, seed=35):
+    """Infarto posteriore (infero-basale) acuto visto dalle precordiali anteriori: immagine speculare
+    di lesione posteriore = sottoslivellamento ST orizzontale in V1–V3 con R alte e T positive."""
+    m = m_normale(qtc=0.42)
+    m.st_vec = np.array([0.02, 0.02, -0.17])
+    m.qrs = m.qrs + [Comp(0.45, 0.11, np.array([0.0, 0.0, 0.45]))]  # perdita delle forze posteriori
+    m.t_vec = m.t_vec + np.array([0.0, 0.0, 0.18])
+    return ritmo_condotto(durata, hr, 0.16, m, seed=seed)
+
+
+def wellens(durata, hr=70, seed=37):
+    """Pattern di Wellens tipo B (fase senza dolore): T profonde e simmetriche in V2–V3 (spesso V1–V4),
+    ST isoelettrico o appena sopraslivellato, onda R conservata, nessuna onda Q."""
+    m = m_normale(qtc=0.43)
+    m.t_vec = fvec(35, 0.16, -0.42)
+    m.t_shape = (0.12, 0.12)
+    return ritmo_condotto(durata, hr, 0.16, m, seed=seed)
+
+
+def de_winter(durata, hr=85, seed=39):
+    """Pattern di de Winter: sottoslivellamento del punto J con tratto ST ascendente che si continua in
+    T alte e simmetriche nelle precordiali (V1–V6), lieve ST↑ in aVR; nessun sopraslivellamento ST."""
+    m = m_normale(qtc=0.42)
+    m.st_vec = np.array([-0.05, 0.03, -0.20])
+    m.st_profilo = "precoce"
+    m.t_vec = fvec(40, 0.30, 0.55)
+    m.t_shape = (0.11, 0.10)
+    return ritmo_condotto(durata, hr, 0.16, m, seed=seed)
+
+
+def ipotermia(durata, hr=44, seed=41):
+    """Ipotermia: bradicardia, onda J di Osborn (gobba alla fine del QRS concordante con l'R, più evidente
+    in II, aVF, V3–V6), QT lungo."""
+    m = m_normale(qtc=0.49)
+    m.j_vec = fvec(55, 0.30, 0.10)
+    return ritmo_condotto(durata, hr, 0.20, m, seed=seed)
+
+
+def digitalico(durata, hr=64, seed=43):
+    """Effetto digitalico (non tossicità): sottoslivellamento ST «a cucchiaio» nelle derivazioni con R
+    dominante, T appiattite, QT accorciato, PR ai limiti alti."""
+    m = m_normale(qtc=0.37, t_mag=0.14)
+    m.st_vec = -fvec(50, 0.13, 0.06)
+    m.st_profilo = "cucchiaio"
+    return ritmo_condotto(durata, hr, 0.20, m, seed=seed)

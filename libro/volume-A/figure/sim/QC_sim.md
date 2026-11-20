@@ -43,5 +43,12 @@ Generato da `genera_sim.py`. Le misure sono calcolate da `common/ecgmeasure.py` 
 | SIM-MI-02 | STEMI inferiore acuto | media | 81.9 | 0.004 | 153 | 101 | 431 | sì | superato | — |
 | SIM-MI-03 | STEMI laterale acuto | media | 81.9 | 0.004 | 153 | 101 | 430 | sì | superato | — |
 | SIM-MI-04 | STEMI inferiore in evoluzione (onde Q) | media | 81.9 | 0.004 | 152 | 102 | 432 | sì | superato | — |
+| SIM-WPW-01 | Pre-eccitazione ventricolare (WPW) | media | 71.9 | 0.003 | 295 | 151 | 464 | sì | superato | — |
+| SIM-PER-01 | Pericardite acuta | media | 91.9 | 0.004 | 215 | 100 | 441 | sì | superato | — |
+| SIM-MI-05 | Infarto posteriore acuto (speculare in V1–V3) | media | 79.9 | 0.004 | 153 | 97 | 434 | sì | superato | — |
+| SIM-WEL-01 | Pattern di Wellens (tipo B) | media | 69.8 | 0.005 | 152 | 101 | 431 | sì | superato | — |
+| SIM-DEW-01 | Pattern di de Winter | media | 85.0 | 0.003 | 153 | 97 | 437 | sì | superato | — |
+| SIM-IPO-01 | Ipotermia: onda J di Osborn | media | 44.0 | 0.003 | 213 | 138 | 451 | sì | superato | — |
+| SIM-DIG-01 | Effetto digitalico | media | 64.0 | 0.004 | 194 | 99 | 367 | sì | superato | — |
 
 Note: per FV, torsione di punta e alcune extrasistoli le misure globali (FC, QRS mediano) non sono significative e non sono usate come criterio; la verifica è affidata al revisore.

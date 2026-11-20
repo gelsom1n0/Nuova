@@ -134,13 +134,15 @@ python3 libro/volume-A/figure/sim/genera_sim.py [ID ...]
   periferiche, quindi III = II − I sempre esatta; vettori orizzontali con guadagno per V1–V6).
   Motore del ritmo con eventi atriali e ventricolari e conduzione AV esplicita. Parametri espliciti:
   frequenza, PR, durata QRS, QTc (Fridericia), asse, ampiezze, vettori.
-- `catalogo_sim.py`: 39 tracciati con descrizione attesa, criteri automatici, criteri per il revisore,
+- `catalogo_sim.py`: 46 tracciati (39 iniziali + 7 aggiunti il 20/11/2026: WPW, pericardite, infarto
+  posteriore, Wellens tipo B, de Winter, ipotermia con onda J, effetto digitalico) con descrizione attesa, criteri automatici, criteri per il revisore,
   affidabilità del modello.
 - Uscite: `out/<ID>.svg|png|json` e `QC_sim.md` (misure automatiche sul segnale: **39/39 superano** i
   criteri). Ogni JSON contiene parametri, misure ed eventi (tempi di P, QRS, spike).
-- **Non modellati** (rimandati ai reali o da fare): WPW/pre-eccitazione, Brugada, Wellens, de Winter,
-  pericardite, infarto del VD (V4R), derivazioni posteriori V7–V9, ipotermia (onda J), effetto
-  digitalico, artefatti. FV e torsione di punta sono modelli **fenomenologici** (affidabilità
+- **Non modellati** (rimandati ai reali): Brugada (alterazione limitata a V1–V2 che un dipolo unico non
+  riproduce senza falsare le altre derivazioni), infarto del VD (richiede V4R), derivazioni posteriori
+  V7–V9, artefatti. Nella WPW la sede della via accessoria non è rappresentata e la misura automatica del
+  PR non è affidabile. FV e torsione di punta sono modelli **fenomenologici** (affidabilità
   «schematica»): usare preferibilmente i reali.
 
 ## 5. Tracciati reali (`figure/real/`)

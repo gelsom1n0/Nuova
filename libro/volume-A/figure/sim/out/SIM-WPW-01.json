@@ -1,0 +1,234 @@
+{
+ "id": "SIM-WPW-01",
+ "titolo": "Pre-eccitazione ventricolare (WPW)",
+ "tipo": "simulato",
+ "gruppo": "morfologia_conduzione",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "wpw",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-WPW-01.svg",
+  "png": "sim/out/SIM-WPW-01.png",
+  "svg_3x4": "sim/out/SIM-WPW-01_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  165.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "PR corto (≈ 0,10 s), onda delta (impastamento iniziale lento del QRS), QRS ≈ 0,12 s, ST-T secondari opposti alla delta. La sede della via accessoria non è rappresentata.",
+ "criteri_automatici": [
+  {
+   "criterio": "qrs_ms",
+   "misura": 151,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "PR corto senza tratto isoelettrico tra P e QRS",
+  "onda delta riconoscibile",
+  "T discordante"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "La misura automatica del PR non è affidabile con l'onda delta: controllo visivo.",
+ "misure": {
+  "fc": 71.9,
+  "fc_media": 71.9,
+  "rr_cv": 0.003,
+  "rmssd_ms": 4.9,
+  "n_qrs": 12,
+  "qrs_ms": 151,
+  "pr_ms": 295,
+  "qt_ms": 424,
+  "qtc_bazett_ms": 464,
+  "qtc_fridericia_ms": 450,
+  "asse_gradi": 40,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.124,
+  "t_ampiezza_mv": -0.478,
+  "u_ampiezza_mv": 0.075,
+  "ampiezza_max_mv": 0.894,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.108,
+   "II": -0.149,
+   "III": -0.041,
+   "aVR": 0.129,
+   "aVL": -0.034,
+   "aVF": -0.095,
+   "V1": 0.038,
+   "V2": -0.002,
+   "V3": -0.081,
+   "V4": -0.147,
+   "V5": -0.159,
+   "V6": -0.125
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 0.395,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.132,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 1.227,
+   "qrs": 0.125,
+   "qt": 0.404
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.966,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 2.061,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.802,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 2.897,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.632,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 3.727,
+   "qrs": 0.125,
+   "qt": 0.404
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.468,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 4.563,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.302,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 5.397,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.138,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 6.233,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.972,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 7.067,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.809,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 7.904,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.639,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 8.734,
+   "qrs": 0.125,
+   "qt": 0.404
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.479,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 9.574,
+   "qrs": 0.125,
+   "qt": 0.406
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.316,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 10.411,
+   "qrs": 0.125,
+   "qt": 0.405
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.147,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS WPW",
+   "t": 11.242,
+   "qrs": 0.125,
+   "qt": 0.404
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

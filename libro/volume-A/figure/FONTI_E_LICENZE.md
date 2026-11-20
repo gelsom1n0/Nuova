@@ -11,6 +11,8 @@ perché la licenza è legata alla **versione** della banca dati indicata qui.
 | PTB-XL 1.0.3 | **Creative Commons Attribution 4.0 International (CC BY 4.0)** | consentito, anche commerciale, con attribuzione e indicazione delle modifiche | https://physionet.org/content/ptb-xl/1.0.3/ |
 | MIT-BIH Arrhythmia Database 1.0.0 | **Open Data Commons Attribution License v1.0 (ODC-By 1.0)** | consentito con attribuzione | https://physionet.org/content/mitdb/1.0.0/ |
 | CU Ventricular Tachyarrhythmia Database (CUDB) 1.0.0 | **ODC-By 1.0** | consentito con attribuzione | https://physionet.org/content/cudb/1.0.0/ |
+| Chapman-Shaoxing/Ningbo «A large scale 12-lead ECG database for arrhythmia study» (ecg-arrhythmia) 1.0.0 | **CC BY 4.0** (verificata il 20/11/2026) | consentito con attribuzione e indicazione delle modifiche | https://physionet.org/content/ecg-arrhythmia/1.0.0/ |
+| PhysioNet/CinC Challenge 2021 (challenge-2021) 1.0.3 – solo sottoinsiemi Georgia e CPSC | **CC BY 4.0** (verificata il 20/11/2026) | consentito con attribuzione | https://physionet.org/content/challenge-2021/1.0.3/ |
 | MIT-BIH Atrial Fibrillation Database 1.0.0 | ODC-By 1.0 (verificata; non ancora usata) | consentito con attribuzione | https://physionet.org/content/afdb/1.0.0/ |
 | Long-Term AF Database 1.0.0 | ODC-By 1.0 (verificata; non usata) | — | https://physionet.org/content/ltafdb/1.0.0/ |
 | MIT-BIH Malignant Ventricular Ectopy Database (VFDB) 1.0.0 | ODC-By 1.0 (verificata; non usata) | — | https://physionet.org/content/vfdb/1.0.0/ |
@@ -50,6 +52,16 @@ Citazioni richieste dalle pagine PhysioNet («When using this resource, please c
 - Pubblicazione originale: Nolle FM, Badura FK, Catlett JM, Bowser RW, Sketch MH. CREI-GARD, a new concept in computerized arrhythmia monitoring systems. *Computers in Cardiology* 13:515-518 (1986).
 - Licenza: ODC-By 1.0.
 
+**Chapman-Shaoxing/Ningbo (ecg-arrhythmia)**
+- Zheng, J., Guo, H., & Chu, H. (2022). *A large scale 12-lead electrocardiogram database for arrhythmia study* (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/wgex-er52
+- Pubblicazione originale: Zheng, J., Chu, H., Struppa, D., Zhang, J., Yacoub, S.M., El-Askary, H., Chang, A., Ehwerhemuepha, L., Abudayyeh, I., Barrett, A.S., Fu, G., Yao, H., Li, D., Guo, H., & Rakovski, C. (2020). Optimal Multi-Stage Arrhythmia Classification Approach. *Scientific Reports*, 10. https://www.nature.com/articles/s41598-020-59821-7
+- Licenza: CC BY 4.0 – segnali filtrati e ridisegnati.
+
+**PhysioNet/Computing in Cardiology Challenge 2021** (se si usano i sottoinsiemi Georgia/CPSC)
+- Reyna, M., Sadr, N., Gu, A., Perez Alday, E. A., Liu, C., Seyedi, S., Shah, A., & Clifford, G. (2022). *Will Two Do? Varying Dimensions in Electrocardiography: The PhysioNet/Computing in Cardiology Challenge 2021* (version 1.0.3). PhysioNet. https://doi.org/10.13026/34va-7q14
+- Pubblicazione originale: Reyna MA, Sadr N, Perez Alday EA, et al. Will Two Do? Varying Dimensions in Electrocardiography: The PhysioNet/Computing in Cardiology Challenge 2021. 2021 Computing in Cardiology (CinC), Brno, 2021, pp. 1-4. doi: 10.23919/CinC53138.2021.9662687
+- Licenza: CC BY 4.0.
+
 **Citazione standard di PhysioNet** (richiesta per tutte le banche dati):
 - Pollard, T., Moody, B. E., Lehman, L., Gow, B., Fernandes, C., Xie, C., Johnson, A., Mark, R. G., & Heldt, T. (2026). PhysioNet as a global platform for biomedical research. *Nature Health*. https://doi.org/10.1038/s44360-026-00096-z
 
@@ -63,7 +75,9 @@ Citazioni richieste dalle pagine PhysioNet («When using this resource, please c
 - **Schemi** (`figure/schemi`): disegnati con codice (matplotlib), curve calcolate, nessuna immagine copiata.
   Etichetta: «Schema originale».
 - Nessuna figura proviene da libri, atlanti o siti protetti da copyright. Non sono stati consultati né usati
-  testi o figure di manuali ECG commerciali.
+  testi o figure di manuali ECG commerciali. In particolare il manuale di Dale Dubin **non è stato aperto né
+  usato** come fonte (decisione del 20/11/2026, coerente con il brief): le lacune sono state colmate con
+  banche dati aperte e con il simulatore.
 
 ## Font incorporati nel PDF
 - Gelasio (SIL Open Font License 1.1) – `engine/fonts/LICENSE-Gelasio-OFL.txt`.

@@ -1,0 +1,183 @@
+{
+ "id": "SIM-IPO-01",
+ "titolo": "Ipotermia: onda J di Osborn",
+ "tipo": "simulato",
+ "gruppo": "elettroliti",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ipotermia",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V4 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-IPO-01.svg",
+  "png": "sim/out/SIM-IPO-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  95.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Bradicardia sinusale, gobba alla giunzione QRS-ST (onda J) concordante con l'R, QT lungo.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 44.0,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 138,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "onda J alla fine del QRS",
+  "bradicardia",
+  "QT lungo"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 44.0,
+  "fc_media": 44.0,
+  "rr_cv": 0.003,
+  "rmssd_ms": 8.2,
+  "n_qrs": 8,
+  "qrs_ms": 138,
+  "pr_ms": 213,
+  "qt_ms": 527,
+  "qtc_bazett_ms": 451,
+  "qtc_fridericia_ms": 475,
+  "asse_gradi": 45,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.126,
+  "t_ampiezza_mv": 0.431,
+  "u_ampiezza_mv": 0.006,
+  "ampiezza_max_mv": 0.999,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.0,
+   "II": 0.001,
+   "III": 0.001,
+   "aVR": -0.001,
+   "aVL": -0.0,
+   "aVF": 0.001,
+   "V1": -0.002,
+   "V2": -0.003,
+   "V3": -0.003,
+   "V4": -0.002,
+   "V5": -0.001,
+   "V6": 0.0
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.5,
+   "qrs": 0.09,
+   "qt": 0.543
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.657,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.857,
+   "qrs": 0.09,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.022,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.222,
+   "qrs": 0.09,
+   "qt": 0.544
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.386,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.586,
+   "qrs": 0.09,
+   "qt": 0.543
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.752,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.952,
+   "qrs": 0.09,
+   "qt": 0.544
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.108,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.308,
+   "qrs": 0.09,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.478,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.678,
+   "qrs": 0.09,
+   "qt": 0.544
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.842,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.042,
+   "qrs": 0.09,
+   "qt": 0.543
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.199,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.399,
+   "qrs": 0.09,
+   "qt": 0.543
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

@@ -51,6 +51,7 @@ LIC = {
     "ptbxl": ("PTB-XL 1.0.3 (Wagner et al., PhysioNet 2022)", "CC BY 4.0"),
     "mitdb": ("MIT-BIH Arrhythmia Database 1.0.0 (Moody & Mark, PhysioNet)", "ODC-By 1.0"),
     "cudb": ("CU Ventricular Tachyarrhythmia Database 1.0.0 (Nolle et al., PhysioNet)", "ODC-By 1.0"),
+    "chapman": ("Chapman-Shaoxing/Ningbo 12-lead ECG database (ecg-arrhythmia 1.0.0, Zheng et al., PhysioNet)", "CC BY 4.0"),
 }
 LEADS12 = ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"]
 SPR = 5.2
@@ -112,6 +113,17 @@ QC = {
     "MIT_PACED": lambda m: _all(m, qrs_ms=(110, 260)),
     "MIT_SVTA": lambda m: _all(m, fc=(100, 260)),
     "VF": lambda m: (True, "nessun criterio numerico: verifica visiva"),
+    # Chapman-Shaoxing/Ningbo
+    "CH_SVT": lambda m: _all(m, fc=(140, 260), qrs_ms=(60, 125), rr_cv=(0, 0.05)),
+    "CH_AT": lambda m: _all(m, fc=(100, 250), qrs_ms=(60, 125)),
+    "CH_AVRT": lambda m: _all(m, fc=(130, 260)),
+    "CH_2AVB1": lambda m: (m.get("rr_max", 0) / max(m.get("rr_min", 1), 1e-3) >= 1.3,
+                           f"RR max/min {m.get('rr_max')}/{m.get('rr_min')} (battiti raggruppati attesi)"),
+    "CH_3AVB": lambda m: _all(m, fc=(20, 60)),
+    "CH_WPW": lambda m: _all(m, qrs_ms=(95, 200)),
+    "CH_JEB": lambda m: _all(m, fc=(30, 65), qrs_ms=(60, 125)),
+    "CH_ERV": lambda m: _all(m, qrs_ms=(60, 120)),
+    "CH_VB": lambda m: _all(m, rr_cv=(0.08, 0.6)),
 }
 
 
@@ -162,6 +174,78 @@ MIT_CAT = [
     ("MIT_PACED", "(P", "Ritmo da pacemaker (2 derivazioni)", "pacemaker", "paced", ["102", "104", "107", "217"]),
     ("MIT_SVTA", "(SVTA", "Tachicardia sopraventricolare", "ritmo", "", ["209", "220", "222", "201", "114"]),
 ]
+
+
+# ------------------------------------------------------------------ Chapman-Shaoxing/Ningbo
+CH = "https://physionet.org/files/ecg-arrhythmia/1.0.0/"
+CH_OK = {"426783006", "426177001", "427084000",          # ritmo sinusale, bradi-, tachicardia sinusale
+         "39732003", "47665007", "251199005", "251198002"}  # deviazioni assiali, rotazioni
+CH_CAT = [
+    # id, codice SNOMED, titolo, gruppo, codici ammessi in più, layout
+    ("CH_SVT", "426761007", "Tachicardia sopraventricolare (12 derivazioni)", "ritmo", set(), "12"),
+    ("CH_AT", "713422000", "Tachicardia atriale", "ritmo", set(), "striscia"),
+    ("CH_AVRT", "233897008", "Tachicardia da rientro atrioventricolare (AVRT)", "ritmo", set(), "12"),
+    ("CH_2AVB1", "54016002", "Blocco AV di 2° grado tipo I (Mobitz I, Wenckebach)", "blocchi", set(), "striscia"),
+    ("CH_3AVB", "27885002", "Blocco AV di 3° grado", "blocchi", set(), "striscia"),
+    ("CH_WPW", "74390002", "Pre-eccitazione (Wolff-Parkinson-White)", "morfologia_conduzione", set(), "12"),
+    ("CH_JEB", "426995002", "Ritmo/battiti di scappamento giunzionale", "ritmo", set(), "striscia"),
+    ("CH_ERV", "428417006", "Ripolarizzazione precoce", "ischemia", set(), "12"),
+    ("CH_VB", "11157007", "Bigeminismo ventricolare (12 derivazioni)", "extrasistoli", set(), "striscia"),
+]
+
+
+def run_chapman(cats, nmax, log):
+    idx = CACHE / "chapman" / "indice_dx.jsonl"
+    if not idx.exists():
+        log.append(("CH_*", "—", "NESSUN CANDIDATO", "indice delle intestazioni assente (vedi README)", None))
+        return
+    rows = [json.loads(l) for l in idx.read_text().splitlines() if l.strip()]
+    rows.sort(key=lambda r: r["p"])
+    for cid, code, titolo, gruppo, extra_ok, layout in cats:
+        ok_codes = CH_OK | extra_ok | {code}
+        cands = [r for r in rows if code in r.get("Dx", "").split(",")
+                 and set(r.get("Dx", "").split(",")) <= ok_codes]
+        kept = 0
+        for r in cands[: nmax * 5]:
+            if kept >= nmax:
+                break
+            stem = r["p"][:-4]
+            name = Path(stem).name
+            try:
+                for ext in ("hea", "mat"):
+                    fetch(CH + f"{stem}.{ext}", CACHE / "chapman" / "rec" / f"{name}.{ext}")
+                rec = wfdb.rdrecord(str(CACHE / "chapman" / "rec" / name))
+            except Exception as e:  # noqa: BLE001
+                log.append((cid, f"Chapman {name}", "errore download", str(e)[:80], None))
+                continue
+            fs = rec.fs
+            raw = {n: rec.p_signal[:, i] for i, n in enumerate(rec.sig_name)}
+            if any(not np.isfinite(v).all() or np.ptp(v) < 0.05 for v in raw.values()):
+                log.append((cid, f"Chapman {name}", "scartato", "derivazione piatta o con dati mancanti", None))
+                continue
+            sig = prep(raw, fs)
+            m = ecgmeasure.measure(sig, fs, filtered=True)
+            add_amp(m)
+            ok, why = QC[cid](m)
+            log.append((cid, f"Chapman {name}", "accettato" if ok else "scartato", why, m))
+            if not ok:
+                continue
+            kept += 1
+            rid = f"REAL-CH-{cid[3:]}-{kept:02d}"
+            attr = f"Chapman-Shaoxing/Ningbo ECG database, record {name} (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato"
+            if layout == "12":
+                info = ecgplot.render_6x2(sig, fs, OUT / rid, label=f"Chapman {name}")
+                ecgplot.render_12(sig, fs, OUT / (rid + "_3x4"), width_mm=143, label=f"Chapman {name}")
+                shown = "12 derivazioni (6×2 a scala reale; 3×4 ridotto)"
+            else:
+                info = ecgplot.render_strip({k: sig[k] for k in ("II", "V1")}, fs, OUT / rid, leads=["II", "V1"],
+                                            duration=10.0, seconds_per_row=5.0, label=f"Chapman {name}")
+                shown = "II e V1, 2 righe × 5 s"
+            write_meta(rid, titolo, gruppo, "chapman", attr, info, m, ok, why,
+                       {"record": name, "snomed_dx": r.get("Dx"), "eta": r.get("Age"), "sesso": r.get("Sex"),
+                        "derivazioni": shown}, has3x4=(layout == "12"))
+        if kept == 0:
+            log.append((cid, "—", "NESSUN CANDIDATO", f"{len(cands)} candidati con etichetta unica, nessuno coerente", None))
 
 
 # ------------------------------------------------------------------ PTB-XL
@@ -455,6 +539,7 @@ def main():
     run_mit([c for c in MIT_CAT if not only or c[0] in only], min(nmax, 3), log)
     if not only or "VF" in only:
         run_cudb(3, log)
+    run_chapman([c for c in CH_CAT if not only or c[0] in only], nmax, log)
     write_report(log)
 
 

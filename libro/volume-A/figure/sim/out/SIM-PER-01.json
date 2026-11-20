@@ -1,0 +1,293 @@
+{
+ "id": "SIM-PER-01",
+ "titolo": "Pericardite acuta",
+ "tipo": "simulato",
+ "gruppo": "ischemia",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "pericardite",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-PER-01.svg",
+  "png": "sim/out/SIM-PER-01.png",
+  "svg_3x4": "sim/out/SIM-PER-01_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  170.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Sopraslivellamento ST diffuso a concavità superiore (I, II, aVF, V2–V6) senza speculari (tranne aVR e V1), sottoslivellamento del PR (sopraslivellamento in aVR), nessuna onda Q.",
+ "criteri_automatici": [
+  {
+   "criterio": "ST II ≥0.1",
+   "misura": 0.263,
+   "ok": true
+  },
+  {
+   "criterio": "ST V4 ≥0.15",
+   "misura": 0.319,
+   "ok": true
+  },
+  {
+   "criterio": "ST V5 ≥0.15",
+   "misura": 0.283,
+   "ok": true
+  },
+  {
+   "criterio": "ST aVR ≤ −0.1",
+   "misura": -0.208,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "ST↑ diffuso non limitato a un territorio",
+  "PR↓ in II e V5–V6, PR↑ in aVR",
+  "nessuna Q"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 91.9,
+  "fc_media": 92.0,
+  "rr_cv": 0.004,
+  "rmssd_ms": 4.1,
+  "n_qrs": 16,
+  "qrs_ms": 100,
+  "pr_ms": 215,
+  "qt_ms": 356,
+  "qtc_bazett_ms": 441,
+  "qtc_fridericia_ms": 410,
+  "asse_gradi": 45,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.149,
+  "t_ampiezza_mv": 0.804,
+  "u_ampiezza_mv": 0.153,
+  "ampiezza_max_mv": 0.959,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.152,
+   "II": 0.263,
+   "III": 0.111,
+   "aVR": -0.208,
+   "aVL": 0.021,
+   "aVF": 0.187,
+   "V1": 0.012,
+   "V2": 0.123,
+   "V3": 0.242,
+   "V4": 0.319,
+   "V5": 0.283,
+   "V6": 0.182
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 0.953,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.113,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.604,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.764,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.258,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.418,
+   "qrs": 0.09,
+   "qt": 0.365
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.91,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.07,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.558,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.718,
+   "qrs": 0.09,
+   "qt": 0.363
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.213,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.373,
+   "qrs": 0.09,
+   "qt": 0.365
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.865,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.025,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.518,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.678,
+   "qrs": 0.09,
+   "qt": 0.365
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.175,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.335,
+   "qrs": 0.09,
+   "qt": 0.365
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.828,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.988,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.478,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.638,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.128,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.288,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.783,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.943,
+   "qrs": 0.09,
+   "qt": 0.365
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.431,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.591,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.084,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.244,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.737,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.897,
+   "qrs": 0.09,
+   "qt": 0.364
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.386,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.546,
+   "qrs": 0.09,
+   "qt": 0.364
+  }
+ ],
+ "stato_validazione": "da_validare"
+}
