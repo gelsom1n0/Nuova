@@ -57,6 +57,8 @@ le figure non validate mostrano lo stato in didascalia; il report di build elenc
 ## Gruppo «morfologia_conduzione» (BBD, BBS, WPW)
 - [ ] **BBD**: QRS ≥ 0,12 s; rsR'/rSR' in V1–V2; S larga in I, aVL, V6; ST-T discordanti in V1–V3.
 - [ ] **BBS**: QRS ≥ 0,12 s; R larga/intaccata in I, aVL, V5–V6 senza q; QS o rS in V1–V3; discordanza appropriata.
+- [ ] **Brugada** (Brugada-HUCA, 100 Hz): tipo 1 = sopraslivellamento del punto J ≥ 2 mm con ST «a tenda»
+      (coved) e T negativa in V1 e/o V2; distinguere dal tipo «a sella», non diagnostico. Licenza CC BY-SA.
 - [ ] **WPW**: PR corto (< 0,12 s), onda delta, QRS slargato, alterazioni secondarie della ripolarizzazione (la misura automatica del PR non è affidabile: controllo manuale).
 
 ## Gruppo «morfologia_ipertrofia»

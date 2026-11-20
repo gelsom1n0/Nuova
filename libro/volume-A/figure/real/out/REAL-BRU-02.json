@@ -1,0 +1,65 @@
+{
+ "id": "REAL-BRU-02",
+ "titolo": "Pattern di Brugada (tipo 1, basale)",
+ "tipo": "reale",
+ "gruppo": "morfologia_conduzione",
+ "etichetta_figura": "Tracciato reale",
+ "fonte": "Brugada-HUCA 1.0.0 (Costa Cortez & Garcia Iglesias, PhysioNet 2026)",
+ "licenza": "CC BY-SA 4.0",
+ "attribuzione_breve": "Brugada-HUCA, paziente 428031 (PhysioNet) – CC BY-SA 4.0; filtrato e ridisegnato (figura rilasciata CC BY-SA 4.0)",
+ "elaborazione": "filtro passa-alto 0,5 Hz e passa-basso 40 Hz (fase zero); nessun'altra modifica del segnale",
+ "file": {
+  "svg": "real/out/REAL-BRU-02.svg",
+  "png": "real/out/REAL-BRU-02.png",
+  "svg_3x4": "real/out/REAL-BRU-02_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  125.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Pattern di Brugada (tipo 1, basale) (etichetta della banca dati); vedi misure e criteri del gruppo «morfologia_conduzione» in CHECKLIST_VALIDAZIONE.md",
+ "criteri_revisore": [
+  "l'etichetta della banca dati corrisponde a ciò che si vede",
+  "qualità sufficiente per la stampa (nessun artefatto fuorviante)",
+  "nessun altro reperto rilevante non dichiarato"
+ ],
+ "qc_automatico": {
+  "esito": "superato",
+  "motivo": "ST J+60 in V1/V2 max +0.24 mV"
+ },
+ "misure": {
+  "fc": 75.0,
+  "fc_media": 74.8,
+  "rr_cv": 0.008,
+  "rr_min": 0.79,
+  "rr_max": 0.81,
+  "qrs_ms": 110,
+  "pr_ms": null,
+  "qt_ms": 390,
+  "qtc_bazett_ms": 436,
+  "asse_gradi": 24,
+  "p_presente": false,
+  "t_ampiezza_mv": 0.341,
+  "st_j60_mv": {
+   "I": 0.022,
+   "II": 0.012,
+   "III": -0.016,
+   "aVR": -0.017,
+   "aVL": 0.018,
+   "aVF": -0.002,
+   "V1": 0.102,
+   "V2": 0.238,
+   "V3": 0.245,
+   "V4": 0.074,
+   "V5": 0.038,
+   "V6": 0.011
+  }
+ },
+ "sorgente": {
+  "patient_id": 428031,
+  "derivazioni": "12 (6×2 a scala reale; 3×4 ridotto)",
+  "nota": "campionamento 100 Hz: QRS meno nitidi; licenza share-alike"
+ },
+ "stato_validazione": "da_validare"
+}

@@ -43,16 +43,16 @@
   "st_j60_mv": {
    "I": -0.031,
    "II": 0.031,
-   "III": 0.05,
+   "III": 0.048,
    "aVR": 0.003,
-   "aVL": -0.051,
+   "aVL": -0.05,
    "aVF": 0.041,
    "V1": 0.064,
-   "V2": 0.071,
-   "V3": 0.023,
-   "V4": 0.013,
-   "V5": 0.017,
-   "V6": 0.006
+   "V2": 0.072,
+   "V3": 0.024,
+   "V4": 0.011,
+   "V5": 0.016,
+   "V6": 0.008
   }
  },
  "sorgente": {
@@ -65,7 +65,7 @@
   "referto_originale": "premature atrial contraction(s). sinus rhythm. otherwise normal ecg.",
   "eta": 74.0,
   "sesso": "F",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 6,
   "infarction_stadium1": null
  },

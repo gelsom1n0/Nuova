@@ -34,14 +34,14 @@
   "rr_min": 0.364,
   "rr_max": 0.392,
   "qrs_ms": 69,
-  "pr_ms": null,
-  "qt_ms": 275,
-  "qtc_bazett_ms": 444,
-  "p_presente": false,
-  "t_ampiezza_mv": 0.226,
+  "pr_ms": 103,
+  "qt_ms": 272,
+  "qtc_bazett_ms": 440,
+  "p_presente": true,
+  "t_ampiezza_mv": 0.227,
   "st_j60_mv": {
-   "MLII": 0.014,
-   "V1": 0.0
+   "MLII": 0.018,
+   "V1": 0.003
   }
  },
  "sorgente": {

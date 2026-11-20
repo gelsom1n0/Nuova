@@ -15,7 +15,7 @@
  },
  "dimensioni_mm": [
   140.0,
-  190.0
+  195.0
  ],
  "scala": 1.0,
  "descrizione_attesa": "Pre-eccitazione (Wolff-Parkinson-White) (etichetta della banca dati); vedi misure e criteri del gruppo «morfologia_conduzione» in CHECKLIST_VALIDAZIONE.md",
@@ -40,19 +40,19 @@
   "qtc_bazett_ms": 421,
   "asse_gradi": -23,
   "p_presente": false,
-  "t_ampiezza_mv": 0.256,
+  "t_ampiezza_mv": 0.254,
   "st_j60_mv": {
-   "I": -0.117,
-   "II": -0.024,
-   "III": 0.096,
+   "I": -0.119,
+   "II": -0.023,
+   "III": 0.097,
    "aVR": 0.071,
-   "aVL": -0.107,
+   "aVL": -0.109,
    "aVF": 0.038,
    "V1": 0.077,
-   "V2": -0.066,
-   "V3": -0.105,
-   "V4": -0.102,
-   "V5": -0.082,
+   "V2": -0.068,
+   "V3": -0.106,
+   "V4": -0.1,
+   "V5": -0.084,
    "V6": -0.063
   }
  },

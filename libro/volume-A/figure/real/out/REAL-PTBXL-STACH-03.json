@@ -39,20 +39,20 @@
   "qtc_bazett_ms": 412,
   "asse_gradi": 24,
   "p_presente": true,
-  "t_ampiezza_mv": 0.298,
+  "t_ampiezza_mv": 0.3,
   "st_j60_mv": {
-   "I": -0.04,
+   "I": -0.034,
    "II": -0.03,
-   "III": -0.017,
-   "aVR": 0.024,
-   "aVL": -0.005,
-   "aVF": -0.014,
-   "V1": 0.052,
-   "V2": 0.06,
-   "V3": 0.07,
+   "III": -0.018,
+   "aVR": 0.023,
+   "aVL": -0.004,
+   "aVF": -0.011,
+   "V1": 0.053,
+   "V2": 0.062,
+   "V3": 0.071,
    "V4": 0.037,
    "V5": 0.003,
-   "V6": -0.017
+   "V6": -0.015
   }
  },
  "sorgente": {
@@ -64,7 +64,7 @@
   "referto_originale": "sinus tachycardia. otherwise normal ecg.",
   "eta": 73.0,
   "sesso": "F",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 8,
   "infarction_stadium1": null
  },

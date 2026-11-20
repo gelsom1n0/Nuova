@@ -41,9 +41,9 @@
   "p_presente": true,
   "t_ampiezza_mv": 0.287,
   "st_j60_mv": {
-   "I": -0.001,
+   "I": -0.004,
    "II": 0.02,
-   "III": 0.024,
+   "III": 0.025,
    "aVR": -0.004,
    "aVL": -0.012,
    "aVF": 0.023,
@@ -51,7 +51,7 @@
    "V2": 0.005,
    "V3": 0.013,
    "V4": 0.017,
-   "V5": 0.015,
+   "V5": 0.014,
    "V6": 0.009
   }
  },
@@ -63,7 +63,7 @@
   "referto_originale": "av- block 2. grades typ i                               linkstyp intraventr. leitungsstoerung f, v1                      ekg pathologisch",
   "eta": 300.0,
   "sesso": "M",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 1,
   "infarction_stadium1": null
  },

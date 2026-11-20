@@ -14,7 +14,7 @@
  },
  "dimensioni_mm": [
   140.0,
-  105.0
+  95.0
  ],
  "scala": 1.0,
  "descrizione_attesa": "Fibrillazione ventricolare (etichetta della banca dati); vedi misure e criteri del gruppo «ritmo» in CHECKLIST_VALIDAZIONE.md",
@@ -25,10 +25,10 @@
  ],
  "qc_automatico": {
   "esito": "superato",
-  "motivo": "ampiezza max 1.91 mV"
+  "motivo": "ampiezza max 1.86 mV"
  },
  "misure": {
-  "ampiezza_max_mv": 1.91
+  "ampiezza_max_mv": 1.86
  },
  "sorgente": {
   "record": "cu01",

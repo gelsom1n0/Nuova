@@ -39,7 +39,7 @@
   },
   {
    "criterio": "qrs_ms",
-   "misura": 171,
+   "misura": 173,
    "ok": true
   }
  ],
@@ -56,31 +56,31 @@
   "rr_cv": 0.002,
   "rmssd_ms": 1.2,
   "n_qrs": 29,
-  "qrs_ms": 171,
-  "pr_ms": 191,
+  "qrs_ms": 173,
+  "pr_ms": 190,
   "qt_ms": 348,
   "qtc_bazett_ms": 586,
   "qtc_fridericia_ms": 492,
   "asse_gradi": 74,
   "p_presente": true,
-  "p_ampiezza_mv": 0.448,
-  "t_ampiezza_mv": 0.448,
+  "p_ampiezza_mv": 0.446,
+  "t_ampiezza_mv": 0.446,
   "u_ampiezza_mv": 0.0,
   "ampiezza_max_mv": 1.223,
   "rapporto_p_qrs": 0.45,
   "st_j60_mv": {
    "I": -0.077,
-   "II": -0.424,
-   "III": -0.347,
+   "II": -0.423,
+   "III": -0.346,
    "aVR": 0.25,
-   "aVL": 0.135,
-   "aVF": -0.385,
+   "aVL": 0.134,
+   "aVF": -0.384,
    "V1": 0.27,
-   "V2": 0.444,
-   "V3": 0.365,
+   "V2": 0.443,
+   "V3": 0.364,
    "V4": 0.206,
    "V5": 0.019,
-   "V6": -0.128
+   "V6": -0.127
   }
  },
  "eventi": [

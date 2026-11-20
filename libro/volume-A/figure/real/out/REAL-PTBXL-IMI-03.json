@@ -15,7 +15,7 @@
  },
  "dimensioni_mm": [
   140.0,
-  160.0
+  155.0
  ],
  "scala": 1.0,
  "descrizione_attesa": "Infarto inferiore (etichetta della banca dati); vedi misure e criteri del gruppo «ischemia» in CHECKLIST_VALIDAZIONE.md",
@@ -42,11 +42,11 @@
   "p_presente": true,
   "t_ampiezza_mv": 0.985,
   "st_j60_mv": {
-   "I": 0.016,
+   "I": 0.015,
    "II": 0.014,
    "III": -0.005,
-   "aVR": -0.013,
-   "aVL": 0.01,
+   "aVR": -0.017,
+   "aVL": 0.009,
    "aVF": 0.006,
    "V1": 0.074,
    "V2": 0.136,

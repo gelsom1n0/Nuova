@@ -26,7 +26,7 @@
  ],
  "qc_automatico": {
   "esito": "superato",
-  "motivo": "Sokolow-Lyon 3.83 mV o R aVL 0.17 mV"
+  "motivo": "Sokolow-Lyon 3.82 mV o R aVL 0.17 mV"
  },
  "misure": {
   "fc": 66.8,
@@ -35,25 +35,25 @@
   "rr_min": 0.872,
   "rr_max": 0.948,
   "qrs_ms": 88,
-  "pr_ms": 194,
+  "pr_ms": 188,
   "qt_ms": 358,
   "qtc_bazett_ms": 378,
   "asse_gradi": 57,
   "p_presente": true,
-  "t_ampiezza_mv": 1.63,
+  "t_ampiezza_mv": 1.634,
   "st_j60_mv": {
    "I": 0.014,
-   "II": 0.042,
-   "III": 0.033,
-   "aVR": -0.03,
+   "II": 0.041,
+   "III": 0.032,
+   "aVR": -0.029,
    "aVL": -0.009,
-   "aVF": 0.038,
-   "V1": 0.185,
+   "aVF": 0.035,
+   "V1": 0.186,
    "V2": 0.376,
-   "V3": 0.364,
-   "V4": 0.353,
-   "V5": 0.029,
-   "V6": 0.035
+   "V3": 0.367,
+   "V4": 0.352,
+   "V5": 0.032,
+   "V6": 0.031
   }
  },
  "sorgente": {

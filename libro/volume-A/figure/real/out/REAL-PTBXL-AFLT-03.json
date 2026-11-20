@@ -35,11 +35,11 @@
   "rr_max": 1.616,
   "qrs_ms": 86,
   "pr_ms": null,
-  "qt_ms": 376,
-  "qtc_bazett_ms": 388,
+  "qt_ms": 378,
+  "qtc_bazett_ms": 390,
   "asse_gradi": 11,
   "p_presente": false,
-  "t_ampiezza_mv": 0.593,
+  "t_ampiezza_mv": 0.594,
   "st_j60_mv": {
    "I": -0.019,
    "II": 0.036,
@@ -47,11 +47,11 @@
    "aVR": 0.006,
    "aVL": -0.044,
    "aVF": 0.049,
-   "V1": 0.036,
+   "V1": 0.037,
    "V2": 0.034,
    "V3": 0.019,
    "V4": 0.007,
-   "V5": -0.02,
+   "V5": -0.018,
    "V6": -0.014
   }
  },
@@ -63,7 +63,7 @@
   "referto_originale": "vorhofflattern mit wechselnder Überleitung llt t zeitweise spitz in v2-v4",
   "eta": 65.0,
   "sesso": "M",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 8,
   "infarction_stadium1": null
  },

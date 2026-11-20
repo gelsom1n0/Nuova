@@ -14,7 +14,7 @@
  },
  "dimensioni_mm": [
   140.0,
-  115.0
+  105.0
  ],
  "scala": 1.0,
  "descrizione_attesa": "Blocco AV di 2° grado con conduzione 2:1 (etichetta della banca dati); vedi misure e criteri del gruppo «blocchi» in CHECKLIST_VALIDAZIONE.md",
@@ -33,15 +33,15 @@
   "rr_cv": 0.028,
   "rr_min": 1.633,
   "rr_max": 1.761,
-  "qrs_ms": 83,
-  "pr_ms": 189,
-  "qt_ms": 511,
-  "qtc_bazett_ms": 387,
+  "qrs_ms": 86,
+  "pr_ms": 192,
+  "qt_ms": 514,
+  "qtc_bazett_ms": 389,
   "p_presente": true,
-  "t_ampiezza_mv": 0.339,
+  "t_ampiezza_mv": 0.335,
   "st_j60_mv": {
-   "MLII": -0.08,
-   "V1": 0.03
+   "MLII": -0.083,
+   "V1": 0.036
   }
  },
  "sorgente": {

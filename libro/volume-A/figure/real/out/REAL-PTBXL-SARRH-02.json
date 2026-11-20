@@ -34,25 +34,25 @@
   "rr_min": 0.8,
   "rr_max": 1.174,
   "qrs_ms": 82,
-  "pr_ms": 240,
+  "pr_ms": 244,
   "qt_ms": 324,
   "qtc_bazett_ms": 336,
   "asse_gradi": 54,
   "p_presente": true,
-  "t_ampiezza_mv": 0.752,
+  "t_ampiezza_mv": 0.753,
   "st_j60_mv": {
    "I": 0.021,
-   "II": 0.074,
+   "II": 0.075,
    "III": 0.053,
    "aVR": -0.047,
    "aVL": -0.013,
    "aVF": 0.064,
    "V1": 0.002,
    "V2": 0.085,
-   "V3": 0.267,
+   "V3": 0.268,
    "V4": 0.19,
-   "V5": 0.1,
-   "V6": 0.064
+   "V5": 0.099,
+   "V6": 0.062
   }
  },
  "sorgente": {
@@ -64,7 +64,7 @@
   "referto_originale": "sinus arrhythmie verdacht auf p-sinistrocardiale",
   "eta": 20.0,
   "sesso": "M",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 8,
   "infarction_stadium1": null
  },

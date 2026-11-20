@@ -35,24 +35,24 @@
   "rr_max": 0.85,
   "qrs_ms": 80,
   "pr_ms": 252,
-  "qt_ms": 370,
-  "qtc_bazett_ms": 409,
+  "qt_ms": 368,
+  "qtc_bazett_ms": 406,
   "asse_gradi": 9,
   "p_presente": true,
-  "t_ampiezza_mv": 0.44,
+  "t_ampiezza_mv": 0.441,
   "st_j60_mv": {
    "I": -0.027,
    "II": -0.01,
-   "III": 0.012,
+   "III": 0.01,
    "aVR": 0.01,
-   "aVL": -0.015,
-   "aVF": -0.002,
+   "aVL": -0.016,
+   "aVF": -0.0,
    "V1": -0.011,
-   "V2": 0.021,
-   "V3": 0.014,
+   "V2": 0.023,
+   "V3": 0.01,
    "V4": 0.004,
-   "V5": -0.004,
-   "V6": -0.013
+   "V5": -0.01,
+   "V6": -0.014
   }
  },
  "sorgente": {
@@ -64,7 +64,7 @@
   "referto_originale": "sinusrhythmus a-v block i verdacht auf p-sinistrocardiale lagetyp normal",
   "eta": 66.0,
   "sesso": "M",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 8,
   "infarction_stadium1": null
  },

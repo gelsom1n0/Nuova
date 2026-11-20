@@ -42,17 +42,17 @@
   "t_ampiezza_mv": 0.484,
   "st_j60_mv": {
    "I": 0.031,
-   "II": 0.022,
-   "III": -0.012,
+   "II": 0.021,
+   "III": -0.011,
    "aVR": -0.029,
-   "aVL": 0.022,
+   "aVL": 0.023,
    "aVF": 0.008,
    "V1": 0.027,
-   "V2": 0.094,
-   "V3": 0.011,
-   "V4": -0.005,
-   "V5": 0.008,
-   "V6": 0.002
+   "V2": 0.093,
+   "V3": 0.01,
+   "V4": -0.003,
+   "V5": 0.007,
+   "V6": 0.004
   }
  },
  "sorgente": {
@@ -64,7 +64,7 @@
   "referto_originale": "sinus arrhythmie sonst normales ekg",
   "eta": 25.0,
   "sesso": "F",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 1,
   "infarction_stadium1": null
  },

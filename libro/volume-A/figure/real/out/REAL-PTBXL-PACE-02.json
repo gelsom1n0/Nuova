@@ -15,7 +15,7 @@
  },
  "dimensioni_mm": [
   140.0,
-  205.0
+  210.0
  ],
  "scala": 1.0,
  "descrizione_attesa": "Ritmo da pacemaker (etichetta della banca dati); vedi misure e criteri del gruppo «pacemaker» in CHECKLIST_VALIDAZIONE.md",
@@ -34,26 +34,26 @@
   "rr_cv": 0.04,
   "rr_min": 0.778,
   "rr_max": 0.94,
-  "qrs_ms": 196,
+  "qrs_ms": 198,
   "pr_ms": null,
-  "qt_ms": 440,
-  "qtc_bazett_ms": 475,
+  "qt_ms": 436,
+  "qtc_bazett_ms": 471,
   "asse_gradi": -62,
   "p_presente": false,
-  "t_ampiezza_mv": 0.404,
+  "t_ampiezza_mv": 0.406,
   "st_j60_mv": {
-   "I": -0.165,
-   "II": 0.106,
-   "III": 0.261,
-   "aVR": 0.037,
-   "aVL": -0.206,
-   "aVF": 0.183,
-   "V1": 0.177,
-   "V2": 0.253,
+   "I": -0.168,
+   "II": 0.108,
+   "III": 0.262,
+   "aVR": 0.035,
+   "aVL": -0.208,
+   "aVF": 0.185,
+   "V1": 0.187,
+   "V2": 0.255,
    "V3": 0.16,
-   "V4": -0.038,
-   "V5": -0.127,
-   "V6": -0.048
+   "V4": -0.039,
+   "V5": -0.137,
+   "V6": -0.051
   }
  },
  "sorgente": {

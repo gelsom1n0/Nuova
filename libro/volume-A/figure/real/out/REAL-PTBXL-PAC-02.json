@@ -35,11 +35,11 @@
   "rr_max": 1.106,
   "qrs_ms": 104,
   "pr_ms": 196,
-  "qt_ms": 358,
-  "qtc_bazett_ms": 350,
+  "qt_ms": 356,
+  "qtc_bazett_ms": 348,
   "asse_gradi": 3,
   "p_presente": true,
-  "t_ampiezza_mv": 0.556,
+  "t_ampiezza_mv": 0.557,
   "st_j60_mv": {
    "I": 0.07,
    "II": 0.045,
@@ -50,8 +50,8 @@
    "V1": 0.009,
    "V2": 0.142,
    "V3": 0.177,
-   "V4": 0.113,
-   "V5": 0.092,
+   "V4": 0.116,
+   "V5": 0.091,
    "V6": 0.062
   }
  },
@@ -65,7 +65,7 @@
   "referto_originale": "supraventrikulÄre extrasystole(n) sinusrhythmus linkstyp sonst normales ekg",
   "eta": 29.0,
   "sesso": "M",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 9,
   "infarction_stadium1": null
  },

@@ -42,17 +42,17 @@
   "t_ampiezza_mv": 0.904,
   "st_j60_mv": {
    "I": 0.026,
-   "II": -0.011,
+   "II": -0.009,
    "III": -0.026,
-   "aVR": -0.003,
-   "aVL": 0.03,
+   "aVR": -0.005,
+   "aVL": 0.029,
    "aVF": -0.017,
    "V1": 0.095,
    "V2": 0.146,
-   "V3": 0.276,
-   "V4": 0.068,
-   "V5": 0.005,
-   "V6": -0.011
+   "V3": 0.279,
+   "V4": 0.065,
+   "V5": 0.003,
+   "V6": -0.013
   }
  },
  "sorgente": {
@@ -65,7 +65,7 @@
   "referto_originale": "supraventrikulÄre extrasystole(n) sinusrhythmus lagetyp normal sonst normales ekg",
   "eta": 19.0,
   "sesso": "M",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 10,
   "infarction_stadium1": null
  },

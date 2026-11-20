@@ -15,7 +15,7 @@
  },
  "dimensioni_mm": [
   140.0,
-  135.0
+  130.0
  ],
  "scala": 1.0,
  "descrizione_attesa": "Blocco di branca destra completo (etichetta della banca dati); vedi misure e criteri del gruppo «morfologia_conduzione» in CHECKLIST_VALIDAZIONE.md",
@@ -40,7 +40,7 @@
   "qtc_bazett_ms": 434,
   "asse_gradi": 69,
   "p_presente": true,
-  "t_ampiezza_mv": 0.282,
+  "t_ampiezza_mv": 0.281,
   "st_j60_mv": {
    "I": 0.056,
    "II": 0.044,
@@ -49,10 +49,10 @@
    "aVL": 0.035,
    "aVF": 0.015,
    "V1": -0.034,
-   "V2": -0.022,
+   "V2": -0.021,
    "V3": 0.008,
-   "V4": 0.011,
-   "V5": 0.037,
+   "V4": 0.01,
+   "V5": 0.036,
    "V6": 0.035
   }
  },

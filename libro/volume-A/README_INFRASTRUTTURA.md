@@ -158,7 +158,24 @@ python3 libro/volume-A/figure/real/select_real.py [--max 4] [--categorie AFIB,CL
 - **QC**: misure oggettive confrontate con l'etichetta; incoerenti scartati; esclusioni manuali motivate
   (`ESCLUSI`). Report: `QC_report.md`.
 - Rendering con lo stesso `ecgplot` dei simulati, filtro 0,5–40 Hz dichiarato in didascalia.
+- **Fonti aggiunte il 20/11/2026** per colmare le lacune (al posto di manuali protetti):
+  - *Chapman-Shaoxing/Ningbo* (`ecg-arrhythmia` 1.0.0, CC BY 4.0, 45.152 ECG): TSV e AVRT a 12
+    derivazioni, tachicardia atriale, BAV 2° **tipo I** (Mobitz I), BAV 3°, WPW, scappamento giunzionale,
+    ripolarizzazione precoce, bigeminismo ventricolare. Le etichette sono in `#Dx` (SNOMED) nelle
+    intestazioni: l'indice `cache/chapman/indice_dx.jsonl` si costruisce scaricando le sole intestazioni
+    (script nel README, circa 25 minuti), poi si scaricano solo i record selezionati.
+  - *Brugada-HUCA* 1.0.0 (**CC BY-SA 4.0**, 100 Hz): pattern di Brugada basale. Le figure derivate vanno
+    rilasciate anch'esse CC BY-SA 4.0 (indicato in didascalia).
+  - *Challenge 2021* (Georgia, CPSC; CC BY 4.0): indicizzata, ma non contiene Mobitz II né Brugada.
 - Licenze e attribuzioni: `figure/FONTI_E_LICENZE.md`.
+
+Indice delle intestazioni Chapman (eseguire una volta, la cache non è versionata):
+```bash
+mkdir -p figure/real/cache/chapman && cd figure/real/cache/chapman
+curl -sSL -O https://physionet.org/files/ecg-arrhythmia/1.0.0/SHA256SUMS.txt
+# per ogni riga *.hea: scaricare l'intestazione e salvare {"p": percorso, "Dx": ..., "Age": ..., "Sex": ...}
+# in indice_dx.jsonl (una riga JSON per record); run_chapman() in select_real.py legge questo file.
+```
 
 ## 6. Schemi (`figure/schemi/`)
 `python3 libro/volume-A/figure/schemi/genera_schemi.py` – potenziale d'azione ventricolare e del nodo
@@ -178,5 +195,9 @@ esassiale, elettrodi precordiali, territori coronarici sulle 12 derivazioni.
 - Le misure automatiche sono grossolane (±10–20 ms) e falliscono con onda delta (WPW), ritmi misti e FV:
   per questi il QC è solo visivo.
 - PTB-XL non distingue Mobitz I/II (`2AVB`) e le etichette di infarto non indicano la fase acuta.
+- **Mobitz II reale: non disponibile** in nessuna banca dati aperta esaminata (PTB-XL, Chapman/Ningbo,
+  Georgia, CPSC, MIT-BIH). Il record MIT-BIH 231 mostra un BAV 2° con conduzione 2:1, che dal solo
+  tracciato non si classifica come Mobitz I o II. Per il Mobitz II il libro usa il simulato SIM-BAV-03.
+- I tracciati a 10 s escludono 0,1–0,3 s ai bordi (transitori del filtro e del registratore).
 - Il primo commit del simulatore conteneva SVG non ottimizzati (≈ 56 MB nella storia git); i file attuali
   sono ≈ 11 MB (simulati) + ≈ 35 MB (reali).

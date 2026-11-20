@@ -34,12 +34,13 @@ def _bp(x, fs, lo, hi, order=2):
 def highpass(x, fs, fc=0.5):
     """Rimozione della deriva della linea di base (filtro a fase zero)."""
     b, a = butter(2, fc / (fs / 2), btype="high")
-    return filtfilt(b, a, x)
+    # padding lungo (fino a 3 s, con riflessione) per evitare i transitori ai bordi dei record di 10 s
+    return filtfilt(b, a, x, padtype="even", padlen=min(len(x) - 1, int(3 * fs)))
 
 
 def lowpass(x, fs, fc=40.0):
     b, a = butter(3, fc / (fs / 2), btype="low")
-    return filtfilt(b, a, x)
+    return filtfilt(b, a, x, padtype="even", padlen=min(len(x) - 1, int(1 * fs)))
 
 
 def detect_qrs(sig: dict, fs: float, use_xqrs=True):
@@ -144,10 +145,10 @@ def measure(sig: dict, fs: float, filtered=False):
     thr = base_v + 0.06 * (vmax - base_v)
     iz = z
     on = iz
-    while on > 0 and t[on] > -0.14 and (vel[on] > thr or vel[max(0, on - int(0.008 * fs)):on].max() > thr):
+    while on > 0 and t[on] > -0.14 and (vel[on] > thr or vel[max(0, on - max(1, int(0.008 * fs))):on].max() > thr):
         on -= 1
     off = iz
-    while off < n - 1 and t[off] < 0.16 and (vel[off] > thr or vel[off:off + int(0.010 * fs)].max() > thr):
+    while off < n - 1 and t[off] < 0.16 and (vel[off] > thr or vel[off:off + max(1, int(0.010 * fs))].max() > thr):
         off += 1
     qrs = (off - on) / fs
     out["qrs_ms"] = round(qrs * 1000)

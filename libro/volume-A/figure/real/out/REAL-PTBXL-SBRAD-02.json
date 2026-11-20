@@ -34,25 +34,25 @@
   "rr_min": 1.164,
   "rr_max": 1.348,
   "qrs_ms": 78,
-  "pr_ms": 124,
+  "pr_ms": 122,
   "qt_ms": 406,
   "qtc_bazett_ms": 364,
   "asse_gradi": 58,
   "p_presente": true,
-  "t_ampiezza_mv": 0.674,
+  "t_ampiezza_mv": 0.671,
   "st_j60_mv": {
    "I": 0.018,
-   "II": -0.004,
+   "II": -0.003,
    "III": -0.01,
    "aVR": -0.004,
-   "aVL": 0.011,
-   "aVF": -0.009,
-   "V1": 0.005,
-   "V2": 0.065,
+   "aVL": 0.014,
+   "aVF": -0.008,
+   "V1": 0.006,
+   "V2": 0.055,
    "V3": 0.059,
    "V4": 0.023,
    "V5": 0.016,
-   "V6": 0.009
+   "V6": 0.01
   }
  },
  "sorgente": {
@@ -64,7 +64,7 @@
   "referto_originale": "sinusbradykardie sonst normales ekg",
   "eta": 43.0,
   "sesso": "F",
-  "derivazioni": "II e V1, 2 righe × 5 s (record di 10 s)",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)",
   "strat_fold": 8,
   "infarction_stadium1": null
  },

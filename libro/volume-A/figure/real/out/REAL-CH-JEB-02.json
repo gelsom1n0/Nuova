@@ -1,0 +1,66 @@
+{
+ "id": "REAL-CH-JEB-02",
+ "titolo": "Ritmo/battiti di scappamento giunzionale",
+ "tipo": "reale",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato reale",
+ "fonte": "Chapman-Shaoxing/Ningbo 12-lead ECG database (ecg-arrhythmia 1.0.0, Zheng et al., PhysioNet)",
+ "licenza": "CC BY 4.0",
+ "attribuzione_breve": "Chapman-Shaoxing/Ningbo ECG database, record JS22356 (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato",
+ "elaborazione": "filtro passa-alto 0,5 Hz e passa-basso 40 Hz (fase zero); nessun'altra modifica del segnale",
+ "file": {
+  "svg": "real/out/REAL-CH-JEB-02.svg",
+  "png": "real/out/REAL-CH-JEB-02.png"
+ },
+ "dimensioni_mm": [
+  135.0,
+  105.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Ritmo/battiti di scappamento giunzionale (etichetta della banca dati); vedi misure e criteri del gruppo «ritmo» in CHECKLIST_VALIDAZIONE.md",
+ "criteri_revisore": [
+  "l'etichetta della banca dati corrisponde a ciò che si vede",
+  "qualità sufficiente per la stampa (nessun artefatto fuorviante)",
+  "nessun altro reperto rilevante non dichiarato"
+ ],
+ "qc_automatico": {
+  "esito": "superato",
+  "motivo": "coerente"
+ },
+ "misure": {
+  "fc": 46.9,
+  "fc_media": 44.9,
+  "rr_cv": 0.112,
+  "rr_min": 1.188,
+  "rr_max": 1.616,
+  "qrs_ms": 92,
+  "pr_ms": 272,
+  "qt_ms": 506,
+  "qtc_bazett_ms": 448,
+  "asse_gradi": 51,
+  "p_presente": true,
+  "t_ampiezza_mv": 0.184,
+  "st_j60_mv": {
+   "I": 0.014,
+   "II": -0.025,
+   "III": -0.041,
+   "aVR": 0.004,
+   "aVL": 0.022,
+   "aVF": -0.036,
+   "V1": 0.024,
+   "V2": 0.106,
+   "V3": 0.073,
+   "V4": 0.07,
+   "V5": 0.016,
+   "V6": 0.008
+  }
+ },
+ "sorgente": {
+  "record": "JS22356",
+  "snomed_dx": "426995002,426177001",
+  "eta": "55",
+  "sesso": "Female",
+  "derivazioni": "II e V1, 2 righe × 4,9 s (bordi esclusi)"
+ },
+ "stato_validazione": "da_validare"
+}

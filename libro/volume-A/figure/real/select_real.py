@@ -51,6 +51,7 @@ LIC = {
     "ptbxl": ("PTB-XL 1.0.3 (Wagner et al., PhysioNet 2022)", "CC BY 4.0"),
     "mitdb": ("MIT-BIH Arrhythmia Database 1.0.0 (Moody & Mark, PhysioNet)", "ODC-By 1.0"),
     "cudb": ("CU Ventricular Tachyarrhythmia Database 1.0.0 (Nolle et al., PhysioNet)", "ODC-By 1.0"),
+    "brugada": ("Brugada-HUCA 1.0.0 (Costa Cortez & Garcia Iglesias, PhysioNet 2026)", "CC BY-SA 4.0"),
     "chapman": ("Chapman-Shaoxing/Ningbo 12-lead ECG database (ecg-arrhythmia 1.0.0, Zheng et al., PhysioNet)", "CC BY 4.0"),
 }
 LEADS12 = ["I", "II", "III", "aVR", "aVL", "aVF", "V1", "V2", "V3", "V4", "V5", "V6"]
@@ -176,6 +177,53 @@ MIT_CAT = [
 ]
 
 
+# ------------------------------------------------------------------ Brugada-HUCA
+BRU = "https://physionet.org/files/brugada-huca/1.0.0/"
+
+
+def run_brugada(nmax, log):
+    """Sindrome di Brugada con pattern basale patologico (brugada=1, basal_pattern=1).
+    Licenza CC BY-SA 4.0: la figura ridisegnata va rilasciata con la stessa licenza (vedi FONTI)."""
+    md = CACHE / "brugada" / "metadata.csv"
+    if not md.exists():
+        fetch(BRU + "metadata.csv", md)
+    d = pd.read_csv(md)
+    cands = d[(d.brugada == 1) & (d.basal_pattern == 1)].sort_values("patient_id")
+    kept = 0
+    for pid in cands.patient_id:
+        if kept >= nmax:
+            break
+        for ext in ("hea", "dat"):
+            fetch(BRU + f"files/{pid}/{pid}.{ext}", CACHE / "brugada" / f"{pid}.{ext}")
+        rec = wfdb.rdrecord(str(CACHE / "brugada" / str(pid)))
+        fs = rec.fs
+        names = [{"AVR": "aVR", "AVL": "aVL", "AVF": "aVF"}.get(n.upper(), n) for n in rec.sig_name]
+        raw = {n: rec.p_signal[:, i] for i, n in enumerate(names)}
+        if set(LEADS12) - set(raw):
+            log.append(("BRUGADA", f"Brugada-HUCA {pid}", "scartato", f"derivazioni {names}", None))
+            continue
+        sig = prep({k: raw[k] for k in LEADS12}, fs)
+        m = ecgmeasure.measure(sig, fs, filtered=True)
+        add_amp(m)
+        st = m.get("st_j60_mv", {})
+        stmax = max(st.get("V1", -9), st.get("V2", -9))
+        ok = stmax >= 0.12
+        why = f"ST J+60 in V1/V2 max {stmax:+.2f} mV" + ("" if ok else " (< 0,12 mV: pattern non evidente)")
+        log.append(("BRUGADA", f"Brugada-HUCA patient_id {pid}", "accettato" if ok else "scartato", why, m))
+        if not ok:
+            continue
+        kept += 1
+        rid = f"REAL-BRU-{kept:02d}"
+        attr = f"Brugada-HUCA, paziente {pid} (PhysioNet) – CC BY-SA 4.0; filtrato e ridisegnato (figura rilasciata CC BY-SA 4.0)"
+        info = ecgplot.render_6x2(sig, fs, OUT / rid, t_start=0.3, label=f"Brugada-HUCA {pid}")
+        ecgplot.render_12(sig, fs, OUT / (rid + "_3x4"), t_start=0.1, col_s=2.45, width_mm=143, label=f"Brugada-HUCA {pid}")
+        write_meta(rid, "Pattern di Brugada (tipo 1, basale)", "morfologia_conduzione", "brugada", attr, info, m, ok,
+                   why, {"patient_id": int(pid), "derivazioni": "12 (6×2 a scala reale; 3×4 ridotto)",
+                         "nota": "campionamento 100 Hz: QRS meno nitidi; licenza share-alike"}, has3x4=True)
+    if kept == 0:
+        log.append(("BRUGADA", "—", "NESSUN CANDIDATO", "nessun tracciato con ST V1/V2 evidente", None))
+
+
 # ------------------------------------------------------------------ Chapman-Shaoxing/Ningbo
 CH = "https://physionet.org/files/ecg-arrhythmia/1.0.0/"
 CH_OK = {"426783006", "426177001", "427084000",          # ritmo sinusale, bradi-, tachicardia sinusale
@@ -186,11 +234,14 @@ CH_CAT = [
     ("CH_AT", "713422000", "Tachicardia atriale", "ritmo", set(), "striscia"),
     ("CH_AVRT", "233897008", "Tachicardia da rientro atrioventricolare (AVRT)", "ritmo", set(), "12"),
     ("CH_2AVB1", "54016002", "Blocco AV di 2° grado tipo I (Mobitz I, Wenckebach)", "blocchi", set(), "striscia"),
-    ("CH_3AVB", "27885002", "Blocco AV di 3° grado", "blocchi", set(), "striscia"),
+    # BAV 3°: ammessi i codici coerenti (scappamento giunzionale/ventricolare, blocchi di branca, ST-T secondario)
+    ("CH_3AVB", "27885002", "Blocco AV di 3° grado", "blocchi",
+     {"426995002", "75532003", "81898007", "59118001", "164909002", "698252002", "428750005", "164934002"}, "striscia"),
     ("CH_WPW", "74390002", "Pre-eccitazione (Wolff-Parkinson-White)", "morfologia_conduzione", set(), "12"),
     ("CH_JEB", "426995002", "Ritmo/battiti di scappamento giunzionale", "ritmo", set(), "striscia"),
     ("CH_ERV", "428417006", "Ripolarizzazione precoce", "ischemia", set(), "12"),
-    ("CH_VB", "11157007", "Bigeminismo ventricolare (12 derivazioni)", "extrasistoli", set(), "striscia"),
+    ("CH_VB", "11157007", "Bigeminismo ventricolare (12 derivazioni)", "extrasistoli",
+     {"17338001", "428750005", "164934002"}, "striscia"),
 ]
 
 
@@ -234,13 +285,13 @@ def run_chapman(cats, nmax, log):
             rid = f"REAL-CH-{cid[3:]}-{kept:02d}"
             attr = f"Chapman-Shaoxing/Ningbo ECG database, record {name} (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato"
             if layout == "12":
-                info = ecgplot.render_6x2(sig, fs, OUT / rid, label=f"Chapman {name}")
-                ecgplot.render_12(sig, fs, OUT / (rid + "_3x4"), width_mm=143, label=f"Chapman {name}")
+                info = ecgplot.render_6x2(sig, fs, OUT / rid, t_start=0.3, label=f"Chapman {name}")
+                ecgplot.render_12(sig, fs, OUT / (rid + "_3x4"), t_start=0.1, col_s=2.45, width_mm=143, label=f"Chapman {name}")
                 shown = "12 derivazioni (6×2 a scala reale; 3×4 ridotto)"
             else:
                 info = ecgplot.render_strip({k: sig[k] for k in ("II", "V1")}, fs, OUT / rid, leads=["II", "V1"],
-                                            duration=10.0, seconds_per_row=5.0, label=f"Chapman {name}")
-                shown = "II e V1, 2 righe × 5 s"
+                                            t_start=0.1, duration=9.8, seconds_per_row=4.9, label=f"Chapman {name}")
+                shown = "II e V1, 2 righe × 4,9 s (bordi esclusi)"
             write_meta(rid, titolo, gruppo, "chapman", attr, info, m, ok, why,
                        {"record": name, "snomed_dx": r.get("Dx"), "eta": r.get("Age"), "sesso": r.get("Sex"),
                         "derivazioni": shown}, has3x4=(layout == "12"))
@@ -328,13 +379,13 @@ def run_ptb(cats, nmax, log):
             attr = f"PTB-XL ecg_id {ecg_id} (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato"
             base = OUT / rid
             if layout == "12":
-                info = ecgplot.render_6x2(sig, fs, base, label=f"PTB-XL {ecg_id}")
-                ecgplot.render_12(sig, fs, OUT / (rid + "_3x4"), width_mm=143, label=f"PTB-XL {ecg_id}")
+                info = ecgplot.render_6x2(sig, fs, base, t_start=0.3, label=f"PTB-XL {ecg_id}")
+                ecgplot.render_12(sig, fs, OUT / (rid + "_3x4"), t_start=0.1, col_s=2.45, width_mm=143, label=f"PTB-XL {ecg_id}")
                 shown = "12 derivazioni (6×2 a scala reale; 3×4 ridotto)"
             else:
                 info = ecgplot.render_strip({k: sig[k] for k in ("II", "V1")}, fs, base, leads=["II", "V1"],
-                                            duration=10.0, seconds_per_row=5.0, label=f"PTB-XL {ecg_id}")
-                shown = "II e V1, 2 righe × 5 s (record di 10 s)"
+                                            t_start=0.1, duration=9.8, seconds_per_row=4.9, label=f"PTB-XL {ecg_id}")
+                shown = "II e V1, 2 righe × 4,9 s (record di 10 s, bordi esclusi)"
             write_meta(rid, titolo, gruppo, "ptbxl", attr, info, m, ok, why,
                        {"ecg_id": ecg_id, "scp_codes": r["scp"], "referto_originale": r["report"],
                         "eta": r["age"], "sesso": "M" if r["sex"] == 0 else "F", "derivazioni": shown,
@@ -540,6 +591,8 @@ def main():
     if not only or "VF" in only:
         run_cudb(3, log)
     run_chapman([c for c in CH_CAT if not only or c[0] in only], nmax, log)
+    if not only or "BRUGADA" in only:
+        run_brugada(3, log)
     write_report(log)
 
 
