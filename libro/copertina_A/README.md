@@ -17,7 +17,7 @@ Copertina per brossura KDP, 7 x 10 in, interno B/N su carta bianca, 290 pagine (
 | `KDP_SPECIFICHE.md` | Specifiche KDP con fonti |
 | `CHECKLIST_COPERTINA.md` | Verifica del file rispetto ai requisiti, e passi per il caricamento |
 | `ASSET_E_IA.md` | Origine degli asset e questione della dichiarazione IA |
-| `fonts/` | Montserrat (OFL) |
+| `fonts/` | Montserrat (OFL), incl. `Montserrat-LightItalic.ttf` (istanza statica wght 300 ricavata dal font variabile ufficiale, vedi `ASSET_E_IA.md`) |
 | `sorgenti/` | Maglie del cuore (`cuore_*.npz`); `sorgenti/cache/` = raster dei piatti (ignorata da git) |
 
 ## Le tre varianti
@@ -25,6 +25,24 @@ Copertina per brossura KDP, 7 x 10 in, interno B/N su carta bianca, 290 pagine (
 - **A, bilanciata (consigliata)**: anatomia del cuore intatta, dissolvenza solo sul lato destro. Anteprima: `anteprime/prima_A.png`.
 - **B, frammentata**: triangoli più grandi (1500 facce), dissolvenza più forte, più particelle. Anteprima: `anteprime/prima_B.png`.
 - **C, maglia fitta**: 4000 facce, poca dissolvenza. Anteprima: `anteprime/prima_C.png`.
+
+## Annotazioni e formule
+
+### Nomi delle onde ECG
+
+Sul primo complesso della prima (a 0,85 in dalla piega) sono scritte le sigle P, Q, R, S, T, ognuna sulla propria deflessione: P e T onde positive lente, Q prima deflessione negativa prima di R, R il picco, S deflessione negativa dopo R. Vettoriali, Montserrat Light Italic 9,5 pt, colore #F4B3B8 (tinta chiara del rosso, come #A9DFF2 sulle etichette del Volume B). Funzione `onde_ecg()`.
+
+### Formule di sfondo
+
+Appena visibili (vettoriali, Montserrat Light Italic, #595959 = bianco al 35 % su nero: grigio equivalente, senza trasparenza; stesso valore del Volume B), solo nelle zone nere vuote.
+- Fronte: FC = 60/RR; QTc = QT/√RR (Bazett); PAM = PAD + (PAS − PAD)/3; GC = FC · GS.
+- Retro: FE = (VTD − VTS)/VTD; RVS = (PAM − PVC)/GC; E_K = 61,5 · log([K⁺]e/[K⁺]i) (Nernst a 37 °C, mV).
+
+Costanti `FONT_F`, `COL_NOTE`, `COL_ETICHETTE`, `FORMULE_PRIMA`, `FORMULE_QUARTA` in `build_copertina_A.py`. L'alone dietro «ABC» è stato ridotto (0,08/0,11 invece di 0,16/0,22) per coerenza percettiva con il Volume B.
+
+## Dati del file (variante A, 290 pagine)
+
+Distesa 1073,02 x 738 pt; 8 font incorporati (incl. Montserrat Light Italic); nessun ExtGState, nessun RGB; corpo minimo 7,13 pt; file circa 8,7 MB. Dettaglio in `CHECKLIST_COPERTINA.md`.
 
 ## Rigenerare con un nuovo numero di pagine
 
@@ -51,7 +69,7 @@ I due piatti raster sono ancorati ai bordi esterni del file: cambiando le pagine
 
 ## Modificare i testi
 
-Le costanti in cima a `build_copertina_A.py`: `KICKER`, `TITOLO_GRANDE`, `TITOLO_RIGA`, `SOTTOTITOLO`, `QUARTA_INTRO`, `QUARTA_PUNTI`, `AVVERTENZA`. Il testo è vettoriale, quindi cambiarlo non richiede di rigenerare l'arte (i raster contengono solo aloni luminosi). Il testo del dorso è nel blocco "DORSO" di `costruisci()`.
+Le costanti (formule e sigle: vedi sopra) in cima a `build_copertina_A.py`: `KICKER`, `TITOLO_GRANDE`, `TITOLO_RIGA`, `SOTTOTITOLO`, `QUARTA_INTRO`, `QUARTA_PUNTI`, `AVVERTENZA`. Il testo è vettoriale, quindi cambiarlo non richiede di rigenerare l'arte (i raster contengono solo aloni luminosi). Il testo del dorso è nel blocco "DORSO" di `costruisci()`.
 
 ## Requisiti
 

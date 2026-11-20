@@ -8,6 +8,8 @@
 | Rendering del cuore (spigoli, nodi, particelle, bagliore, mappatura tonale) | Procedurale, originale. `arte_cuore.py` (NumPy, OpenCV) | Rendering proprio, non un modello di immagini |
 | Rete low-poly dell'angolo del retro, ECG, polvere luminosa, alone del titolo | Procedurali (`build_copertina_A.py`, SciPy Delaunay, OpenCV, Pillow) | Alone del titolo calcolato dal font |
 | Font | Montserrat (SIL Open Font License), `fonts/` con `OFL.txt` | Incorporati nel PDF come subset |
+| Montserrat Light Italic (`fonts/Montserrat-LightItalic.ttf`) | Istanza statica wght 300 generata con fontTools dal font variabile ufficiale OFL `google/fonts`, `ofl/montserrat/Montserrat-Italic[wght].ttf` (stesso file del Volume B). Nessun font di terzi non OFL | Usato per sigle ECG e formule di sfondo |
+| Sigle delle onde ECG e formule di sfondo | Testo vettoriale scritto per il libro (`onde_ecg`, `FORMULE_PRIMA`, `FORMULE_QUARTA`); formule standard di fisiologia, nessuna fonte di terzi | Contenuto scientifico da rivedere a cura dell'autore |
 | Testi (titolo, sottotitolo, quarta, avvertenza) | Scritti per il libro; costanti in `build_copertina_A.py` | |
 | Immagini stock, illustrazioni o elementi di terzi | Nessuno | |
 | Copertina di riferimento | Non copiata né tracciata | Layout e grafica sono originali |
