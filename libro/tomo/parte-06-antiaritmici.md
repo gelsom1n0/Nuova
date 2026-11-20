@@ -31,30 +31,30 @@ Il paradosso degli antiaritmici è che molti possono **provocare** aritmie (effe
 | Principio attivo | Nomi commerciali (esempi) | Uso principale | Via |
 |---|---|---|---|
 | Amiodarone | Cordarone | FA, TV/FV, tachicardie ventricolari; scompenso | Orale, EV |
-| Flecainide | Almarytm | FA/flutter (cuore strutturalmente sano) | Orale (EV dove disponibile) |
-| Propafenone | Rytmonorm | FA, aritmie sopraventricolari | Orale |
+| Flecainide | Almarytm | FA/flutter (cuore strutturalmente sano) | Orale, EV |
+| Propafenone | Rytmonorm | FA, aritmie sopraventricolari | Orale, EV |
 | Lidocaina | Lidocaina cloridrato | TV e FV (alternativa) | EV |
 | Dronedarone | Multaq | Mantenimento del ritmo in FA | Orale |
 | Adenosina | Krenosin | TSV da rientro | EV rapido |
 | Digossina | Lanoxin | Controllo della frequenza in FA/scompenso | Orale, EV |
 
 ### Amiodarone {.pa}
-Il più polivalente (classe III con effetti di classe I, II e IV). Rallenta la frequenza e la conduzione, allunga il QT. **EV** nella FA: dose di carico in 20–60 minuti, preferibilmente da accesso centrale, seguita da infusione nelle 24 ore secondo protocollo (ESC 2024); in arresto cardiaco da ritmo defibrillabile: 300 mg in bolo dopo il 3° shock, ulteriori 150 mg dopo il 5° (ERC; tempistica nel testo 2025 da verificare). Emivita di settimane: accumulo e lunga persistenza degli effetti. Evidenza e dosaggi vanno confrontati con le linee guida di rianimazione e con la FA (ESC 2024).
+Il più polivalente (classe III con effetti di classe I, II e IV). Rallenta la frequenza e la conduzione, allunga il QT. **EV** nella FA: dose di carico infusa in 30–60 minuti secondo ESC 2024 (l'RCP italiano indica da 20 minuti a 2 ore), diluita **esclusivamente in glucosio 5%**, preferibilmente da accesso venoso centrale, seguita da infusione di mantenimento nelle 24 ore secondo protocollo; nella stessa siringa o linea non si aggiungono altri farmaci. L'iniezione EV in bolo è riservata alle urgenze in ambiente monitorato e non si ripete prima di 15 minuti. In arresto cardiaco da ritmo defibrillabile le linee guida ERC 2025 prevedono 300 mg in bolo dopo il 3° shock e ulteriori 150 mg dopo il 5° (l'RCP italiano di Cordarone EV non cita esplicitamente l'arresto: l'uso segue le linee guida di rianimazione). Emivita di settimane: accumulo e lunga persistenza degli effetti. Controindicazioni: bradicardia sinusale, blocco senoatriale o malattia del nodo del seno e blocchi AV senza pacemaker, distiroidismi, ipersensibilità allo iodio, gravidanza e allattamento; per il bolo EV anche ipotensione, insufficienza respiratoria grave, cardiomiopatia o scompenso.
 
 ### Flecainide e propafenone {.pa}
-Classe Ic: efficaci per la cardioversione farmacologica e il mantenimento in FA **solo se il cuore è strutturalmente sano** (nessuna cardiopatia ischemica, ipertrofia importante, scompenso). Controindicati dopo infarto: lo studio **CAST** (N Engl J Med 1991) mostrò un aumento della mortalità con antiaritmici di classe Ic dopo infarto. Allargano il QRS; si associano di solito a un farmaco che rallenti il nodo AV (rischio di flutter con conduzione 1:1).
+Classe Ic: efficaci per la cardioversione farmacologica e il mantenimento in FA **solo se il cuore è strutturalmente sano** (nessuna cardiopatia ischemica, ipertrofia importante, scompenso). Controindicati dopo infarto: lo studio **CAST** (N Engl J Med 1989, rapporto finale 1991) mostrò un aumento della mortalità con encainide e flecainide in pazienti post-infartuati con extrasistolia ventricolare poco sintomatica; per prudenza il divieto si estende a tutta la classe Ic. Sono controindicati anche nella **sindrome di Brugada**, nello scompenso e nei disturbi di conduzione senza pacemaker; il propafenone anche nelle gravi pneumopatie ostruttive, nella miastenia grave e negli squilibri elettrolitici manifesti. Flecainide: dose iniziale ridotta con CrCl ≤ 35 mL/min/1,73 m², titolazione non più frequente di ogni 4 giorni, dose ridotta del 50% in associazione con amiodarone. Allargano il QRS (per via EV si sospende l'infusione se il QRS si allarga di oltre il 25%); si associano di solito a un farmaco che rallenti il nodo AV (rischio di flutter con conduzione 1:1).
 
 ### Lidocaina {.pa}
-Antiaritmico di classe Ib per TV/FV, in alternativa all'amiodarone. EV: bolo calcolato sul peso (ordine di grandezza 1–1,5 mg/kg in arresto, ERC/AHA 2025), eventuale infusione secondo protocollo. Tossicità neurologica (parestesie periorali, tinnito, confusione, convulsioni): ridurre la dose in epatopatia e scompenso.
+Antiaritmico di classe Ib per TV/FV, in alternativa all'amiodarone. EV: in arresto da ritmo defibrillabile le linee guida ERC 2025 indicano una dose fissa con eventuale secondo bolo ridotto dopo il 5° shock, le linee guida AHA 2025 una dose calcolata sul peso; dosi secondo l'algoritmo in uso. In Italia le soluzioni iniettabili di lidocaina sono autorizzate come anestetici locali: l'impiego antiaritmico deriva dalle linee guida e non dall'RCP. Tossicità neurologica (parestesie periorali, tinnito, confusione, convulsioni): ridurre la dose in epatopatia e scompenso.
 
 ### Dronedarone {.pa}
-Mantenimento del ritmo sinusale in FA, meno efficace dell'amiodarone ma con minori effetti extracardiaci. **Controindicato** (RCP) in caso di scompenso pregresso o in atto, disfunzione sistolica ventricolare sinistra, FA permanente, instabilità emodinamica, bradicardia < 50 bpm, QTc ≥ 500 ms, CrCl < 30 mL/min, insufficienza epatica grave e con dabigatran o altri farmaci che allungano il QT; epatotossicità: controllare gli enzimi epatici e la creatinina.
+Mantenimento del ritmo sinusale in FA, meno efficace dell'amiodarone ma con minori effetti extracardiaci. **Controindicato** (RCP) in caso di scompenso pregresso o in atto o disfunzione sistolica ventricolare sinistra, FA permanente (≥ 6 mesi o di durata non nota), instabilità emodinamica, bradicardia < 50 bpm, blocco AV di II–III grado, blocco di branca completo o malattia del nodo del seno senza pacemaker, QTc (Bazett) ≥ 500 ms, CrCl < 30 mL/min, insufficienza epatica grave, pregressa tossicità epatica o polmonare da amiodarone; in associazione con dabigatran, con inibitori potenti del CYP3A4 (azoli, claritromicina, ritonavir) e con farmaci che inducono torsione di punta. Controlli: test epatici prima dell'avvio, dopo 1 settimana e 1 mese, poi mensili per 6 mesi, al 9° e 12° mese; creatinina prima e dopo 7 giorni (un modesto aumento iniziale è atteso); ECG almeno ogni 6 mesi. Con la digossina se ne dimezza la dose; evitare il succo di pompelmo.
 
 ### Adenosina {.pa}
-Interrompe le tachicardie da rientro AV: 6 mg in bolo EV **rapido** in vena grossa seguito da flush di fisiologica, poi 12 mg se necessario. Emivita di secondi. Effetti: rossore, oppressione toracica, dispnea, breve pausa o asistolia (preavvertire il paziente). Meno efficace con teofillina/caffeina, più intensa con dipiridamolo (dose ridotta). Registrare l'ECG durante la somministrazione.
+Interrompe le tachicardie da rientro AV: bolo EV **rapido** (circa 2 secondi) in vena di grosso calibro il più prossimale possibile, seguito subito da flush di fisiologica, a dosi crescenti con intervalli di 1–2 minuti (l'RCP italiano di Krenosin prevede lo schema 3 → 6 → 12 mg, mentre le linee guida ESC partono da 6 mg: si segue il protocollo aziendale). Emivita di secondi. Effetti: rossore, oppressione toracica, dispnea, breve pausa o asistolia (preavvertire il paziente). **Controindicata** in asma o BPCO con broncospasmo, blocco AV di II–III grado o malattia del nodo del seno senza pacemaker, QT lungo, ipotensione severa e scompenso non compensato, e con dipiridamolo (se indispensabile, sospenderlo 24 ore prima); teofillina e xantine (caffè, tè, cola) ne riducono l'effetto. Registrare l'ECG durante la somministrazione.
 
 ### Digossina {.pa}
-Controllo della frequenza in FA e scompenso. Dosi didattiche 0,125–0,25 mg/die, adattate a funzione renale, età, peso. **Finestra terapeutica stretta**: tossicità con nausea, vomito, visione alterata (aloni giallo-verdi), aritmie; favorita da **ipopotassiemia**, ipomagnesiemia, ipercalcemia e IRC. Livelli ematici obiettivo bassi (circa 0,5–0,9 ng/mL nello scompenso).
+Controllo della frequenza in FA e scompenso. Dosi didattiche 0,125–0,25 mg/die, adattate a funzione renale, età, peso (nei pazienti più sensibili può bastare 0,0625 mg/die). **Finestra terapeutica stretta**: tossicità con nausea, vomito, visione alterata (aloni giallo-verdi), aritmie; favorita da **ipopotassiemia**, ipomagnesiemia, ipercalcemia e IRC. Livelli ematici obiettivo bassi (circa 0,5–0,9 ng/mL nello scompenso), con prelievo almeno 6 ore dopo l'ultima dose; la tossicità è più frequente sopra 2 ng/mL ma può comparire anche a livelli inferiori. Controindicata nel blocco AV di II grado o completo intermittente, nella via accessoria (WPW), in TV/FV e nella cardiomiopatia ipertrofica ostruttiva.
 
 ## Indicazioni e scelta
 
@@ -62,9 +62,10 @@ Controllo della frequenza in FA e scompenso. Dosi didattiche 0,125–0,25 mg/die
 |---|---|
 | FA: controllo della frequenza | Beta-bloccante, diltiazem/verapamil (FE > 40%), digossina |
 | FA: controllo del ritmo, cuore sano | Flecainide, propafenone; amiodarone/dronedarone secondo caso (ESC 2024) |
-| FA con scompenso o cardiopatia ischemica | Amiodarone (evitare classe Ic) |
+| FA con scompenso a FE ridotta | Amiodarone; evitare la classe Ic (ESC 2024) |
+| FA con cardiopatia ischemica senza disfunzione ventricolare | Dronedarone o amiodarone (ESC 2024); evitare la classe Ic. L'RCP di Multaq lo controindica comunque in qualunque scompenso pregresso o in atto |
 | TSV da rientro | Manovre vagali → adenosina → verapamil/diltiazem o beta-bloccante (ESC 2019) |
-| FA con via accessoria (WPW) | **Non** adenosina, verapamil, digossina o beta-bloccante; cardioversione elettrica; farmaci secondo specialista (ibutilide; procainamide non autorizzata in Italia) |
+| FA con via accessoria (WPW) | **Non** adenosina, verapamil/diltiazem, digossina, beta-bloccanti né **amiodarone EV** (potenzialmente dannosi); cardioversione elettrica se instabile; se stabile, farmaci secondo specialista (ibutilide, autorizzato in Italia; procainamide non autorizzata in Italia) |
 | TV monomorfa stabile | Amiodarone (la procainamide, proposta dalle linee guida ESC 2022, non è autorizzata in Italia); cardioversione sincronizzata se instabile o refrattaria |
 | Arresto da FV/TV senza polso | Defibrillazione + amiodarone (o lidocaina) |
 | Torsione di punta | Magnesio solfato, correzione di K, evitare farmaci che allungano il QT, stimolazione |
@@ -88,6 +89,8 @@ Controllo della frequenza in FA e scompenso. Dosi didattiche 0,125–0,25 mg/die
 | Amiodarone + warfarin | Aumento dell'INR |
 | Amiodarone/verapamil/macrolidi + digossina | Aumento dei livelli di digossina |
 | Amiodarone + simvastatina > 20 mg | Miopatia |
+| Dronedarone, propafenone, flecainide + digossina | Aumento dei livelli di digossina (con dronedarone dimezzarne la dose) |
+| Amiodarone + sofosbuvir | Bradicardia grave e blocchi, anche fatali |
 | Antiaritmici + farmaci che allungano il QT (macrolidi, fluorochinoloni, ondansetron, antipsicotici, metadone) | Torsione di punta |
 | Digossina + diuretici dell'ansa/tiazidici | Ipopotassiemia, tossicità |
 | Beta-bloccanti/non-DHP + amiodarone | Bradicardia, blocchi |
@@ -127,13 +130,13 @@ Il QT va misurato dall'inizio del QRS alla fine dell'onda T (in genere in D2 o V
 Considerare **tachicardia ventricolare** fino a prova contraria. Instabile (ipotensione, dolore toracico, scompenso, alterazione dello stato di coscienza): cardioversione elettrica sincronizzata; senza polso: algoritmo di rianimazione (defibrillazione, adrenalina, amiodarone). Le dosi e le sequenze vanno confrontate con le linee guida di rianimazione in vigore (ERC/AHA, aggiornamenti recenti).
 
 ### Torsione di punta
-Sospendere i farmaci che allungano il QT, **magnesio solfato** EV (dose secondo protocollo; ERC: 2 g), correzione di potassio, stimolazione (overdrive) o isoproterenolo in casi selezionati, defibrillazione se senza polso.
+Sospendere i farmaci che allungano il QT, **magnesio solfato** EV (dose secondo protocollo e linee guida ERC vigenti), correzione di potassio, stimolazione (overdrive) o isoproterenolo in casi selezionati, defibrillazione se senza polso.
 
 ### Intossicazione da digossina
 Sospendere, ECG, K e creatinina, correggere K e Mg; nei casi gravi **frammenti Fab anti-digossina** (non presenti tra le confezioni autorizzate in Italia: si reperiscono tramite importazione o Centri Antiveleni) e supporto.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** La **FA post-operatoria** compare in una quota rilevante dei pazienti (indicativamente 20–40% dopo cardiochirurgia, secondo l'intervento: dato da verificare). Prevenzione: proseguire il beta-bloccante, correggere K e Mg, evitare squilibri di volume. Trattamento: controllo della frequenza (beta-bloccanti, amiodarone), cardioversione se instabile, valutazione dell'anticoagulazione se persiste. Disponibili elettrocateteri epicardici temporanei per stimolazione.
+    **Cardiochirurgia.** La **FA post-operatoria** compare nel 30–50% dei pazienti dopo cardiochirurgia (ESC 2024). Prevenzione: proseguire il beta-bloccante, correggere K e Mg, evitare squilibri di volume; quando si sceglie una profilassi farmacologica, ESC 2024 raccomanda l'amiodarone peri-operatoria. Ibutilide (Corvert, autorizzato in Italia) ha uno schema dedicato alla FA post-operatoria, con monitor ECG per almeno 4 ore. Trattamento: controllo della frequenza (beta-bloccanti, amiodarone), cardioversione se instabile, valutazione dell'anticoagulazione se persiste. Disponibili elettrocateteri epicardici temporanei per stimolazione.
     **Pronto soccorso.** FA di nuova insorgenza stabile: controllo della frequenza e valutazione del rischio embolico. FA con via accessoria: **evitare i bloccanti nodali**. Sincope con bradicardia: atropina, stimolazione. Intossicazione da digossina in paziente anziano con insufficienza renale: sospettare nei sintomi gastrointestinali con aritmie.
 
 ## Popolazioni speciali
@@ -141,9 +144,9 @@ Sospendere, ECG, K e creatinina, correggere K e Mg; nei casi gravi **frammenti F
 | Popolazione | Orientamento |
 |---|---|
 | Anziano | Più bradicardia, blocchi, tossicità da digossina; dosi ridotte |
-| Insufficienza renale | Sotalolo e digossina si accumulano; ridurre dose e monitorare |
+| Insufficienza renale | Sotalolo, digossina e flecainide si accumulano (ridurre la dose e monitorare); dronedarone controindicato con CrCl < 30 mL/min |
 | Epatopatia | Ridurre lidocaina, amiodarone, propafenone |
-| Gravidanza | Evitare amiodarone; scelte specialistiche per aritmie materne |
+| Gravidanza e allattamento | Amiodarone controindicato (salvo casi eccezionali in gravidanza); dronedarone non raccomandato; propafenone generalmente controindicato in gravidanza e controindicato in allattamento; scelte specialistiche per aritmie materne |
 | Atleta | Attenzione agli effetti sulla frequenza e alle regole antidoping per alcuni farmaci |
 | Scompenso | Evitare classe Ic e dronedarone; preferire amiodarone |
 
@@ -152,8 +155,8 @@ Sospendere, ECG, K e creatinina, correggere K e Mg; nei casi gravi **frammenti F
 | Elemento | Promemoria |
 |---|---|
 | Classe Ic | Mai con cardiopatia ischemica/strutturale (CAST) |
-| Dronedarone | Mai in scompenso grave o FA permanente |
-| WPW + FA | Non usare AV-bloccanti |
+| Dronedarone | Mai con scompenso pregresso o in atto, disfunzione sistolica, FA permanente, QTc ≥ 500 ms, CrCl < 30 mL/min |
+| WPW + FA | Non usare AV-bloccanti né amiodarone EV; cardioversione se instabile |
 | Amiodarone | Controlli di tiroide, fegato, polmone, occhio; interazioni (warfarin, digossina) |
 | QT | QTc > 500 ms: stop e allerta; correggere K e Mg |
 | Torsione | Magnesio solfato EV |
