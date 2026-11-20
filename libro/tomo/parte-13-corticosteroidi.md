@@ -5,7 +5,7 @@
 
 ## Perché servono
 
-Il **cortisolo** è prodotto dalla corticale del surrene sotto controllo dell'ACTH (ipofisi) e del CRH (ipotalamo), con picco al mattino e nadir notturno; l'organismo ne produce l'equivalente di circa **20 mg di idrocortisone al giorno**, e molto di più durante lo stress (malattia, chirurgia). Il cortisolo mantiene pressione, glicemia, tono vascolare e modula l'infiammazione. I corticosteroidi farmacologici imitano e amplificano questi effetti: sono potenti **antinfiammatori e immunosoppressori**, ma l'uso prolungato **sopprime l'asse** e provoca molti effetti avversi.
+Il **cortisolo** è prodotto dalla corticale del surrene sotto controllo dell'ACTH (ipofisi) e del CRH (ipotalamo), con picco al mattino e nadir notturno; l'organismo ne produce circa 9–10 mg al giorno, quantità che corrisponde a una dose orale sostitutiva di **15–25 mg di idrocortisone**, e molto di più durante lo stress (malattia, chirurgia). Il cortisolo mantiene pressione, glicemia, tono vascolare e modula l'infiammazione. I corticosteroidi farmacologici imitano e amplificano questi effetti: sono potenti **antinfiammatori e immunosoppressori**, ma l'uso prolungato **sopprime l'asse** e provoca molti effetti avversi.
 
 !!! chiave "Punti chiave"
     - Dosi sopra quella fisiologica per **più di 3 settimane** possono sopprimere il surrene: **non sospendere bruscamente**.
@@ -18,7 +18,7 @@ Il corticosteroide entra nella cellula, si lega al recettore dei glucocorticoidi
 
 | Molecola | Durata biologica | Potenza antinfiammatoria relativa | Dose equivalente (mg) | Effetto mineralcorticoide |
 |---|---|---|---|---|
-| Idrocortisone | Breve (8–12 h) | 1 | 20 | +++ |
+| Idrocortisone | Breve (8–12 h) | 1 | 20 | ++ |
 | Prednisone / prednisolone | Intermedia (12–36 h) | 4 | 5 | + |
 | Metilprednisolone | Intermedia | 5 | 4 | scarso |
 | Desametasone | Lunga (36–72 h) | 25–30 | 0,75 | nessuno |
@@ -29,44 +29,45 @@ Il corticosteroide entra nella cellula, si lega al recettore dei glucocorticoidi
 
 | Principio attivo | Nomi commerciali (esempi) | Via |
 |---|---|---|
-| Idrocortisone | Flebocortid, Sofacor | EV, IM |
+| Idrocortisone | Flebocortid (iniettabile); per os Plenadren, Efmody, Alkindi (terapia sostitutiva) | EV, IM, orale |
 | Prednisone | Deltacortene | Orale |
-| Prednisolone | Prednisolone | Orale, EV |
-| Metilprednisolone | Medrol, Urbason, Urbason solubile | Orale, EV, IM |
+| Prednisolone | Generici (compresse orosolubili); Sintredius (soluzione orale) | Orale |
+| Metilprednisolone | Medrol, Urbason (compresse); Urbason solubile, Solu-Medrol (iniettabili); Depo-Medrol (deposito, solo IM/infiltrativa) | Orale, EV, IM |
 | Desametasone | Soldesam, Decadron | Orale, EV, IM |
-| Betametasone | Bentelan | Orale, IM |
+| Betametasone | Bentelan (compresse effervescenti; fiale) | Orale, IM |
 | Fludrocortisone | Non autorizzato in Italia (importazione tramite farmacia) | Orale |
 
 ### Idrocortisone {.pa}
-Preferita in **emergenze surrenaliche** e shock settico per l'attività mineralcorticoide e la breve emivita. Crisi surrenalica: 100 mg EV in bolo, poi circa 200 mg/24 ore in infusione o frazionati (didattico). Shock settico con fabbisogno persistente di vasopressori: 200 mg/die, di solito a dosi frazionate (la SSC 2026 lo suggerisce, con certezza delle prove bassa).
+Preferita in **emergenze surrenaliche** e shock settico per l'attività mineralcorticoide e la breve emivita. Crisi surrenalica: 100 mg EV o IM (se non c'è accesso venoso) subito, poi 200 mg/24 ore in infusione continua oppure 50 mg EV o IM ogni 6 ore (didattico; ESE/Endocrine Society 2024). Shock settico: la SSC 2026 suggerisce i corticosteroidi EV negli adulti (raccomandazione condizionata, certezza delle prove bassa); la dose usata nella pratica è 200 mg/die, in dosi frazionate o in infusione.
 
 ### Prednisone e prednisolone {.pa}
-Standard orale per malattie infiammatorie/immunitarie. Dose didattica 0,5–1 mg/kg/die in fase d'attacco, poi riduzione. Prednisone è un pro-farmaco epatico (convertito in prednisolone): in grave epatopatia preferire il **prednisolone**. Riacutizzazione di BPCO/asma: ad esempio **prednisone 40 mg/die per 5 giorni** (GOLD).
+Standard orale per malattie infiammatorie/immunitarie. Dose didattica 0,5–1 mg/kg/die in fase d'attacco, poi riduzione. Prednisone è un pro-farmaco epatico (convertito in prednisolone): in grave epatopatia preferire il **prednisolone**. Riacutizzazione di BPCO: **prednisone 40 mg/die per 5 giorni** (GOLD); riacutizzazione di asma dell'adulto: 40–50 mg/die per 5–7 giorni (GINA).
 
 ### Metilprednisolone {.pa}
 Poco effetto mineralcorticoide, buona penetrazione tissutale; boli ad alta dose in malattie autoimmuni e neurologiche (es. 500–1000 mg EV, secondo specialista), infusione lenta (≥ 30 minuti per boli ad alta dose) per il rischio di aritmie e ipotensione.
 
 ### Desametasone e betametasone {.pa}
-Lunga durata, assenza di effetto mineralcorticoide. Desametasone: edema cerebrale, nausea/vomito da chemioterapia, polmonite COVID-19 ipossiemica (6 mg/die per 10 giorni, studio RECOVERY, N Engl J Med 2021). Betametasone IM alla madre per la **maturazione polmonare fetale**.
+Lunga durata, assenza di effetto mineralcorticoide. Desametasone: edema cerebrale, nausea/vomito da chemioterapia, COVID-19 con necessità di ossigeno (adulti e adolescenti ≥ 12 anni, ≥ 40 kg: 6 mg/die per os o EV fino a 10 giorni, studio RECOVERY, N Engl J Med 2021). Betametasone IM alla madre per la **maturazione polmonare fetale**.
 
 ### Fludrocortisone {.pa}
-Sostituzione mineralcorticoide nell'insufficienza surrenalica primaria (0,05–0,2 mg/die); controlla pressione e potassio; edemi e ipopotassiemia.
+Sostituzione mineralcorticoide nell'insufficienza surrenalica primaria (0,05–0,2 mg/die); controlla pressione e potassio; edemi e ipopotassiemia. Non è indicato nell'insufficienza surrenalica da glucocorticoidi (secondaria).
 
 ## Indicazioni e scelta
 
 | Situazione | Orientamento |
 |---|---|
-| Riacutizzazione di asma/BPCO | Prednisone 40 mg per 5 giorni (o equivalente EV) |
-| Anafilassi | **Adrenalina prima**; gli steroidi sono adiuvanti e non sostituiscono l'adrenalina |
+| Riacutizzazione di BPCO | Prednisone 40 mg per 5 giorni (o equivalente EV) |
+| Riacutizzazione di asma | Prednisone 40–50 mg per 5–7 giorni (GINA) |
+| Anafilassi | **Adrenalina prima**; gli steroidi non sono raccomandati di routine e non sostituiscono mai l'adrenalina |
 | Crisi surrenalica | Idrocortisone 100 mg EV subito, fluidi, glucosio |
-| Shock settico con vasopressori | Idrocortisone 200 mg/die (SSC 2026) |
+| Shock settico | Corticosteroidi EV suggeriti (SSC 2026); di norma idrocortisone 200 mg/die |
 | Malattie autoimmuni, reumatiche, vasculiti | Specialistico: dosi d'attacco e riduzione lenta |
 | Edema cerebrale, neurologia | Desametasone |
 | Nausea da chemioterapia | Desametasone |
-| COVID-19 con ipossiemia | Desametasone 6 mg/die per 10 giorni |
+| COVID-19 con necessità di ossigeno | Desametasone 6 mg/die fino a 10 giorni |
 
 !!! nota "Nota – Corticosteroidi e sepsi"
-    Gli studi **ADRENAL** e **APROCCHSS** (N Engl J Med 2018) hanno valutato l'idrocortisone nello shock settico: l'effetto sulla mortalità è stato discusso (ridotta nello studio francese con fludrocortisone, non in ADRENAL), con più rapido recupero dallo shock. La SSC 2026 continua a suggerire l'idrocortisone in caso di fabbisogno prolungato di vasopressori, ma ha abbassato la certezza delle prove da moderata a bassa; l'aggiunta di fludrocortisone non è di routine (formulazione da verificare nel testo integrale).
+    Gli studi **ADRENAL** e **APROCCHSS** (N Engl J Med 2018) hanno valutato l'idrocortisone nello shock settico: l'effetto sulla mortalità è stato discusso (ridotta nello studio francese con fludrocortisone, non in ADRENAL), con più rapido recupero dallo shock. La SSC 2026 suggerisce i corticosteroidi EV negli adulti con shock settico e ha abbassato la certezza delle prove da moderata a bassa; la posizione sul fludrocortisone va verificata nel testo integrale.
 
 ## Sicurezza
 
@@ -116,13 +117,13 @@ Infezioni sistemiche non trattate, ulcera peptica attiva, psicosi, diabete scomp
 ## Emergenza, antidoti e focus cardiochirurgia/pronto soccorso
 
 ### Crisi surrenalica
-Ipotensione, vomito, dolore addominale, confusione, ipoglicemia, iponatriemia e iperpotassiemia. Trattamento: **idrocortisone EV immediato**, fluidi isotonici, glucosio, monitoraggio, ricerca del fattore scatenante. Non ritardare per attendere esami.
+Ipotensione, vomito, dolore addominale, confusione, ipoglicemia, iponatriemia e iperpotassiemia. Trattamento: **idrocortisone 100 mg EV o IM immediato**, fluidi isotonici, glucosio, monitoraggio, ricerca del fattore scatenante. Non ritardare per attendere esami.
 
 ### Anafilassi
-Adrenalina IM per prima; steroidi come adiuvanti per ridurre le reazioni tardive (ruolo limitato).
+Adrenalina IM per prima. I corticosteroidi non sono raccomandati di routine: non ci sono prove che prevengano le reazioni bifasiche o accorcino i sintomi; si possono considerare dopo la stabilizzazione, nelle reazioni refrattarie o se persistono asma o shock, e non devono mai ritardare l'adrenalina.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** Il paziente in terapia steroidea cronica può richiedere **dosi da stress** perioperatorie (secondo protocollo anestesiologico). L'uso routinario di steroidi per ridurre l'infiammazione da CEC è stato testato in grandi studi: **DECS** (desametasone, JAMA 2012) e **SIRS** (metilprednisolone, Lancet 2015) **non hanno dimostrato** una riduzione degli eventi maggiori. Gli steroidi aumentano la **glicemia**: infusione di insulina e controlli frequenti (Parte 9). Valutare rischio di infezioni sternali.
+    **Cardiochirurgia.** Il paziente in terapia steroidea cronica può richiedere **dosi da stress** perioperatorie (secondo protocollo anestesiologico; schema di riferimento: idrocortisone 100 mg EV all'induzione, poi 200 mg/24 ore in infusione o 50 mg ogni 6 ore, con riduzione al decorso favorevole). L'uso routinario di steroidi per ridurre l'infiammazione da CEC è stato testato in grandi studi: **DECS** (desametasone, JAMA 2012) e **SIRS** (metilprednisolone, Lancet 2015) **non hanno dimostrato** una riduzione degli eventi maggiori. Gli steroidi aumentano la **glicemia**: infusione di insulina e controlli frequenti (Parte 9). Valutare rischio di infezioni sternali.
     **Pronto soccorso.** Asma/BPCO: steroide sistemico **precoce** (entro la prima ora). Anafilassi: adrenalina. Shock con sospetta insufficienza surrenalica (steroidi cronici sospesi, malattia di Addison, carcinomi): idrocortisone EV subito. Dolore addominale, ipoglicemia e ipotensione in paziente in steroidi: pensare alla crisi surrenalica.
 
 ## Popolazioni speciali
@@ -144,7 +145,7 @@ Adrenalina IM per prima; steroidi come adiuvanti per ridurre le reazioni tardive
 | Equivalenze | Idrocortisone 20 = prednisone 5 = metilprednisolone 4 = desametasone 0,75 (mg) |
 | Soppressione surrenalica | > 3 settimane: riduzione graduale |
 | Mattino | Assunzione orale al mattino, con cibo |
-| Crisi surrenalica | Idrocortisone 100 mg EV + fluidi + glucosio |
+| Crisi surrenalica | Idrocortisone 100 mg EV o IM + fluidi + glucosio |
 | Anafilassi | Prima adrenalina |
 | Monitoraggio | Glicemia, PA, peso, potassio, infezioni |
 

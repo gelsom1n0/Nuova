@@ -48,37 +48,37 @@ La **scala OMS** (gradino 1: non oppioidi; 2: oppioidi deboli; 3: oppioidi forti
 | Tramadolo | Contramal | Orale, EV |
 | Morfina | Morfina cloridrato, MS Contin | EV, SC, orale |
 | Fentanil | Fentanest, Durogesic | EV, cerotto, intranasale |
-| Ossicodone | OxyContin, Targin | Orale |
+| Ossicodone | OxyContin; Targin (con naloxone) | Orale; anche EV/SC (preparati iniettabili) |
 | Buprenorfina | Transtec | Cerotto, sublinguale |
 | Tapentadolo | Palexia | Orale |
 | Naloxone | Generici; Nyxoid, Ventizolve (spray nasale) | EV, IM, intranasale |
 
 ### Paracetamolo {.pa}
-Prima linea per dolore lieve-moderato e base dell'analgesia multimodale. Adulto: 1 g ogni 6–8 ore, **massimo 3–4 g/die** (ridurre a ≤ 3 g in fragili, malnutriti, epatopatici, alcolisti; peso < 50 kg: 15 mg/kg per dose, max 60 mg/kg/die). EV in 15 minuti. **Epatotossicità** da sovradosaggio: antidoto **N-acetilcisteina**; attenzione ai farmaci che contengono paracetamolo (doppie assunzioni).
+Prima linea per dolore lieve-moderato e base dell'analgesia multimodale. Adulto: 1 g per dose, a intervalli di almeno 4 ore (di norma ogni 6–8 ore). Dose massima: **3 g/die per via orale** (RCP di Tachipirina); per via EV 4 g/die nell'adulto > 50 kg, ridotta a 3 g/die in presenza di fattori di rischio di epatotossicità (malnutrizione cronica, alcolismo, disidratazione, epatopatia). Peso 33–50 kg (EV): 15 mg/kg per dose, massimo 60 mg/kg/die senza superare 3 g. Insufficienza renale grave: intervallo minimo di 6 ore tra le dosi EV. EV in infusione di 15 minuti. **Epatotossicità** da sovradosaggio: antidoto **N-acetilcisteina**; attenzione ai farmaci che contengono paracetamolo (doppie assunzioni).
 
 ### FANS (ibuprofene, diclofenac, ketorolac, COX-2) {.pa}
-Dolore infiammatorio, colica renale, dolore muscoloscheletrico. Ibuprofene 400 mg × 3 (didattico). Rischi: **ulcera e sanguinamento gastrointestinale, insufficienza renale acuta, ipertensione, ritenzione idrica, eventi cardiovascolari**. Ketorolac: per via iniettabile al massimo 2 giorni, per via orale al massimo 5 giorni, solo per il dolore acuto moderato-severo (Nota Informativa Importante AIFA 2015; verificare l'RCP). **Controindicati in scompenso cardiaco, dopo infarto recente, e nel periodo perioperatorio di CABG**; evitare con anticoagulanti/antiaggreganti, ACE-i/sartani + diuretici.
+Dolore infiammatorio, colica renale, dolore muscoloscheletrico. Ibuprofene 400 mg × 3 (didattico). Rischi: **ulcera e sanguinamento gastrointestinale, insufficienza renale acuta, ipertensione, ritenzione idrica, eventi cardiovascolari**. Ketorolac: per via iniettabile (IM/EV) al massimo 2 giorni (1 giorno in infusione continua), per via orale al massimo 5 giorni, solo per il dolore acuto post-operatorio o la colica renale; è **controindicato** con anticoagulanti, ASA o altri FANS, nell'asma, nell'insufficienza renale moderata-severa, nell'ipovolemia, sotto i 16 anni e come profilassi prima o durante la chirurgia (Nota Informativa Importante AIFA, 13 aprile 2015, e RCP). Tutti i FANS sono **controindicati nello scompenso cardiaco grave**. Gli inibitori della COX-2 (celecoxib, etoricoxib) e il diclofenac sistemico sono controindicati in caso di cardiopatia ischemica accertata (non solo dopo infarto recente), arteriopatia periferica, malattia cerebrovascolare e scompenso cardiaco congestizio NYHA II–IV; l'etoricoxib anche nell'ipertensione non controllata (persistentemente > 140/90 mmHg). Evitare i FANS nel periodo perioperatorio di CABG, con anticoagulanti/antiaggreganti e con ACE-i/sartani + diuretici.
 
 ### Metamizolo {.pa}
-Antidolorifico e antipiretico molto usato in Italia; **agranulocitosi** rara ma grave (segnalare febbre, mal di gola), ipotensione se EV rapido.
+Antidolorifico e antipiretico molto usato in Italia. **Agranulocitosi** rara, non dose-dipendente, possibile in qualsiasi momento anche dopo usi precedenti senza problemi: se compaiono febbre, brividi, mal di gola o lesioni dolorose delle mucose si sospende subito il farmaco e si esegue un emocromo con formula (il controllo periodico dell'emocromo non è più raccomandato, EMA 2024). Controindicato dopo agranulocitosi da pirazolonici, con funzione midollare compromessa, nel III trimestre di gravidanza e nell'allattamento. Per via EV si inietta molto lentamente (non più di 1 mL/min) a paziente supino; non per via parenterale in caso di ipotensione o instabilità emodinamica.
 
 ### Tramadolo e codeina {.pa}
-Oppioidi deboli per dolore moderato. Tramadolo: effetto serotoninergico (**sindrome serotoninergica** con SSRI/IMAO/linezolid), convulsioni, ipoglicemia, metabolismo CYP2D6 variabile. Codeina: pro-farmaco (variabilità genetica); evitata nei bambini e nell'allattamento.
+Oppioidi deboli per dolore moderato. Tramadolo: effetto serotoninergico (**sindrome serotoninergica** con SSRI/IMAO/linezolid), convulsioni, ipoglicemia, metabolismo CYP2D6 variabile. Codeina: pro-farmaco attivato dal CYP2D6 (variabilità genetica). È **controindicata** sotto i 12 anni, da 0 a 18 anni dopo tonsillectomia o adenoidectomia per apnee ostruttive, nei metabolizzatori ultrarapidi noti del CYP2D6 e durante l'allattamento (EMA, 2013).
 
 ### Morfina {.pa}
-Standard degli oppioidi forti. EV: **titolazione con piccoli boli ripetuti** a intervalli brevi, rivalutando dolore, sedazione e frequenza respiratoria prima di ogni dose, secondo prescrizione e protocollo. Effetti: sedazione, **depressione respiratoria**, nausea, stipsi, prurito (rilascio di istamina), ipotensione, ritenzione urinaria. **Metaboliti attivi** che si accumulano in insufficienza renale: preferire fentanil o ossicodone/buprenorfina.
+Standard degli oppioidi forti. EV: **titolazione con piccoli boli ripetuti** a intervalli brevi, rivalutando dolore, sedazione e frequenza respiratoria prima di ogni dose, secondo prescrizione e protocollo. Effetti: sedazione, **depressione respiratoria**, nausea, stipsi, prurito (rilascio di istamina), ipotensione, ritenzione urinaria. **Metaboliti attivi** che si accumulano in insufficienza renale: preferire fentanil o buprenorfina; l'ossicodone, che si accumula anch'esso, solo a dosi ridotte e con cautela.
 
 ### Fentanil {.pa}
-Potente, breve durata EV (picco in 5 minuti), poca liberazione di istamina e stabilità emodinamica. Cerotto transdermico: **solo in pazienti già tolleranti agli oppioidi**, insorgenza lenta (12–24 ore) e persistente dopo la rimozione; il calore aumenta l'assorbimento. Fentanil intranasale in pronto soccorso e pediatria.
+Potente, breve durata EV (picco in 5 minuti), poca liberazione di istamina e stabilità emodinamica. Cerotto transdermico: indicato nel dolore cronico severo che richiede oppioidi continuativi, **solo in pazienti già tolleranti agli oppioidi**; è **controindicato nel dolore acuto o post-operatorio** perché non è titolabile. Le concentrazioni si stabilizzano in 12–24 ore e dopo la rimozione l'emivita è di 20–27 ore: sorvegliare per almeno 24 ore dopo eventi avversi gravi; febbre e fonti di calore aumentano l'assorbimento. Gli spray nasali di fentanil autorizzati (Instanyl, PecFent) sono indicati solo per il dolore episodico intenso oncologico nell'adulto già in terapia con oppioidi: l'uso intranasale nel dolore acuto in pronto soccorso o in pediatria è fuori indicazione e si esegue solo secondo protocollo aziendale.
 
 ### Ossicodone, buprenorfina, tapentadolo {.pa}
-Opzioni orali o transdermiche nel dolore cronico severo. Buprenorfina: agonista parziale, tetto di effetto respiratorio, naloxone poco efficace; tapentadolo: effetto sul dolore neuropatico.
+Opzioni orali o transdermiche nel dolore cronico severo. Buprenorfina: agonista parziale, effetto tetto sulla depressione respiratoria; il naloxone ne antagonizza solo in parte l'effetto (possono servire dosi elevate e ripetute, con monitoraggio prolungato); tapentadolo: effetto sul dolore neuropatico.
 
 ### Gabapentinoidi {.pa}
-Gabapentin e pregabalin: dolore neuropatico e adiuvanti perioperatori; sedazione, capogiri, edemi, rischio con oppioidi (depressione respiratoria); aggiustare la dose nell'insufficienza renale.
+Gabapentin e pregabalin: dolore neuropatico e adiuvanti perioperatori; sedazione, capogiri, edemi, rischio con oppioidi (depressione respiratoria); aggiustare la dose nell'insufficienza renale (pregabalin: massimo 600 mg/die con CrCl ≥ 60 mL/min, 300 mg con 30–60, 150 mg con 15–30, 75 mg sotto 15 mL/min).
 
 ### Naloxone {.pa}
-Antagonista degli oppioidi: sovradosaggio con depressione respiratoria. Titolare con piccoli boli (didattico 0,04–0,1 mg EV ogni 1–2 minuti) fino a ripristino respiratorio senza togliere tutta l'analgesia; **durata d'azione breve** (30–90 minuti), spesso inferiore a quella dell'oppioide: osservare e ripetere.
+Antagonista degli oppioidi: sovradosaggio con depressione respiratoria. Titolare a piccoli boli secondo prescrizione e protocollo fino al ripristino di una respirazione adeguata, senza annullare del tutto l'analgesia (gli RCP italiani indicano nella depressione respiratoria post-operatoria 0,1–0,2 mg EV ripetibili ogni 2–3 minuti e nel sovradosaggio 0,4–2 mg EV o IM); in apnea o arresto non si titola, si ventila e si segue l'algoritmo. Esistono due concentrazioni di fiala (adulti 0,4 mg/mL; pediatrica 0,04 mg/2 mL): leggere l'etichetta; **durata d'azione breve** (30–90 minuti), spesso inferiore a quella dell'oppioide: osservare e ripetere.
 
 ## Indicazioni e scelta
 
@@ -89,20 +89,20 @@ Antagonista degli oppioidi: sovradosaggio con depressione respiratoria. Titolare
 | Severo (NRS 7–10) | Oppioide forte titolato + paracetamolo ± adiuvanti/blocchi |
 | Neuropatico | Gabapentinoidi, antidepressivi (amitriptilina, duloxetina), lidocaina topica |
 | Colica renale | FANS (diclofenac/ketorolac) ± paracetamolo; oppioide se severo |
-| Dolore toracico ischemico | Ossigenazione/nitrati; analgesia con oppioide EV titolato se necessario |
+| Dolore toracico ischemico | Ossigeno solo se SpO₂ < 90%; nitrati se non controindicati; oppioide EV titolato solo se necessario (può ritardare l'assorbimento degli inibitori P2Y12 orali) |
 | Dolore post-operatorio | Multimodale (ERAS): paracetamolo, blocchi regionali, oppioide al bisogno, gabapentinoidi selezionati |
 | Dolore oncologico/cure palliative | Scala OMS, oppioidi per os; rotazione di oppioidi; supporto palliativo |
 
 !!! nota "Nota – Equivalenze e rotazione degli oppioidi"
-    Le equianalgesie sono approssimative: indicativamente **morfina orale 30 mg ≈ morfina EV 10 mg ≈ ossicodone orale 20 mg**; fentanil EV 100 µg ≈ morfina EV 10 mg; cerotto di fentanil 25 µg/h ≈ circa 60 mg/die di morfina orale. Nella rotazione si riduce la dose calcolata del 25–50% per tolleranza incrociata incompleta. La conversione la fa il medico con la farmacia, mai l'infermiere da tabelle di memoria.
+    Le equianalgesie sono approssimative: indicativamente **morfina orale 30 mg ≈ morfina EV 10 mg ≈ ossicodone orale 20 mg**; fentanil EV 100 µg ≈ morfina EV 10 mg; cerotto di fentanil 25 µg/h ≈ 45–89 mg/die di morfina orale nel paziente stabile (nella rotazione l'RCP usa un rapporto più prudente). Nella rotazione si riduce la dose calcolata del 25–50% per tolleranza incrociata incompleta. La conversione la fa il medico con la farmacia, mai l'infermiere da tabelle di memoria.
 
 ## Sicurezza
 
 ### Controindicazioni e cautele
 - **Paracetamolo:** epatopatia grave, alcolismo, malnutrizione.
-- **FANS:** ulcera, sanguinamento, IRC, scompenso, infarto recente/CABG, ipertensione non controllata, anticoagulati/antiaggreganti, III trimestre di gravidanza, asma da aspirina.
+- **FANS:** ulcera o sanguinamento gastrointestinale, IRC, scompenso; per COX-2 e diclofenac anche cardiopatia ischemica, arteriopatia periferica e malattia cerebrovascolare accertate; periodo perioperatorio di CABG; ipertensione non controllata; terapia anticoagulante (per il ketorolac controindicazione assoluta) o antiaggregante; III trimestre di gravidanza; asma da aspirina.
 - **Oppioidi:** insufficienza respiratoria grave non monitorata, ileo paralitico, ostruzione intestinale, trauma cranico con ipertensione endocranica, concomitanza di sedativi.
-- **Gabapentinoidi:** IRC senza aggiustamenti, abuso di oppioidi.
+- **Gabapentinoidi:** IRC (ridurre la dose secondo la clearance); cautela con storia di abuso di sostanze e con oppioidi o altri depressori del SNC (depressione respiratoria).
 
 ### Effetti avversi principali
 FANS: gastrite/ulcera, IRA, edemi, ipertensione, eventi tromboembolici. Oppioidi: **depressione respiratoria**, sedazione, nausea, vomito, **stipsi** (lassativi profilattici), prurito, ipotensione, delirio, ritenzione urinaria, dipendenza. Paracetamolo: epatotossicità.
@@ -155,7 +155,7 @@ Intensità (NRS), sede, carattere, fattori che aggravano o alleviano, **risposta
 Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli titolati, monitoraggio prolungato (l'effetto del naloxone è breve). In caso di **sovradosaggio di paracetamolo**: livelli ematici, **N-acetilcisteina**, centro antiveleni.
 
 !!! focus "Focus cardiochirurgia e pronto soccorso"
-    **Cardiochirurgia.** Dopo **sternotomia** il dolore è intenso e limita tosse e respirazione. Approccio **ERAS** (raccomandazioni della ERAS Cardiac Society, 2019, e consenso ERAS Cardiac Society–POQI del 2023 su dolore e uso degli oppioidi): paracetamolo a orario, blocchi regionali (parasternali, del piano dei muscoli erettori della colonna) ove disponibili, **oppioide titolato** a dosi minime efficaci, gabapentinoidi solo in casi selezionati (evidenza discordante), fisioterapia respiratoria; **evitare FANS e inibitori COX-2 dopo CABG** per il rischio cardiovascolare e renale. Valutare il dolore a riposo e **durante la tosse**; sorveglianza di sedazione e di FR per consentire l'estubazione precoce.
+    **Cardiochirurgia.** Dopo **sternotomia** il dolore è intenso e limita tosse e respirazione. Approccio **ERAS** (linee guida ERAS Cardiac Society 2019; consenso POQI–ERAS Cardiac Society 2023 su dolore e oppioidi; aggiornamento congiunto ERAS Cardiac Society–ERAS Society–STS 2024): paracetamolo a orario, blocchi regionali (parasternali, del piano dei muscoli erettori della colonna) ove disponibili, **oppioide titolato** a dosi minime efficaci, gabapentinoidi solo in casi selezionati (evidenza discordante), fisioterapia respiratoria; **evitare FANS e inibitori COX-2 dopo CABG** per il rischio cardiovascolare e renale. Valutare il dolore a riposo e **durante la tosse**; sorveglianza di sedazione e di FR per consentire l'estubazione precoce.
     **Pronto soccorso.** *Dolore toracico ischemico:* l'oppioide EV può ridurre/ritardare l'assorbimento degli antiaggreganti orali e va usato solo se necessario e a boli titolati. *Frattura, trauma:* fentanil intranasale o EV, morfina EV, ketamina a basse dosi; *colica renale:* FANS; *dolore addominale:* l'analgesia precoce non compromette la diagnosi. Nel paziente anziano ridurre le dosi e sorvegliare delirium.
 
 ## Popolazioni speciali
@@ -166,7 +166,7 @@ Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli ti
 | Insufficienza renale | Evitare FANS e morfina (accumulo del metabolita); preferire fentanil, buprenorfina; paracetamolo; ridurre i gabapentinoidi |
 | Epatopatia | Paracetamolo a dosi ridotte; cautela con oppioidi (accumulo); FANS evitati |
 | Gravidanza e allattamento | Paracetamolo; FANS da evitare nel III trimestre; oppioidi solo se indispensabili |
-| Bambini | Dose per peso; paracetamolo e ibuprofene; evitare codeina e tramadolo nei piccoli |
+| Bambini | Dose per peso; paracetamolo e ibuprofene; codeina controindicata sotto i 12 anni e dopo tonsillectomia/adenoidectomia; tramadolo solo secondo RCP e pediatra |
 | Insufficienza respiratoria/OSAS | Oppioidi con estrema cautela e monitoraggio |
 | Cardiopatici/scompensati | Evitare FANS; oppioidi titolati |
 
@@ -174,12 +174,12 @@ Stimolare, ossigeno, ventilare con pallone se necessario, **naloxone** a boli ti
 
 | Elemento | Promemoria |
 |---|---|
-| Paracetamolo | Max 3–4 g/die; attenzione ai prodotti combinati; antidoto NAC |
+| Paracetamolo | Max 3 g/die per os, 4 g/die EV (3 g con fattori di rischio); attenzione ai prodotti combinati; antidoto NAC |
 | FANS | Mai in scompenso, post-CABG, IRC; rischio sanguinamento e renale |
 | Oppioidi | Titolare; sedazione + FR + SpO₂; lassativi; naloxone pronto |
 | Morfina e rene | Evitare in IRC; preferire fentanil/buprenorfina |
 | Fentanil cerotto | Solo pazienti tolleranti agli oppioidi; effetto ritardato; no calore |
-| Naloxone | 0,04–0,1 mg EV titolati; effetto breve |
+| Naloxone | Boli titolati secondo protocollo; effetto breve, ripetere |
 
 - [ ] NRS/scala comportamentale registrata prima e dopo
 - [ ] Dose, unità e farmaco verificati (doppio controllo per oppioidi)

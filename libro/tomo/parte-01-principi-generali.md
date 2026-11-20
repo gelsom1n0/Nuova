@@ -24,7 +24,7 @@ La farmacocinetica descrive che cosa l'organismo fa al farmaco: assorbimento, di
 
 ### Funzione renale: come si stima
 
-La creatinina da sola sottostima il danno nell'anziano e nelle persone con poca massa muscolare. Per l'aggiustamento delle dosi si usa la clearance stimata. La formula di Cockcroft-Gault è quella più usata nelle schede tecniche:
+La creatinina da sola sottostima il danno nell'anziano e nelle persone con poca massa muscolare. Per l'aggiustamento delle dosi si usa la clearance stimata (con il peso reale, come negli RCP; cautela in obesità, edemi e cachessia; con creatinina in µmol/L si divide per 88,4 per ottenere mg/dL). Gli RCP possono dare le soglie in mL/min (CrCl) oppure in mL/min/1,73 m² (eGFR): non sono la stessa cosa. La formula di Cockcroft-Gault è quella più usata nelle schede tecniche:
 
 > CrCl (mL/min) = [(140 − età) × peso (kg)] / (72 × creatinina mg/dL), moltiplicata per 0,85 nella donna.
 
@@ -48,9 +48,9 @@ La farmacodinamica descrive ciò che il farmaco fa all'organismo: legame al bers
 |---|---|---|
 | Inibizione del CYP3A4 | claritromicina, azoli antifungini, ritonavir, succo di pompelmo | Aumento dei livelli di molti farmaci (statine, DOAC, calcio-antagonisti) |
 | Induzione del CYP3A4/P-gp | rifampicina, carbamazepina, fenitoina, erba di San Giovanni | Riduzione dell'effetto (DOAC, statine, contraccettivi) |
-| Inibizione del CYP2D6 | fluoxetina, paroxetina, bupropione | Aumento di metoprololo, carvedilolo, alcuni oppioidi |
+| Inibizione del CYP2D6 | fluoxetina, paroxetina, bupropione | Aumento di metoprololo, carvedilolo e nebivololo; ridotta attivazione di codeina e tramadolo (minore analgesia) |
 | Inibizione del CYP2C19 | omeprazolo, esomeprazolo | Riduzione dell'attivazione del clopidogrel |
-| Competizione per l'escrezione renale | FANS, diuretici | Accumulo di litio, metotrexato, aminoglicosidi |
+| Riduzione dell'escrezione renale | FANS, diuretici tiazidici | Accumulo di litio e metotrexato; i diuretici dell'ansa aumentano oto- e nefrotossicità degli aminoglicosidi |
 
 !!! nota "Nota – Come cercare un'interazione"
     Procedere in tre passi: identificare il meccanismo, valutarne la gravità e la reversibilità, decidere se evitare l'associazione, ridurre la dose o monitorare. Le fonti sono l'RCP (sezione «Interazioni»), la banca dati AIFA e il farmacista ospedaliero. Una matrice di sintesi delle interazioni tra classi si trova nella Parte 15.
@@ -94,7 +94,7 @@ Gli errori di calcolo sono una causa frequente di eventi gravi. Regola generale:
 
 1. **Infusione di 500 mL in 4 ore** con set da 20 gocce/mL: 500 × 20 / 240 ≈ **42 gocce/min**; con pompa: 125 mL/h.
 2. **Farmaco in µg/kg/min:** 50 µg/kg/min per un paziente di 70 kg, soluzione da 10 mg/mL (= 10.000 µg/mL): 50 × 70 × 60 / 10.000 = **21 mL/h**.
-3. **Eparina in infusione** (esercizio di calcolo, non nomogramma): 25.000 UI in 500 mL (= 50 UI/mL); dose prescritta 18 UI/kg/h per un paziente di 80 kg = 1.440 UI/h → 1.440 / 50 = **28,8 mL/h**. Nella pratica dose, concentrazione e aggiustamenti seguono il nomogramma aziendale e il doppio controllo.
+3. **Farmaco prescritto in unità per kg e per ora** (esercizio con valori fittizi): soluzione da 50 UI/mL; dose prescritta 20 UI/kg/h per un paziente di 70 kg = 1.400 UI/h → 1.400 / 50 = **28 mL/h**. Per l'eparina non frazionata dose, concentrazione e aggiustamenti seguono solo il nomogramma aziendale, con doppio controllo indipendente.
 4. **Glucosata al 5%:** 5 g ogni 100 mL = 50 mg/mL; una sacca da 500 mL contiene 25 g di glucosio.
 
 !!! attenzione "Attenzione"
@@ -126,7 +126,7 @@ I farmaci ad alto rischio non sono più frequentemente sbagliati, ma quando si s
 | Gruppo | Rischio principale | Misure tipiche |
 |---|---|---|
 | Insulina | Ipoglicemia grave per errore di unità o di tipo | Siringhe per insulina, doppio controllo, nessuna abbreviazione «U» |
-| Potassio e altri elettroliti concentrati | Aritmie e arresto cardiaco | Non tenere scorte concentrate nei reparti, diluizione e velocità controllate |
+| Potassio e altri elettroliti concentrati | Aritmie e arresto cardiaco | Rimuovere le soluzioni concentrate dalle scorte dei reparti, salvo nelle aree autorizzate (per esempio le aree critiche), dove si conservano separate e ben segnalate; diluizione e velocità controllate |
 | Anticoagulanti | Emorragia o trombosi | Doppio controllo, protocolli di dosaggio, monitoraggio laboratorio |
 | Oppioidi | Depressione respiratoria | Scale di sedazione, naloxone disponibile |
 | Antiaritmici e vasopressori EV | Instabilità emodinamica | Monitor, pompe, soglie di allerta |
@@ -152,11 +152,11 @@ I farmaci ad alto rischio non sono più frequentemente sbagliati, ma quando si s
 
 ## Farmacovigilanza e lettura dell'RCP
 
-Una **reazione avversa** (ADR) è un effetto nocivo e non voluto. Si distinguono quelle **dose-dipendenti e prevedibili** (tipo A: bradicardia da beta-bloccante) e quelle **imprevedibili** (tipo B: anafilassi). Va segnalata ogni sospetta reazione, soprattutto se grave, nuova o inattesa, alla **Rete Nazionale di Farmacovigilanza dell'AIFA** secondo le procedure aziendali; sono utili anche gli errori e i quasi-eventi.
+Una **reazione avversa** (ADR) è un effetto nocivo e non voluto. Si distinguono quelle **dose-dipendenti e prevedibili** (tipo A: bradicardia da beta-bloccante) e quelle **imprevedibili** (tipo B: anafilassi). Va segnalata ogni sospetta reazione, soprattutto se grave, nuova o inattesa, alla **Rete Nazionale di Farmacovigilanza dell'AIFA**: con la scheda inviata al responsabile di farmacovigilanza della struttura oppure online sul sito AIFA, entro i tempi previsti dalla normativa. Gli errori di terapia che causano una reazione avversa si segnalano in farmacovigilanza; gli errori senza danno e i quasi-eventi vanno nel sistema aziendale di segnalazione (incident reporting); gli eventi sentinella seguono il flusso ministeriale dedicato.
 
 ### Come leggere l'RCP
 
-Le sezioni che interessano maggiormente all'assistenza sono: 4.2 posologia e modo di somministrazione; 4.3 controindicazioni; 4.4 avvertenze; 4.5 interazioni; 4.6 gravidanza e allattamento; 4.8 effetti indesiderati; 4.9 sovradosaggio; 6.6 precauzioni per lo smaltimento e la manipolazione (diluizioni e compatibilità). Il documento aggiornato è consultabile nella Banca Dati Farmaci dell'AIFA.
+Le sezioni che interessano maggiormente all'assistenza sono: 4.2 posologia e modo di somministrazione; 4.3 controindicazioni; 4.4 avvertenze; 4.5 interazioni; 4.6 gravidanza e allattamento; 4.8 effetti indesiderati; 4.9 sovradosaggio; 6.2 incompatibilità; 6.3 periodo di validità (anche dopo apertura o diluizione); 6.4 conservazione; 6.6 precauzioni per lo smaltimento e la manipolazione (diluizioni e compatibilità). Il documento aggiornato è consultabile nella Banca Dati Farmaci dell'AIFA.
 
 !!! nota "Nota – Le «Note AIFA»"
     Alcuni farmaci sono rimborsabili dal SSN solo per specifiche condizioni, indicate nelle Note AIFA (ad esempio per statine, inibitori di pompa, anticoagulanti orali, farmaci per il diabete di tipo 2 e per la BPCO). Quando una classe le richiede, il libro lo segnala; il testo vigente va letto sul sito dell'AIFA, perché le Note vengono riviste.

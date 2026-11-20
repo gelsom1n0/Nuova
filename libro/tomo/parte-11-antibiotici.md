@@ -144,7 +144,7 @@ Temperatura, parametri vitali, PCR/procalcitonina e globuli bianchi come da prot
 ## Emergenza, antidoti e focus cardiochirurgia/pronto soccorso
 
 ### Anafilassi da antibiotico
-Interrompere l'infusione, chiamare aiuto, **adrenalina IM** (0,5 mg, cioè 0,5 mL della fiala da 1 mg/mL, nell'adulto, faccia anterolaterale della coscia, ripetibile dopo circa 5 minuti: ERC 2025), paziente supino con gambe sollevate, ossigeno, accesso venoso, fluidi; poi antistaminici e corticosteroidi come adiuvanti. Se il paziente è in beta-bloccante la risposta all'adrenalina può essere ridotta: considerare il glucagone.
+Interrompere l'infusione, chiamare aiuto, **adrenalina IM** (0,5 mg, cioè 0,5 mL della fiala da 1 mg/mL, nell'adulto, faccia anterolaterale della coscia, ripetibile dopo circa 5 minuti: ERC 2025), paziente supino con gambe sollevate, ossigeno, accesso venoso, fluidi; poi, solo se servono, antistaminici e corticosteroidi dopo la stabilizzazione (non di routine e mai al posto dell'adrenalina). Se il paziente è in beta-bloccante la risposta all'adrenalina può essere ridotta: considerare il glucagone.
 
 ### Infezione da *C. difficile*
 Sospendere (se possibile) l'antibiotico causale, precauzioni da contatto, idratazione, terapia mirata (vancomicina orale o fidaxomicina) secondo il medico.
