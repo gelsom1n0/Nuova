@@ -81,6 +81,39 @@ Generato da `select_real.py`. Per ogni candidato con etichetta ad alta confidenz
 | WPW | PTB-XL ecg_id 6240 | accettato | coerente | 79.4 | 0.023 | 320 | 166 | 455 |
 | WPW | PTB-XL ecg_id 9795 | accettato | coerente | 50.7 | 0.017 | 94 | 154 | 401 |
 | WPW | PTB-XL ecg_id 9823 | accettato | coerente | 64.0 | 0.012 | 146 | 120 | 426 |
+| LAFB | PTB-XL ecg_id 41 | accettato | coerente | 72.6 | 0.013 | 168 | 100 | 381 |
+| LAFB | PTB-XL ecg_id 157 | accettato | coerente | 63.2 | 0.027 | 174 | 96 | 412 |
+| LAFB | PTB-XL ecg_id 226 | accettato | coerente | 76.9 | 0.008 | 196 | 88 | 401 |
+| LAFB | PTB-XL ecg_id 285 | accettato | coerente | 82.8 | 0.015 | 156 | 84 | 385 |
+| LPFB | PTB-XL ecg_id 377 | accettato | coerente | 96.8 | 0.018 | 330 | 86 | 414 |
+| LPFB | PTB-XL ecg_id 6938 | accettato | coerente | 92.0 | 0.006 | 152 | 88 | 438 |
+| LPFB | PTB-XL ecg_id 7419 | accettato | coerente | 82.0 | 0.07 | 184 | 86 | 404 |
+| LPFB | PTB-XL ecg_id 16116 | accettato | coerente | 69.0 | 0.028 | 164 | 118 | 386 |
+| BIFASC | PTB-XL ecg_id 41 | **scartato** | qrs_ms=100 (atteso 120–200) | 72.6 | 0.013 | 168 | 100 | 381 |
+| BIFASC | PTB-XL ecg_id 157 | **scartato** | qrs_ms=96 (atteso 120–200) | 63.2 | 0.027 | 174 | 96 | 412 |
+| BIFASC | PTB-XL ecg_id 172 | **scartato** | asse_gradi=-123 (atteso -95–-30) | 79.9 | 0.041 | None | 142 | 425 |
+| BIFASC | PTB-XL ecg_id 226 | **scartato** | qrs_ms=88 (atteso 120–200) | 76.9 | 0.008 | 196 | 88 | 401 |
+| BIFASC | PTB-XL ecg_id 285 | **scartato** | qrs_ms=84 (atteso 120–200) | 82.8 | 0.015 | 156 | 84 | 385 |
+| BIFASC | PTB-XL ecg_id 424 | **scartato** | asse_gradi=-108 (atteso -95–-30); qrs_ms=94 (atteso 120–200) | 71.9 | 0.009 | 168 | 94 | 407 |
+| BIFASC | PTB-XL ecg_id 447 | **scartato** | qrs_ms=94 (atteso 120–200) | 77.3 | 0.036 | 190 | 94 | 418 |
+| BIFASC | PTB-XL ecg_id 479 | **scartato** | qrs_ms=94 (atteso 120–200) | 66.2 | 0.035 | 148 | 94 | 403 |
+| BIFASC | PTB-XL ecg_id 520 | **scartato** | qrs_ms=76 (atteso 120–200) | 88.0 | 0.018 | 172 | 76 | 443 |
+| BIFASC | PTB-XL ecg_id 633 | **scartato** | qrs_ms=86 (atteso 120–200) | 69.6 | 0.013 | 158 | 86 | 405 |
+| BIFASC | PTB-XL ecg_id 659 | **scartato** | qrs_ms=102 (atteso 120–200) | 56.9 | 0.012 | 164 | 102 | 411 |
+| BIFASC | PTB-XL ecg_id 680 | **scartato** | asse_gradi=-126 (atteso -95–-30) | 80.8 | 0.018 | 146 | 124 | 374 |
+| BIFASC | PTB-XL ecg_id 786 | **scartato** | qrs_ms=84 (atteso 120–200) | 74.1 | 0.013 | 156 | 84 | 356 |
+| BIFASC | PTB-XL ecg_id 789 | **scartato** | qrs_ms=82 (atteso 120–200) | 89.7 | 0.008 | 148 | 82 | 421 |
+| BIFASC | PTB-XL ecg_id 871 | accettato | coerente | 85.2 | 0.037 | 202 | 128 | 453 |
+| BIFASC | PTB-XL ecg_id 940 | **scartato** | qrs_ms=88 (atteso 120–200) | 68.8 | 0.065 | 206 | 88 | 375 |
+| RVH | PTB-XL ecg_id 2417 | accettato | asse 58°, R in V1 0.71 mV | 90.9 | 0.016 | None | 90 | 451 |
+| LAO/LAE | PTB-XL ecg_id 6685 | accettato | coerente | 80.0 | 0.022 | 174 | 80 | 386 |
+| LAO/LAE | PTB-XL ecg_id 6851 | accettato | coerente | 83.1 | 0.011 | 266 | 86 | 494 |
+| LAO/LAE | PTB-XL ecg_id 6926 | accettato | coerente | 73.7 | 0.015 | 150 | 78 | 421 |
+| LAO/LAE | PTB-XL ecg_id 9944 | accettato | coerente | 97.7 | 0.009 | 146 | 100 | 434 |
+| RAO/RAE | PTB-XL ecg_id 1785 | accettato | coerente | 95.5 | 0.1 | 156 | 70 | 366 |
+| RAO/RAE | PTB-XL ecg_id 5231 | accettato | coerente | 83.8 | 0.033 | 160 | 90 | 392 |
+| RAO/RAE | PTB-XL ecg_id 8177 | accettato | coerente | 73.2 | 0.037 | 168 | 84 | 411 |
+| RAO/RAE | PTB-XL ecg_id 15181 | accettato | coerente | 90.2 | 0.043 | 194 | 76 | 405 |
 | SVTAC | — | **NESSUN CANDIDATO** | 0 candidati esaminati, nessuno coerente |  |  |  |  |  |
 | VT | MIT-BIH record 203 | **scartato** | escluso dopo ispezione visiva: TV polimorfa su FA con molto rumore: poco leggibile come esempio didattico |  |  |  |  |  |
 | VT | MIT-BIH record 205, da 4:53.8 | accettato | FC media 128.3/min; salva confermata dalle annotazioni | 168.8 | 0.361 | 164 | 89 | 554 |
@@ -101,6 +134,9 @@ Generato da `select_real.py`. Per ogni candidato con etichetta ad alta confidenz
 | MIT_PACED | MIT-BIH record 102, da 0:00.4 | accettato | coerente | 74.1 | 0.051 | 367 | 119 | 457 |
 | MIT_PACED | MIT-BIH record 102, da 2:55.1 | accettato | coerente | 72.5 | 0.032 | 367 | 194 | 482 |
 | MIT_PACED | MIT-BIH record 104, da 3:49.3 | accettato | coerente | 73.5 | 0.029 | 372 | 189 | 550 |
+| MIT_VFL | MIT-BIH record 207, da 0:35.8 | accettato | flutter ventricolare confermato dalle annotazioni del ritmo; verifica visiva | 136.7 | 0.659 | None | 156 | 633 |
+| MIT_VFL | MIT-BIH record 207, da 0:51.9 | accettato | flutter ventricolare confermato dalle annotazioni del ritmo; verifica visiva | 160.0 | 0.619 | None | 58 | 485 |
+| MIT_VFL | MIT-BIH record 207, da 3:57.3 | accettato | flutter ventricolare confermato dalle annotazioni del ritmo; verifica visiva | 158.8 | 0.604 | None | 114 | 456 |
 | MIT_SVTA | MIT-BIH record 209, da 9:15.9 | accettato | coerente | 154.3 | 0.096 | 211 | 75 | 459 |
 | MIT_SVTA | MIT-BIH record 209, da 9:59.6 | accettato | coerente | 156.5 | 0.02 | 103 | 69 | 440 |
 | MIT_SVTA | MIT-BIH record 209, da 12:13.8 | accettato | coerente | 156.5 | 0.099 | 189 | 69 | 458 |
@@ -153,9 +189,11 @@ Generato da `select_real.py`. Per ogni candidato con etichetta ad alta confidenz
 | CH_ERV | Chapman JS00724 | accettato | coerente | 53.6 | 0.047 | 182 | 78 | 401 |
 | CH_ERV | Chapman JS01576 | accettato | coerente | 53.1 | 0.012 | 184 | 90 | 361 |
 | CH_ERV | Chapman JS02418 | accettato | coerente | 46.1 | 0.035 | 124 | 86 | 380 |
+| CH_ABI | Chapman JS06795 | accettato | coerente | 51.0 | 0.147 | 156 | 96 | 365 |
+| CH_SAAWR | — | **NESSUN CANDIDATO** | 0 candidati con etichetta unica, nessuno coerente |  |  |  |  |  |
 | CH_VB | Chapman JS03908 | accettato | coerente | 54.6 | 0.189 | 124 | 98 | 370 |
 | BRUGADA | Brugada-HUCA patient_id 188981 | accettato | ST J+60 in V1/V2 max +0.20 mV | 52.4 | 0.023 | 300 | 150 | 374 |
 | BRUGADA | Brugada-HUCA patient_id 428031 | accettato | ST J+60 in V1/V2 max +0.24 mV | 75.0 | 0.008 | None | 110 | 436 |
 | BRUGADA | Brugada-HUCA patient_id 852786 | accettato | ST J+60 in V1/V2 max +0.35 mV | 93.8 | 0.031 | 140 | 130 | 400 |
 
-Totale: 128 accettati, 24 scartati, 1 categorie senza candidati.
+Totale: 150 accettati, 39 scartati, 2 categorie senza candidati.

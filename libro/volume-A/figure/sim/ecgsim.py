@@ -693,3 +693,227 @@ def digitalico(durata, hr=64, seed=43):
     m.st_vec = -fvec(50, 0.13, 0.06)
     m.st_profilo = "cucchiaio"
     return ritmo_condotto(durata, hr, 0.20, m, seed=seed)
+
+
+# ------------------------------------------------------------------ quadri aggiunti (v3, lacune del confronto)
+P_MITRALICA = [Comp(0.28, 0.14, fvec(75, 0.10, 0.05)), Comp(0.70, 0.14, fvec(30, 0.13, -0.14))]   # dur 0,13
+P_POLMONARE = [Comp(0.40, 0.17, fvec(78, 0.27, 0.10)), Comp(0.68, 0.15, fvec(40, 0.06, -0.03))]   # dur 0,10
+P_MULTI = [  # morfologie di P di focolai atriali diversi (pacemaker migrante / TAM)
+    P_SINUS,
+    [Comp(0.45, 0.20, fvec(20, 0.09, -0.04))],                       # P bassa e piatta in II
+    [Comp(0.45, 0.20, fvec(-80, 0.09, 0.03))],                       # P negativa in II (focolaio basso)
+    [Comp(0.35, 0.15, fvec(95, 0.16, 0.10)), Comp(0.70, 0.12, fvec(60, 0.05, 0.0))],  # P appuntita
+]
+
+
+def pausa_sinusale(durata, hr=70, pausa_s=2.6, scappamento="giunzionale", seed=51):
+    """Pausa/arresto sinusale: dopo il 4° battito il nodo del seno tace per `pausa_s` secondi; un battito di
+    scappamento (giunzionale: QRS stretto senza P; ventricolare: QRS largo) interrompe la pausa, poi il
+    ritmo sinusale riprende."""
+    m = m_normale()
+    tr = Tracciato(durata, seed=seed)
+    rr = 60.0 / hr
+    t, prev = 0.30, None
+    for _ in range(4):
+        tr.add_p(t)
+        tr.add_qrs(t + 0.16, m, rr)
+        prev = t + 0.16
+        t += rr
+    t_esc = prev + pausa_s
+    if scappamento == "giunzionale":
+        tr.add_qrs(t_esc, m, pausa_s, tipo="QRS di scappamento giunzionale")
+    else:
+        tr.add_qrs(t_esc, m_scappamento_ventricolare(), pausa_s, tipo="QRS di scappamento ventricolare")
+    tr.eventi.append({"tipo": "pausa sinusale", "t": round(prev, 3), "durata": round(pausa_s, 2)})
+    t = t_esc + 0.95 * rr
+    prev = t_esc
+    while t < durata + 1:
+        tr.add_p(t)
+        tr.add_qrs(t + 0.16, m, (t + 0.16) - prev)
+        prev = t + 0.16
+        t += rr
+    return tr
+
+
+def esa_non_condotta(durata, hr=72, bigeminismo=False, seed=53):
+    """Extrasistole atriale NON condotta: P prematura che cade sulla T (nodo AV ancora refrattario), nessun QRS,
+    pausa. Con bigeminismo=True: bigeminismo atriale CONDOTTO (ogni battito sinusale seguito da un'ESA)."""
+    m = m_normale()
+    tr = Tracciato(durata, seed=seed)
+    rr = 60.0 / hr
+    t, prev, k = 0.30, None, 0
+    while t < durata + 1:
+        tr.add_p(t)
+        tq = t + 0.16
+        tr.add_qrs(tq, m, (tq - prev) if prev else rr)
+        prev = tq
+        if bigeminismo:
+            tpa = tq + 0.42 * rr
+            tr.add_p(tpa, P_ECTOPICA_ALTA, 0.09, tipo="P ectopica (ESA)")
+            tr.add_qrs(tpa + 0.18, m, tpa + 0.18 - prev, tipo="QRS ESA")
+            prev = tpa + 0.18
+            t = tpa + 1.05 * rr
+        elif k in (2, 6):
+            tpa = tq + 0.27  # sulla T: non condotta
+            tr.add_p(tpa, P_ECTOPICA_ALTA, 0.09, tipo="P ectopica non condotta")
+            t = tpa + 1.05 * rr
+        else:
+            t += rr
+        k += 1
+    return tr
+
+
+def esv_complesse(durata, hr=75, quadro="multifocali", seed=55):
+    """Extrasistoli ventricolari complesse su ritmo sinusale.
+    'multifocali': ESV di due morfologie diverse (due focolai) · 'coppia': due ESV consecutive ·
+    'R_su_T': ESV con accoppiamento molto breve che cade sull'apice della T precedente."""
+    m = m_normale()
+    tr = Tracciato(durata, seed=seed)
+    rr = 60.0 / hr
+    mA, mB = m_esv("tratto_efflusso_VD"), m_esv("VS")
+    piano = {"multifocali": {2: [(0.60, mA)], 6: [(0.58, mB)]},
+             "coppia": {3: [(0.58, mA), (0.95, mA)]},
+             "R_su_T": {3: [(0.33, mA)]}}[quadro]
+    t, prev, k, last_v = 0.30, None, 0, -9
+    while t < durata + 1:
+        tq = t + 0.16
+        tr.add_p(t)
+        if tq - last_v > 0.56:  # la P che segue l'ESV trova i ventricoli refrattari: pausa compensatoria
+            tr.add_qrs(tq, m, (tq - prev) if prev else rr)
+            prev = tq
+            for frac, mv in piano.get(k, []):
+                te = prev + frac * rr
+                tr.add_qrs(te, mv, frac * rr, tipo=f"ESV ({mv.nome})")
+                last_v = te
+        t += rr
+        k += 1
+    return tr
+
+
+def m_eas():
+    """Blocco fascicolare anteriore sinistro: asse ≈ −60°, qR in I e aVL, rS in II, III, aVF; QRS < 0,12 s."""
+    return m_normale(axis=-60, qrs_dur=0.100)
+
+
+def m_eps():
+    """Blocco fascicolare posteriore sinistro: asse ≈ +120°, rS in I e aVL, qR in II, III, aVF."""
+    m = m_normale(axis=115, qrs_dur=0.100)
+    m.t_vec = fvec(70, 0.28, 0.12)
+    return m
+
+
+def m_bifascicolare():
+    """BBD + blocco fascicolare anteriore sinistro."""
+    m = m_bbd()
+    base = qrs_normale(axis=-60)
+    m.qrs = [Comp(c.c * 0.62, c.s * 0.62, c.v) for c in base] + [m.qrs[-1]]
+    return m
+
+
+def m_ivd():
+    """Ipertrofia ventricolare destra: forze dominanti a destra e in avanti (R alta in V1, S persistenti in
+    V5–V6, asse destro ≈ +110°), T negative in V1–V3 (sovraccarico)."""
+    q = [Comp(0.17, 0.075, fvec(-60, 0.15, 0.30)),
+         Comp(0.45, 0.13, fvec(115, 1.00, 0.95)),
+         Comp(0.75, 0.10, fvec(-150, 0.45, 0.10))]
+    return VMorph("IVD", q, 0.100, t_vec=fvec(30, 0.20, -0.30), qtc=0.42)
+
+
+def m_ivs_strain():
+    """Ipertrofia ventricolare sinistra con sovraccarico: voltaggi aumentati (SV1 + RV5/V6 > 3,5 mV), QRS
+    lievemente allargato, ST sottoslivellato e T asimmetriche negative in I, aVL, V5–V6."""
+    m = m_normale(axis=20, qrs_dur=0.105, qtc=0.43)
+    m.qrs = [Comp(c.c, c.s, c.v * (1.9 if i in (1, 2) else 1.0)) for i, c in enumerate(m.qrs)]
+    m.t_vec = fvec(-170, 0.30, 0.25)
+    m.t_shape = (0.12, 0.13)
+    m.st_vec = fvec(-160, 0.07, 0.05)
+    return m
+
+
+def atriale_multifocale(durata, fc=115, seed=57, migrante=False):
+    """Tachicardia atriale multifocale (fc > 100/min) o pacemaker atriale migrante (fc < 100/min):
+    ≥ 3 morfologie di P diverse, PR variabili, RR irregolari; ogni P è condotta."""
+    m = m_normale()
+    tr = Tracciato(durata, seed=seed)
+    rng = tr.rng
+    base = 60.0 / (72 if migrante else fc)
+    t, prev = 0.25, None
+    while t < durata + 1:
+        k = int(rng.integers(0, len(P_MULTI)))
+        pr = float(rng.uniform(0.12, 0.20))
+        tr.add_p(t, P_MULTI[k], 0.10, tipo=f"P morfologia {k + 1}")
+        tq = t + pr
+        tr.add_qrs(tq, m, (tq - prev) if prev else base)
+        prev = tq
+        t += base * float(rng.uniform(0.82, 1.18))
+    return tr
+
+
+def flutter_ventricolare(durata, fc=280, seed=59):
+    """Flutter ventricolare: onde sinusoidali ampie e regolari ≈ 250–300/min, senza distinzione tra QRS e T."""
+    tr = Tracciato(durata, seed=seed)
+    f = fc / 60.0
+    env = 1.0 + 0.08 * np.sin(2 * np.pi * 0.3 * tr.t)
+    tr.add_continuous(np.outer(env * np.sin(2 * np.pi * f * tr.t), fvec(70, 1.1, 0.5)))
+    tr.add_noise(0.01)
+    tr.eventi.append({"tipo": "flutter ventricolare", "frequenza": fc})
+    return tr
+
+
+def ta_con_blocco(durata, fa=180, conduzione=2, seed=61):
+    """Tachicardia atriale con blocco AV 2:1 (quadro tipico della tossicità digitalica): P' ectopiche
+    regolari ≈ 180/min con linea isoelettrica tra loro (a differenza del flutter), una ogni due condotta."""
+    m = m_normale()
+    tr = Tracciato(durata, seed=seed)
+    T = 60.0 / fa
+    t, k, prev = 0.20, 0, None
+    while t < durata + 1:
+        tr.add_p(t, P_ECTOPICA_ALTA, 0.08, scale=1.3, tipo="P ectopica")
+        if k % conduzione == 0:
+            tq = t + 0.20
+            tr.add_qrs(tq, m, (tq - prev) if prev else T * conduzione)
+            prev = tq
+        t += T
+        k += 1
+    return tr
+
+
+def bav_avanzato(durata, hr_atriale=90, rapporto=3, seed=63):
+    """BAV di 2° grado avanzato (es. 3:1): due o più P consecutive non condotte, PR costante nei battiti
+    condotti, QRS spesso largo."""
+    m = m_bbd()
+    tr = Tracciato(durata, seed=seed)
+    rr = 60.0 / hr_atriale
+    t, k, prev = 0.30, 0, None
+    while t < durata + 1:
+        tr.add_p(t, tipo="P" if k % rapporto == 0 else "P non condotta")
+        if k % rapporto == 0:
+            tq = t + 0.18
+            tr.add_qrs(tq, m, (tq - prev) if prev else rr * rapporto)
+            prev = tq
+        t += rr
+        k += 1
+    return tr
+
+
+def sottoslivellamento_diffuso(durata, hr=95, seed=65):
+    """Sottoslivellamento ST diffuso (I, II, aVF, V4–V6) con sopraslivellamento in aVR: ischemia
+    subendocardica estesa (es. stenosi del tronco comune o multivasale) nel contesto clinico adatto."""
+    m = m_normale(qtc=0.42)
+    m.st_vec = fvec(-125, 0.17, -0.10)
+    return ritmo_condotto(durata, hr, 0.16, m, seed=seed)
+
+
+def bassi_voltaggi(durata, hr=88, seed=67):
+    """Bassi voltaggi: QRS < 0,5 mV in tutte le periferiche e < 1 mV nelle precordiali (versamento
+    pericardico, BPCO, obesità, mixedema, cardiopatie infiltrative)."""
+    m = m_normale()
+    m.qrs = [Comp(c.c, c.s, c.v * 0.33) for c in m.qrs]
+    m.t_vec = m.t_vec * 0.4
+    return ritmo_condotto(durata, hr, 0.16, m, p_scale=0.6, seed=seed)
+
+
+def ingrandimento_atriale(durata, lato="sinistro", hr=78, seed=69):
+    if lato == "sinistro":
+        return ritmo_condotto(durata, hr, 0.18, p_comps=P_MITRALICA, p_dur=0.13, seed=seed)
+    return ritmo_condotto(durata, hr, 0.16, p_comps=P_POLMONARE, p_dur=0.10, seed=seed)

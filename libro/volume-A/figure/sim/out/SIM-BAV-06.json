@@ -1,0 +1,205 @@
+{
+ "id": "SIM-BAV-06",
+ "titolo": "Blocco AV di 2° grado avanzato (3:1)",
+ "tipo": "simulato",
+ "gruppo": "blocchi",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "bav_avanzato",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-BAV-06.svg",
+  "png": "sim/out/SIM-BAV-06.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  115.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Due P consecutive non condotte per ogni P condotta, PR costante nei battiti condotti, QRS largo (BBD).",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 30.0,
+   "ok": true
+  },
+  {
+   "criterio": "rapporto_p_qrs",
+   "misura": 3.0,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "rapporto P:QRS 3:1",
+  "PR costante",
+  "QRS largo"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 30.0,
+  "fc_media": 30.0,
+  "rr_cv": 0.0,
+  "rmssd_ms": 0.0,
+  "n_qrs": 5,
+  "qrs_ms": 156,
+  "pr_ms": 178,
+  "qt_ms": 515,
+  "qtc_bazett_ms": 364,
+  "qtc_fridericia_ms": 409,
+  "asse_gradi": 137,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.138,
+  "t_ampiezza_mv": -0.475,
+  "u_ampiezza_mv": 0.111,
+  "ampiezza_max_mv": 1.04,
+  "rapporto_p_qrs": 3.0,
+  "st_j60_mv": {
+   "I": 0.001,
+   "II": 0.002,
+   "III": 0.001,
+   "aVR": -0.002,
+   "aVL": 0.0,
+   "aVF": 0.002,
+   "V1": -0.0,
+   "V2": 0.0,
+   "V3": 0.001,
+   "V4": 0.002,
+   "V5": 0.002,
+   "V6": 0.002
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 0.48,
+   "qrs": 0.135,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 0.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 1.633,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P",
+   "t": 2.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 2.48,
+   "qrs": 0.135,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 2.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 3.633,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P",
+   "t": 4.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 4.48,
+   "qrs": 0.135,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 4.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 5.633,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P",
+   "t": 6.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 6.48,
+   "qrs": 0.135,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 6.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 7.633,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P",
+   "t": 8.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 8.48,
+   "qrs": 0.135,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 8.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 9.633,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P",
+   "t": 10.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS BBD",
+   "t": 10.48,
+   "qrs": 0.135,
+   "qt": 0.542
+  },
+  {
+   "tipo": "P non condotta",
+   "t": 10.967,
+   "durata": 0.1
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

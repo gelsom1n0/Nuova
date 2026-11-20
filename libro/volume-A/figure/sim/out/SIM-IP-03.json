@@ -1,0 +1,255 @@
+{
+ "id": "SIM-IP-03",
+ "titolo": "Ingrandimento atriale sinistro (P mitralica)",
+ "tipo": "simulato",
+ "gruppo": "morfologia_ipertrofia",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ingrandimento_atriale",
+  "parametri": {
+   "durata": 10.4,
+   "lato": "sinistro"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-IP-03.svg",
+  "png": "sim/out/SIM-IP-03.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  115.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "P larga (≥ 0,12 s) e bifida in II; componente terminale negativa ampia in V1.",
+ "criteri_automatici": [
+  {
+   "criterio": "p_presente",
+   "misura": true,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "P ≥ 3 quadretti, bifida in II",
+  "terminale negativa in V1 ≥ 1 quadretto"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 77.9,
+  "fc_media": 77.9,
+  "rr_cv": 0.004,
+  "rmssd_ms": 4.7,
+  "n_qrs": 13,
+  "qrs_ms": 99,
+  "pr_ms": 115,
+  "qt_ms": 367,
+  "qtc_bazett_ms": 418,
+  "qtc_fridericia_ms": 400,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.261,
+  "t_ampiezza_mv": 0.447,
+  "u_ampiezza_mv": 0.006,
+  "ampiezza_max_mv": 1.008,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.017,
+   "II": 0.024,
+   "III": 0.007,
+   "aVR": -0.02,
+   "aVL": 0.005,
+   "aVF": 0.015,
+   "V1": 0.0,
+   "V2": 0.012,
+   "V3": 0.025,
+   "V4": 0.033,
+   "V5": 0.03,
+   "V6": 0.02
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.48,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.071,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.251,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.842,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.022,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.619,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.799,
+   "qrs": 0.09,
+   "qt": 0.377
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.385,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.565,
+   "qrs": 0.09,
+   "qt": 0.375
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.15,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.33,
+   "qrs": 0.09,
+   "qt": 0.375
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.922,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.102,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.694,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.874,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.462,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.642,
+   "qrs": 0.09,
+   "qt": 0.375
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.231,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.411,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.999,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.179,
+   "qrs": 0.09,
+   "qt": 0.375
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.77,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.95,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.538,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.718,
+   "qrs": 0.09,
+   "qt": 0.375
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.309,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.489,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.081,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.261,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.849,
+   "durata": 0.13
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 12.029,
+   "qrs": 0.09,
+   "qt": 0.376
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

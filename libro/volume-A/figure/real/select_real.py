@@ -102,6 +102,13 @@ QC = {
     # con l'onda delta la stima automatica dell'inizio del QRS/P non è affidabile: solo QRS e verifica visiva
     "WPW": lambda m: _all(m, qrs_ms=(95, 200)),
     "SVTAC": lambda m: _all(m, fc=(140, 260), qrs_ms=(60, 125)),
+    "LAFB": lambda m: _all(m, asse_gradi=(-95, -30), qrs_ms=(60, 125)),
+    "LPFB": lambda m: _all(m, asse_gradi=(90, 180), qrs_ms=(60, 125)),
+    "BIFASC": lambda m: _all(m, asse_gradi=(-95, -30), qrs_ms=(120, 200)),
+    "RVH": lambda m: ((m.get("asse_gradi") or 0) >= 90 or (m.get("amp:V1.max") or 0) >= 0.5,
+                      f"asse {m.get('asse_gradi')}°, R in V1 {m.get('amp:V1.max')} mV"),
+    "LAO/LAE": lambda m: _all(m, p_presente=True),
+    "RAO/RAE": lambda m: _all(m, p_presente=True, p_ampiezza_mv=(0.2, 1.0)),
     # MIT-BIH / CUDB
     # salva di TV: la conferma viene dalle annotazioni battito per battito (≥ 6 V consecutivi, ≥ 50 % V);
     # le misure globali sul battito mediano non sono significative in un ritmo misto
@@ -114,6 +121,7 @@ QC = {
     "MIT_PACED": lambda m: _all(m, qrs_ms=(110, 260)),
     "MIT_SVTA": lambda m: _all(m, fc=(100, 260)),
     "VF": lambda m: (True, "nessun criterio numerico: verifica visiva"),
+    "MIT_VFL": lambda m: (True, "flutter ventricolare confermato dalle annotazioni del ritmo; verifica visiva"),
     # Chapman-Shaoxing/Ningbo
     "CH_SVT": lambda m: _all(m, fc=(140, 260), qrs_ms=(60, 125), rr_cv=(0, 0.05)),
     "CH_AT": lambda m: _all(m, fc=(100, 250), qrs_ms=(60, 125)),
@@ -125,6 +133,8 @@ QC = {
     "CH_JEB": lambda m: _all(m, fc=(30, 65), qrs_ms=(60, 125)),
     "CH_ERV": lambda m: _all(m, qrs_ms=(60, 120)),
     "CH_VB": lambda m: _all(m, rr_cv=(0.08, 0.6)),
+    "CH_ABI": lambda m: _all(m, rr_cv=(0.08, 0.6)),
+    "CH_SAAWR": lambda m: (True, "pacemaker migrante: verifica visiva delle morfologie della P"),
 }
 
 
@@ -163,6 +173,13 @@ PTB_CAT = [
     ("PAC", "PAC", "Extrasistoli sopraventricolari (atriali)", "extrasistoli", {"SR", "NORM"}, "striscia"),
     ("PACE", "PACE", "Ritmo da pacemaker", "pacemaker", set(), "12"),
     ("WPW", "WPW", "Pre-eccitazione (Wolff-Parkinson-White)", "morfologia_conduzione", {"SR"}, "12"),
+    ("LAFB", "LAFB", "Blocco fascicolare anteriore sinistro (emiblocco anteriore)", "morfologia_conduzione", {"SR"}, "12"),
+    ("LPFB", "LPFB", "Blocco fascicolare posteriore sinistro (emiblocco posteriore)", "morfologia_conduzione", {"SR"}, "12"),
+    ("BIFASC", "LAFB", "Blocco bifascicolare (BBD + blocco fascicolare anteriore sinistro)", "morfologia_conduzione",
+     {"SR", "CRBBB"}, "12"),
+    ("RVH", "RVH", "Ipertrofia ventricolare destra", "morfologia_ipertrofia", {"SR", "RAO/RAE"}, "12"),
+    ("LAO/LAE", "LAO/LAE", "Ingrandimento atriale sinistro", "morfologia_ipertrofia", {"SR", "NORM"}, "striscia"),
+    ("RAO/RAE", "RAO/RAE", "Ingrandimento atriale destro", "morfologia_ipertrofia", {"SR", "NORM"}, "striscia"),
     ("SVTAC", "SVTAC", "Tachicardia sopraventricolare", "ritmo", set(), "striscia"),
 ]
 MIT_CAT = [
@@ -173,6 +190,7 @@ MIT_CAT = [
     ("MIT_AFL", "(AFL", "Flutter atriale (2 derivazioni)", "ritmo", "", ["202", "203", "222"]),
     ("MIT_BII", "(BII", "Blocco AV di 2° grado con conduzione 2:1", "blocchi", "", ["231"]),
     ("MIT_PACED", "(P", "Ritmo da pacemaker (2 derivazioni)", "pacemaker", "paced", ["102", "104", "107", "217"]),
+    ("MIT_VFL", "(VFL", "Flutter ventricolare", "ritmo", "", ["207"]),
     ("MIT_SVTA", "(SVTA", "Tachicardia sopraventricolare", "ritmo", "", ["209", "220", "222", "201", "114"]),
 ]
 
@@ -240,6 +258,8 @@ CH_CAT = [
     ("CH_WPW", "74390002", "Pre-eccitazione (Wolff-Parkinson-White)", "morfologia_conduzione", set(), "12"),
     ("CH_JEB", "426995002", "Ritmo/battiti di scappamento giunzionale", "ritmo", set(), "striscia"),
     ("CH_ERV", "428417006", "Ripolarizzazione precoce", "ischemia", set(), "12"),
+    ("CH_ABI", "251173003", "Bigeminismo atriale", "extrasistoli", {"284470004"}, "striscia"),
+    ("CH_SAAWR", "195101003", "Pacemaker atriale migrante", "ritmo", set(), "striscia"),
     ("CH_VB", "11157007", "Bigeminismo ventricolare (12 derivazioni)", "extrasistoli",
      {"17338001", "428750005", "164934002"}, "striscia"),
 ]
@@ -370,8 +390,8 @@ def run_ptb(cats, nmax, log):
             sig = prep(raw, fs)
             m = ecgmeasure.measure(sig, fs, filtered=True)
             add_amp(m)
-            ok, why = QC[code](m)
-            rid = f"REAL-PTBXL-{cid}-{kept + 1:02d}"
+            ok, why = QC.get(cid, QC[code])(m)
+            rid = f"REAL-PTBXL-{cid.replace('/', '-')}-{kept + 1:02d}"
             log.append((cid, f"PTB-XL ecg_id {ecg_id}", "accettato" if ok else "scartato", why, m))
             if not ok:
                 continue
@@ -447,7 +467,7 @@ def run_mit(cats, nmax, log):
             ann = wfdb.rdann(str(CACHE / "mitdb" / rec), "atr")
             hdr = wfdb.rdheader(str(CACHE / "mitdb" / rec))
             fs = hdr.fs
-            if cid == "VT":  # salve brevi: finestra che contiene l'intero episodio (inizio e fine visibili)
+            if cid in ("VT", "MIT_VFL"):  # episodi brevi: finestra che contiene l'intero episodio (inizio e fine visibili)
                 wins = [(max(0, a0 - int(dur * fs * 0.5)), b0 + int(dur * fs * 0.5))
                         for a0, b0 in mit_windows(ann, rhythm, fs, -dur + 1.5)]
             else:

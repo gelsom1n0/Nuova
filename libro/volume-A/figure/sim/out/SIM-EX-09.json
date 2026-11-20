@@ -1,0 +1,227 @@
+{
+ "id": "SIM-EX-09",
+ "titolo": "Extrasistole ventricolare con fenomeno R su T",
+ "tipo": "simulato",
+ "gruppo": "extrasistoli",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "esv_complesse",
+  "parametri": {
+   "durata": 10.4,
+   "quadro": "R_su_T"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EX-09.svg",
+  "png": "sim/out/SIM-EX-09.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  65.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "ESV molto precoce che cade sull'apice della T del battito precedente (fase vulnerabile).",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "ESV sulla T",
+  "accoppiamento molto breve"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 75.0,
+  "fc_media": 68.7,
+  "rr_cv": 0.264,
+  "rmssd_ms": 357.8,
+  "n_qrs": 12,
+  "qrs_ms": 100,
+  "pr_ms": 154,
+  "qt_ms": 372,
+  "qtc_bazett_ms": 416,
+  "qtc_fridericia_ms": 401,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.13,
+  "t_ampiezza_mv": 0.447,
+  "u_ampiezza_mv": 0.003,
+  "ampiezza_max_mv": 1.426,
+  "rapporto_p_qrs": 1.08,
+  "st_j60_mv": {
+   "I": 0.016,
+   "II": 0.022,
+   "III": 0.006,
+   "aVR": -0.02,
+   "aVL": 0.005,
+   "aVF": 0.014,
+   "V1": 0.0,
+   "V2": 0.011,
+   "V3": 0.023,
+   "V4": 0.031,
+   "V5": 0.028,
+   "V6": 0.019
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.1,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.26,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.9,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.06,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.7,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.86,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "ESV (ESV_tratto_efflusso_VD)",
+   "t": 3.124,
+   "qrs": 0.15,
+   "qt": 0.282
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.5,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.46,
+   "qrs": 0.09,
+   "qt": 0.48
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.1,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.26,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.9,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.06,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.7,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.86,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.5,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.66,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.46,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.1,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.26,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.9,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.06,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.7,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.86,
+   "qrs": 0.09,
+   "qt": 0.381
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

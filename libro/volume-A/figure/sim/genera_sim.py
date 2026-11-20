@@ -26,7 +26,8 @@ from catalogo_sim import CATALOGO  # noqa: E402
 OUT = HERE / "out"
 SPR = 5.2  # secondi per riga: (0,4 + 5,2) s × 25 mm/s = 140 mm, entra a scala reale nella gabbia (143,5 mm)
 
-MORPH = {"bbd": ecgsim.m_bbd, "bbs": ecgsim.m_bbs}
+MORPH = {"bbd": ecgsim.m_bbd, "bbs": ecgsim.m_bbs, "eas": ecgsim.m_eas, "eps": ecgsim.m_eps,
+         "bifascicolare": ecgsim.m_bifascicolare, "ivd": ecgsim.m_ivd, "ivs": ecgsim.m_ivs_strain}
 MOD = {"resp": lambda t: 0.13 * math.sin(2 * math.pi * t / 4.6)}
 
 

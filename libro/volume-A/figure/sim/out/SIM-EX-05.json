@@ -1,0 +1,232 @@
+{
+ "id": "SIM-EX-05",
+ "titolo": "Extrasistole atriale non condotta",
+ "tipo": "simulato",
+ "gruppo": "extrasistoli",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "esa_non_condotta",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EX-05.svg",
+  "png": "sim/out/SIM-EX-05.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  115.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "P prematura che deforma la T e non è seguita da QRS, poi una pausa: è il più frequente imitatore benigno di un BAV di 2° grado (cercare la P nascosta nella T prima della pausa).",
+ "criteri_automatici": [
+  {
+   "criterio": "rr_cv",
+   "misura": 0.203,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "P prematura nella T",
+  "nessun QRS dopo di essa",
+  "pausa non compensatoria"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 72.0,
+  "fc_media": 64.7,
+  "rr_cv": 0.203,
+  "rmssd_ms": 314.3,
+  "n_qrs": 11,
+  "qrs_ms": 100,
+  "pr_ms": 154,
+  "qt_ms": 377,
+  "qtc_bazett_ms": 413,
+  "qtc_fridericia_ms": 401,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.129,
+  "t_ampiezza_mv": 0.446,
+  "u_ampiezza_mv": 0.003,
+  "ampiezza_max_mv": 1.012,
+  "rapporto_p_qrs": 1.18,
+  "st_j60_mv": {
+   "I": 0.014,
+   "II": 0.02,
+   "III": 0.006,
+   "aVR": -0.017,
+   "aVL": 0.004,
+   "aVF": 0.013,
+   "V1": -0.0,
+   "V2": 0.01,
+   "V3": 0.02,
+   "V4": 0.027,
+   "V5": 0.025,
+   "V6": 0.016
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.133,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.293,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.127,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P ectopica non condotta",
+   "t": 2.397,
+   "durata": 0.09
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.272,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.432,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.105,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.265,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.938,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.098,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.772,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.932,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P ectopica non condotta",
+   "t": 6.202,
+   "durata": 0.09
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.077,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.237,
+   "qrs": 0.09,
+   "qt": 0.448
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.91,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.07,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.743,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.903,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.577,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.737,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.41,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.57,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.243,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.403,
+   "qrs": 0.09,
+   "qt": 0.386
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

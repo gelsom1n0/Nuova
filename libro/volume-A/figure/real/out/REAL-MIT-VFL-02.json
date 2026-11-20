@@ -1,0 +1,58 @@
+{
+ "id": "REAL-MIT-VFL-02",
+ "titolo": "Flutter ventricolare",
+ "tipo": "reale",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato reale",
+ "fonte": "MIT-BIH Arrhythmia Database 1.0.0 (Moody & Mark, PhysioNet)",
+ "licenza": "ODC-By 1.0",
+ "attribuzione_breve": "MIT-BIH Arrhythmia Database, record 207 (PhysioNet) – ODC-By 1.0; filtrato 0,5–40 Hz e ridisegnato",
+ "elaborazione": "filtro passa-alto 0,5 Hz e passa-basso 40 Hz (fase zero); nessun'altra modifica del segnale",
+ "file": {
+  "svg": "real/out/REAL-MIT-VFL-02.svg",
+  "png": "real/out/REAL-MIT-VFL-02.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  135.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Flutter ventricolare (etichetta della banca dati); vedi misure e criteri del gruppo «ritmo» in CHECKLIST_VALIDAZIONE.md",
+ "criteri_revisore": [
+  "l'etichetta della banca dati corrisponde a ciò che si vede",
+  "qualità sufficiente per la stampa (nessun artefatto fuorviante)",
+  "nessun altro reperto rilevante non dichiarato"
+ ],
+ "qc_automatico": {
+  "esito": "superato",
+  "motivo": "flutter ventricolare confermato dalle annotazioni del ritmo; verifica visiva"
+ },
+ "misure": {
+  "fc": 160.0,
+  "fc_media": 103.2,
+  "rr_cv": 0.619,
+  "rr_min": 0.233,
+  "rr_max": 1.425,
+  "qrs_ms": 58,
+  "pr_ms": null,
+  "qt_ms": 297,
+  "qtc_bazett_ms": 485,
+  "p_presente": false,
+  "t_ampiezza_mv": 1.577,
+  "st_j60_mv": {
+   "MLII": 1.236,
+   "V1": 0.163
+  }
+ },
+ "sorgente": {
+  "record": "207",
+  "inizio_s": 51.9,
+  "derivazioni": [
+   "MLII",
+   "V1"
+  ],
+  "ritmo_annotato": "(VFL",
+  "note": "MLII = derivazione II modificata (Holter)"
+ },
+ "stato_validazione": "da_validare"
+}

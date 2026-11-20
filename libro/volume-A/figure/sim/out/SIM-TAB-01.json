@@ -1,0 +1,350 @@
+{
+ "id": "SIM-TAB-01",
+ "titolo": "Tachicardia atriale con blocco AV 2:1",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ta_con_blocco",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-TAB-01.svg",
+  "png": "sim/out/SIM-TAB-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  115.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "P' ectopiche regolari ≈ 180/min con linea isoelettrica tra loro, una ogni due condotta (FC 90/min). Quadro classico della tossicità digitalica.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 90.0,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "due P' per QRS",
+  "linea isoelettrica tra le P' (non è un flutter)"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 90.0,
+  "fc_media": 90.0,
+  "rr_cv": 0.001,
+  "rmssd_ms": 0.8,
+  "n_qrs": 15,
+  "qrs_ms": 99,
+  "pr_ms": 193,
+  "qt_ms": 350,
+  "qtc_bazett_ms": 429,
+  "qtc_fridericia_ms": 401,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.179,
+  "t_ampiezza_mv": 0.448,
+  "u_ampiezza_mv": 0.032,
+  "ampiezza_max_mv": 0.986,
+  "rapporto_p_qrs": 2.07,
+  "st_j60_mv": {
+   "I": 0.123,
+   "II": 0.113,
+   "III": -0.01,
+   "aVR": -0.118,
+   "aVL": 0.067,
+   "aVF": 0.052,
+   "V1": -0.099,
+   "V2": -0.099,
+   "V3": -0.018,
+   "V4": 0.07,
+   "V5": 0.13,
+   "V6": 0.136
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P ectopica",
+   "t": 0.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.4,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 0.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 0.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.067,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 1.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 1.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.733,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 1.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 2.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.4,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 2.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 2.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.067,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 3.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 3.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.733,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 3.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 4.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.4,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 4.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 4.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.067,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 5.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 5.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.733,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 5.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 6.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.4,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 6.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 6.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.067,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 7.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 7.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.733,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 7.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 8.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.4,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 8.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 8.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.067,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 9.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 9.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.733,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 9.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 10.2,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.4,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 10.533,
+   "durata": 0.08
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 10.867,
+   "durata": 0.08
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.067,
+   "qrs": 0.09,
+   "qt": 0.358
+  },
+  {
+   "tipo": "P ectopica",
+   "t": 11.2,
+   "durata": 0.08
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

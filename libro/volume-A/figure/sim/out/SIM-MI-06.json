@@ -1,0 +1,299 @@
+{
+ "id": "SIM-MI-06",
+ "titolo": "Sottoslivellamento ST diffuso con sopraslivellamento in aVR",
+ "tipo": "simulato",
+ "gruppo": "ischemia",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "sottoslivellamento_diffuso",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-MI-06.svg",
+  "png": "sim/out/SIM-MI-06.png",
+  "svg_3x4": "sim/out/SIM-MI-06_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  165.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "ST sottoslivellato in I, II, aVF, V4–V6 con ST sopraslivellato in aVR (ischemia subendocardica estesa: tronco comune o malattia multivasale nel contesto clinico appropriato).",
+ "criteri_automatici": [
+  {
+   "criterio": "ST aVR ≥0.08",
+   "misura": 0.109,
+   "ok": true
+  },
+  {
+   "criterio": "ST V5 ≤ −0.1",
+   "misura": -0.179,
+   "ok": true
+  },
+  {
+   "criterio": "ST II ≤ −0.08",
+   "misura": -0.141,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "ST↓ diffuso",
+  "ST↑ aVR",
+  "nessun ST↑ localizzato"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 94.9,
+  "fc_media": 95.0,
+  "rr_cv": 0.004,
+  "rmssd_ms": 3.7,
+  "n_qrs": 16,
+  "qrs_ms": 95,
+  "pr_ms": 153,
+  "qt_ms": 219,
+  "qtc_bazett_ms": 275,
+  "qtc_fridericia_ms": 255,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.129,
+  "t_ampiezza_mv": -0.233,
+  "u_ampiezza_mv": 0.002,
+  "ampiezza_max_mv": 1.045,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.077,
+   "II": -0.141,
+   "III": -0.064,
+   "aVR": 0.109,
+   "aVL": -0.007,
+   "aVF": -0.102,
+   "V1": -0.051,
+   "V2": -0.145,
+   "V3": -0.208,
+   "V4": -0.233,
+   "V5": -0.179,
+   "V6": -0.093
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 0.929,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.089,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.561,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.721,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.196,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.356,
+   "qrs": 0.09,
+   "qt": 0.361
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.823,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.983,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.453,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.613,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.083,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.243,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.715,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.875,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.347,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.507,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.975,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.135,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.607,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.767,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.241,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.401,
+   "qrs": 0.09,
+   "qt": 0.361
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.877,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.037,
+   "qrs": 0.09,
+   "qt": 0.361
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.508,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.668,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.143,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.303,
+   "qrs": 0.09,
+   "qt": 0.361
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.774,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.934,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.402,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.562,
+   "qrs": 0.09,
+   "qt": 0.36
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.035,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.195,
+   "qrs": 0.09,
+   "qt": 0.361
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.663,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.823,
+   "qrs": 0.09,
+   "qt": 0.36
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

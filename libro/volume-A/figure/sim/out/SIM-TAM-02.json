@@ -1,0 +1,222 @@
+{
+ "id": "SIM-TAM-02",
+ "titolo": "Pacemaker atriale migrante",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "atriale_multifocale",
+  "parametri": {
+   "durata": 10.4,
+   "migrante": true
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-TAM-02.svg",
+  "png": "sim/out/SIM-TAM-02.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  55.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Come la tachicardia atriale multifocale ma con frequenza < 100/min.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 70.5,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "morfologie di P variabili",
+  "frequenza normale"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 70.5,
+  "fc_media": 68.6,
+  "rr_cv": 0.093,
+  "rmssd_ms": 139.4,
+  "n_qrs": 12,
+  "qrs_ms": 100,
+  "pr_ms": null,
+  "qt_ms": 379,
+  "qtc_bazett_ms": 411,
+  "qtc_fridericia_ms": 400,
+  "asse_gradi": 41,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.058,
+  "t_ampiezza_mv": 0.443,
+  "u_ampiezza_mv": 0.008,
+  "ampiezza_max_mv": 1.013,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.014,
+   "II": 0.02,
+   "III": 0.005,
+   "aVR": -0.017,
+   "aVL": 0.005,
+   "aVF": 0.012,
+   "V1": -0.001,
+   "V2": 0.01,
+   "V3": 0.02,
+   "V4": 0.028,
+   "V5": 0.025,
+   "V6": 0.015
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P morfologia 1",
+   "t": 0.25,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.407,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 1.186,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.333,
+   "qrs": 0.09,
+   "qt": 0.4
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 1.987,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.142,
+   "qrs": 0.09,
+   "qt": 0.382
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 2.888,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.032,
+   "qrs": 0.09,
+   "qt": 0.394
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 3.673,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.831,
+   "qrs": 0.09,
+   "qt": 0.381
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 4.641,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.838,
+   "qrs": 0.09,
+   "qt": 0.411
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 5.489,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.615,
+   "qrs": 0.09,
+   "qt": 0.377
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 6.248,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.412,
+   "qrs": 0.09,
+   "qt": 0.38
+  },
+  {
+   "tipo": "P morfologia 4",
+   "t": 7.079,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.263,
+   "qrs": 0.09,
+   "qt": 0.388
+  },
+  {
+   "tipo": "P morfologia 2",
+   "t": 8.05,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.217,
+   "qrs": 0.09,
+   "qt": 0.404
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 8.892,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.031,
+   "qrs": 0.09,
+   "qt": 0.383
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 9.845,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.034,
+   "qrs": 0.09,
+   "qt": 0.41
+  },
+  {
+   "tipo": "P morfologia 4",
+   "t": 10.754,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.935,
+   "qrs": 0.09,
+   "qt": 0.396
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

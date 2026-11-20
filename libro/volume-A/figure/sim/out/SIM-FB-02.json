@@ -1,0 +1,241 @@
+{
+ "id": "SIM-FB-02",
+ "titolo": "Blocco fascicolare posteriore sinistro",
+ "tipo": "simulato",
+ "gruppo": "morfologia_conduzione",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ritmo_condotto",
+  "parametri": {
+   "durata": 10.4,
+   "hr": 72,
+   "pr": 0.16,
+   "m": "eps"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-FB-02.svg",
+  "png": "sim/out/SIM-FB-02.png",
+  "svg_3x4": "sim/out/SIM-FB-02_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  185.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Asse ≈ +110/+120°, rS in I e aVL, qR in II, III, aVF; QRS < 0,12 s (diagnosi solo escludendo IVD e altre cause).",
+ "criteri_automatici": [
+  {
+   "criterio": "asse_gradi",
+   "misura": 108,
+   "ok": true
+  },
+  {
+   "criterio": "qrs_ms",
+   "misura": 109,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "deviazione assiale destra",
+  "qR inferiori"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 71.9,
+  "fc_media": 72.0,
+  "rr_cv": 0.003,
+  "rmssd_ms": 2.8,
+  "n_qrs": 12,
+  "qrs_ms": 109,
+  "pr_ms": 154,
+  "qt_ms": 376,
+  "qtc_bazett_ms": 412,
+  "qtc_fridericia_ms": 399,
+  "asse_gradi": 108,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.129,
+  "t_ampiezza_mv": 0.317,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 0.613,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.009,
+   "II": 0.026,
+   "III": 0.017,
+   "aVR": -0.017,
+   "aVL": -0.004,
+   "aVF": 0.022,
+   "V1": 0.006,
+   "V2": 0.017,
+   "V3": 0.025,
+   "V4": 0.029,
+   "V5": 0.022,
+   "V6": 0.012
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.134,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.294,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.967,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.127,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.802,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.962,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.636,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.796,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.627,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.302,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.462,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.14,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.3,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.976,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.136,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.807,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.967,
+   "qrs": 0.1,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.636,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.796,
+   "qrs": 0.1,
+   "qt": 0.385
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.627,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.301,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.461,
+   "qrs": 0.1,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.126,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.286,
+   "qrs": 0.1,
+   "qt": 0.385
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

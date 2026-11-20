@@ -50,5 +50,26 @@ Generato da `genera_sim.py`. Le misure sono calcolate da `common/ecgmeasure.py` 
 | SIM-DEW-01 | Pattern di de Winter | media | 85.0 | 0.004 | 153 | 97 | 437 | sì | superato | — |
 | SIM-IPO-01 | Ipotermia: onda J di Osborn | media | 44.0 | 0.003 | 213 | 138 | 451 | sì | superato | — |
 | SIM-DIG-01 | Effetto digitalico | media | 64.0 | 0.004 | 194 | 99 | 367 | sì | superato | — |
+| SIM-PAU-01 | Pausa sinusale con battito di scappamento giunzionale | alta | 70.0 | 0.512 | 154 | 100 | 412 | sì | superato | — |
+| SIM-PAU-02 | Pausa sinusale con battito di scappamento ventricolare | alta | 70.0 | 0.838 | 154 | 100 | 410 | sì | superato | — |
+| SIM-EX-05 | Extrasistole atriale non condotta | alta | 72.0 | 0.203 | 154 | 100 | 413 | sì | superato | — |
+| SIM-EX-06 | Bigeminismo atriale | alta | 86.6 | 0.235 | 170 | 99 | 447 | sì | superato | — |
+| SIM-EX-07 | Extrasistoli ventricolari multifocali | media | 75.0 | 0.333 | 154 | 99 | 416 | sì | superato | — |
+| SIM-EX-08 | Coppia di extrasistoli ventricolari | media | 75.0 | 0.264 | 154 | 100 | 416 | sì | superato | — |
+| SIM-EX-09 | Extrasistole ventricolare con fenomeno R su T | media | 75.0 | 0.264 | 154 | 100 | 416 | sì | superato | — |
+| SIM-FB-01 | Blocco fascicolare anteriore sinistro | media | 72.0 | 0.003 | 152 | 110 | 413 | sì | superato | — |
+| SIM-FB-02 | Blocco fascicolare posteriore sinistro | media | 71.9 | 0.003 | 154 | 109 | 412 | sì | superato | — |
+| SIM-FB-03 | Blocco bifascicolare (BBD + blocco fascicolare anteriore sinistro) | media | 71.9 | 0.003 | 152 | 156 | 434 | sì | superato | — |
+| SIM-IP-01 | Ipertrofia ventricolare destra | media | 80.0 | 0.004 | 154 | 108 | 431 | sì | superato | — |
+| SIM-IP-02 | Ipertrofia ventricolare sinistra con sovraccarico | media | 70.0 | 0.003 | 157 | 109 | 425 | sì | superato | — |
+| SIM-IP-03 | Ingrandimento atriale sinistro (P mitralica) | media | 77.9 | 0.004 | 115 | 99 | 418 | sì | superato | — |
+| SIM-IP-04 | Ingrandimento atriale destro (P polmonare) | media | 77.9 | 0.004 | 151 | 100 | 418 | sì | superato | — |
+| SIM-TAM-01 | Tachicardia atriale multifocale | media | 110.2 | 0.101 | None | 99 | 443 | no | superato | — |
+| SIM-TAM-02 | Pacemaker atriale migrante | media | 70.5 | 0.093 | None | 100 | 411 | no | superato | — |
+| SIM-FLV-01 | Flutter ventricolare | schematica | None | None | None | None | None | no | superato | — |
+| SIM-TAB-01 | Tachicardia atriale con blocco AV 2:1 | media | 90.0 | 0.001 | 193 | 99 | 429 | sì | superato | — |
+| SIM-BAV-06 | Blocco AV di 2° grado avanzato (3:1) | alta | 30.0 | 0.0 | 178 | 156 | 364 | sì | superato | — |
+| SIM-MI-06 | Sottoslivellamento ST diffuso con sopraslivellamento in aVR | media | 94.9 | 0.004 | 153 | 95 | 275 | sì | superato | — |
+| SIM-LV-01 | Bassi voltaggi | alta | 88.0 | 0.003 | 153 | 99 | 427 | sì | superato | — |
 
 Note: per FV, torsione di punta e alcune extrasistoli le misure globali (FC, QRS mediano) non sono significative e non sono usate come criterio; la verifica è affidata al revisore.

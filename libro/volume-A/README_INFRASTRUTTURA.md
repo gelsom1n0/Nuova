@@ -134,8 +134,12 @@ python3 libro/volume-A/figure/sim/genera_sim.py [ID ...]
   periferiche, quindi III = II − I sempre esatta; vettori orizzontali con guadagno per V1–V6).
   Motore del ritmo con eventi atriali e ventricolari e conduzione AV esplicita. Parametri espliciti:
   frequenza, PR, durata QRS, QTc (Fridericia), asse, ampiezze, vettori.
-- `catalogo_sim.py`: 46 tracciati (39 iniziali + 7 aggiunti il 20/11/2026: WPW, pericardite, infarto
-  posteriore, Wellens tipo B, de Winter, ipotermia con onda J, effetto digitalico) con descrizione attesa, criteri automatici, criteri per il revisore,
+- `catalogo_sim.py`: 67 tracciati (39 iniziali; +7 il 20/11/2026: WPW, pericardite, infarto posteriore,
+  Wellens tipo B, de Winter, ipotermia con onda J, effetto digitalico; +21 dal confronto con un testo
+  classico, vedi `NOTE_CONSULTAZIONE.md`: pause sinusali con scappamento, ESA non condotta, bigeminismo
+  atriale, ESV multifocali/coppia/R su T, blocchi fascicolari e bifascicolare, IVD, IVS con sovraccarico,
+  P mitralica e polmonare, tachicardia atriale multifocale, pacemaker migrante, flutter ventricolare,
+  tachicardia atriale con blocco 2:1, BAV 3:1, ST diffuso con aVR↑, bassi voltaggi) con descrizione attesa, criteri automatici, criteri per il revisore,
   affidabilità del modello.
 - Uscite: `out/<ID>.svg|png|json` e `QC_sim.md` (misure automatiche sul segnale: **39/39 superano** i
   criteri). Ogni JSON contiene parametri, misure ed eventi (tempi di P, QRS, spike).
@@ -167,6 +171,9 @@ python3 libro/volume-A/figure/real/select_real.py [--max 4] [--categorie AFIB,CL
   - *Brugada-HUCA* 1.0.0 (**CC BY-SA 4.0**, 100 Hz): pattern di Brugada basale. Le figure derivate vanno
     rilasciate anch'esse CC BY-SA 4.0 (indicato in didascalia).
   - *Challenge 2021* (Georgia, CPSC; CC BY 4.0): indicizzata, ma non contiene Mobitz II né Brugada.
+  - PTB-XL (stessa fonte di prima), categorie aggiunte: blocchi fascicolari anteriore/posteriore,
+    bifascicolare, IVD, ingrandimento atriale destro/sinistro; MIT-BIH: flutter ventricolare (record 207);
+    Chapman: bigeminismo atriale.
 - Licenze e attribuzioni: `figure/FONTI_E_LICENZE.md`.
 
 Indice delle intestazioni Chapman (eseguire una volta, la cache non è versionata):

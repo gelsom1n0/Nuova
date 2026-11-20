@@ -1,0 +1,278 @@
+{
+ "id": "SIM-EX-06",
+ "titolo": "Bigeminismo atriale",
+ "tipo": "simulato",
+ "gruppo": "extrasistoli",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "esa_non_condotta",
+  "parametri": {
+   "durata": 10.4,
+   "bigeminismo": true
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EX-06.svg",
+  "png": "sim/out/SIM-EX-06.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  115.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Alternanza battito sinusale – extrasistole atriale condotta (P prematura di forma diversa, QRS stretto).",
+ "criteri_automatici": [
+  {
+   "criterio": "rr_cv",
+   "misura": 0.235,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "P prematura diversa",
+  "QRS stretto",
+  "accoppiamento fisso"
+ ],
+ "affidabilita_modello": "alta",
+ "nota": "",
+ "misure": {
+  "fc": 86.6,
+  "fc_media": 86.6,
+  "rr_cv": 0.235,
+  "rmssd_ms": 325.0,
+  "n_qrs": 15,
+  "qrs_ms": 99,
+  "pr_ms": 170,
+  "qt_ms": 372,
+  "qtc_bazett_ms": 447,
+  "qtc_fridericia_ms": 420,
+  "asse_gradi": 42,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.128,
+  "t_ampiezza_mv": 0.42,
+  "u_ampiezza_mv": 0.995,
+  "ampiezza_max_mv": 0.999,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.002,
+   "II": 0.005,
+   "III": 0.003,
+   "aVR": -0.003,
+   "aVL": -0.0,
+   "aVF": 0.004,
+   "V1": 0.004,
+   "V2": 0.008,
+   "V3": 0.01,
+   "V4": 0.01,
+   "V5": 0.007,
+   "V6": 0.003
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.386
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 0.81,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 0.99,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.685,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.845,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 2.195,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 2.375,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.07,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.23,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 3.58,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 3.76,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.455,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.615,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 4.965,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 5.145,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.84,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.0,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 6.35,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 6.53,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.225,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.385,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 7.735,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 7.915,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.61,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.77,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 9.12,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 9.3,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.995,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.155,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 10.505,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 10.685,
+   "qrs": 0.09,
+   "qt": 0.332
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.38,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.54,
+   "qrs": 0.09,
+   "qt": 0.389
+  },
+  {
+   "tipo": "P ectopica (ESA)",
+   "t": 11.89,
+   "durata": 0.09
+  },
+  {
+   "tipo": "QRS ESA",
+   "t": 12.07,
+   "qrs": 0.09,
+   "qt": 0.332
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

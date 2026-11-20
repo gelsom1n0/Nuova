@@ -1,0 +1,73 @@
+{
+ "id": "REAL-PTBXL-LPFB-03",
+ "titolo": "Blocco fascicolare posteriore sinistro (emiblocco posteriore)",
+ "tipo": "reale",
+ "gruppo": "morfologia_conduzione",
+ "etichetta_figura": "Tracciato reale",
+ "fonte": "PTB-XL 1.0.3 (Wagner et al., PhysioNet 2022)",
+ "licenza": "CC BY 4.0",
+ "attribuzione_breve": "PTB-XL ecg_id 7419 (PhysioNet) – CC BY 4.0; filtrato 0,5–40 Hz e ridisegnato",
+ "elaborazione": "filtro passa-alto 0,5 Hz e passa-basso 40 Hz (fase zero); nessun'altra modifica del segnale",
+ "file": {
+  "svg": "real/out/REAL-PTBXL-LPFB-03.svg",
+  "png": "real/out/REAL-PTBXL-LPFB-03.png",
+  "svg_3x4": "real/out/REAL-PTBXL-LPFB-03_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  175.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Blocco fascicolare posteriore sinistro (emiblocco posteriore) (etichetta della banca dati); vedi misure e criteri del gruppo «morfologia_conduzione» in CHECKLIST_VALIDAZIONE.md",
+ "criteri_revisore": [
+  "l'etichetta della banca dati corrisponde a ciò che si vede",
+  "qualità sufficiente per la stampa (nessun artefatto fuorviante)",
+  "nessun altro reperto rilevante non dichiarato"
+ ],
+ "qc_automatico": {
+  "esito": "superato",
+  "motivo": "coerente"
+ },
+ "misure": {
+  "fc": 82.0,
+  "fc_media": 79.5,
+  "rr_cv": 0.07,
+  "rr_min": 0.692,
+  "rr_max": 0.862,
+  "qrs_ms": 86,
+  "pr_ms": 184,
+  "qt_ms": 346,
+  "qtc_bazett_ms": 404,
+  "asse_gradi": 100,
+  "p_presente": true,
+  "t_ampiezza_mv": 0.585,
+  "st_j60_mv": {
+   "I": 0.02,
+   "II": 0.006,
+   "III": -0.006,
+   "aVR": -0.016,
+   "aVL": 0.014,
+   "aVF": -0.0,
+   "V1": 0.046,
+   "V2": 0.174,
+   "V3": 0.099,
+   "V4": 0.029,
+   "V5": 0.012,
+   "V6": 0.001
+  }
+ },
+ "sorgente": {
+  "ecg_id": 7419,
+  "scp_codes": {
+   "LPFB": 100.0,
+   "SR": 0.0
+  },
+  "referto_originale": "sinusrhythmus rechtstyp linksposteriorer hemiblock",
+  "eta": 18.0,
+  "sesso": "F",
+  "derivazioni": "12 derivazioni (6×2 a scala reale; 3×4 ridotto)",
+  "strat_fold": 9,
+  "infarction_stadium1": null
+ },
+ "stato_validazione": "da_validare"
+}

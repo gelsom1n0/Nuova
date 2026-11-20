@@ -1,0 +1,316 @@
+{
+ "id": "SIM-TAM-01",
+ "titolo": "Tachicardia atriale multifocale",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "atriale_multifocale",
+  "parametri": {
+   "durata": 10.4,
+   "fc": 115
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, V1 – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-TAM-01.svg",
+  "png": "sim/out/SIM-TAM-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  115.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Frequenza > 100/min, ≥ 3 morfologie diverse di P, PR variabili, RR irregolari (si confonde con la FA, ma qui le P ci sono).",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 110.2,
+   "ok": true
+  },
+  {
+   "criterio": "rr_cv",
+   "misura": 0.101,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "≥ 3 forme di P",
+  "linea isoelettrica tra le P",
+  "irregolarità"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 110.2,
+  "fc_media": 110.4,
+  "rr_cv": 0.101,
+  "rmssd_ms": 86.9,
+  "n_qrs": 19,
+  "qrs_ms": 99,
+  "pr_ms": null,
+  "qt_ms": 327,
+  "qtc_bazett_ms": 443,
+  "qtc_fridericia_ms": 400,
+  "asse_gradi": 42,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.059,
+  "t_ampiezza_mv": 0.445,
+  "u_ampiezza_mv": 0.033,
+  "ampiezza_max_mv": 0.988,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.038,
+   "II": 0.054,
+   "III": 0.013,
+   "aVR": -0.046,
+   "aVL": 0.012,
+   "aVF": 0.033,
+   "V1": 0.002,
+   "V2": 0.03,
+   "V3": 0.057,
+   "V4": 0.075,
+   "V5": 0.069,
+   "V6": 0.044
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P morfologia 1",
+   "t": 0.25,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.407,
+   "qrs": 0.09,
+   "qt": 0.33
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 0.836,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.983,
+   "qrs": 0.09,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 1.338,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.492,
+   "qrs": 0.09,
+   "qt": 0.327
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 1.902,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.045,
+   "qrs": 0.09,
+   "qt": 0.337
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 2.393,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.552,
+   "qrs": 0.09,
+   "qt": 0.327
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 2.999,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.196,
+   "qrs": 0.09,
+   "qt": 0.354
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 3.53,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.656,
+   "qrs": 0.09,
+   "qt": 0.316
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 4.005,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.169,
+   "qrs": 0.09,
+   "qt": 0.328
+  },
+  {
+   "tipo": "P morfologia 4",
+   "t": 4.526,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.709,
+   "qrs": 0.09,
+   "qt": 0.334
+  },
+  {
+   "tipo": "P morfologia 2",
+   "t": 5.134,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.301,
+   "qrs": 0.09,
+   "qt": 0.344
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 5.66,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.799,
+   "qrs": 0.09,
+   "qt": 0.325
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 6.257,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.446,
+   "qrs": 0.09,
+   "qt": 0.355
+  },
+  {
+   "tipo": "P morfologia 4",
+   "t": 6.826,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.008,
+   "qrs": 0.09,
+   "qt": 0.338
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 7.438,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.597,
+   "qrs": 0.09,
+   "qt": 0.344
+  },
+  {
+   "tipo": "P morfologia 4",
+   "t": 7.902,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.072,
+   "qrs": 0.09,
+   "qt": 0.32
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 8.369,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.564,
+   "qrs": 0.09,
+   "qt": 0.324
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 8.907,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.04,
+   "qrs": 0.09,
+   "qt": 0.32
+  },
+  {
+   "tipo": "P morfologia 2",
+   "t": 9.466,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.588,
+   "qrs": 0.09,
+   "qt": 0.336
+  },
+  {
+   "tipo": "P morfologia 3",
+   "t": 10.021,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.19,
+   "qrs": 0.09,
+   "qt": 0.346
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 10.477,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.621,
+   "qrs": 0.09,
+   "qt": 0.31
+  },
+  {
+   "tipo": "P morfologia 1",
+   "t": 11.026,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.207,
+   "qrs": 0.09,
+   "qt": 0.343
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

@@ -1,0 +1,50 @@
+{
+ "id": "SIM-FLV-01",
+ "titolo": "Flutter ventricolare",
+ "tipo": "simulato",
+ "gruppo": "ritmo",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "flutter_ventricolare",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-FLV-01.svg",
+  "png": "sim/out/SIM-FLV-01.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  65.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Onde sinusoidali ampie e regolari ≈ 280/min senza distinzione tra QRS, ST e T; evolve rapidamente in FV.",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "onda sinusoidale regolare",
+  "nessun QRS distinguibile"
+ ],
+ "affidabilita_modello": "schematica",
+ "nota": "Modello fenomenologico: confrontare con il reale MIT-BIH 207.",
+ "misure": {
+  "fc": null,
+  "rr_cv": null,
+  "n_qrs": 1,
+  "ampiezza_max_mv": 1.189,
+  "rapporto_p_qrs": 0.0
+ },
+ "eventi": [
+  {
+   "tipo": "flutter ventricolare",
+   "frequenza": 280
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

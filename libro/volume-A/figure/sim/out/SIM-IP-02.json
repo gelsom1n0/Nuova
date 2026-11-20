@@ -1,0 +1,241 @@
+{
+ "id": "SIM-IP-02",
+ "titolo": "Ipertrofia ventricolare sinistra con sovraccarico",
+ "tipo": "simulato",
+ "gruppo": "morfologia_ipertrofia",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "ritmo_condotto",
+  "parametri": {
+   "durata": 10.4,
+   "hr": 70,
+   "pr": 0.16,
+   "m": "ivs"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-IP-02.svg",
+  "png": "sim/out/SIM-IP-02.png",
+  "svg_3x4": "sim/out/SIM-IP-02_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  285.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "SV1 + RV5 > 3,5 mV, ST sottoslivellato e T asimmetriche negative in I, aVL, V5–V6.",
+ "criteri_automatici": [
+  {
+   "criterio": "amp:V5.max",
+   "misura": 2.52,
+   "ok": true
+  },
+  {
+   "criterio": "amp:V1.min",
+   "misura": -2.29,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "criterio di voltaggio",
+  "T asimmetriche invertite laterali"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 70.0,
+  "fc_media": 70.0,
+  "rr_cv": 0.003,
+  "rmssd_ms": 3.3,
+  "n_qrs": 12,
+  "qrs_ms": 109,
+  "pr_ms": 157,
+  "qt_ms": 393,
+  "qtc_bazett_ms": 425,
+  "qtc_fridericia_ms": 414,
+  "asse_gradi": 13,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.127,
+  "t_ampiezza_mv": 0.564,
+  "u_ampiezza_mv": 0.001,
+  "ampiezza_max_mv": 1.538,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.074,
+   "II": -0.058,
+   "III": 0.016,
+   "aVR": 0.066,
+   "aVL": -0.045,
+   "aVF": -0.021,
+   "V1": 0.089,
+   "V2": 0.114,
+   "V3": 0.068,
+   "V4": 0.006,
+   "V5": -0.054,
+   "V6": -0.081
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.105,
+   "qt": 0.408
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.158,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.318,
+   "qrs": 0.105,
+   "qt": 0.409
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.014,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.174,
+   "qrs": 0.105,
+   "qt": 0.408
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.874,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.034,
+   "qrs": 0.105,
+   "qt": 0.409
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.731,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.891,
+   "qrs": 0.105,
+   "qt": 0.409
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.586,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.746,
+   "qrs": 0.105,
+   "qt": 0.408
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.445,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.605,
+   "qrs": 0.105,
+   "qt": 0.409
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.306,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.466,
+   "qrs": 0.105,
+   "qt": 0.409
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.167,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.327,
+   "qrs": 0.105,
+   "qt": 0.409
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.022,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.182,
+   "qrs": 0.105,
+   "qt": 0.408
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.874,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.034,
+   "qrs": 0.105,
+   "qt": 0.408
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.729,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.889,
+   "qrs": 0.105,
+   "qt": 0.408
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.587,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.747,
+   "qrs": 0.105,
+   "qt": 0.408
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.436,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.596,
+   "qrs": 0.105,
+   "qt": 0.407
+  }
+ ],
+ "stato_validazione": "da_validare"
+}
