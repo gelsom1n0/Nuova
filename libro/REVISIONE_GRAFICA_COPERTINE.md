@@ -34,8 +34,11 @@ Entrambe sono a 290 pagine, formato 7×10 in. Le ho viste affiancate a grandezza
 | Caratteri nell'area barcode | 0 | 0 |
 | Trasparenze / operatori RGB | nessuno | nessuno |
 
-## Osservazioni non corrette (decisione dell'autore)
-- **Linea sul dorso.** Il tracciato attraversa il dorso a quote diverse: circa 7,4 in dall'alto nel A, 7,9 in nel B. Con i due libri affiancati sullo scaffale le linee non si allineano. Allinearle richiede di spostare l'ECG o la curva su uno dei due piatti; è fattibile, ma cambia leggermente la composizione.
+## Aggiornamento del 20/11/2026
+- **Linee allineate.** Su indicazione dell'autore, la curva farmacocinetica del Volume B è stata alzata di 0,45 in: ora attraversa il dorso esattamente alla stessa quota dell'ECG del Volume A (`BLEED + L.y_ecg`, senza scarto). Si è scelto di alzare il Tomo B e non abbassare il Tomo A, perché nel Tomo A quella quota segna il confine naturale tra il cuore e il terzo inferiore della copertina. Ricontrollato sul PDF: nessun peggioramento nelle distanze dal rifilo (≥ 0,366 in), nell'area del codice a barre (0 caratteri) o nel corpo minimo (7,0 pt); Cmax, tmax, t½, AUC e MEC restano leggibili e ben distanziati sulla compressa.
+- **Sottotitolo e testi di quarta del Volume B confermati dall'autore.** Nessuna modifica necessaria; restano quelli attuali anche a indice del Volume B definito.
+- **Copia di prova approvata dall'autore**, ma solo a testo completo e correttamente formattato: non va ordinata finché i testi (in particolare quelli del Volume B, oggi ancora provvisori nel contenuto dei capitoli) non sono nella forma finale.
+
+## Osservazioni rimanenti
 - **Miniature.** In miniatura si leggono «ABC», il titolo e il soggetto; occhiello, sottotitolo e formule diventano una texture. È normale e voluto, ma nel testo della scheda Amazon conviene mettere il sottotitolo per esteso.
-- **Testi del Volume B.** Sottotitolo e testi di quarta sono ancora di lavoro e vanno confermati quando l'indice del B è definitivo.
-- **Copia di prova.** Prima della pubblicazione conviene ordinare una copia cartacea per entrambi i volumi. In particolare va verificato come la stampa rende le formule al 35 % e le linee sottili su nero ricco, che tendono a chiudersi.
+- **Copia di prova.** Quando i testi saranno pronti (vedi sopra), prima della pubblicazione conviene ordinare una copia cartacea per entrambi i volumi. In particolare va verificato come la stampa rende le formule al 35 % e le linee sottili su nero ricco, che tendono a chiudersi.
