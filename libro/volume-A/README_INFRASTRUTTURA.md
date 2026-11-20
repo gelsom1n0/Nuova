@@ -134,18 +134,21 @@ python3 libro/volume-A/figure/sim/genera_sim.py [ID ...]
   periferiche, quindi III = II − I sempre esatta; vettori orizzontali con guadagno per V1–V6).
   Motore del ritmo con eventi atriali e ventricolari e conduzione AV esplicita. Parametri espliciti:
   frequenza, PR, durata QRS, QTc (Fridericia), asse, ampiezze, vettori.
-- `catalogo_sim.py`: 67 tracciati (39 iniziali; +7 il 20/11/2026: WPW, pericardite, infarto posteriore,
+- `catalogo_sim.py`: 74 tracciati (39 iniziali; +7 il 20/11/2026: WPW, pericardite, infarto posteriore,
   Wellens tipo B, de Winter, ipotermia con onda J, effetto digitalico; +21 dal confronto con un testo
   classico, vedi `NOTE_CONSULTAZIONE.md`: pause sinusali con scappamento, ESA non condotta, bigeminismo
   atriale, ESV multifocali/coppia/R su T, blocchi fascicolari e bifascicolare, IVD, IVS con sovraccarico,
   P mitralica e polmonare, tachicardia atriale multifocale, pacemaker migrante, flutter ventricolare,
-  tachicardia atriale con blocco 2:1, BAV 3:1, ST diffuso con aVR↑, bassi voltaggi) con descrizione attesa, criteri automatici, criteri per il revisore,
+  tachicardia atriale con blocco 2:1, BAV 3:1, ST diffuso con aVR↑, bassi voltaggi; +7 di chiusura:
+  malfunzionamenti del pacemaker – mancata cattura, undersensing, oversensing –, sovraccarico destro
+  acuto/embolia polmonare, infarto del VD con V4R, parassistolia, sindrome bradi-tachi).
+  `Tracciato.leads_estese()` aggiunge le precordiali destre V3R e V4R (solo per le figure). con descrizione attesa, criteri automatici, criteri per il revisore,
   affidabilità del modello.
 - Uscite: `out/<ID>.svg|png|json` e `QC_sim.md` (misure automatiche sul segnale: **39/39 superano** i
   criteri). Ogni JSON contiene parametri, misure ed eventi (tempi di P, QRS, spike).
-- **Non modellati** (rimandati ai reali): Brugada (alterazione limitata a V1–V2 che un dipolo unico non
-  riproduce senza falsare le altre derivazioni), infarto del VD (richiede V4R), derivazioni posteriori
-  V7–V9, artefatti. Nella WPW la sede della via accessoria non è rappresentata e la misura automatica del
+- **Non modellati** (coperti dai reali o fuori scopo): Brugada (alterazione limitata a V1–V2 che un dipolo
+  unico non riproduce senza falsare le altre derivazioni: usare i reali Brugada-HUCA), derivazioni
+  posteriori V7–V9, artefatti. Nella WPW la sede della via accessoria non è rappresentata e la misura automatica del
   PR non è affidabile. FV e torsione di punta sono modelli **fenomenologici** (affidabilità
   «schematica»): usare preferibilmente i reali.
 

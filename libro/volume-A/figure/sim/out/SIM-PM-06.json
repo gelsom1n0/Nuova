@@ -1,0 +1,188 @@
+{
+ "id": "SIM-PM-06",
+ "titolo": "Pacemaker: inibizione inappropriata (oversensing)",
+ "tipo": "simulato",
+ "gruppo": "pacemaker",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "pacemaker_malfunzione",
+  "parametri": {
+   "durata": 10.4,
+   "tipo": "oversensing"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia I, II – 4 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-PM-06.svg",
+  "png": "sim/out/SIM-PM-06.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  105.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Stimolazione VVI regolare, poi una pausa senza spike né ritmo proprio in coincidenza con segnali estranei (miopotenziali, più evidenti in I): il pacemaker li scambia per battiti e si inibisce.",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "pausa senza spike",
+  "artefatto da miopotenziali",
+  "ripresa della stimolazione"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 70.0,
+  "fc_media": 55.6,
+  "rr_cv": 0.582,
+  "rmssd_ms": 1000.0,
+  "n_qrs": 10,
+  "qrs_ms": 217,
+  "pr_ms": null,
+  "qt_ms": 451,
+  "qtc_bazett_ms": 487,
+  "qtc_fridericia_ms": 475,
+  "asse_gradi": -54,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.023,
+  "t_ampiezza_mv": 0.614,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 0.8,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": -0.074,
+   "II": 0.099,
+   "III": 0.174,
+   "aVR": -0.013,
+   "aVL": -0.124,
+   "aVF": 0.137,
+   "V1": 0.18,
+   "V2": 0.281,
+   "V3": 0.255,
+   "V4": 0.179,
+   "V5": 0.041,
+   "V6": -0.061
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "spike ventricolare",
+   "t": 0.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 0.304,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 1.157
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 1.161,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 2.014
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 2.018,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 2.871
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 2.875,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 5.729
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 5.733,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 6.586
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 6.59,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 7.443
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 7.447,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 8.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 8.304,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 9.157
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 9.161,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 10.014
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 10.018,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 10.871
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 10.875,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "inibizione da miopotenziali",
+   "t": 3.2
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

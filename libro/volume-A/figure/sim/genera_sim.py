@@ -62,8 +62,15 @@ def main(ids):
             continue
         tr = build(e)
         L = tr.leads()
+        if e["layout"] != "12" and set(e.get("derivazioni", [])) - set(L):
+            L_ext = tr.leads_estese()  # V3R/V4R solo per la figura; le misure restano sulle 12 standard
+        else:
+            L_ext = L
         meas = ecgmeasure.measure(L, tr.fs)
         extra_metrics(tr, L, meas)
+        if L_ext is not L:  # ST nelle derivazioni destre (per i criteri dell'infarto del VD)
+            ext = ecgmeasure.measure({**L, **{k: v for k, v in L_ext.items() if k not in L}}, tr.fs)
+            meas["st_j60_mv"].update({k: v for k, v in ext.get("st_j60_mv", {}).items() if k not in L})
         ok, res = ecgmeasure.check(meas, e["auto"])
         base = OUT / e["id"]
         if e["layout"] == "12":
@@ -71,7 +78,7 @@ def main(ids):
             info_3x4 = ecgplot.render_12(L, tr.fs, OUT / (e["id"] + "_3x4"), width_mm=143, label=e["id"])
             leads_shown = ecgsim.LEADS
         else:
-            info = ecgplot.render_strip(L, tr.fs, base, leads=e["derivazioni"], duration=2 * SPR,
+            info = ecgplot.render_strip(L_ext, tr.fs, base, leads=e["derivazioni"], duration=2 * SPR,
                                         seconds_per_row=SPR, label=e["id"])
             info_3x4 = None
             leads_shown = e["derivazioni"]

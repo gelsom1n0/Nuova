@@ -1,0 +1,200 @@
+{
+ "id": "SIM-PM-04",
+ "titolo": "Pacemaker: mancata cattura",
+ "tipo": "simulato",
+ "gruppo": "pacemaker",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "pacemaker_malfunzione",
+  "parametri": {
+   "durata": 10.4,
+   "tipo": "mancata_cattura"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-PM-04.svg",
+  "png": "sim/out/SIM-PM-04.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  65.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Spike ventricolari regolari; due spike non sono seguiti dal QRS stimolato (pausa): l'impulso non depolarizza il ventricolo (soglia aumentata, dislocazione dell'elettrocatetere, batteria).",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "spike senza QRS dopo",
+  "pausa",
+  "gli altri spike catturano"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 70.0,
+  "fc_media": 70.0,
+  "rr_cv": 0.043,
+  "rmssd_ms": 67.4,
+  "n_qrs": 12,
+  "qrs_ms": 247,
+  "pr_ms": null,
+  "qt_ms": 450,
+  "qtc_bazett_ms": 486,
+  "qtc_fridericia_ms": 474,
+  "asse_gradi": -54,
+  "p_presente": false,
+  "p_ampiezza_mv": 0.024,
+  "t_ampiezza_mv": 0.613,
+  "u_ampiezza_mv": 0.0,
+  "ampiezza_max_mv": 0.804,
+  "rapporto_p_qrs": 0.0,
+  "st_j60_mv": {
+   "I": -0.124,
+   "II": 0.161,
+   "III": 0.283,
+   "aVR": -0.021,
+   "aVL": -0.204,
+   "aVF": 0.221,
+   "V1": 0.289,
+   "V2": 0.451,
+   "V3": 0.41,
+   "V4": 0.289,
+   "V5": 0.068,
+   "V6": -0.103
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "spike ventricolare",
+   "t": 0.3
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 0.304,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 1.157
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 1.161,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 2.014
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 2.018,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 2.871
+  },
+  {
+   "tipo": "mancata cattura",
+   "t": 2.871
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 3.729
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 3.733,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 4.586
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 4.59,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 5.443
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 5.447,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 6.3
+  },
+  {
+   "tipo": "mancata cattura",
+   "t": 6.3
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 7.157
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 7.161,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 8.014
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 8.018,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 8.871
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 8.875,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 9.729
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 9.733,
+   "qrs": 0.155,
+   "qt": 0.437
+  },
+  {
+   "tipo": "spike ventricolare",
+   "t": 10.586
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 10.59,
+   "qrs": 0.155,
+   "qt": 0.437
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

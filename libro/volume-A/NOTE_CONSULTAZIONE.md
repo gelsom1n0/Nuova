@@ -2,7 +2,7 @@
 
 **Uso consentito dall'autore del progetto (20/11/2026):** consultazione come contesto e spunto, riassunto dei
 concetti con parole nostre, **nessun copia-incolla** di testo, figure, esempi o mnemonici caratteristici.
-Il PDF non è nel repository (copia locale temporanea, OCR solo per la lettura). Queste note non contengono
+Il PDF non è mai entrato nel repository: la copia locale temporanea e il testo OCR sono stati eliminati a fine consultazione (20/11/2026). Queste note non contengono
 citazioni del libro: sono una sintesi critica e un confronto con il piano del Volume A.
 
 > Avvertenza di metodo: l'edizione è del 2000. Terminologia, criteri e terapie vanno sempre ricondotti alle

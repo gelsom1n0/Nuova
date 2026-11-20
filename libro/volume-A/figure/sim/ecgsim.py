@@ -266,6 +266,14 @@ class Tracciato:
         L = self.H @ LM.T
         return {ld: L[:, i] for i, ld in enumerate(LEADS)}
 
+    def leads_estese(self):
+        """12 derivazioni + precordiali destre V3R e V4R (immagine speculare di V3 e V4 a destra dello sterno)."""
+        out = self.leads()
+        for ld, (ang, g, yv) in {"V3R": (105, 1.45, 0.05), "V4R": (125, 1.35, 0.10)}.items():
+            a = math.radians(ang)
+            out[ld] = self.H @ (g * np.array([math.cos(a), yv, math.sin(a)]))
+        return out
+
 
 # ------------------------------------------------------------------ motori del ritmo
 def _sinus_times(durata, hr, t0=0.25, mod=None, jitter=0.004, rng=None):
@@ -917,3 +925,152 @@ def ingrandimento_atriale(durata, lato="sinistro", hr=78, seed=69):
     if lato == "sinistro":
         return ritmo_condotto(durata, hr, 0.18, p_comps=P_MITRALICA, p_dur=0.13, seed=seed)
     return ritmo_condotto(durata, hr, 0.16, p_comps=P_POLMONARE, p_dur=0.10, seed=seed)
+
+
+# ------------------------------------------------------------------ quadri aggiunti (v4, chiusura delle lacune)
+def pacemaker_malfunzione(durata, tipo="mancata_cattura", seed=71):
+    """Malfunzionamenti di un pacemaker monocamerale ventricolare (VVI, frequenza base 60–70/min).
+    'mancata_cattura': spike regolari, alcuni NON seguiti dal QRS stimolato (pausa).
+    'undersensing'   : ritmo sinusale proprio che il pacemaker non «vede»: gli spike cadono a frequenza fissa
+                       anche dentro QRS e T; catturano solo quando il ventricolo non è refrattario.
+    'oversensing'    : il pacemaker interpreta segnali estranei (miopotenziali, interferenze) come battiti
+                       e si inibisce: pausa senza spike e senza ritmo proprio."""
+    tr = Tracciato(durata, seed=seed)
+    mp, mn = m_pacing_vd(), m_normale()
+    vv = fvec(-100, 4.0, 0.3)
+    if tipo == "undersensing":
+        rr_s, rr_p = 60 / 78, 1.0
+        qrs_t = []
+        t = 0.30
+        while t < durata + 1:
+            tr.add_p(t)
+            qrs_t.append(t + 0.16)
+            t += rr_s
+        last_q = -9
+        events = []
+        tp = 0.55
+        while tp < durata + 1:
+            events.append(tp)
+            tp += rr_p
+        for tq in qrs_t:  # QRS propri, salvo quelli preceduti da un battito stimolato ancora refrattario
+            pass
+        timeline = sorted([(q, "s") for q in qrs_t] + [(e, "p") for e in events])
+        prev = None
+        for tt, k in timeline:
+            if k == "p":
+                tr.add_spike(tt, vv, "spike ventricolare (non sente)")
+                if tt - last_q > 0.40:
+                    tr.add_qrs(tt + 0.004, mp, 1.0, tipo="QRS stimolato")
+                    last_q = tt
+            else:
+                if tt - last_q > 0.40:
+                    tr.add_qrs(tt, mn, (tt - prev) if prev else rr_s)
+                    last_q = prev = tt
+        return tr
+    rr = 60 / 70
+    t, k = 0.30, 0
+    while t < durata + 1:
+        if tipo == "oversensing" and 3.0 < t < 5.6:
+            t += rr / 3
+            continue  # inibizione inappropriata: nessuno spike
+        tr.add_spike(t, vv, "spike ventricolare")
+        if not (tipo == "mancata_cattura" and k in (3, 7)):
+            tr.add_qrs(t + 0.004, mp, rr, tipo="QRS stimolato")
+        else:
+            tr.eventi.append({"tipo": "mancata cattura", "t": round(t, 3)})
+        t += rr
+        k += 1
+    if tipo == "oversensing":
+        tr.add_noise(0.0)
+        t_n = tr.t
+        burst = (t_n > 3.2) & (t_n < 5.4)
+        rng = tr.rng
+        mio = np.zeros_like(t_n)
+        mio[burst] = rng.normal(0, 0.06, burst.sum())
+        mio = np.convolve(mio, np.ones(4) / 4, mode="same")
+        tr.H[:, 0] += mio  # miopotenziali (es. pettorale) visibili soprattutto in I
+        tr.eventi.append({"tipo": "inibizione da miopotenziali", "t": 3.2})
+    return tr
+
+
+def embolia_polmonare(durata, hr=112, seed=73):
+    """Sovraccarico destro acuto (es. embolia polmonare): tachicardia sinusale, S in I, Q e T negativa in III
+    («S1Q3T3», poco sensibile), ritardo destro (BBD incompleto), T negative in V1–V4."""
+    q = [Comp(0.15, 0.08, fvec(-55, 0.22, 0.05)),            # forze iniziali: q in III
+         Comp(0.42, 0.10, fvec(75, 0.70, 0.35)), Comp(0.58, 0.10, fvec(60, 0.55, -0.55)),
+         Comp(0.82, 0.10, fvec(-165, 0.42, 0.40))]           # forze terminali destre: S in I, r' in V1
+    m = VMorph("sovraccarico_destro", q, 0.105, t_vec=fvec(0, 0.22, -0.30), qtc=0.42)
+    return ritmo_condotto(durata, hr, 0.15, m, seed=seed)
+
+
+def infarto_vd(durata, hr=58, seed=75):
+    """STEMI inferiore con estensione al ventricolo destro: ST↑ in II, III, aVF (III > II), ST↑ in V1 e
+    soprattutto nelle precordiali destre (V4R ≥ 1 mm); speculare in I/aVL. Bradicardia frequente."""
+    m = m_normale(qtc=0.42)
+    m.st_vec = np.array([-0.16, 0.27, 0.09])
+    m.t_vec = m.t_vec + 1.0 * m.st_vec
+    return ritmo_condotto(durata, hr, 0.18, m, seed=seed)
+
+
+def parassistolia(durata, hr=78, ciclo_ectopico=1.55, seed=77):
+    """Parassistolia ventricolare: un focolaio ventricolare «protetto» scarica a intervallo fisso indipendente
+    dal ritmo sinusale; le ESV hanno accoppiamento VARIABILE, gli intervalli tra ESV sono multipli del ciclo
+    ectopico; quando l'impulso coincide col QRS sinusale nasce un battito di fusione."""
+    m = m_normale()
+    mv = m_esv("tratto_efflusso_VD")
+    tr = Tracciato(durata, seed=seed)
+    rr = 60 / hr
+    sinus = []
+    t = 0.30
+    while t < durata + 1:
+        sinus.append(t)
+        t += rr
+    ect = list(np.arange(0.9, durata + 1, ciclo_ectopico))
+    last_q, prev = -9, None
+    timeline = sorted([(x, "s") for x in sinus] + [(x, "v") for x in ect])
+    for tt, k in timeline:
+        if k == "s":
+            tq = tt + 0.16
+            tr.add_p(tt)
+            near = [e for e in ect if abs(e - tq) < 0.05]
+            if near:
+                tr.add_qrs(tq, m, rr, tipo="battito di fusione", qrs_scale=0.6, t_scale=0.6)
+                fus = VMorph("fusione", mv.qrs, mv.qrs_dur, t_vec=mv.t_vec, qtc=mv.qtc)
+                tr.add_qrs(near[0], fus, rr, tipo="(fusione)", qrs_scale=0.45, t_scale=0.45)
+                last_q = prev = tq
+            elif tq - last_q > 0.42:
+                tr.add_qrs(tq, m, (tq - prev) if prev else rr)
+                last_q = prev = tq
+        else:
+            if any(abs(tt - (s + 0.16)) < 0.05 for s in sinus):
+                continue  # gestito come fusione
+            if tt - last_q > 0.35:
+                tr.add_qrs(tt, mv, tt - last_q, tipo="ESV parassistolica")
+                last_q = tt
+    return tr
+
+
+def bradi_tachi(durata, seed=79):
+    """Sindrome bradi-tachi (malattia del nodo del seno): FA a risposta rapida che si interrompe con una lunga
+    pausa (il nodo del seno è lento a ripartire), poi bradicardia sinusale."""
+    m = m_normale()
+    tr = Tracciato(durata, seed=seed)
+    rng = tr.rng
+    fine_fa = 4.2
+    mask = (tr.t < fine_fa).astype(float)
+    tr.add_continuous(onde_f(tr, 0.08) * mask[:, None])
+    t, prev = 0.20, None
+    while t < fine_fa:
+        tr.add_qrs(t, m, (t - prev) if prev else 0.45, tipo="QRS (FA)")
+        prev = t
+        t += float(np.clip(rng.normal(0.46, 0.09), 0.33, 0.7))
+    pausa = 3.2
+    tr.eventi.append({"tipo": "pausa post-conversione", "t": round(prev, 3), "durata": pausa})
+    tp = prev + pausa - 0.16
+    while tp < durata + 1:
+        tr.add_p(tp)
+        tq = tp + 0.17
+        tr.add_qrs(tq, m, tq - prev)
+        prev = tq
+        tp += 60 / 44
+    return tr

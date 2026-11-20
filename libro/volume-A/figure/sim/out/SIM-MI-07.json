@@ -1,0 +1,223 @@
+{
+ "id": "SIM-MI-07",
+ "titolo": "STEMI inferiore con infarto del ventricolo destro (V4R)",
+ "tipo": "simulato",
+ "gruppo": "ischemia",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "infarto_vd",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II, III, V1, V4R – 8 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-MI-07.svg",
+  "png": "sim/out/SIM-MI-07.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  235.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "ST↑ inferiore con III > II, ST↑ in V1 e in V4R (≥ 1 mm): estensione al ventricolo destro (cautela con nitrati e diuretici: paziente dipendente dal precarico).",
+ "criteri_automatici": [
+  {
+   "criterio": "ST III ≥0.15",
+   "misura": 0.315,
+   "ok": true
+  },
+  {
+   "criterio": "ST V1 ≥0.06",
+   "misura": 0.155,
+   "ok": true
+  },
+  {
+   "criterio": "ST V4R ≥0.1",
+   "misura": 0.256,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "ST↑ III > II",
+  "ST↑ V4R ≥ 1 mm",
+  "derivazione V4R etichettata"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "V4R calcolata dal modello a dipolo: posizione speculare di V4 a destra.",
+ "misure": {
+  "fc": 57.9,
+  "fc_media": 57.9,
+  "rr_cv": 0.003,
+  "rmssd_ms": 2.7,
+  "n_qrs": 10,
+  "qrs_ms": 102,
+  "pr_ms": 180,
+  "qt_ms": 414,
+  "qtc_bazett_ms": 407,
+  "qtc_fridericia_ms": 409,
+  "asse_gradi": 49,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.124,
+  "t_ampiezza_mv": 0.603,
+  "u_ampiezza_mv": 0.01,
+  "ampiezza_max_mv": 0.959,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": -0.152,
+   "II": 0.162,
+   "III": 0.315,
+   "aVR": -0.005,
+   "aVL": -0.233,
+   "aVF": 0.239,
+   "V1": 0.155,
+   "V2": 0.183,
+   "V3": 0.117,
+   "V4": 0.028,
+   "V5": -0.084,
+   "V6": -0.131,
+   "V3R": 0.205,
+   "V4R": 0.256
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.48,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.33,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.51,
+   "qrs": 0.09,
+   "qt": 0.424
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.366,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 2.546,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.402,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.582,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.438,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.618,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.475,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.655,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.51,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 6.69,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.546,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.726,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.585,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.765,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.627,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 9.807,
+   "qrs": 0.09,
+   "qt": 0.426
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.661,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.841,
+   "qrs": 0.09,
+   "qt": 0.425
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.692,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.872,
+   "qrs": 0.09,
+   "qt": 0.424
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

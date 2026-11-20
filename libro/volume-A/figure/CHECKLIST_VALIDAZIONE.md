@@ -69,6 +69,8 @@ le figure non validate mostrano lo stato in didascalia; il report di build elenc
 - [ ] **Derivazioni con ST sopraslivellato** e **speculari** corrispondono al territorio dichiarato.
 - [ ] Misura dello ST al punto J (o J+60 ms) rispetto alla linea PR; soglie secondo le definizioni correnti (età/sesso per V2–V3).
 - [ ] **PTB-XL**: le etichette di infarto (AMI, ASMI, IMI, LMI…) **non indicano necessariamente un infarto acuto** (vedi `infarction_stadium1` nei metadati): la didascalia non deve dire «STEMI acuto» se il tracciato mostra esiti (onde Q, T negative) senza sopraslivellamento.
+- [ ] **Infarto del VD** (SIM-MI-07): V4R etichettata come derivazione destra; ST↑ ≥ 1 mm in V4R.
+- [ ] **Embolia polmonare** (SIM-EP-01): la didascalia deve dire che il quadro è poco sensibile e non esclude né conferma.
 - [ ] Onde Q patologiche: durata ≥ 0,04 s o profondità significativa, in derivazioni contigue.
 
 ## Gruppo «elettroliti»
@@ -83,6 +85,9 @@ le figure non validate mostrano lo stato in didascalia; il report di build elenc
 - [ ] **Cattura**: ogni spike seguito dalla depolarizzazione corrispondente (P o QRS largo).
 - [ ] Morfologia del QRS stimolato coerente con la sede (apice VD: tipo BBS, asse superiore).
 - [ ] Ritardo AV (DDD) e frequenza di stimolazione coerenti con la didascalia.
+- [ ] **Malfunzionamenti** (SIM-PM-04/05/06): mancata cattura = spike senza depolarizzazione; difetto di sensing =
+      spike indipendenti dal ritmo proprio, anche su QRS e T; inibizione inappropriata = pausa senza spike, con la
+      causa (miopotenziali) riconoscibile. La didascalia deve indicare la modalità (VVI) e la frequenza base.
 - [ ] Negli spike simulati l'ampiezza è **volutamente esagerata** per la stampa: segnalarlo se il testo lo richiede.
 
 ## Gruppo «schemi»

@@ -388,4 +388,47 @@ CATALOGO = [
                 "obesità, mixedema, cardiopatie infiltrative.",
          auto={"amp:II.max": [0.1, 0.5], "amp:V2.min": [-1.0, -0.2]},
          revisore=["ampiezze ridotte in tutte le derivazioni", "calibrazione standard (10 mm/mV)"], affidabilita="alta"),
+    # ------------------------------------------------------------------ quadri aggiunti (v4)
+    dict(id="SIM-PM-04", titolo="Pacemaker: mancata cattura", gruppo="pacemaker",
+         gen=("pacemaker_malfunzione", dict(durata=10.4, tipo="mancata_cattura")), layout=S, derivazioni=["II"],
+         attesa="Spike ventricolari regolari; due spike non sono seguiti dal QRS stimolato (pausa): l'impulso non "
+                "depolarizza il ventricolo (soglia aumentata, dislocazione dell'elettrocatetere, batteria).",
+         auto={}, revisore=["spike senza QRS dopo", "pausa", "gli altri spike catturano"], affidabilita="media"),
+    dict(id="SIM-PM-05", titolo="Pacemaker: difetto di sensing (undersensing)", gruppo="pacemaker",
+         gen=("pacemaker_malfunzione", dict(durata=10.4, tipo="undersensing")), layout=S, derivazioni=["II"],
+         attesa="Ritmo sinusale proprio a ≈ 78/min; il pacemaker non lo «vede» e stimola a frequenza fissa: spike dentro "
+                "o subito dopo i QRS e sulle T (rischio di stimolo nella fase vulnerabile), con catture occasionali.",
+         auto={}, revisore=["spike indipendenti dai QRS propri", "spike su ST/T", "catture solo fuori refrattarietà"],
+         affidabilita="media"),
+    dict(id="SIM-PM-06", titolo="Pacemaker: inibizione inappropriata (oversensing)", gruppo="pacemaker",
+         gen=("pacemaker_malfunzione", dict(durata=10.4, tipo="oversensing")), layout=S, derivazioni=["I", "II"],
+         attesa="Stimolazione VVI regolare, poi una pausa senza spike né ritmo proprio in coincidenza con segnali "
+                "estranei (miopotenziali, più evidenti in I): il pacemaker li scambia per battiti e si inibisce.",
+         auto={}, revisore=["pausa senza spike", "artefatto da miopotenziali", "ripresa della stimolazione"],
+         affidabilita="media"),
+    dict(id="SIM-EP-01", titolo="Sovraccarico destro acuto (embolia polmonare)", gruppo="ischemia",
+         gen=("embolia_polmonare", dict(durata=10.4)), layout="12",
+         attesa="Tachicardia sinusale, S in I, q e T negativa in III, ritardo destro (r' in V1), T negative V1–V4. "
+                "Quadro poco sensibile: un ECG normale o con sola tachicardia NON esclude l'embolia.",
+         auto={"fc": [100, 125], "amp:I.min": [-0.7, -0.15], "amp:III.min": [-0.8, -0.1]},
+         revisore=["S1Q3T3", "T negative V1–V4", "ritardo destro"], affidabilita="media"),
+    dict(id="SIM-MI-07", titolo="STEMI inferiore con infarto del ventricolo destro (V4R)", gruppo="ischemia",
+         gen=("infarto_vd", dict(durata=10.4)), layout=S, derivazioni=["II", "III", "V1", "V4R"],
+         attesa="ST↑ inferiore con III > II, ST↑ in V1 e in V4R (≥ 1 mm): estensione al ventricolo destro "
+                "(cautela con nitrati e diuretici: paziente dipendente dal precarico).",
+         auto={"st_su": {"III": 0.15, "V1": 0.06, "V4R": 0.1}},
+         revisore=["ST↑ III > II", "ST↑ V4R ≥ 1 mm", "derivazione V4R etichettata"], affidabilita="media",
+         nota="V4R calcolata dal modello a dipolo: posizione speculare di V4 a destra."),
+    dict(id="SIM-EX-10", titolo="Parassistolia ventricolare", gruppo="extrasistoli",
+         gen=("parassistolia", dict(durata=10.4)), layout=S, derivazioni=["II"],
+         attesa="ESV con accoppiamento variabile, intervalli tra le ESV costanti (o multipli), battiti di fusione "
+                "quando l'impulso ectopico coincide con quello sinusale.",
+         auto={}, revisore=["accoppiamento variabile", "intervalli inter-ectopici costanti", "battito di fusione"],
+         affidabilita="media"),
+    dict(id="SIM-BT-01", titolo="Sindrome bradi-tachi", gruppo="ritmo",
+         gen=("bradi_tachi", dict(durata=10.4)), layout=S, derivazioni=["II"],
+         attesa="FA a risposta rapida che termina con una lunga pausa (≈ 3 s), poi bradicardia sinusale: espressione di "
+                "malattia del nodo del seno.",
+         auto={"rr_max": [2.5, 4.0]}, revisore=["FA iniziale", "pausa lunga alla fine della FA", "bradicardia sinusale"],
+         affidabilita="media"),
 ]

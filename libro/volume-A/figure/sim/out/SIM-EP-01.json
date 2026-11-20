@@ -1,0 +1,332 @@
+{
+ "id": "SIM-EP-01",
+ "titolo": "Sovraccarico destro acuto (embolia polmonare)",
+ "tipo": "simulato",
+ "gruppo": "ischemia",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "embolia_polmonare",
+  "parametri": {
+   "durata": 10.4
+  },
+  "fs_hz": 1000
+ },
+ "layout": "12 derivazioni 6x2 (scala reale) + 3x4 (55 %)",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-EP-01.svg",
+  "png": "sim/out/SIM-EP-01.png",
+  "svg_3x4": "sim/out/SIM-EP-01_3x4.svg"
+ },
+ "dimensioni_mm": [
+  140.0,
+  150.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Tachicardia sinusale, S in I, q e T negativa in III, ritardo destro (r' in V1), T negative V1–V4. Quadro poco sensibile: un ECG normale o con sola tachicardia NON esclude l'embolia.",
+ "criteri_automatici": [
+  {
+   "criterio": "fc",
+   "misura": 112.1,
+   "ok": true
+  },
+  {
+   "criterio": "amp:I.min",
+   "misura": -0.38,
+   "ok": true
+  },
+  {
+   "criterio": "amp:III.min",
+   "misura": -0.2,
+   "ok": true
+  }
+ ],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "S1Q3T3",
+  "T negative V1–V4",
+  "ritardo destro"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 112.1,
+  "fc_media": 112.1,
+  "rr_cv": 0.004,
+  "rmssd_ms": 3.7,
+  "n_qrs": 19,
+  "qrs_ms": 115,
+  "pr_ms": 147,
+  "qt_ms": 331,
+  "qtc_bazett_ms": 453,
+  "qtc_fridericia_ms": 408,
+  "asse_gradi": 79,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.127,
+  "t_ampiezza_mv": -0.554,
+  "u_ampiezza_mv": 0.127,
+  "ampiezza_max_mv": 0.842,
+  "rapporto_p_qrs": 1.0,
+  "st_j60_mv": {
+   "I": 0.061,
+   "II": 0.031,
+   "III": -0.03,
+   "aVR": -0.046,
+   "aVL": 0.045,
+   "aVF": 0.0,
+   "V1": -0.105,
+   "V2": -0.153,
+   "V3": -0.118,
+   "V4": -0.059,
+   "V5": 0.017,
+   "V6": 0.064
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 0.45,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 0.833,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 0.983,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.371,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 1.521,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.906,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 2.056,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.442,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 2.592,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.978,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 3.128,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.51,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 3.66,
+   "qrs": 0.105,
+   "qt": 0.34
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.047,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 4.197,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.58,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 4.73,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.113,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 5.263,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.652,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 5.802,
+   "qrs": 0.105,
+   "qt": 0.342
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.184,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 6.334,
+   "qrs": 0.105,
+   "qt": 0.34
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.716,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 6.866,
+   "qrs": 0.105,
+   "qt": 0.34
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.25,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 7.4,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.789,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 7.939,
+   "qrs": 0.105,
+   "qt": 0.342
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.326,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 8.476,
+   "qrs": 0.105,
+   "qt": 0.342
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.862,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 9.012,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.401,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 9.551,
+   "qrs": 0.105,
+   "qt": 0.342
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.935,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 10.085,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.467,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 10.617,
+   "qrs": 0.105,
+   "qt": 0.34
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.005,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 11.155,
+   "qrs": 0.105,
+   "qt": 0.341
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.541,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS sovraccarico_destro",
+   "t": 11.691,
+   "qrs": 0.105,
+   "qt": 0.341
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

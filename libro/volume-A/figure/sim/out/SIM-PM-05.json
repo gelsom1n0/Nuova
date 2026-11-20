@@ -1,0 +1,283 @@
+{
+ "id": "SIM-PM-05",
+ "titolo": "Pacemaker: difetto di sensing (undersensing)",
+ "tipo": "simulato",
+ "gruppo": "pacemaker",
+ "etichetta_figura": "Tracciato didattico simulato",
+ "fonte": "Generato con codice per questo volume (figure/sim/ecgsim.py, modello a dipolo)",
+ "licenza": "Originale del volume",
+ "modello": {
+  "funzione": "pacemaker_malfunzione",
+  "parametri": {
+   "durata": 10.4,
+   "tipo": "undersensing"
+  },
+  "fs_hz": 1000
+ },
+ "layout": "striscia II – 2 righe × 5.2 s",
+ "carta": "25 mm/s, 10 mm/mV",
+ "file": {
+  "svg": "sim/out/SIM-PM-05.svg",
+  "png": "sim/out/SIM-PM-05.png"
+ },
+ "dimensioni_mm": [
+  140.0,
+  65.0
+ ],
+ "scala": 1.0,
+ "descrizione_attesa": "Ritmo sinusale proprio a ≈ 78/min; il pacemaker non lo «vede» e stimola a frequenza fissa: spike dentro o subito dopo i QRS e sulle T (rischio di stimolo nella fase vulnerabile), con catture occasionali.",
+ "criteri_automatici": [],
+ "esito_controllo_automatico": "superato",
+ "criteri_revisore": [
+  "spike indipendenti dai QRS propri",
+  "spike su ST/T",
+  "catture solo fuori refrattarietà"
+ ],
+ "affidabilita_modello": "media",
+ "nota": "",
+ "misure": {
+  "fc": 78.0,
+  "fc_media": 56.7,
+  "rr_cv": 0.506,
+  "rmssd_ms": 919.8,
+  "n_qrs": 9,
+  "qrs_ms": 99,
+  "pr_ms": 154,
+  "qt_ms": 347,
+  "qtc_bazett_ms": 396,
+  "qtc_fridericia_ms": 379,
+  "asse_gradi": 41,
+  "p_presente": true,
+  "p_ampiezza_mv": 0.129,
+  "t_ampiezza_mv": 0.449,
+  "u_ampiezza_mv": 0.024,
+  "ampiezza_max_mv": 1.021,
+  "rapporto_p_qrs": 1.44,
+  "st_j60_mv": {
+   "I": 0.017,
+   "II": 0.024,
+   "III": 0.008,
+   "aVR": -0.02,
+   "aVL": 0.003,
+   "aVF": 0.016,
+   "V1": 0.002,
+   "V2": 0.013,
+   "V3": 0.025,
+   "V4": 0.033,
+   "V5": 0.029,
+   "V6": 0.02
+  }
+ },
+ "eventi": [
+  {
+   "tipo": "P sinusale",
+   "t": 0.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.069,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 1.838,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 2.608,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 3.377,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.146,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 4.915,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 5.685,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 6.454,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.223,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 7.992,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 8.762,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 9.531,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 10.3,
+   "durata": 0.1
+  },
+  {
+   "tipo": "P sinusale",
+   "t": 11.069,
+   "durata": 0.1
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 0.46,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 0.55
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.229,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 1.55
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 1.998,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 2.55
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 2.554,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 3.537,
+   "qrs": 0.09,
+   "qt": 0.473
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 3.55
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 4.306,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 4.55
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 5.075,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 5.55
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 5.554,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 6.55
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 6.554,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 7.383,
+   "qrs": 0.09,
+   "qt": 0.542
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 7.55
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.152,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 8.55
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 8.922,
+   "qrs": 0.09,
+   "qt": 0.376
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 9.55
+  },
+  {
+   "tipo": "QRS stimolato",
+   "t": 9.554,
+   "qrs": 0.155,
+   "qt": 0.46
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 10.46,
+   "qrs": 0.09,
+   "qt": 0.473
+  },
+  {
+   "tipo": "spike ventricolare (non sente)",
+   "t": 10.55
+  },
+  {
+   "tipo": "QRS normale",
+   "t": 11.229,
+   "qrs": 0.09,
+   "qt": 0.376
+  }
+ ],
+ "stato_validazione": "da_validare"
+}

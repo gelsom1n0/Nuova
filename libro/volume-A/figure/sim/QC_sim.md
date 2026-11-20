@@ -71,5 +71,12 @@ Generato da `genera_sim.py`. Le misure sono calcolate da `common/ecgmeasure.py` 
 | SIM-BAV-06 | Blocco AV di 2° grado avanzato (3:1) | alta | 30.0 | 0.0 | 178 | 156 | 364 | sì | superato | — |
 | SIM-MI-06 | Sottoslivellamento ST diffuso con sopraslivellamento in aVR | media | 94.9 | 0.004 | 153 | 95 | 275 | sì | superato | — |
 | SIM-LV-01 | Bassi voltaggi | alta | 88.0 | 0.003 | 153 | 99 | 427 | sì | superato | — |
+| SIM-PM-04 | Pacemaker: mancata cattura | media | 70.0 | 0.043 | None | 247 | 486 | no | superato | — |
+| SIM-PM-05 | Pacemaker: difetto di sensing (undersensing) | media | 78.0 | 0.506 | 154 | 99 | 396 | sì | superato | — |
+| SIM-PM-06 | Pacemaker: inibizione inappropriata (oversensing) | media | 70.0 | 0.582 | None | 217 | 487 | no | superato | — |
+| SIM-EP-01 | Sovraccarico destro acuto (embolia polmonare) | media | 112.1 | 0.004 | 147 | 115 | 453 | sì | superato | — |
+| SIM-MI-07 | STEMI inferiore con infarto del ventricolo destro (V4R) | media | 57.9 | 0.003 | 180 | 102 | 407 | sì | superato | — |
+| SIM-EX-10 | Parassistolia ventricolare | media | 39.0 | 0.0 | 168 | 100 | 505 | sì | superato | — |
+| SIM-BT-01 | Sindrome bradi-tachi | media | 123.0 | 0.909 | 292 | 98 | 452 | sì | superato | — |
 
 Note: per FV, torsione di punta e alcune extrasistoli le misure globali (FC, QRS mediano) non sono significative e non sono usate come criterio; la verifica è affidata al revisore.
