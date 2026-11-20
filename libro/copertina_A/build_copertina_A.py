@@ -149,7 +149,7 @@ def rgb_a_cmyk(rgb: np.ndarray, nero="ricco") -> np.ndarray:
 # ---------------------------------------------------------------------------
 # Font
 # ---------------------------------------------------------------------------
-PESI = ("Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Italic")
+PESI = ("Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black", "Italic", "LightItalic")
 
 
 def registra_font():
@@ -300,7 +300,7 @@ def _glow_titolo(px_w, px_h, L: LayoutPrima, dpi):
     y = (BLEED + L.y_abc) * dpi
     d.text((x, y), TITOLO_GRANDE, font=f, fill=1.0, anchor="ls")
     a = np.asarray(img, np.float32)
-    g = cv2.GaussianBlur(a, (0, 0), 0.05 * dpi) * 0.16 + cv2.GaussianBlur(a, (0, 0), 0.30 * dpi) * 0.22
+    g = cv2.GaussianBlur(a, (0, 0), 0.05 * dpi) * 0.08 + cv2.GaussianBlur(a, (0, 0), 0.30 * dpi) * 0.11
     return g
 
 
@@ -461,6 +461,101 @@ def ecg_vettoriale(c, pal, pts, ox, H_in, colore, larg, sfuma_da=None, sfuma_a=N
         c.drawPath(p, stroke=1, fill=0)
 
 
+# ---------------------------------------------------------------------------
+# Notazione (come nel Volume B): corsivo light, bianco al 35 % sul nero
+# ---------------------------------------------------------------------------
+FONT_F = "Montserrat-LightItalic"
+COL_NOTE = "#595959"          # formule di sfondo: bianco al 35 % (grigio equivalente, nessuna trasparenza)
+COL_ETICHETTE = "#F4B3B8"     # sigle sul tracciato: tinta chiara del rosso (come #A9DFF2 sul Volume B)
+
+
+def _f_larghezza(items, size):
+    w = 0.0
+    for it in items:
+        if isinstance(it, str):
+            w += larghezza(it, FONT_F, size)
+        elif it[0] == "sub":
+            w += larghezza(it[1], FONT_F, max(CORPO_MIN, size * 0.66))
+        elif it[0] == "sup":
+            w += _f_larghezza(it[1], max(CORPO_MIN, size * 0.66))
+        elif it[0] == "frac":
+            w += max(_f_larghezza(it[1], size * 0.9), _f_larghezza(it[2], size * 0.9)) + size * 0.25
+    return w
+
+
+def formula(c, items, x, y, size, align="left"):
+    """Mini-impaginatore: testo, ("sub", s), ("sup", [..]), ("frac", [num], [den]).
+    y = linea di base. Pedici e apici mai sotto il corpo minimo KDP (7 pt)."""
+    if align == "center":
+        x -= _f_larghezza(items, size) / 2
+    for it in items:
+        if isinstance(it, str):
+            c.setFont(FONT_F, size)
+            c.drawString(x, y, it)
+            x += larghezza(it, FONT_F, size)
+        elif it[0] == "sub":
+            ss = max(CORPO_MIN, size * 0.66)
+            c.setFont(FONT_F, ss)
+            c.drawString(x, y - size * 0.18, it[1])
+            x += larghezza(it[1], FONT_F, ss)
+        elif it[0] == "sup":
+            x = formula(c, it[1], x, y + size * 0.42, max(CORPO_MIN, size * 0.66))
+        elif it[0] == "frac":
+            fs = size * 0.9
+            wn, wd = _f_larghezza(it[1], fs), _f_larghezza(it[2], fs)
+            wf = max(wn, wd) + size * 0.25
+            asse = y + size * 0.30
+            c.setLineWidth(max(0.4, size * 0.04))
+            c.line(x, asse, x + wf, asse)
+            formula(c, it[1], x + (wf - wn) / 2, asse + fs * 0.28, fs)
+            formula(c, it[2], x + (wf - wd) / 2, asse - fs * 0.92, fs)
+            x += wf
+    return x
+
+
+# formule reali di fisiologia cardiovascolare ed elettrofisiologia, solo su zone nere vuote
+# (x dal rifilo sinistro del piatto, y dall'alto del rifilo, corpo, formula)
+FORMULE_PRIMA = [
+    (0.62, 4.80, 13, ["FC = ", ("frac", ["60"], ["RR"])]),                                   # frequenza da intervallo RR (s)
+    (0.62, 8.75, 12, ["QTc = ", ("frac", ["QT"], ["\u221aRR"])]),                            # correzione di Bazett
+    (0.62, 9.45, 12, ["PAM = PAD + ", ("frac", ["PAS \u2212 PAD"], ["3"])]),                 # pressione arteriosa media
+    (5.30, 9.10, 13, ["GC = FC \u00b7 GS"]),                                                 # gittata cardiaca
+]
+FORMULE_QUARTA = [
+    (0.68, 5.55, 13, ["FE = ", ("frac", ["VTD \u2212 VTS"], ["VTD"])]),                      # frazione di eiezione
+    (3.55, 6.15, 12, ["RVS = ", ("frac", ["PAM \u2212 PVC"], ["GC"])]),                      # resistenze vascolari sistemiche
+    (1.30, 6.80, 12, ["E", ("sub", "K"), " = 61,5 \u00b7 log ",                              # Nernst a 37 \u00b0C (mV)
+                      ("frac", ["[K", ("sup", ["+"]), "]", ("sub", "e")], ["[K", ("sup", ["+"]), "]", ("sub", "i")])]),
+]
+
+
+def formule_sfondo(c, pal, geo, H_in):
+    c.setFillColor(pal(COL_NOTE))
+    c.setStrokeColor(pal(COL_NOTE))
+    for x, y, size, f in FORMULE_PRIMA:
+        formula(c, f, (geo.spine_x1 + x) * I, (H_in - BLEED - y) * I, size)
+    for x, y, size, f in FORMULE_QUARTA:
+        formula(c, f, (BLEED + x) * I, (H_in - BLEED - y) * I, size)
+
+
+def onde_ecg(c, pal, geo, L, H_in, xc=0.85, amp=0.75):
+    """Nomi delle onde sul primo complesso della prima, ognuno sulla propria
+    deflessione (posizioni prese dalla stessa forma d'onda di arte.ecg_punti):
+    P e T (onde positive lente), Q (prima deflessione negativa), R (picco),
+    S (deflessione negativa dopo R)."""
+    y0 = BLEED + L.y_ecg
+    ox = geo.spine_x1
+    X = lambda x: (ox + x) * I
+    Y = lambda y: (H_in - y) * I
+    e = 9.5
+    c.setFillColor(pal(COL_ETICHETTE))
+    formula(c, ["P"], X(xc - 0.30), Y(y0 - 0.12 * amp - 0.11), e, "center")
+    formula(c, ["Q"], X(xc - 0.12), Y(y0 + 0.10 * amp + 0.17), e, "center")
+    formula(c, ["R"], X(xc + 0.01), Y(y0 - 1.00 * amp - 0.09), e, "center")
+    formula(c, ["S"], X(xc + 0.13), Y(y0 + 0.28 * amp + 0.15), e, "center")
+    formula(c, ["T"], X(xc + 0.30), Y(y0 - 0.22 * amp - 0.11), e, "center")
+
+
 def costruisci(out: Path, geo: Geo, variante, mode, nero, autore, con_guide, tmp: Path):
     pal = Pal(mode, nero)
     L = layout_prima(geo.trim_w, geo.trim_h)
@@ -489,6 +584,8 @@ def costruisci(out: Path, geo: Geo, variante, mode, nero, autore, con_guide, tmp
     c.setLineWidth(0.6)
     c.line(geo.spine_x0 * I - 1, (H_in - yd) * I, geo.spine_x1 * I + 1, (H_in - yd) * I)
     ecg_vettoriale(c, pal, ecg_prima(geo.trim_w, L), geo.spine_x1, H_in, "#FF5A5F", 0.85)
+    onde_ecg(c, pal, geo, L, H_in)
+    formule_sfondo(c, pal, geo, H_in)
 
     # ------------------------------ PRIMA ------------------------------
     x0 = geo.spine_x1                         # rifilo sinistro della prima
