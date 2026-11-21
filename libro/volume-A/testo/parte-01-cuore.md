@@ -5,7 +5,7 @@
 
 ## Anatomia essenziale
 
-Il cuore è una pompa doppia, formata da due pompe in serie: il **cuore destro** riceve il sangue venoso dall'organismo e lo spinge nei polmoni (circolo polmonare, a bassa pressione); il **cuore sinistro** riceve il sangue ossigenato dai polmoni e lo spinge a tutti gli organi (circolo sistemico, ad alta pressione). Le due metà sono separate dal setto e lavorano nello stesso tempo e con la stessa gittata: se una delle due pompa meno dell'altra, il sangue si accumula a monte, e i sintomi dipendono da quale metà cede (congestione polmonare a sinistra, congestione venosa sistemica a destra). Le pressioni medie indicative di un adulto sano a riposo sono, in mmHg: atrio destro 2–8; ventricolo destro 25/4; arteria polmonare 25/10; atrio sinistro 5–12; ventricolo sinistro 120/8; aorta 120/80.
+Il cuore è una pompa doppia, formata da due pompe in serie: il **cuore destro** riceve il sangue venoso dall'organismo e lo spinge nei polmoni (circolo polmonare, a bassa pressione); il **cuore sinistro** riceve il sangue ossigenato dai polmoni e lo spinge a tutti gli organi (circolo sistemico, ad alta pressione). Le due metà sono separate dal setto e lavorano nello stesso tempo e con la stessa gittata: se una delle due pompa meno dell'altra, il sangue si accumula a monte, e i sintomi dipendono da quale metà cede (congestione polmonare a sinistra, congestione venosa sistemica a destra). Le pressioni indicative di un adulto sano a riposo sono, in mmHg: atrio destro 2–8; ventricolo destro 25/4; arteria polmonare 25/10; atrio sinistro 5–12; ventricolo sinistro 120/8; aorta 120/80.
 
 Il cuore occupa il mediastino medio, dietro lo sterno e tra i due polmoni, con circa due terzi della massa a sinistra della linea mediana. La **base** guarda in alto e a destra, l'**apice** in basso, in avanti e a sinistra: l'apice si proietta al quinto spazio intercostale sinistro, sulla linea emiclaveare, ed è il punto dove si palpa l'**itto della punta** e dove si ascolta il focolaio mitralico. Nell'adulto pesa 250–350 g.
 
@@ -15,7 +15,7 @@ Il cuore occupa il mediastino medio, dietro lo sterno e tra i due polmoni, con c
 |---|---|---|---|
 | Atrio destro (AD) | vene cave superiore e inferiore, seno coronarico | ventricolo destro, attraverso la tricuspide | ospita il nodo del seno; la fossa ovale è il residuo del forame ovale fetale |
 | Ventricolo destro (VD) | atrio destro | arteria polmonare, attraverso la valvola polmonare | parete sottile (pochi millimetri), forma a mezzaluna attorno al setto; ben adattato al volume, poco alle alte pressioni |
-| Atrio sinistro (AS) | quattro vene polmonari | ventricolo sinistro, attraverso la mitrale | l'**auricola sinistra** è la sede in cui si formano più spesso i trombi nella fibrillazione atriale |
+| Atrio sinistro (AS) | quattro vene polmonari | ventricolo sinistro, attraverso la mitrale | l'**[auricola sinistra]{.ix}** è la sede in cui si formano più spesso i trombi nella fibrillazione atriale |
 | Ventricolo sinistro (VS) | atrio sinistro | aorta, attraverso la valvola aortica | parete circa tre volte più spessa di quella destra; forma conica; sostiene la pressione sistemica |
 
 La parete del cuore ha tre strati: l'**endocardio** all'interno, che riveste anche le valvole, il **miocardio**, cioè il muscolo che si contrae, e l'**epicardio** all'esterno. Il miocardio dei ventricoli è molto più spesso di quello degli atri, che servono soprattutto a completare il riempimento. Nei ventricoli la parete è percorsa da rilievi muscolari (trabecole) e da **muscoli papillari**, che tramite le corde tendinee trattengono i lembi delle valvole atrioventricolari durante la sistole.
@@ -42,10 +42,10 @@ I due guasti delle valvole sono la **stenosi**, quando non si apre bene e il san
 
 Il cuore è avvolto dal **pericardio**, un sacco a due strati: l'esterno, **fibroso**, resistente e poco distensibile; l'interno, **sieroso**, formato da un foglietto **parietale**, aderente al fibroso, e da uno **viscerale**, che coincide con l'epicardio. Tra i due foglietti sierosi c'è una cavità virtuale con pochi millilitri di liquido, che lubrifica gli scorrimenti. Il pericardio fissa il cuore nel torace e limita le dilatazioni acute delle camere.
 
-La stessa caratteristica che lo rende utile lo rende pericoloso: poiché il sacco fibroso non si adatta rapidamente, un versamento che si forma in fretta, anche di quantità modesta, comprime le camere destre, impedisce il riempimento e riduce la gittata. È il **tamponamento cardiaco**. Un versamento che cresce lentamente può invece raggiungere volumi molto elevati senza sintomi, perché il pericardio ha il tempo di distendersi.
+La stessa caratteristica che lo rende utile lo rende pericoloso: poiché il sacco fibroso non si adatta rapidamente, un versamento che si forma in fretta, anche di quantità modesta, comprime le camere destre, impedisce il riempimento e riduce la gittata. È il **[tamponamento cardiaco]{.ix}**. Un versamento che cresce lentamente può invece raggiungere volumi molto elevati senza sintomi, perché il pericardio ha il tempo di distendersi.
 
 !!! allarme "Tamponamento cardiaco, soprattutto dopo cardiochirurgia"
-    Quadro tipico: ipotensione, tachicardia, giugulari turgide, toni cardiaci ovattati (triade di Beck), calo della pressione sistolica durante l'inspirazione (polso paradosso), oliguria. Nel post-operatorio un drenaggio mediastinico che **smette bruscamente di drenare** dopo un'emissione abbondante di sangue non è un buon segno: può essere ostruito da coaguli mentre il sangue si raccoglie nel pericardio. Avvisare subito il medico; non manipolare il drenaggio oltre le procedure previste dal protocollo; preparare l'ecocardiogramma urgente e il rientro in sala secondo le indicazioni.
+    Quadro tipico: ipotensione, tachicardia, giugulari turgide, toni ovattati (triade di Beck), calo della sistolica in inspirazione (polso paradosso), oliguria. Nel postoperatorio un drenaggio mediastinico che **smette bruscamente di drenare** dopo un'emissione abbondante può essere ostruito da coaguli mentre il sangue si raccoglie nel pericardio. Avvisare subito il medico; non manipolare il drenaggio oltre il protocollo; preparare ecocardiogramma urgente e, se indicato, rientro in sala.
 
 ### Le coronarie e i loro territori
 
@@ -86,7 +86,7 @@ Sequenza di attivazione dal nodo del seno alle fibre di Purkinje, con l'onda o l
 - Il **nodo atrioventricolare** (AV), alla base del setto interatriale, è l'unica via elettrica normale tra atri e ventricoli. Conduce lentamente: questo ritardo (circa un decimo di secondo) corrisponde alla maggior parte dell'intervallo PR e funge anche da filtro, perché impedisce che un atrio molto rapido (fibrillazione, flutter) sia trasmesso integralmente ai ventricoli.
 - Il **fascio di His** si divide nelle **branche destra e sinistra**; la sinistra si suddivide ulteriormente in due fascicoli (anteriore e posteriore). Le **fibre di Purkinje** distribuiscono l'impulso ai ventricoli, che si attivano in modo quasi simultaneo e producono il QRS stretto.
 
-Il principio che governa tutto il sistema è la **soppressione da sovrastimolazione** (overdrive): comanda la struttura con la frequenza intrinseca più alta, cioè normalmente il nodo del seno; tutte le altre cellule capaci di automatismo sono «tenute a bada». Se il seno rallenta o tace, o se l'impulso non passa, subentra la struttura successiva (giunzione, poi ventricoli) con la sua frequenza più lenta: è il **ritmo di scappamento**, che è un meccanismo di sicurezza e non una malattia in sé.
+Il principio che governa tutto il sistema è la **[soppressione da sovrastimolazione]{.ix}** (overdrive): comanda la struttura con la frequenza intrinseca più alta, cioè normalmente il nodo del seno; tutte le altre cellule capaci di automatismo sono «tenute a bada». Se il seno rallenta o tace, o se l'impulso non passa, subentra la struttura successiva (giunzione, poi ventricoli) con la sua frequenza più lenta: è il **[ritmo di scappamento]{.ix}**, che è un meccanismo di sicurezza e non una malattia in sé.
 
 | Struttura | Che cosa fa | Frequenza intrinseca | Se si guasta |
 |---|---|---|---|
@@ -130,13 +130,13 @@ Valori indicativi di un adulto a riposo: volume telediastolico del ventricolo si
 
 ### I toni e i soffi
 
-All'ascoltazione si distinguono due rumori normali, il **primo tono** (S1) e il **secondo tono** (S2), che dipendono dalla chiusura delle valvole e dal sangue che le colpisce, non dal «rumore» del muscolo. Il S1 segna l'inizio della sistole (chiusura di mitrale e tricuspide) ed è più forte all'apice; il S2 segna l'inizio della diastole (chiusura di aortica e polmonare) ed è più forte alla base. Durante l'inspirazione il S2 può sdoppiarsi fisiologicamente, perché il sangue torna al cuore destro in quantità maggiore e la valvola polmonare si chiude un poco dopo l'aortica.
+All'auscultazione si distinguono due rumori normali, il **primo tono** (S1) e il **secondo tono** (S2), che dipendono dalla chiusura delle valvole e dal sangue che le colpisce, non dal «rumore» del muscolo. S1 segna l'inizio della sistole (chiusura di mitrale e tricuspide) ed è più forte all'apice; S2 segna l'inizio della diastole (chiusura di aortica e polmonare) ed è più forte alla base. Durante l'inspirazione S2 può sdoppiarsi fisiologicamente, perché il sangue torna al cuore destro in quantità maggiore e la valvola polmonare si chiude un poco dopo l'aortica.
 
 | Rumore | Momento | Origine | Significato |
 |---|---|---|---|
 | S1 | inizio sistole, subito dopo il QRS | chiusura mitrale e tricuspide | normale; attenuato in caso di tamponamento, versamento, obesità |
 | S2 | fine sistole, verso la fine dell'onda T | chiusura aortica e polmonare | normale; sdoppiato in inspirazione |
-| S3 | protodiastole, dopo il S2 | riempimento rapido di un ventricolo dilatato | segno di scompenso (galoppo ventricolare); normale nei giovani |
+| S3 | protodiastole, dopo S2 | riempimento rapido di un ventricolo dilatato | segno di scompenso (galoppo ventricolare); normale nei giovani |
 | S4 | telediastole, prima del S1 | atrio che si contrae contro un ventricolo rigido | ipertrofia, ischemia; assente in fibrillazione atriale |
 | Soffio | dove indicato | flusso turbolento | stenosi o insufficienza valvolare, difetti del setto; talvolta fisiologico |
 | Sfregamento | variabile | foglietti pericardici infiammati | pericardite |
@@ -144,7 +144,7 @@ All'ascoltazione si distinguono due rumori normali, il **primo tono** (S1) e il 
 I **soffi** sono rumori prolungati dovuti a turbolenza del flusso. Si classificano per momento (sistolico se cade tra S1 e S2, diastolico se cade tra S2 e S1), sede di massima intensità e irradiazione. Per esempio, la stenosi aortica dà un soffio sistolico irradiato ai vasi del collo; l'insufficienza mitralica un soffio sistolico all'apice irradiato all'ascella; la stenosi mitralica un rullio diastolico all'apice; l'insufficienza aortica un soffio diastolico lungo il margine sternale sinistro. Classificare un soffio non è compito dell'infermiere, ma riconoscere che **c'è un soffio nuovo** e riferirlo, sì.
 
 !!! errore
-    Contare i toni in tachicardia senza controllo. Quando la frequenza è alta la diastole diventa più breve della sistole e S1 e S2 sembrano scambiarsi. Per identificare il S1 si palpa **un solo** polso carotideo, con delicatezza e per pochi secondi, mentre si ascolta: il tono che coincide con il polso è il S1.
+    Contare i toni in tachicardia senza controllo. Quando la frequenza è alta la diastole diventa più breve della sistole e S1 e S2 sembrano scambiarsi. Per identificare S1 si palpa **un solo** polso carotideo, con delicatezza e per pochi secondi, mentre si ascolta: il tono che coincide con il polso è S1.
 
 ## Emodinamica: gittata, precarico, postcarico, contrattilità
 
@@ -163,21 +163,21 @@ Con GS 70 mL e FC 75/min la gittata è 5,25 L/min. Poiché organismi di taglia d
 | Pressione venosa centrale (PVC) | pressione nell'atrio destro, indice del precarico destro | 2–8 mmHg | giugulari; misura con catetere venoso centrale |
 | Pressione arteriosa media (PAM) | pressione di perfusione degli organi | 70–100 mmHg | calcolo; monitoraggio arterioso invasivo |
 
-Per la frazione di eiezione (FE) le linee guida europee sullo scompenso cardiaco del 2026 (ESC, 2026) distinguono lo scompenso con FE ridotta (FE inferiore al 50%) da quello con FE conservata (FE pari o superiore al 50%); le edizioni precedenti separavano anche una categoria intermedia (41–49%), che la nuova edizione ha eliminato. Una FE normale non esclude lo scompenso: nello scompenso a FE conservata il difetto è nel riempimento (rilasciamento e rigidità), non nella contrazione.
+Per la frazione di eiezione (FE) le linee guida ESC 2026 sullo scompenso cardiaco distinguono lo scompenso con FE ridotta (FE inferiore al 50%) da quello con FE conservata (FE pari o superiore al 50%); le edizioni precedenti separavano anche una categoria intermedia (41–49%), che la nuova edizione ha eliminato. Una FE normale non esclude lo scompenso: nello scompenso a FE conservata il difetto è nel riempimento (rilasciamento e rigidità), non nella contrazione.
 
 ### Tre determinanti della gittata sistolica
 
 La gittata sistolica dipende da tre fattori: quanto il ventricolo è riempito (precarico), quanta resistenza incontra per espellere il sangue (postcarico) e quanto forte si contrae a parità di condizioni (contrattilità). Ragionare su quale dei tre è alterato è il metodo più efficace per capire un paziente con bassa pressione o con scompenso, e per capire che cosa faccia un farmaco.
 
-**Precarico.** È lo stiramento delle fibre muscolari alla fine della diastole, cioè in pratica il volume di sangue nel ventricolo prima che si contragga. Aumenta con l'aumento del ritorno venoso (infusioni, vasocostrizione venosa, insufficienza renale con ritenzione di liquidi) e diminuisce nell'ipovolemia (emorragia, disidratazione, diuresi eccessiva), nella vasodilatazione venosa (nitrati) e nel tamponamento. Al letto si stima con le giugulari, gli edemi, il peso, la PVC e la risposta alla somministrazione di liquidi.
+**[Precarico]{.ix}.** È lo stiramento delle fibre muscolari alla fine della diastole, cioè in pratica il volume di sangue nel ventricolo prima che si contragga. Aumenta con l'aumento del ritorno venoso (infusioni, vasocostrizione venosa, insufficienza renale con ritenzione di liquidi) e diminuisce nell'ipovolemia (emorragia, disidratazione, diuresi eccessiva), nella vasodilatazione venosa (nitrati) e nel tamponamento. Al letto si stima con le giugulari, gli edemi, il peso, la PVC e la risposta alla somministrazione di liquidi.
 
-**Postcarico.** È la forza che il ventricolo deve vincere per espellere il sangue: dipende soprattutto dalla pressione aortica e dalle resistenze delle arteriole (**resistenze vascolari sistemiche**), dalla stenosi della valvola aortica e dalle dimensioni e dallo spessore della parete (più grande è la camera e più sottile la parete, più alta la tensione per la stessa pressione: legge di Laplace). Aumenta con la vasocostrizione, l'ipertensione, la stenosi aortica; diminuisce con i vasodilatatori arteriosi.
+**[Postcarico]{.ix}.** È la forza che il ventricolo deve vincere per espellere il sangue: dipende soprattutto dalla pressione aortica e dalle resistenze delle arteriole (**resistenze vascolari sistemiche**), dalla stenosi della valvola aortica e dalle dimensioni e dallo spessore della parete (più grande è la camera e più sottile la parete, più alta la tensione per la stessa pressione: legge di Laplace). Aumenta con la vasocostrizione, l'ipertensione, la stenosi aortica; diminuisce con i vasodilatatori arteriosi.
 
-**Contrattilità.** È la forza di contrazione a parità di precarico e di postcarico. Aumenta con la stimolazione simpatica (adrenalina, noradrenalina), con gli inotropi (dobutamina, milrinone) e con la digossina; diminuisce con l'ischemia, con la necrosi, con la cardiomiopatia dilatativa, con l'acidosi e con alcuni farmaci (beta-bloccanti, alcuni calcio-antagonisti).
+**[Contrattilità]{.ix}.** È la forza di contrazione a parità di precarico e di postcarico. Aumenta con la stimolazione simpatica (adrenalina, noradrenalina), con gli inotropi (dobutamina, milrinone) e con la digossina; diminuisce con l'ischemia, con la necrosi, con la cardiomiopatia dilatativa, con l'acidosi e con alcuni farmaci (beta-bloccanti, alcuni calcio-antagonisti).
 
 ### La legge di Frank-Starling
 
-Il cuore ha un'importante capacità di autoregolazione: **entro certi limiti, più il ventricolo è riempito in diastole, più forte è la contrazione successiva e maggiore la gittata sistolica**. Questa proprietà (legge di Frank-Starling) fa sì che, a ogni battito, il ventricolo sinistro espella quanto ha ricevuto dal destro; mantiene eguali le gittate delle due metà del cuore e consente di adeguarsi a variazioni del ritorno venoso. Oltre un certo punto, però, il ventricolo è così disteso che la gittata non aumenta più e può diminuire: è la fase «piatta» o discendente della curva, tipica del cuore scompensato.
+Il cuore ha un'importante capacità di autoregolazione: **entro certi limiti, più il ventricolo è riempito in diastole, più forte è la contrazione successiva e maggiore la gittata sistolica**. Questa proprietà (legge di Frank-Starling) fa sì che, a ogni battito, il ventricolo sinistro espella quanto ha ricevuto dal destro; mantiene uguali le gittate delle due metà del cuore e consente di adeguarsi a variazioni del ritorno venoso. Oltre un certo punto, però, il ventricolo è così disteso che la gittata non aumenta più e può diminuire: è la fase «piatta» o discendente della curva, tipica del cuore scompensato.
 
 <!-- FIG-RICHIESTA: SCH-STARLING | Grafico in bianco e nero della relazione di Frank-Starling: asse orizzontale = precarico (volume o pressione telediastolica del ventricolo), asse verticale = gittata sistolica (o gittata cardiaca). Tre curve: normale (sale ripida, poi si appiattisce); con contrattilità aumentata (spostata verso l'alto e a sinistra: dobutamina, stimolazione simpatica); con contrattilità ridotta, cioè scompenso (spostata in basso e a destra, quasi piatta). Sulla curva dello scompenso indicare il punto «congestione polmonare: più liquidi non aumentano la gittata» e, a sinistra sulla curva normale, il punto «ipovolemia: i liquidi aumentano la gittata». Punti da controllare: le curve non devono incrociarsi; la curva dello scompenso è sotto quella normale a parità di precarico; didascalia: «Con il ventricolo sano un aumento di precarico aumenta la gittata; nello scompenso la curva si appiattisce e un aumento ulteriore di precarico produce congestione, non gittata.» -->
 
@@ -185,7 +185,7 @@ Le implicazioni pratiche sono due. Nell'**ipovolemia** (emorragia, disidratazion
 
 ### La pressione arteriosa media
 
-La pressione arteriosa che si misura con il bracciale ha due valori (sistolica e diastolica), ma la pressione che «spinge» il sangue negli organi è la media nel tempo, la **pressione arteriosa media** (PAM). Poiché la diastole dura più della sistole, la PAM è più vicina alla diastolica che alla media aritmetica dei due valori:
+La pressione arteriosa che si misura con il bracciale ha due valori (sistolica e diastolica), ma la pressione che «spinge» il sangue negli organi è la media nel tempo, la **[pressione arteriosa media]{.ix}** (PAM). Poiché la diastole dura più della sistole, la PAM è più vicina alla diastolica che alla media aritmetica dei due valori:
 
 > **PAM ≈ PAD + (PAS − PAD) / 3**   oppure   **PAM = GC × RVS + PVC**
 
@@ -198,7 +198,7 @@ dove RVS indica le resistenze vascolari sistemiche. La seconda formula dice che 
 
 ### Quando i tre fattori vanno male: i tipi di shock
 
-Lo **shock** è l'insufficiente perfusione degli organi. Si distingue secondo il fattore compromesso; le variazioni attese di PVC, gittata e resistenze orientano la diagnosi e la scelta terapeutica.
+Lo **[shock]{.ix}** è l'insufficiente perfusione degli organi. Si distingue secondo il fattore compromesso; le variazioni attese di PVC, gittata e resistenze orientano la diagnosi e la scelta terapeutica.
 
 | Tipo | Che cosa non funziona | PVC | Gittata | Resistenze | Esempi | Cute |
 |---|---|---|---|---|---|---|
@@ -228,7 +228,7 @@ Durante la sistole, la contrazione del ventricolo sinistro comprime i vasi che a
 
 La **pressione di perfusione coronarica** del ventricolo sinistro è, in modo approssimato, la differenza tra la pressione diastolica aortica e la pressione telediastolica del ventricolo. Si riduce quindi se la diastolica cala (ipotensione, insufficienza aortica) e se la pressione nel ventricolo è alta (scompenso, ipertrofia, stenosi aortica). Gli strati **subendocardici** sono i più esposti, perché sono i più compressi in sistole e i più lontani dal circolo epicardico: per questo l'ischemia lieve produce di solito sottoslivellamento del tratto ST, e quella transmurale (occlusione completa) sopraslivellamento.
 
-Le piccole arterie coronarie si dilatano o si restringono per mantenere il flusso adeguato al lavoro del cuore, in modo largamente indipendente dalla pressione di perfusione entro un intervallo ampio (**autoregolazione**). Quando una stenosi supera circa il 70% del calibro, il flusso a riposo può ancora essere conservato perché i vasi a valle si dilatano al massimo; perde però la **riserva** e non può aumentare sotto sforzo, e compaiono i sintomi.
+Le piccole arterie coronarie si dilatano o si restringono per mantenere il flusso adeguato al lavoro del cuore, in modo largamente indipendente dalla pressione di perfusione entro un intervallo ampio (**autoregolazione**). Una stenosi di grado moderato o severo può lasciare normale il flusso a riposo, perché i vasi a valle si dilatano; ma consuma la **riserva coronarica**: il flusso non può più aumentare sotto sforzo e compaiono i sintomi. Solo con stenosi molto serrate il flusso si riduce anche a riposo.
 
 ### Che cosa fa consumare ossigeno al cuore
 
@@ -238,7 +238,7 @@ Tre fattori determinano il consumo di ossigeno del miocardio:
 - la **contrattilità**: contrarsi più forte costa più energia;
 - la **tensione di parete**, che dipende dal precarico (più il ventricolo è dilatato, più è tesa la parete) e dal postcarico (pressione da vincere): è il fattore più costoso.
 
-Un indice pratico è il **doppio prodotto** (frequenza × pressione sistolica), che riassume grosso modo il lavoro cardiaco: un paziente che sviluppa angina sempre alla stessa soglia di doppio prodotto ha una soglia ischemica stabile.
+Un indice pratico è il **[doppio prodotto]{.ix}** (frequenza × pressione sistolica), che riassume grosso modo il lavoro cardiaco: un paziente che sviluppa angina sempre alla stessa soglia di doppio prodotto ha una soglia ischemica stabile.
 
 !!! chiave "Regola – La frequenza conta due volte"
     La tachicardia **aumenta la richiesta** (più battiti, più lavoro) e **diminuisce l'apporto** (la diastole si accorcia). Per questo, in un paziente con coronarie malate, una frequenza elevata è pericolosa anche se la pressione è normale, e il primo obiettivo di molte terapie antianginose è abbassare la frequenza e il postcarico. L'ischemia può comparire con una stenosi invariata semplicemente perché è salito il consumo.
@@ -249,7 +249,7 @@ Un indice pratico è il **doppio prodotto** (frequenza × pressione sistolica), 
 | Sangue | febbre, ipertiroidismo | anemia, ipossiemia, emoglobina anomala, ipotensione |
 | Situazione | sforzo, dolore, ansia, freddo, pasto abbondante | shock, ipovolemia, sanguinamento |
 
-La **definizione universale di infarto** (ESC/ACC/AHA/WHF, quinta edizione, 2026) mantiene il concetto di squilibrio tra richiesta e apporto come causa di danno ischemico a sé stante, distinto dall'infarto da trombosi coronarica: nella nuova classificazione parla di **infarto secondario** e lo riconosce quando una condizione acuta come l'anemia, l'ipossiemia, l'ipotensione o una tachiaritmia provoca ischemia in un cuore con una riserva coronarica ridotta. Per l'infermiere il messaggio è pratico: in un paziente con dolore toracico e tachicardia, la prima cosa da cercare è che cosa ha fatto salire la richiesta o scendere l'apporto.
+La quinta definizione universale di infarto (ESC/ACC/AHA/WHF, 2026) chiama **infarto secondario** (già «di tipo 2») l'ischemia causata da una condizione acuta, come anemia, ipossiemia, ipotensione o tachiaritmia, in un cuore con riserva coronarica ridotta. Il messaggio pratico: in un paziente con dolore toracico e tachicardia si cerca anche ciò che ha fatto salire la richiesta o scendere l'apporto.
 
 !!! nota "Angina da sforzo in un paziente con stenosi coronarica nota"
     **Situazione.** Uomo di 66 anni in riabilitazione cardiologica dopo un infarto, in cammino rapido nel corridoio.
@@ -277,12 +277,8 @@ Si usano cinque termini per descrivere gli effetti sul cuore: **cronotropo** (fr
 
 *L'adrenalina* agisce su tutti i recettori α e β; la *noradrenalina* soprattutto su α1 e β1.
 
-!!! nota "Bradicardia dopo aspirazione tracheale"
-    **Situazione.** Paziente intubato in terapia intensiva cardiochirurgica, durante l'aspirazione delle secrezioni.
-    **Cosa si vede.** Brusco calo della frequenza (da 72 a 38/min) con pausa e pressione che scende; monitor: bradicardia sinusale con pause.
-    **Cosa si fa.** Si interrompe subito la manovra, si ossigena, si controllano polso e pressione; il medico valuta l'atropina se la bradicardia persiste.
-    **Il farmaco, in due righe.** L'atropina blocca l'azione del vago sul nodo del seno e sul nodo AV, quindi la frequenza sale; non agisce se il blocco è sotto il nodo AV e non è un farmaco da lasciare «pronto» senza indicazione.
-    **Occhio infermieristico.** Stimoli vagali comuni: aspirazione, vomito, tosse, stimolazione dello sfintere anale, manovre di Valsalva, dolore intenso, cateterismi. Preoccupano nei pazienti con malattia del nodo del seno o con blocchi AV.
+!!! allarme "Stimoli vagali e bradicardia"
+    Aspirazione tracheale, vomito, tosse, stimolazione anale, manovre di Valsalva, dolore intenso e cateterismi possono provocare bradicardia improvvisa, con pausa e calo di pressione, soprattutto nei pazienti con malattia del nodo del seno o con blocco atrioventricolare. Si interrompe lo stimolo, si ossigena, si controllano polso e pressione e si avvisa il medico: l'[atropina]{.pa}, che blocca l'azione del vago sul nodo del seno e sul nodo AV, si somministra solo su indicazione medica e non agisce se il blocco è sotto il nodo AV.
 
 ### Barocettori e pressione
 
@@ -292,12 +288,12 @@ I **barocettori** sono recettori di stiramento situati nel **seno carotideo** (n
 
 Se la pressione sale, i barocettori scaricano di più: il vago prevale, il simpatico si riduce, il cuore rallenta e i vasi si dilatano, quindi la pressione scende. Se la pressione cala, accade il contrario. Il sistema corregge le variazioni in pochi secondi, ma si adatta ai valori abituali: nell'ipertensione cronica si «ritara» su valori più alti.
 
-L'esempio quotidiano è l'**alzata dal letto**. Passando dalla posizione supina a quella eretta, 500–800 mL di sangue si spostano per gravità verso gli arti inferiori e i vasi addominali; il ritorno venoso e la gittata diminuiscono e la pressione tende a scendere. I barocettori rispondono con tachicardia (di solito +10–20/min) e vasocostrizione. Se la risposta è insufficiente o è bloccata dai farmaci si ha **ipotensione ortostatica**, definita in genere come caduta della pressione sistolica di almeno 20 mmHg o della diastolica di almeno 10 mmHg entro tre minuti dall'assunzione della posizione eretta; il paziente avverte giramento di testa, offuscamento della vista, e può cadere o avere una sincope.
+L'esempio quotidiano è l'**alzata dal letto**. Passando dalla posizione supina a quella eretta, 500–800 mL di sangue si spostano per gravità verso gli arti inferiori e i vasi addominali; il ritorno venoso e la gittata diminuiscono e la pressione tende a scendere. I barocettori rispondono con tachicardia (di solito +10–20/min) e vasocostrizione. Se la risposta è insufficiente o è bloccata dai farmaci si ha **[ipotensione ortostatica]{.ix}**, definita in genere come caduta della pressione sistolica di almeno 20 mmHg o della diastolica di almeno 10 mmHg entro tre minuti dall'assunzione della posizione eretta; il paziente avverte giramento di testa, offuscamento della vista, e può cadere o avere una sincope.
 
 !!! errore
-    Alzare in piedi di colpo un paziente che sta a letto da giorni, ipovolemico o in terapia con vasodilatatori, diuretici, alfa-bloccanti o nitrati. L'ipotensione ortostatica è la causa più frequente di cadute nell'anziano cardiopatico. Si procede per gradi (seduto, gambe fuori dal letto, in piedi), misurando la pressione in clinostatismo e dopo uno e tre minuti di ortostatismo se il paziente è a rischio, e il paziente si accompagna. I beta-bloccanti riducono la tachicardia compensatoria e mascherano il segno più precoce.
+    Alzare in piedi di colpo un paziente che sta a letto da giorni, ipovolemico o in terapia con vasodilatatori, diuretici, alfa-bloccanti o nitrati. L'ipotensione ortostatica è una causa frequente di caduta nell'anziano cardiopatico. Si procede per gradi (seduto, gambe fuori dal letto, in piedi), misurando la pressione in clinostatismo e dopo uno e tre minuti di ortostatismo se il paziente è a rischio, e il paziente si accompagna. I beta-bloccanti riducono la tachicardia compensatoria e mascherano il segno più precoce.
 
-La **sincope vasovagale** è l'altra faccia dello stesso riflesso: uno stimolo (dolore, emozione, ortostatismo prolungato, vista del sangue) provoca un'improvvisa caduta della pressione, spesso con bradicardia, e una breve perdita di coscienza con ripresa spontanea e completa. Le **manovre vagali** (come la manovra di Valsalva modificata, che si esegue secondo protocollo) si usano deliberatamente per interrompere alcune tachicardie sopraventricolari rallentando il nodo AV; il massaggio del seno carotideo è riservato al medico e controindicato in presenza di soffi carotidei o di eventi cerebrovascolari recenti.
+La **[sincope vasovagale]{.ix}** è l'altra faccia dello stesso riflesso: uno stimolo (dolore, emozione, ortostatismo prolungato, vista del sangue) provoca un'improvvisa caduta della pressione, spesso con bradicardia, e una breve perdita di coscienza con ripresa spontanea e completa. Le **manovre vagali** (come la manovra di Valsalva modificata, che si esegue secondo protocollo) si usano deliberatamente per interrompere alcune tachicardie sopraventricolari rallentando il nodo AV; il massaggio del seno carotideo è riservato al medico e controindicato in presenza di soffi carotidei o di eventi cerebrovascolari recenti.
 
 ### Il sistema renina-angiotensina-aldosterone
 
@@ -320,9 +316,9 @@ I farmaci di questa tabella sono descritti nella Parte 8. Qui basta ricordare ch
 
 ### I peptidi natriuretici, l'ormone antidiuretico, la risposta allo shock
 
-Quando gli atri e i ventricoli si distendono per il sovraccarico di volume, producono **peptidi natriuretici** (ANP dall'atrio; BNP e NT-proBNP dal ventricolo): dilatano i vasi e inducono l'eliminazione di sodio e acqua, un meccanismo di difesa contro il sovraccarico. Il dosaggio di BNP o NT-proBNP orienta nello scompenso: un valore molto basso lo rende improbabile; valori alti non sono specifici, perché salgono anche con l'età, la fibrillazione atriale e l'insufficienza renale. L'**ormone antidiuretico** (vasopressina), liberato dall'ipofisi per un aumento dell'osmolarità o una riduzione importante della volemia, favorisce il riassorbimento di acqua nel rene ed è vasocostrittore a dosi elevate.
+Quando gli atri e i ventricoli si distendono per il sovraccarico di volume, producono **[peptidi natriuretici]{.ix}** (ANP dall'atrio; BNP e NT-proBNP dal ventricolo): dilatano i vasi e inducono l'eliminazione di sodio e acqua, un meccanismo di difesa contro il sovraccarico. Il dosaggio di BNP o NT-proBNP orienta nello scompenso: un valore molto basso lo rende improbabile; valori alti non sono specifici, perché salgono anche con l'età, la fibrillazione atriale e l'insufficienza renale. L'**ormone antidiuretico** (vasopressina), liberato dall'ipofisi per un aumento dell'osmolarità o una riduzione importante della volemia, favorisce il riassorbimento di acqua nel rene ed è vasocostrittore a dosi elevate.
 
-Nella **risposta allo shock** questi sistemi si attivano insieme: la stimolazione simpatica e il RAAS aumentano frequenza, contrattilità e resistenze e trattengono sodio e acqua; la diuresi si riduce. È una risposta di emergenza utile a breve termine, che a lungo termine (scompenso cronico) diventa dannosa. Questa è la ragione pratica per cui lo scompenso si cura con farmaci che **bloccano** i sistemi neuro-ormonali: beta-bloccanti, ACE-inibitori o ARNI, antialdosteronici e inibitori del cotrasportatore sodio-glucosio di tipo 2 (SGLT2).
+Nella **risposta allo shock** questi sistemi si attivano insieme: la stimolazione simpatica e il RAAS aumentano frequenza, contrattilità e resistenze e trattengono sodio e acqua; la diuresi si riduce. Utile a breve termine, a lungo termine (scompenso cronico) diventa dannosa: per questo lo scompenso si cura con farmaci che **bloccano** i sistemi neuro-ormonali: beta-bloccanti, ACE-inibitori o ARNI, antialdosteronici e inibitori del cotrasportatore sodio-glucosio di tipo 2 (SGLT2).
 
 !!! chiave "Regola – Tre assi, tre bersagli"
     Quasi tutti i farmaci cardiovascolari agiscono su uno di tre assi: **il simpatico** (beta-bloccanti, inotropi, vasopressori, atropina), **il RAAS e il volume** (ACE-inibitori, sartani, ARNI, antialdosteronici, diuretici) e **il carico del cuore** (nitrati, vasodilatatori, calcio-antagonisti). Davanti a un farmaco nuovo, la domanda è: su quale asse agisce e quale parametro devo controllare perché il suo bersaglio sia stato colpito «troppo»?
@@ -341,9 +337,11 @@ L'infermiere non fa diagnosi, ma è la persona che vede il paziente più spesso 
 | Pressione | misura standardizzata, confronto con il basale | valori, differenza tra le braccia | PAS < 90 mmHg o calo marcato; valori molto elevati con sintomi |
 | Giugulari | paziente a 30–45° | turgore, pulsazione | giugulari turgide a 45° |
 | Edemi e peso | pressione con il dito, bilancia | fovea, simmetria, aumento di peso | aumento di peso rapido (oltre 2 kg in 3 giorni, soglia indicativa) o edema nuovo |
-| Torace e polmoni | respiro, saturazione, ascoltazione | frequenza respiratoria, crepitii | FR > 25/min, SpO₂ in calo, crepitii nuovi |
-| Cuore | ascoltazione dei quattro focolai | toni, soffi nuovi, sfregamento | soffio o sfregamento nuovo, toni ovattati |
+| Torace e polmoni | respiro, saturazione, auscultazione | frequenza respiratoria, crepitii | FR > 25/min, SpO₂ in calo, crepitii nuovi |
+| Cuore | auscultazione dei quattro focolai | toni, soffi nuovi, sfregamento | soffio o sfregamento nuovo, toni ovattati |
 | Perfusione | cute, temperatura, riempimento capillare, diuresi | cute fredda e marezzata, oliguria | diuresi < 0,5 mL/kg/h per più ore |
+
+Le soglie della colonna «Quando avvisare» sono indicative: valgono quelle fissate dal protocollo e dalla prescrizione del reparto.
 
 ### Il polso
 
@@ -354,12 +352,12 @@ Si valutano cinque caratteristiche: **frequenza**, **ritmo** (regolare, irregola
 | Reperto | Che cosa significa | Esempio |
 |---|---|---|
 | Polso regolare, 60–100/min | normale | — |
-| Polso irregolare «senza schema» | probabile fibrillazione atriale | pazienti in FA parossistica o persistente |
-| Polso irregolare con battiti saltati | extrasistoli | ricerca dell'ECG |
-| Frequenza del polso minore di quella al monitor (**deficit di polso**) | battiti troppo precoci non generano un polso periferico | FA rapida, extrasistoli frequenti |
+| Polso irregolarmente irregolare (nessuno schema) | probabile fibrillazione atriale | pazienti in FA parossistica o persistente |
+| Polso regolare con battiti prematuri o «saltati» | extrasistoli | conferma con l'ECG |
+| Frequenza del polso minore di quella al monitor (**[deficit di polso]{.ix}**) | battiti troppo precoci non generano un polso periferico | FA rapida, extrasistoli frequenti |
 | Polso debole e rapido («filiforme») | gittata ridotta | shock, ipovolemia |
 | Polso assente o ridotto in un arto, o differenza tra i due lati | ostruzione arteriosa, dissecazione aortica, embolia | dolore improvviso a un arto; dolore toracico lacerante |
-| Polso che si indebolisce in inspirazione (**polso paradosso**) | tamponamento, broncospasmo grave | calo della sistolica in inspirazione oltre 10 mmHg |
+| Polso che si indebolisce in inspirazione (**[polso paradosso]{.ix}**) | tamponamento, broncospasmo grave | calo della sistolica in inspirazione oltre 10 mmHg |
 
 !!! nota "Cosa fa l'infermiere – il polso"
     - **Osserva.** Frequenza, ritmo, ampiezza e simmetria, sempre sullo stesso polso e nelle stesse condizioni (a riposo, dopo qualche minuto in posizione seduta).
@@ -405,7 +403,7 @@ Le vene giugulari sono un «manometro» naturale dell'atrio destro: il livello a
 
 <!-- FIG-RICHIESTA: SCH-GIUGULARE | Profilo di un paziente semiseduto a 45° in bianco e nero, con la vena giugulare esterna e quella interna indicate; la pulsazione giugulare è indicata dal livello (linea orizzontale) sopra l'angolo sternale (angolo di Louis); un righello verticale parte dall'angolo sternale e arriva al livello della pulsazione; segnare «normale: fino a 3–4 cm sopra l'angolo sternale» e «PVC ≈ distanza + 5 cm di acqua». Didascalia: «Valutazione della pressione venosa giugulare: si misura in verticale dall'angolo sternale al punto più alto della pulsazione; l'atrio destro sta circa 5 cm sotto l'angolo.» Punti da controllare: la misura è verticale e non lungo il collo; la testa è appena ruotata dal lato opposto e il paziente è rilassato; la vena giugulare interna decorre dietro il muscolo sternocleidomastoideo, la esterna è superficiale. -->
 
-Tecnica: il paziente è sdraiato con il busto inclinato a 30–45°, la testa appena ruotata dal lato opposto, la luce radente. Si cerca la pulsazione della vena giugulare interna (si distingue da quella carotidea perché è visibile ma non palpabile, ha due onde per ciclo, scompare con una lieve pressione alla base del collo, si abbassa in inspirazione e cambia con la posizione); si misura in verticale la distanza tra l'angolo sternale (angolo di Louis) e il punto più alto della pulsazione: **normalmente non supera 3–4 cm** (corrisponde a una pressione venosa centrale di circa 8–9 cm di acqua, 6–7 mmHg). Una distanza maggiore indica pressione venosa elevata. Il **reflusso epatogiugulare** (compressione dolce e sostenuta dell'addome in regione epatica per circa dieci secondi, con respiro regolare e senza manovra di Valsalva) fa salire la pulsazione in modo sostenuto nello scompenso destro. In un paziente con catetere venoso centrale la PVC si legge sul monitor: lo zero è all'altezza dell'atrio destro (quarto spazio intercostale sulla linea ascellare media) e il trasduttore va riposizionato ad ogni cambio di posizione.
+Tecnica: il paziente è sdraiato con il busto inclinato a 30–45°, la testa appena ruotata dal lato opposto, la luce radente. Si cerca la pulsazione della vena giugulare interna (si distingue da quella carotidea perché è visibile ma non palpabile, ha due onde per ciclo, scompare con una lieve pressione alla base del collo, si abbassa in inspirazione e cambia con la posizione); si misura in verticale la distanza tra l'angolo sternale (angolo di Louis) e il punto più alto della pulsazione: **normalmente non supera 3–4 cm** (corrisponde a una pressione venosa centrale di circa 8–9 cm di acqua, 6–7 mmHg). Una distanza maggiore indica pressione venosa elevata. Il **[reflusso epatogiugulare]{.ix}** (compressione dolce e sostenuta dell'addome in regione epatica per circa dieci secondi, con respiro regolare e senza manovra di Valsalva) fa salire la pulsazione in modo sostenuto nello scompenso destro. In un paziente con catetere venoso centrale la PVC si legge sul monitor: lo zero è all'altezza dell'atrio destro (quarto spazio intercostale sulla linea ascellare media) e il trasduttore va riposizionato a ogni cambio di posizione.
 
 !!! nota "Cosa fa l'infermiere – le giugulari"
     - **Osserva.** A 30–45°: turgore e pulsazione delle giugulari, confrontati con il giorno prima. Cerca anche edemi, aumento di peso, epatomegalia, ascite.
@@ -431,13 +429,13 @@ Il **peso corporeo** misurato ogni mattina, alla stessa ora, con lo stesso abbig
 
 ### Respiro e polmoni
 
-In un cardiopatico il respiro è un parametro di scompenso. Si osservano la **frequenza respiratoria** (12–20/min nell'adulto a riposo), la fatica respiratoria (uso dei muscoli accessori), la posizione: la **ortopnea** (il paziente non riesce a stare sdraiato e dorme con più cuscini) e la **dispnea parossistica notturna** (risveglio notturno con affanno, che migliora in posizione seduta) sono tipiche dello scompenso sinistro. All'ascoltazione i **crepitii** inspiratori alle basi, bilaterali e non modificati dalla tosse, indicano liquido negli alveoli; i **sibili** possono accompagnare lo scompenso («asma cardiaco»); il murmure ridotto o assente a una base fa pensare a versamento pleurico. La saturazione si misura con il pulsossimetro (un calo sotto il valore abituale o sotto 92% si segnala; l'obiettivo lo indica la prescrizione); con estremità fredde o ritmo irregolare la lettura può essere inaffidabile.
+In un cardiopatico il respiro è un indice di scompenso. Si osservano la frequenza respiratoria (12–20/min a riposo), l'uso dei muscoli accessori, l'**ortopnea** (il paziente non tollera la posizione sdraiata) e la **dispnea parossistica notturna** (risveglio con affanno che migliora da seduto). All'auscultazione i **crepitii** inspiratori basali bilaterali, che la tosse non modifica, indicano liquido negli alveoli; il murmure ridotto a una base fa pensare a un versamento pleurico. La saturazione si misura con il pulsossimetro: un calo sotto il valore abituale o sotto 92% si segnala; con estremità fredde o ritmo irregolare la lettura può essere inaffidabile.
 
 ### L'auscultazione cardiaca di base
 
-L'ascoltazione richiede un fonendoscopio e un ambiente tranquillo. Il **diaframma** (a contatto pieno con la cute) rende meglio i suoni acuti (toni, soffi di insufficienza); la **campana** (appoggiata appena) i suoni gravi (rullio della stenosi mitralica, terzo tono). Il paziente è seduto o semisdraiato a 30–45°.
+L'auscultazione richiede un fonendoscopio e un ambiente tranquillo. Il **diaframma** (a contatto pieno con la cute) rende meglio i suoni acuti (toni, soffi di insufficienza); la **campana** (appoggiata appena) i suoni gravi (rullio della stenosi mitralica, terzo tono). Il paziente è seduto o semisdraiato a 30–45°.
 
-<!-- FIG-RICHIESTA: SCH-AUSCULT | Torace anteriore schematico in bianco e nero con sterno, clavicole, coste e spazi intercostali numerati; i quattro focolai di ascoltazione indicati con cerchi numerati: aortico (2° spazio intercostale destro, margine sternale), polmonare (2° spazio intercostale sinistro, margine sternale), tricuspidale (4°-5° spazio intercostale sinistro, margine sternale), mitralico (5° spazio intercostale sinistro, linea emiclaveare, cioè all'apice); punto di Erb (3° spazio intercostale sinistro) facoltativo. In trasparenza o con linea tratteggiata il profilo del cuore e la proiezione delle valvole per mostrare che i focolai NON coincidono con la posizione anatomica delle valvole (il suono si propaga nella direzione del flusso). Didascalia: «Focolai di ascoltazione. Il focolaio prende il nome dalla valvola il cui suono si sente meglio in quel punto, non dalla posizione della valvola.» Punti da controllare: numerazione degli spazi (il 2° spazio è sotto l'angolo sternale, che segna la seconda costa); l'apice è sull'emiclaveare sinistra. -->
+<!-- FIG-RICHIESTA: SCH-AUSCULT | Torace anteriore schematico in bianco e nero con sterno, clavicole, coste e spazi intercostali numerati; i quattro focolai di auscultazione indicati con cerchi numerati: aortico (2° spazio intercostale destro, margine sternale), polmonare (2° spazio intercostale sinistro, margine sternale), tricuspidale (4°-5° spazio intercostale sinistro, margine sternale), mitralico (5° spazio intercostale sinistro, linea emiclaveare, cioè all'apice); punto di Erb (3° spazio intercostale sinistro) facoltativo. In trasparenza o con linea tratteggiata il profilo del cuore e la proiezione delle valvole per mostrare che i focolai NON coincidono con la posizione anatomica delle valvole (il suono si propaga nella direzione del flusso). Didascalia: «Focolai di auscultazione. Il focolaio prende il nome dalla valvola il cui suono si sente meglio in quel punto, non dalla posizione della valvola.» Punti da controllare: numerazione degli spazi (il 2° spazio è sotto l'angolo sternale, che segna la seconda costa); l'apice è sull'emiclaveare sinistra. -->
 
 | Focolaio | Posizione | Valvola che vi si ascolta meglio |
 |---|---|---|
@@ -446,11 +444,11 @@ L'ascoltazione richiede un fonendoscopio e un ambiente tranquillo. Il **diaframm
 | Tricuspidale | 4°–5° spazio intercostale sinistro, a lato dello sterno | tricuspide |
 | Mitralico (apicale) | 5° spazio intercostale sinistro, linea emiclaveare | mitrale |
 
-Si procede in ordine, dal focolaio aortico a quello mitralico (o viceversa, ma sempre nello stesso ordine), ascoltando **ogni focolaio per alcuni cicli**. A ciascuno si cerca: S1 e S2 distinti e regolari; un rumore aggiuntivo (S3, S4) o un soffio (momento, intensità, irradiazione); uno **sfregamento pericardico**, un rumore ruvido, «grattante», che cambia con il respiro e con la posizione (pericardite, frequente dopo cardiochirurgia); toni **attenuati** (tamponamento, versamento). Nel portatore di protesi valvolare meccanica si ascolta anche il click.
+Si procede in ordine, dal focolaio aortico a quello mitralico (o viceversa, ma sempre nello stesso ordine), ascoltando **ogni focolaio per alcuni cicli**. A ciascuno si cerca: S1 e S2 distinti e regolari; un rumore aggiuntivo (S3, S4) o un soffio (momento, intensità, irradiazione); uno **[sfregamento pericardico]{.ix}**, un rumore ruvido, «grattante», che cambia con il respiro e con la posizione (pericardite, frequente dopo cardiochirurgia); toni **attenuati** (tamponamento, versamento). Nel portatore di protesi valvolare meccanica si ascolta anche il click.
 
-!!! nota "Cosa fa l'infermiere – l'ascoltazione"
+!!! nota "Cosa fa l'infermiere – l'auscultazione"
     - **Osserva.** Non si limita a ciò che ascolta: valuta insieme polso, giugulari, pressione e sintomi.
-    - **Misura.** Esegue l'ascoltazione sempre nello stesso modo e con lo stesso ordine, confrontando con quanto riportato in cartella dal medico.
+    - **Misura.** Esegue l'auscultazione sempre nello stesso modo e con lo stesso ordine, confrontando con quanto riportato in cartella dal medico.
     - **Chiama.** Per un soffio nuovo, uno sfregamento, un terzo tono, toni attenuati, un click della protesi meccanica scomparso o attutito, o un ritmo che sembra irregolare.
     - **Documenta.** Il reperto con parole descrittive («soffio sistolico all'apice, nuovo rispetto a ieri»), sede, ora e chi è stato avvertito.
     - **Non spetta all'infermiere.** Classificare un soffio come patologico o chiedere esami in autonomia: la classificazione e la diagnosi spettano al medico.
@@ -488,7 +486,7 @@ Si procede in ordine, dal focolaio aortico a quello mitralico (o viceversa, ma s
 
     **9.** Perché un antialdosteronico richiede il controllo del potassio? {{righe:1}}
 
-    **10.** Un paziente post-cardiochirurgia ha pressione in calo, giugulari turgide, toni ovattati e un drenaggio che non drena più. Che cosa si sospetta e che cosa si fa? {{righe:1}}
+    **10.** Un paziente dopo cardiochirurgia ha pressione in calo, giugulari turgide, toni ovattati e un drenaggio che non drena più. Che cosa si sospetta e che cosa si fa? {{righe:1}}
 
     *Risposte.* 1. Il ventricolo sinistro, perché pompa contro la pressione sistemica. 2. L'orifizio tra atrio e ventricolo sinistri all'inizio della sistole; corrisponde al primo tono. 3. La coronaria destra (nella maggior parte delle persone); bradicardia sinusale e blocco atrioventricolare. 4. Perché la diastole, in cui il ventricolo sinistro è perfuso, si accorcia molto più della sistole, mentre il consumo di ossigeno aumenta. 5. 50 + (90 − 50)/3 ≈ 63 mmHg: sotto la soglia indicativa di 65, quindi non accettabile se il paziente ha segni di cattiva perfusione. 6. Precarico, postcarico e contrattilità. 7. Sul tratto piatto: aumentare il precarico non aumenta la gittata e produce congestione; spesso servono diuretici, non liquidi. 8. Rallenta frequenza e conduzione, riduce la contrattilità e il consumo di ossigeno, e riduce la secrezione di renina. 9. Perché blocca la perdita di potassio nel tubulo distale e può causare iperpotassiemia, soprattutto con insufficienza renale o con ACE-inibitori. 10. Tamponamento cardiaco: avvisare subito il medico e preparare l'ecocardiografia urgente e il rientro in sala secondo protocollo; non manipolare il drenaggio oltre il protocollo.
 
@@ -499,7 +497,7 @@ Si procede in ordine, dal focolaio aortico a quello mitralico (o viceversa, ma s
 | Nodo del seno | genera lo stimolo normale (60–100/min) | bradicardia, pause; tachicardia sinusale da cause esterne | atropina (bradicardia acuta sintomatica), stimolazione; beta-bloccanti e ivabradina per rallentare |
 | Nodo AV | ritarda e filtra lo stimolo | blocco AV; risposta ventricolare troppo rapida in FA | atropina, stimolazione nel blocco; beta-bloccanti, diltiazem, digossina per rallentare |
 | Sistema His-Purkinje | distribuisce lo stimolo ai ventricoli | blocchi di branca: dissincronia | resincronizzazione (dispositivo); nessun farmaco specifico |
-| Valvola aortica | evita il ritorno di sangue dall'aorta | stenosi: sincope, angina, scompenso; insufficienza: volume | di norma chirurgica o percutanea; vasodilatatori cauti nell'insufficienza; nitrati e vasodilatatori con grande cautela nella stenosi |
+| Valvola aortica | evita il ritorno di sangue dall'aorta | stenosi: sincope, angina, scompenso; insufficienza: volume | di norma chirurgica o percutanea; nella stenosi vasodilatatori e nitrati vanno usati con grande cautela |
 | Valvola mitrale | separa atrio e ventricolo sinistri | insufficienza: dispnea, FA; stenosi: congestione | diuretici, controllo della frequenza, anticoagulanti (stenosi con FA) |
 | Pericardio | avvolge e lubrifica | pericardite; tamponamento | antinfiammatori nella pericardite (secondo prescrizione); drenaggio nel tamponamento |
 | Coronarie | irrorano il miocardio | angina, infarto | antiaggreganti, nitrati, beta-bloccanti, statine; riperfusione |
@@ -511,6 +509,7 @@ Si procede in ordine, dal focolaio aortico a quello mitralico (o viceversa, ma s
 | Simpatico (β1) | accelera e rinforza il cuore | eccesso: tachicardia, ischemia, aritmie | beta-bloccanti |
 | Vago (M2) | rallenta seno e nodo AV | eccesso: bradicardia, sincope vasovagale | atropina |
 
+<!-- ABBR: RCP = riassunto delle caratteristiche del prodotto -->
 <!-- ABBR: AD = atrio destro -->
 <!-- ABBR: AS = atrio sinistro -->
 <!-- ABBR: VD = ventricolo destro -->
