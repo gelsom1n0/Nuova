@@ -28,19 +28,19 @@
 
 ### Dosi, nomi commerciali e fonti
 
-Le **dosi** sono didattiche: indicano l'ordine di grandezza e la logica di titolazione, non sostituiscono prescrizione, RCP e protocollo del reparto. I **nomi commerciali** sono quelli più diffusi in Italia, riportati a titolo di esempio: l'elenco cambia nel tempo e va verificato nella Banca Dati Farmaci dell'AIFA. Le **fonti** (linee guida ESC e di altre società, Note AIFA, RCP) sono citate per nome e anno; le raccomandazioni vengono aggiornate, perciò prima di ogni uso clinico va controllata la versione corrente del documento originale.
+Le **dosi** sono didattiche: indicano l'ordine di grandezza e la logica di titolazione, non sostituiscono prescrizione, RCP e protocollo del reparto. I **nomi commerciali** sono medicinali autorizzati in Italia, riportati a titolo di esempio: l'effettiva commercializzazione e l'elenco cambiano nel tempo e vanno verificati nella Banca Dati Farmaci dell'AIFA. Le **fonti** (linee guida ESC e di altre società, Note AIFA, RCP) sono citate per nome e anno; le raccomandazioni vengono aggiornate, perciò prima di ogni uso clinico va controllata la versione corrente del documento originale.
 
 ## Abbreviazioni principali {.plain .cont}
 
 | Sigla | Significato | Sigla | Significato |
 |---|---|---|---|
-| ACS | Sindrome coronarica acuta | FE | Frazione di eiezione |
+| SCA | Sindrome coronarica acuta | FE | Frazione di eiezione |
 | AIFA | Agenzia Italiana del Farmaco | FA | Fibrillazione atriale |
 | AV | Atrioventricolare | HFrEF | Scompenso a FE ridotta |
 | BPCO | Broncopneumopatia cronica ostruttiva | IRC | Insufficienza renale cronica |
 | CEC | Circolazione extracorporea | PA | Pressione arteriosa |
 | CrCl | Clearance della creatinina | PS | Pronto soccorso |
 | DOAC | Anticoagulante orale diretto | RCP | Riassunto delle Caratteristiche del Prodotto |
-| ECG | Elettrocardiogramma | TdP | Torsione di punta |
+| ECG | Elettrocardiogramma | FANS | Farmaci antinfiammatori non steroidei |
 | EBPM | Eparina a basso peso molecolare | UTIC | Unità di terapia intensiva cardiologica |
 | EV | Endovenoso | VO / IM / SC | Via orale / intramuscolare / sottocutanea |
