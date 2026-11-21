@@ -18,26 +18,19 @@ Il primo vantaggio del metodo è la completezza: un tracciato letto con i sette 
 | 1. Frequenza | Quanto è veloce? | striscia del ritmo (II) | 60–100/min |
 | 2. Ritmo | È regolare? Da dove nasce? | intervalli RR, onde P | RR costanti, P sinusale |
 | 3. Asse | Dove va il QRS nel piano frontale? | I e aVF (poi II) | da −30° a +90° |
-| 4. P e PR | C'è una P per ogni QRS? Quanto dura il PR? | II, V1 | P < 0,12 s; PR 0,12–0,20 s |
-| 5. QRS | È stretto o largo? Ci sono onde Q? Che ampiezza ha? | tutte | QRS < 0,12 s |
+| 4. P e PR | C'è una P per ogni QRS? Quanto dura il PR? | II, V1 | P < 0,12 s; PR 0,12–0,20 s |
+| 5. QRS | È stretto o largo? Ci sono onde Q? Che ampiezza ha? | tutte | QRS < 0,12 s |
 | 6. ST e T | Il punto J è sulla linea di base? La T è concorde? | per gruppi contigui | ST isoelettrico, T positiva in I, II, V3–V6 |
-| 7. QT | Il QT corretto è nei limiti? | II, V5 (il QT più lungo) | QTc < 0,45 s (uomo), < 0,46 s (donna) |
+| 7. QT | Il QT corretto è nei limiti? | II, V5 (il QT più lungo) | QTc < 0,45 s (uomo), < 0,46 s (donna) |
 
 ### Il passo zero: controllare il foglio prima del cuore
 
-Prima di contare un solo battito si controllano quattro elementi che non riguardano il paziente ma il tracciato. Il **nome**, la data e l'ora, perché un ECG senza identificazione non vale nulla e perché il confronto con il tracciato precedente è spesso la chiave della diagnosi. La **velocità della carta**, che deve essere di 25 mm/s. L'**impulso di calibrazione**, il rettangolo stampato all'inizio di ogni riga, che deve essere alto 10 mm (10 mm/mV). La **qualità del segnale**: linea di base stabile, assenza di artefatti, tutte le derivazioni presenti. Se uno di questi elementi non è in ordine, il tracciato si ripete prima di essere interpretato (sezione 3.6).
+Prima di contare un solo battito si controllano quattro elementi che non riguardano il paziente ma il tracciato. Il **nome**, la data e l'ora, perché un ECG senza identificazione non vale nulla e perché il confronto con il tracciato precedente è spesso la chiave della diagnosi. La **velocità della carta**, che deve essere di 25 mm/s. L'**impulso di calibrazione**, il rettangolo stampato all'inizio di ogni riga, che deve essere alto 10 mm (10 mm/mV). La **qualità del segnale**: linea di base stabile, assenza di artefatti, tutte le derivazioni presenti. Se uno di questi elementi non è in ordine, il tracciato si ripete prima di essere interpretato (sezione 3.6).
 
 !!! chiave "Regola – Prima il foglio, poi il cuore"
-    Nome e ora · 25 mm/s · calibrazione 10 mm · segnale pulito. Un ECG che non supera il passo zero non si interpreta: si ripete.
+    Nome e ora · 25 mm/s · calibrazione 10 mm · segnale pulito. Un ECG che non supera il passo zero non si interpreta: si ripete.
 
-La carta merita un ripasso rapido, già trattato nella Parte 2. In orizzontale, a 25 mm/s, un quadretto piccolo (1 mm) vale 0,04 s e un quadretto grande (5 mm) vale 0,20 s; cinque quadretti grandi fanno un secondo. In verticale, con la calibrazione standard, un quadretto piccolo vale 0,1 mV e un quadretto grande 0,5 mV. Nel testo le ampiezze si esprimono spesso in millimetri: con la calibrazione standard 1 mm equivale a 0,1 mV.
-
-!!! nota "Comunicare un ECG in modo descrittivo"
-    **Situazione.** Durante la notte l'infermiere registra un ECG a un paziente che riferisce cardiopalmo e deve avvisare il medico di guardia.
-    **Cosa si vede.** Il tracciato viene letto con i sette passi e descritto con parole verificabili: frequenza, regolarità, presenza delle P, durata del QRS, eventuali alterazioni del tratto ST.
-    **Cosa si fa.** Si riferisce la descrizione insieme ai parametri vitali e ai sintomi, si allega o si trasmette il tracciato e si confronta con il precedente, se disponibile.
-    **Il farmaco, in due righe.** Nessun farmaco in questa fase: la terapia dipende dalla diagnosi, che spetta al medico. È utile però riferire i farmaci in corso che modificano l'ECG (beta-bloccanti, antiaritmici, farmaci che allungano il QT).
-    **Occhio infermieristico.** Il tracciato si conserva con nome, data, ora e sintomi presenti al momento della registrazione; un ECG registrato durante il sintomo vale molto più di uno registrato dopo.
+La carta merita un ripasso rapido, già trattato nella Parte 2. In orizzontale, a 25 mm/s, un quadretto piccolo (1 mm) vale 0,04 s e un quadretto grande (5 mm) vale 0,20 s; cinque quadretti grandi fanno un secondo. In verticale, con la calibrazione standard, un quadretto piccolo vale 0,1 mV e un quadretto grande 0,5 mV. Nel testo le ampiezze si esprimono spesso in millimetri: con la calibrazione standard 1 mm equivale a 0,1 mV.
 
 ## La frequenza e la regolarità del ritmo
 
@@ -47,12 +40,12 @@ La frequenza ventricolare si calcola sugli intervalli tra due onde R consecutive
 
 Il **metodo dei 300** divide 300 per il numero di quadretti grandi compresi tra due onde R. Si basa sul fatto che in un minuto la carta scorre per 300 quadretti grandi. Da qui deriva la sequenza da imparare a memoria: se la R successiva cade dopo 1 quadretto grande la frequenza è 300/min, dopo 2 è 150, dopo 3 è 100, dopo 4 è 75, dopo 5 è 60, dopo 6 è 50. Il metodo è rapidissimo, ma vale solo per i ritmi regolari e diventa impreciso alle frequenze elevate, dove mezzo quadretto di differenza sposta molto il risultato.
 
-Il **metodo dei 1500** divide 1500 per il numero di quadretti piccoli tra due R: in un minuto la carta scorre infatti per 1500 mm. È più preciso del precedente ed è il metodo da usare quando la frequenza deve essere riportata con esattezza, per esempio per calcolare il QT corretto. Anch'esso richiede un ritmo regolare.
+Il **metodo dei 1500** divide 1500 per il numero di quadretti piccoli tra due R: in un minuto la carta scorre infatti per 1500 mm. È più preciso del precedente ed è il metodo da usare quando la frequenza deve essere riportata con esattezza, per esempio per calcolare il QT corretto. Anch'esso richiede un ritmo regolare.
 
-Il **metodo dei 6 secondi** conta i complessi QRS compresi in 30 quadretti grandi (6 s) e moltiplica per 10. Se il tracciato standard di 10 s è disponibile per intero, si contano i QRS della striscia del ritmo e si moltiplica per 6. È l'unico metodo corretto quando il ritmo è irregolare, come nella fibrillazione atriale, ed è utile anche nelle bradicardie, quando tra due R ci sono così tanti quadretti che la sequenza dei 300 non basta più.
+Il **metodo dei 6 secondi** conta i complessi QRS compresi in 30 quadretti grandi (6 s) e moltiplica per 10. Se il tracciato standard di 10 s è disponibile per intero, si contano i QRS della striscia del ritmo e si moltiplica per 6. È l'unico metodo corretto quando il ritmo è irregolare, come nella fibrillazione atriale, ed è utile anche nelle bradicardie, quando tra due R ci sono così tanti quadretti che la sequenza dei 300 non basta più.
 
 ::: fig SIM-RS-02
-Ritmo sinusale a 72/min in derivazione II. Tra due onde R ci sono poco più di 4 quadretti grandi (circa 21 quadretti piccoli): 300 : 4,2 ≈ 72/min; 1500 : 21 ≈ 72/min. Ogni QRS è preceduto da un'onda P positiva con PR costante di circa 0,16 s; a sinistra di ogni riga, l'impulso di calibrazione alto 10 mm.
+Ritmo sinusale a 72/min in derivazione II. Tra due onde R ci sono poco più di 4 quadretti grandi (circa 21 quadretti piccoli): 300 : 4,2 ≈ 72/min; 1500 : 21 ≈ 72/min. Ogni QRS è preceduto da un'onda P positiva con PR costante di circa 0,16 s; a sinistra di ogni riga, l'impulso di calibrazione alto 10 mm.
 :::
 
 | Quadretti grandi tra due R | Frequenza (/min) | Quadretti piccoli tra due R | Frequenza (/min) |
@@ -71,7 +64,7 @@ Il risultato si classifica in modo semplice. Nell'adulto a riposo la frequenza n
 :::
 
 !!! errore "Errore classico – La frequenza della fibrillazione atriale su un solo intervallo"
-    Calcolare la frequenza di una fibrillazione atriale con il metodo dei 300 su un solo intervallo RR. Il risultato cambia a seconda dell'intervallo scelto e può sottostimare o sovrastimare la risposta ventricolare. Con un ritmo irregolare si contano i QRS della striscia di 10 s e si moltiplica per 6.
+    Calcolare la frequenza di una fibrillazione atriale con il metodo dei 300 su un solo intervallo RR. Il risultato cambia a seconda dell'intervallo scelto e può sottostimare o sovrastimare la risposta ventricolare. Con un ritmo irregolare si contano i QRS della striscia di 10 s e si moltiplica per 6.
 
 Il numero mostrato dal monitor o stampato dall'elettrocardiografo è utile ma non infallibile. L'apparecchio conta i picchi che riconosce: se l'onda T è alta può contarla come un secondo QRS e raddoppiare la frequenza; se il QRS è piccolo, o in presenza di artefatti, può perdere battiti o contarne di inesistenti. La frequenza dichiarata dalla macchina si controlla sempre sul tracciato e, quando possibile, sul polso del paziente. La differenza tra frequenza all'ECG e frequenza al polso (deficit di polso) ha un significato clinico: indica battiti che non producono un'onda di polso efficace, come accade nella fibrillazione atriale rapida o con extrasistoli molto precoci.
 
@@ -150,52 +143,44 @@ I passi dal quarto al settimo esaminano una per una le componenti del ciclo. Il 
 
 ### L'onda P
 
-L'onda P rappresenta la depolarizzazione degli atri: la prima metà corrisponde soprattutto all'atrio destro, la seconda all'atrio sinistro. Si studia meglio in II, dove è più ampia, e in V1, dove spesso è bifasica (prima positiva, poi negativa). La P sinusale normale è positiva in I, II e aVF, negativa in aVR, dura meno di 0,12 s e in II non supera 2,5 mm di ampiezza.
+L'onda P rappresenta la depolarizzazione degli atri: la prima metà corrisponde soprattutto all'atrio destro, la seconda all'atrio sinistro. Si studia meglio in II, dove è più ampia, e in V1, dove spesso è bifasica (prima positiva, poi negativa). La P sinusale normale è positiva in I, II e aVF, negativa in aVR, dura meno di 0,12 s e in II non supera 2,5 mm di ampiezza.
 
-Una P alta e appuntita in II (oltre 2,5 mm) orienta verso un ingrandimento dell'atrio destro (P «polmonare»); una P larga (0,12 s o più), spesso con due gobbe in II, e con una componente negativa ampia e profonda in V1, orienta verso un ingrandimento dell'atrio sinistro (P «mitralica»). Una P negativa in II e aVF indica un'attivazione degli atri dal basso verso l'alto, come nei ritmi giunzionali o atriali bassi; una P negativa in I, con tutte le altre derivazioni «rovesciate», fa pensare anzitutto all'inversione degli elettrodi delle braccia. I criteri degli ingrandimenti atriali sono ripresi nella Parte 5.
+Una P alta e appuntita in II (oltre 2,5 mm) orienta verso un ingrandimento dell'atrio destro (P «polmonare»); una P larga (0,12 s o più), spesso con due gobbe in II, e con una componente negativa ampia e profonda in V1, orienta verso un ingrandimento dell'atrio sinistro (P «mitralica»). Una P negativa in II e aVF indica un'attivazione degli atri dal basso verso l'alto, come nei ritmi giunzionali o atriali bassi; una P negativa in I, con tutte le altre derivazioni «rovesciate», fa pensare anzitutto all'inversione degli elettrodi delle braccia. I criteri degli ingrandimenti atriali sono ripresi nella Parte 5.
 
 ### L'intervallo PR
 
-Il PR si misura dall'inizio dell'onda P all'inizio del QRS, qualunque sia la prima onda del complesso (Q oppure R). Comprende la depolarizzazione degli atri, il passaggio nel nodo atrioventricolare (AV), dove l'impulso viene fisiologicamente rallentato, e la conduzione nel fascio di His e nelle branche. Il valore normale nell'adulto è **0,12–0,20 s** (da tre a cinque quadretti piccoli). Si misura nella derivazione in cui il PR appare più lungo, di solito II.
+Il PR si misura dall'inizio dell'onda P all'inizio del QRS, qualunque sia la prima onda del complesso (Q oppure R). Comprende la depolarizzazione degli atri, il passaggio nel nodo atrioventricolare (AV), dove l'impulso viene fisiologicamente rallentato, e la conduzione nel fascio di His e nelle branche. Il valore normale nell'adulto è **0,12–0,20 s** (da tre a cinque quadretti piccoli). Si misura nella derivazione in cui il PR appare più lungo, di solito II.
 
-Un **PR lungo** (oltre 0,20 s) con conduzione 1:1 definisce il BAV di primo grado; un PR che si allunga progressivamente fino a una P non condotta definisce il BAV di secondo grado tipo I. Un **PR corto** (meno di 0,12 s) si osserva nella pre-eccitazione (sindrome di Wolff-Parkinson-White, con onda delta), nei ritmi giunzionali con P retrograda prima del QRS e, in alcune persone, come variante senza significato patologico. Il tratto PR, cioè il segmento tra la fine della P e l'inizio del QRS, è anche la **linea di riferimento** per giudicare lo slivellamento del tratto ST; nella pericardite acuta può essere sottoslivellato.
-
-::: fig SIM-BAV-01 larghezza=intera
-[Blocco AV di 1° grado]{.ix voce="Blocco AV di 1° grado"}: il PR misura circa 0,30 s (sette-otto quadretti piccoli), è costante e ogni P è seguita dal QRS. Il confronto con la [[fig:SIM-RS-02]], in cui il PR è di 0,16 s, mostra come il passo 4 si risolva con una misura sola.
-:::
+Un **PR lungo** (oltre 0,20 s) con conduzione 1:1 definisce il BAV di primo grado; un PR che si allunga progressivamente fino a una P non condotta definisce il BAV di secondo grado tipo I. Un **PR corto** (meno di 0,12 s) si osserva nella pre-eccitazione (sindrome di Wolff-Parkinson-White, con onda delta), nei ritmi giunzionali con P retrograda prima del QRS e, in alcune persone, come variante senza significato patologico. Il tratto PR, cioè il segmento tra la fine della P e l'inizio del QRS, è anche la **linea di riferimento** per giudicare lo slivellamento del tratto ST; nella pericardite acuta può essere sottoslivellato.
 
 ### Il QRS: durata, morfologia, ampiezza
 
 Il QRS rappresenta la depolarizzazione dei ventricoli. Si descrivono le sue onde con una convenzione precisa: la prima onda negativa, se precede la R, si chiama Q; la prima onda positiva si chiama R; un'onda negativa dopo la R si chiama S; un'eventuale seconda onda positiva si chiama R' (erre primo). Le lettere maiuscole indicano onde ampie, le minuscole onde piccole: rS è un complesso con una piccola r e una S profonda, qR una piccola q seguita da una R ampia, QS un complesso interamente negativo.
 
-**Durata.** Il QRS normale dura meno di **0,12 s** (meno di tre quadretti piccoli) e di solito tra 0,07 e 0,10 s. Si misura nella derivazione in cui appare più largo. Un QRS di 0,12 s o più indica che i ventricoli non si attivano attraverso il normale sistema di conduzione: blocco di branca, battito o ritmo di origine ventricolare, stimolazione da pacemaker, pre-eccitazione, iperpotassiemia o effetto di farmaci che rallentano la conduzione. Le raccomandazioni AHA/ACCF/HRS del 2009 definiscono **incompleto** un blocco di branca con QRS tra 0,11 e 0,12 s e morfologia compatibile, **completo** con QRS di 0,12 s o più (Parte 5).
+**Durata.** Il QRS normale dura meno di **0,12 s** (meno di tre quadretti piccoli) e di solito tra 0,07 e 0,10 s. Si misura nella derivazione in cui appare più largo. Un QRS di 0,12 s o più indica che i ventricoli non si attivano attraverso il normale sistema di conduzione: blocco di branca, battito o ritmo di origine ventricolare, stimolazione da pacemaker, pre-eccitazione, iperpotassiemia o effetto di farmaci che rallentano la conduzione. Le raccomandazioni AHA/ACCF/HRS del 2009 definiscono **incompleto** un blocco di branca con QRS tra 0,11 e 0,12 s e morfologia compatibile, **completo** con QRS di 0,12 s o più (Parte 5).
 
-**Morfologia.** Nelle derivazioni che guardano il ventricolo sinistro da sinistra (I, aVL, V5, V6) è normale una piccola onda q iniziale, espressione dell'attivazione del setto da sinistra verso destra: è la **q settale**, stretta (meno di 0,04 s) e poco profonda. Nelle precordiali l'onda R cresce progressivamente da V1, dove il complesso è di solito rS, a V5–V6, dove è qR o R; la **zona di transizione**, cioè la derivazione in cui R e S si equivalgono, cade normalmente in V3 o V4. Una transizione anticipata (già in V1–V2) o ritardata (oltre V4) non è di per sé patologica, ma va ricordata perché può dipendere anche dal posizionamento degli elettrodi.
+**Morfologia.** Nelle derivazioni che guardano il ventricolo sinistro da sinistra (I, aVL, V5, V6) è normale una piccola onda q iniziale, espressione dell'attivazione del setto da sinistra verso destra: è la **q settale**, stretta (meno di 0,04 s) e poco profonda. Nelle precordiali l'onda R cresce progressivamente da V1, dove il complesso è di solito rS, a V5–V6, dove è qR o R; la **zona di transizione**, cioè la derivazione in cui R e S si equivalgono, cade normalmente in V3 o V4. Una transizione anticipata (già in V1–V2) o ritardata (oltre V4) non è di per sé patologica, ma va ricordata perché può dipendere anche dal posizionamento degli elettrodi.
 
-Un'onda Q diventa **patologica** quando è larga o profonda e compare in derivazioni contigue. La quarta definizione universale di infarto (2018) considera compatibili con un infarto pregresso, in assenza di blocchi di branca e di ipertrofia, una Q di durata superiore a 0,02 s (o un complesso QS) in V2–V3, oppure una Q di almeno 0,03 s e profonda almeno 0,1 mV (o un QS) in due derivazioni contigue tra I, aVL, V4–V6 o II, III, aVF. Una Q isolata in III o in aVR, o un QS isolato in V1, sono reperti frequenti anche nel cuore normale.
+Un'onda Q diventa **patologica** quando è larga o profonda e compare in derivazioni contigue. La quarta definizione universale di infarto (2018) considera compatibili con un infarto pregresso, in assenza di blocchi di branca e di ipertrofia, una Q di durata superiore a 0,02 s (o un complesso QS) in V2–V3, oppure una Q di almeno 0,03 s e profonda almeno 0,1 mV (o un QS) in due derivazioni contigue tra I, aVL, V4–V6 o II, III, aVF. Una Q isolata in III o in aVR, o un QS isolato in V1, sono reperti frequenti anche nel cuore normale.
 
-**Ampiezza.** Un QRS di ampiezza aumentata, soprattutto nelle precordiali, può indicare un'ipertrofia ventricolare, ma è comune nei giovani magri e negli sportivi; i criteri di voltaggio (per esempio Sokolow-Lyon) sono trattati nella Parte 5. Si parla di **bassi voltaggi** quando l'ampiezza totale del QRS è inferiore a 0,5 mV (5 mm) in tutte le derivazioni periferiche oppure inferiore a 1 mV (10 mm) in tutte le precordiali. Le cause sono extracardiache (obesità, enfisema, versamento pleurico o pericardico, edema generalizzato) o cardiache (cardiopatie infiltrative come l'amiloidosi, esiti di infarti estesi, ipotiroidismo grave). Nel paziente operato di cardiochirurgia, la comparsa di bassi voltaggi rispetto ai tracciati precedenti deve far pensare a un versamento pericardico.
-
-::: fig SIM-LV-01 variante=3x4
-[Bassi voltaggi]{.ix}: il QRS non raggiunge 5 mm in nessuna derivazione periferica e resta sotto i 10 mm nelle precordiali. L'impulso di calibrazione è alto 10 mm: la riduzione delle ampiezze è quindi reale e non dipende da un guadagno impostato male. Ritmo sinusale a circa 88/min, QRS stretto.
-:::
+**Ampiezza.** Un QRS di ampiezza aumentata, soprattutto nelle precordiali, può indicare un'ipertrofia ventricolare, ma è comune nei giovani magri e negli sportivi; i criteri di voltaggio (per esempio Sokolow-Lyon) sono trattati nella Parte 5. Si parla di **bassi voltaggi** quando l'ampiezza totale del QRS è inferiore a 0,5 mV (5 mm) in tutte le derivazioni periferiche oppure inferiore a 1 mV (10 mm) in tutte le precordiali. Le cause sono extracardiache (obesità, enfisema, versamento pleurico o pericardico, edema generalizzato) o cardiache (cardiopatie infiltrative come l'amiloidosi, esiti di infarti estesi, ipotiroidismo grave). Nel paziente operato di cardiochirurgia, la comparsa di bassi voltaggi rispetto ai tracciati precedenti deve far pensare a un versamento pericardico. Un esempio di bassi voltaggi è nell'[[es:SIM-LV-01]].
 
 !!! chiave "Regola – Prima l'impulso di calibrazione, poi le ampiezze"
-    Nessun giudizio su voltaggi alti o bassi, su ST o su T «giganti» prima di aver verificato che l'impulso di calibrazione sia alto 10 mm. Con il guadagno a 5 mm/mV ogni ampiezza appare dimezzata; con 20 mm/mV appare raddoppiata.
+    Nessun giudizio su voltaggi alti o bassi, su ST o su T «giganti» prima di aver verificato che l'impulso di calibrazione sia alto 10 mm. Con il guadagno a 5 mm/mV ogni ampiezza appare dimezzata; con 20 mm/mV appare raddoppiata.
 
 ### Il tratto ST
 
-Il tratto ST va dalla fine del QRS all'inizio dell'onda T e corrisponde alla fase di plateau del potenziale d'azione, quando tutte le cellule ventricolari sono depolarizzate e non circola corrente: per questo, normalmente, è sulla **linea isoelettrica**. Il punto in cui il QRS finisce e il tratto ST comincia si chiama **punto J** (dall'inglese *junction*, giunzione). Lo slivellamento si misura al punto J, confrontandolo con la linea di riferimento, che è il tratto PR o, meglio, il punto di inizio del QRS; per migliorare la riproducibilità molti operatori misurano anche 40–80 ms dopo il punto J. Si osservano poi la **forma** del tratto ST (concava, rettilinea, convessa verso l'alto) e la sua continuità con l'onda T.
+Il tratto ST va dalla fine del QRS all'inizio dell'onda T e corrisponde alla fase di plateau del potenziale d'azione, quando tutte le cellule ventricolari sono depolarizzate e non circola corrente: per questo, normalmente, è sulla **linea isoelettrica**. Il punto in cui il QRS finisce e il tratto ST comincia si chiama **punto J** (dall'inglese *junction*, giunzione). Lo slivellamento si misura al punto J, confrontandolo con la linea di riferimento, che è il tratto PR o, meglio, il punto di inizio del QRS; per migliorare la riproducibilità molti operatori misurano anche 40–80 ms dopo il punto J. Si osservano poi la **forma** del tratto ST (concava, rettilinea, convessa verso l'alto) e la sua continuità con l'onda T.
 
-Le soglie del sopraslivellamento non sono uguali in tutte le derivazioni né per tutti i pazienti. Secondo le raccomandazioni AHA/ACCF/HRS del 2009, riprese dalla quarta definizione universale di infarto, il sopraslivellamento del punto J è significativo quando, in **due derivazioni contigue**, raggiunge almeno 1 mm (0,1 mV) in tutte le derivazioni diverse da V2–V3; in **V2–V3** la soglia è di 2 mm negli uomini di 40 anni o più, di 2,5 mm negli uomini sotto i 40 anni e di 1,5 mm nelle donne di qualsiasi età. Il motivo è che in V2–V3 un modesto sopraslivellamento è fisiologico, soprattutto nei maschi giovani. Un **sottoslivellamento** orizzontale o discendente di 0,5 mm o più in due derivazioni contigue è considerato significativo; un sottoslivellamento ascendente, con punto J depresso e rapida risalita, è frequente in tachicardia e ha scarso valore.
+Le soglie del sopraslivellamento non sono uguali in tutte le derivazioni né per tutti i pazienti. Secondo le raccomandazioni AHA/ACCF/HRS del 2009, riprese dalla quarta definizione universale di infarto, il sopraslivellamento del punto J è significativo quando, in **due derivazioni contigue**, raggiunge almeno 1 mm (0,1 mV) in tutte le derivazioni diverse da V2–V3; in **V2–V3** la soglia è di 2 mm negli uomini di 40 anni o più, di 2,5 mm negli uomini sotto i 40 anni e di 1,5 mm nelle donne di qualsiasi età. Il motivo è che in V2–V3 un modesto sopraslivellamento è fisiologico, soprattutto nei maschi giovani. Un **sottoslivellamento** orizzontale o discendente di 0,5 mm o più in due derivazioni contigue è considerato significativo; un sottoslivellamento ascendente, con punto J depresso e rapida risalita, è frequente in tachicardia e ha scarso valore.
 
 | Reperto | Soglia (due derivazioni contigue) | Fonte |
 |---|---|---|
-| ST sopraslivellato, derivazioni diverse da V2–V3 | ≥ 1 mm | AHA/ACCF/HRS 2009; quarta definizione universale di infarto 2018 |
-| ST sopraslivellato in V2–V3, uomo ≥ 40 anni | ≥ 2 mm | idem |
-| ST sopraslivellato in V2–V3, uomo < 40 anni | ≥ 2,5 mm | idem |
-| ST sopraslivellato in V2–V3, donna | ≥ 1,5 mm | idem |
-| ST sottoslivellato orizzontale o discendente | ≥ 0,5 mm | quarta definizione universale di infarto 2018 |
+| ST sopraslivellato, derivazioni diverse da V2–V3 | ≥ 1 mm | AHA/ACCF/HRS 2009; quarta definizione universale di infarto 2018 |
+| ST sopraslivellato in V2–V3, uomo ≥ 40 anni | ≥ 2 mm | idem |
+| ST sopraslivellato in V2–V3, uomo < 40 anni | ≥ 2,5 mm | idem |
+| ST sopraslivellato in V2–V3, donna | ≥ 1,5 mm | idem |
+| ST sottoslivellato orizzontale o discendente | ≥ 0,5 mm | quarta definizione universale di infarto 2018 |
 
 Le derivazioni **contigue** sono quelle che esplorano la stessa regione del cuore: II, III e aVF (parete inferiore); I e aVL (parete laterale alta); V1–V2 (setto), V3–V4 (parete anteriore), V5–V6 (parete laterale), con continuità tra precordiali vicine. aVR non appartiene a nessun gruppo e si valuta da sola. Il significato delle alterazioni del tratto ST (lesione, ischemia, immagine speculare, alterazioni secondarie ai blocchi di branca, pericardite, varianti normali) è trattato nella Parte 6; in questo passo il compito è riconoscere e misurare.
 
@@ -212,7 +197,7 @@ L'onda U è una piccola deflessione che a volte segue la T, con la stessa polari
 
 Il QT si misura dall'**inizio del QRS** alla **fine dell'onda T** e comprende l'intera durata della depolarizzazione e della ripolarizzazione ventricolare. La fine della T è il punto in cui la parte discendente torna sulla linea di base; quando non è netta, un metodo diffuso consiste nel tracciare la tangente al tratto più ripido della discesa della T e nel prendere il punto in cui essa incrocia la linea di base. Il QT si misura nella derivazione in cui appare più lungo, di solito II o V2–V3, oppure in II e V5 per abitudine di reparto, su almeno tre battiti consecutivi; se c'è un'onda U separata, la si esclude.
 
-Il QT si accorcia quando la frequenza aumenta e si allunga quando diminuisce. Per confrontare misure ottenute a frequenze diverse si calcola il **QT corretto** (QTc), cioè il QT che il paziente avrebbe a 60/min, con l'intervallo RR espresso in secondi.
+Il QT si accorcia quando la frequenza aumenta e si allunga quando diminuisce. Per confrontare misure ottenute a frequenze diverse si calcola il **QT corretto** (QTc), cioè il QT che il paziente avrebbe a 60/min; nelle formule l'intervallo RR si esprime in secondi.
 
 | Formula | Calcolo | Comportamento |
 |---|---|---|
@@ -220,59 +205,55 @@ Il QT si accorcia quando la frequenza aumenta e si allunga quando diminuisce. Pe
 | Fridericia | QTc = QT / ∛RR | meno influenzata dalla frequenza; preferita in tachicardia e negli studi sui farmaci |
 | Lineari (per esempio Framingham) | QTc = QT + 0,154 × (1 − RR) | raccomandate dalle indicazioni AHA/ACCF/HRS 2009 al posto di Bazett |
 
-Il calcolo è semplice. A 60/min l'intervallo RR è di 1 s, la radice vale 1 e il QTc coincide con il QT. A 125/min l'RR è di 0,48 s: con un QT di 0,31 s, la formula di Bazett dà 0,31 / 0,69 ≈ 0,45 s, quella di Fridericia 0,31 / 0,78 ≈ 0,40 s. Lo stesso tracciato appare al limite con una formula e normale con l'altra: per questo in tachicardia la formula di Bazett va usata con prudenza, e in un paziente seguito nel tempo si usa sempre la stessa formula, preferibilmente quella indicata dal protocollo del reparto.
+Il calcolo è semplice. A 60/min l'intervallo RR è di 1 s, la radice vale 1 e il QTc coincide con il QT. A 125/min l'RR è di 0,48 s: con un QT di 0,31 s, la formula di Bazett dà 0,31 / 0,69 ≈ 0,45 s, quella di Fridericia 0,31 / 0,78 ≈ 0,40 s. Lo stesso tracciato appare al limite con una formula e normale con l'altra: per questo in tachicardia la formula di Bazett va usata con prudenza, e in un paziente seguito nel tempo si usa sempre la stessa formula, preferibilmente quella indicata dal protocollo del reparto.
 
 ::: fig SIM-RS-03
-[Tachicardia sinusale]{.ix} a 125/min (RR 0,48 s): le onde P precedono ogni QRS e si avvicinano alla T del battito precedente. Il QT misura circa 0,31 s; il QTc è di circa 0,45 s con Bazett e di circa 0,40 s con Fridericia: un esempio concreto di sovrastima della formula di Bazett alle frequenze elevate.
+[Tachicardia sinusale]{.ix} a 125/min (RR 0,48 s): le onde P precedono ogni QRS e si avvicinano alla T del battito precedente. Il QT misura circa 0,31 s; il QTc è di circa 0,45 s con Bazett e di circa 0,40 s con Fridericia: un esempio concreto di sovrastima della formula di Bazett alle frequenze elevate.
 :::
 
-Le raccomandazioni AHA/ACCF/HRS del 2009 considerano **prolungato** un QTc di 0,45 s o più nell'uomo e di 0,46 s o più nella donna, e **corto** un QTc di 0,39 s o meno. Per la sorveglianza dei farmaci, la dichiarazione scientifica AHA/ACCF del 2010 sulla prevenzione della torsione di punta in ospedale indica come soglie di allarme un QTc superiore a 0,50 s oppure un aumento di almeno 0,06 s rispetto al valore di partenza: sono i valori adottati in tutto questo libro.
+Le raccomandazioni AHA/ACCF/HRS del 2009 considerano **prolungato** un QTc di 0,45 s o più nell'uomo e di 0,46 s o più nella donna, e **corto** un QTc di 0,39 s o meno. La dichiarazione scientifica AHA/ACCF del 2010 sulla prevenzione della torsione di punta in ospedale ricorda che non esiste una soglia oltre la quale la torsione di punta sia certa, ma che il rischio cresce con il QTc ed è da due a tre volte maggiore sopra 0,50 s. Nella sorveglianza dei farmaci si adottano quindi come soglie di allarme un QTc superiore a 0,50 s oppure un aumento di almeno 0,06 s rispetto al valore di partenza: sono i valori usati in tutto questo libro.
 
 !!! chiave "Regola – Il colpo d'occhio del «metà RR»"
     A frequenze comprese tra **60 e 100/min**, un QT che termina prima della metà dell'intervallo RR è con buona probabilità normale; un QT che supera la metà dell'RR va misurato e corretto. Fuori da questo intervallo la regola sbaglia: in tachicardia segnala un QT lungo anche quando non lo è; in bradicardia può far passare per normale un QT davvero prolungato.
 
-I limiti della regola si capiscono con due esempi. A 120/min l'RR è di 0,50 s e la sua metà è 0,25 s: un QT di 0,30 s, del tutto normale a quella frequenza (QTc di Fridericia ≈ 0,38 s), supera la metà dell'RR. A 50/min l'RR è di 1,20 s e la sua metà è 0,60 s: un QT di 0,55 s resta sotto la metà, ma il QTc di Bazett è di circa 0,50 s, già alla soglia di allarme. Il colpo d'occhio serve dunque a decidere quando misurare, non a sostituire la misura.
+I limiti della regola si capiscono con due esempi. A 120/min l'RR è di 0,50 s e la sua metà è 0,25 s: un QT di 0,30 s, del tutto normale a quella frequenza (QTc di Fridericia ≈ 0,38 s), supera la metà dell'RR. A 50/min l'RR è di 1,20 s e la sua metà è 0,60 s: un QT di 0,55 s resta sotto la metà, ma il QTc di Bazett è di circa 0,50 s, già alla soglia di allarme. Il colpo d'occhio serve dunque a decidere quando misurare, non a sostituire la misura.
 
 Il QT va interpretato con cautela quando il QRS è largo, perché una parte del suo allungamento dipende dalla depolarizzazione più lenta e non dalla ripolarizzazione; esistono correzioni specifiche, ma nella pratica di reparto si segnala il dato al medico e si confrontano i tracciati del paziente nel tempo. Nella fibrillazione atriale, con RR variabili, si misura il QT su più battiti e si usa l'RR medio, oppure si segue la procedura del protocollo locale.
 
-!!! allarme "QTc superiore a 0,50 s o aumentato di 0,06 s"
-    Rischio di [torsione di punta]{.ix}. L'infermiere avvisa il medico prima della dose successiva del farmaco sospetto, controlla che siano stati richiesti potassio e magnesio (obiettivi: K ≥ 4,0 mmol/L e Mg ≥ 2,0 mg/dL nel paziente cardiochirurgico), mantiene il monitoraggio continuo e documenta il QTc con la formula usata. Non spetta all'infermiere sospendere o modificare la terapia senza prescrizione o protocollo.
-
-| Passo 4–7 | Normale | Da segnalare |
-|---|---|---|
-| Onda P | positiva in I, II, aVF; < 0,12 s; < 2,5 mm in II | assente, negativa in II, di forme diverse, larga o alta |
-| PR | 0,12–0,20 s, costante | > 0,20 s, < 0,12 s, variabile |
-| QRS | < 0,12 s; q settale piccola; transizione V3–V4 | ≥ 0,12 s; Q patologiche; bassi o alti voltaggi |
-| ST | isoelettrico (entro le soglie) | sopra o sottoslivellamento oltre le soglie, in derivazioni contigue |
-| T | concorde, asimmetrica | negativa dove dovrebbe essere positiva, appuntita, piatta |
-| QTc | < 0,45 s (uomo), < 0,46 s (donna) | > 0,50 s o aumento ≥ 0,06 s; ≤ 0,39 s |
+!!! allarme "QTc superiore a 0,50 s o aumentato di 0,06 s"
+    Rischio di [torsione di punta]{.ix}. L'infermiere avvisa il medico prima della dose successiva del farmaco sospetto, controlla che siano stati richiesti potassio e magnesio (obiettivi: K ≥ 4,0 mmol/L e Mg ≥ 2,0 mg/dL nel paziente cardiochirurgico), mantiene il monitoraggio continuo e documenta il QTc con la formula usata. Non spetta all'infermiere sospendere o modificare la terapia senza prescrizione o protocollo.
 
 !!! autotest "Autotest – Passi 1–7"
     **1.** Tra due onde R ci sono 3,5 quadretti grandi. Qual è la frequenza?
+
     **2.** I è positiva, aVF è negativa, II è positiva. L'asse è normale?
-    **3.** Un QT di 0,40 s a 100/min (RR 0,60 s): quanto vale il QTc di Bazett?
+
+    **3.** Un QT di 0,40 s a 100/min (RR 0,60 s): quanto vale il QTc di Bazett?
+
     **4.** Perché in V2–V3 la soglia del sopraslivellamento ST è più alta che nelle altre derivazioni?
 
-    *Risposte.* 1. Circa 85/min (300 : 3,5). 2. Sì: l'asse è tra 0° e −30°. 3. 0,40 / 0,77 ≈ 0,52 s: prolungato, da segnalare. 4. Perché un modesto sopraslivellamento in V2–V3 è fisiologico, soprattutto nei maschi giovani.
+    *Risposte.* 1. Circa 85/min (300 : 3,5). 2. Sì: l'asse è tra 0° e −30°. 3. 0,40 / 0,77 ≈ 0,52 s: prolungato, da segnalare. 4. Perché un modesto sopraslivellamento in V2–V3 è fisiologico, soprattutto nei maschi giovani.
+
+    {{righe:0}}
 
 ## L'ECG normale e le sue varianti
 
 ### Il tracciato normale, passo per passo
 
-Riconoscere un ECG normale è il prerequisito per riconoscere tutto il resto. Applicando i sette passi, un ECG normale dell'adulto a riposo si descrive così: ritmo sinusale tra 60 e 100/min; asse tra −30° e +90°; onde P positive in I, II e aVF, negative in aVR; PR di 0,12–0,20 s, costante; QRS di durata inferiore a 0,12 s, con piccole q settali in I, aVL, V5–V6, rS in V1 e progressione regolare dell'onda R fino alla transizione in V3–V4; tratto ST isoelettrico o con sopraslivellamenti entro le soglie; onde T concordi, positive in I, II, V3–V6 e negative in aVR; QTc nei limiti per il sesso.
+Riconoscere un ECG normale è il prerequisito per riconoscere tutto il resto. Applicando i sette passi, un ECG normale dell'adulto a riposo si descrive così: ritmo sinusale tra 60 e 100/min; asse tra −30° e +90°; onde P positive in I, II e aVF, negative in aVR; PR di 0,12–0,20 s, costante; QRS di durata inferiore a 0,12 s, con piccole q settali in I, aVL, V5–V6, rS in V1 e progressione regolare dell'onda R fino alla transizione in V3–V4; tratto ST isoelettrico o con sopraslivellamenti entro le soglie; onde T concordi, positive in I, II, V3–V6 e negative in aVR; QTc nei limiti per il sesso.
 
 ::: fig SIM-RS-01 variante=3x4
-[ECG normale]{.ix} a 12 derivazioni, didattico. Ritmo sinusale a 72/min; PR 0,16 s; QRS stretto; asse intorno a +50° (QRS positivo in I, II e aVF, piccolo e quasi isodifasico in aVL); P, QRS e T negativi in aVR. Nelle precordiali la R cresce da V1 (rS) a V6 (qR) con transizione in V3–V4; tratto ST isoelettrico, T positive da V2 a V6.
+[ECG normale]{.ix} a 12 derivazioni, didattico. Ritmo sinusale a 72/min; PR 0,16 s; QRS stretto; asse intorno a +50° (QRS positivo in I, II e aVF, piccolo e quasi isodifasico in aVL); P, QRS e T negativi in aVR. Nelle precordiali la R cresce da V1 (rS) a V6 (qR) con transizione in V3–V4; tratto ST isoelettrico, T positive da V2 a V6.
 :::
 
 !!! chiave "Checklist – ECG normale dell'adulto"
     - [ ] Ritmo sinusale, 60–100/min
     - [ ] Asse da −30° a +90°
-    - [ ] P positive in I, II, aVF; PR 0,12–0,20 s
-    - [ ] QRS < 0,12 s; q settali piccole; transizione V3–V4
+    - [ ] P positive in I, II, aVF; PR 0,12–0,20 s
+    - [ ] QRS < 0,12 s; q settali piccole; transizione V3–V4
     - [ ] ST isoelettrico o entro le soglie
     - [ ] T positive in I, II, V3–V6, negativa in aVR
-    - [ ] QTc < 0,45 s (uomo), < 0,46 s (donna)
+    - [ ] QTc < 0,45 s (uomo), < 0,46 s (donna)
     - [ ] In aVR P, QRS e T tutti negativi (controllo degli elettrodi)
 
 L'ultima voce della checklist è un controllo tecnico più che clinico: nel ritmo sinusale con elettrodi correttamente posizionati, aVR «guarda» il cuore dalla spalla destra e vede allontanarsi tutte le onde. Se in aVR la P o il QRS sono positivi, o se in I sono negativi, il primo sospetto è l'inversione degli elettrodi (sezione 3.6).
@@ -291,10 +272,10 @@ Alcuni reperti si discostano dai valori della tabella senza indicare una malatti
 
 **Pattern giovanile delle onde T.** Nei bambini e negli adolescenti le onde T sono normalmente negative nelle precordiali destre, fino a V3. Questo «pattern giovanile» può persistere nel giovane adulto, più spesso nelle donne e nelle persone di origine africana. Nell'adulto una T negativa limitata a V1 è comune; una T negativa estesa a V2–V3 o oltre, invece, richiede una valutazione medica, perché può essere il segno di una cardiomiopatia, di un sovraccarico del ventricolo destro o di un'ischemia.
 
-**Ripolarizzazione precoce.** È un reperto frequente nei giovani, negli sportivi e nei maschi. Il documento di consenso del 2015 sul pattern di ripolarizzazione precoce (Macfarlane e collaboratori) lo definisce in base all'aspetto della fine del QRS: un'intaccatura (*notch*) o un impastamento (*slur*) nella parte terminale discendente di un'onda R prominente, il cui picco o il cui inizio (indicato come Jp) si trova ad almeno 0,1 mV sopra la linea di base in almeno due derivazioni contigue inferiori o laterali, con QRS di durata normale; il sopraslivellamento del tratto ST non è necessario per la definizione. Nella pratica clinica, però, l'espressione «ripolarizzazione precoce» è usata da molti anche per il sopraslivellamento del tratto ST a concavità superiore, con onde T ampie, nelle precordiali (V2–V4) di soggetti giovani e sani. Il pattern è di solito benigno; in rari casi, documentati in studi pubblicati dal 2008, la variante con onda J nelle derivazioni inferiori è stata associata ad aritmie ventricolari maligne, e la sua valutazione spetta allo specialista.
+**Ripolarizzazione precoce.** È un reperto frequente nei giovani, negli sportivi e nei maschi. Il documento di consenso del 2015 sul pattern di ripolarizzazione precoce (Macfarlane e collaboratori) lo definisce in base all'aspetto della fine del QRS: un'intaccatura (*notch*) o un impastamento (*slur*) nella parte terminale discendente di un'onda R prominente, il cui picco o il cui inizio (indicato come Jp) si trova ad almeno 0,1 mV sopra la linea di base in almeno due derivazioni contigue inferiori o laterali, con QRS di durata normale; il sopraslivellamento del tratto ST non è necessario per la definizione. Nella pratica clinica, però, l'espressione «ripolarizzazione precoce» è usata da molti anche per il sopraslivellamento del tratto ST a concavità superiore, con onde T ampie, nelle precordiali (V2–V4) di soggetti giovani e sani. Il pattern è di solito benigno; in rari casi, documentati in studi pubblicati dal 2008, la variante con onda J nelle derivazioni inferiori è stata associata ad aritmie ventricolari maligne, e la sua valutazione spetta allo specialista.
 
 ::: fig REAL-CH-ERV-01 variante=3x4
-[Ripolarizzazione precoce]{.ix} in un tracciato reale (etichetta della banca dati). Ritmo sinusale a circa 65/min, QRS stretto. Nelle precordiali da V2 a V4 il tratto ST parte lievemente sopra la linea di base, è concavo verso l'alto e si continua in onde T ampie; non si vedono sottoslivellamenti speculari nelle derivazioni periferiche.
+[Ripolarizzazione precoce]{.ix} in un tracciato reale (etichetta della banca dati). Ritmo sinusale a circa 65/min, QRS stretto. Nelle precordiali da V2 a V4 il tratto ST parte sopra la linea di base, è concavo verso l'alto e si continua in onde T ampie e alte; non si vedono sottoslivellamenti speculari nelle derivazioni periferiche.
 :::
 
 **Onda J.** Con questo termine si indica una deflessione a cupola o a gobba subito dopo il QRS, nel punto J. Piccole onde J sono comuni nella ripolarizzazione precoce; un'onda J ampia e diffusa, insieme a bradicardia e QT lungo, è invece tipica dell'ipotermia (onda di Osborn, Parte 7) e si osserva anche nell'ipercalcemia. Lo stesso nome, quindi, copre reperti benigni e reperti che segnalano una condizione grave: decide il contesto clinico, in particolare la temperatura corporea.
@@ -303,9 +284,9 @@ Alcuni reperti si discostano dai valori della tabella senza indicare una malatti
 |---|---|---|---|
 | Aritmia sinusale | RR variabili con il respiro, P identiche | fibrillazione atriale | P presenti e uguali, variazione ciclica |
 | Bradicardia dell'atleta | ritmo sinusale < 60/min, a volte < 50/min | malattia del nodo del seno | asintomatica, risponde allo sforzo |
-| rSr' in V1 con QRS stretto | piccola r' terminale | BBD | QRS < 0,11 s; controllo della posizione di V1–V2 |
+| rSr' in V1 con QRS stretto | piccola r' terminale | BBD | QRS < 0,11 s; controllo della posizione di V1–V2 |
 | Pattern giovanile delle T | T negative V1–V3 nel giovane | ischemia, sovraccarico destro | età, assenza di sintomi, tracciati precedenti |
-| Ripolarizzazione precoce | Jp ≥ 0,1 mV con notch o slur; ST concavo in V2–V4 | STEMI, pericardite | nessuna speculare, T ampie, stabilità nel tempo |
+| Ripolarizzazione precoce | Jp ≥ 0,1 mV con notch o slur; ST concavo in V2–V4 | infarto con sopraslivellamento ST (STEMI), pericardite | nessuna speculare, T ampie, stabilità nel tempo |
 | Onda J nell'ipotermia | gobba dopo il QRS, bradicardia, QT lungo | ripolarizzazione precoce | temperatura corporea bassa, contesto clinico |
 
 !!! errore "Errore classico – «È la solita ripolarizzazione precoce»"
@@ -320,7 +301,7 @@ Alcuni reperti si discostano dai valori della tabella senza indicare una malatti
 
 Un buon ECG comincia prima di accendere l'apparecchio. Il paziente è informato, sdraiato in posizione supina con il tronco al massimo lievemente sollevato, rilassato, con le braccia appoggiate lungo il corpo e al caldo: il freddo e l'ansia provocano tremori. Si annota la posizione se diversa dalla supina, perché anche la postura modifica l'asse e le ampiezze. La cute si prepara: si asciuga il sudore, si rimuovono creme, si tagliano i peli in eccesso dove servono gli elettrodi, eventualmente si sgrassa con un panno. Gli elettrodi monouso devono essere integri, non scaduti, con il gel umido; elettrodi di marche diverse sullo stesso paziente aumentano il rumore.
 
-Si controllano le impostazioni dell'elettrocardiografo: velocità 25 mm/s, guadagno 10 mm/mV, filtri in modalità diagnostica. Le raccomandazioni AHA/ACC/HRS del 2007 sulla tecnica dell'ECG indicano per la registrazione diagnostica un filtro passa-alto di 0,05 Hz (fino a 0,67 Hz con i filtri digitali a fase lineare) e un filtro passa-basso di almeno 150 Hz nell'adulto. Un filtro passa-alto più aggressivo, come quello usato dai monitor, «pulisce» la linea di base ma può deformare il tratto ST e simulare sopraslivellamenti o sottoslivellamenti: per questo l'ECG diagnostico non si ricava dalla stampa del monitor.
+Si controllano le impostazioni dell'elettrocardiografo: velocità 25 mm/s, guadagno 10 mm/mV, filtri in modalità diagnostica. Le raccomandazioni AHA/ACC/HRS del 2007 sulla tecnica dell'ECG indicano per la registrazione diagnostica un filtro passa-alto di 0,05 Hz (fino a 0,67 Hz con filtri digitali lineari privi di distorsione di fase) e un filtro passa-basso di almeno 150 Hz nell'adulto. Un filtro passa-alto più aggressivo, come quello usato dai monitor, «pulisce» la linea di base ma può deformare il tratto ST e simulare sopraslivellamenti o sottoslivellamenti: per questo l'ECG diagnostico non si ricava dalla stampa del monitor.
 
 ### Gli elettrodi degli arti
 
@@ -344,15 +325,6 @@ Gli elettrodi precordiali si posizionano contando gli spazi intercostali, non a 
 ::: fig SCH-PRECORD larghezza=mezza
 Posizione degli elettrodi precordiali. V1 e V2 al 4° spazio intercostale ai lati dello sterno; V4 al 5° spazio sulla linea emiclaveare; V3 a metà tra V2 e V4; V5 e V6 sulle linee ascellare anteriore e media, alla stessa altezza di V4.
 :::
-
-| Elettrodo | Posizione |
-|---|---|
-| V1 | 4° spazio intercostale, margine destro dello sterno |
-| V2 | 4° spazio intercostale, margine sinistro dello sterno |
-| V3 | a metà strada tra V2 e V4 |
-| V4 | 5° spazio intercostale, linea emiclaveare sinistra |
-| V5 | linea ascellare anteriore, sullo stesso piano orizzontale di V4 |
-| V6 | linea ascellare media, sullo stesso piano orizzontale di V4 |
 
 Si posiziona prima V1, poi V2, poi V4, e solo alla fine V3, a metà strada tra V2 e V4; V5 e V6 seguono il piano orizzontale di V4, non lo spazio intercostale, che lateralmente sale. Nella donna gli elettrodi V4–V6 si applicano sollevando la mammella e mantenendo l'altezza corretta, senza appoggiarli sopra il tessuto mammario né spostarli più in basso. Le derivazioni aggiuntive (destre V3R–V4R, posteriori V7–V9) seguono le stesse regole speculari e si usano su richiesta nel sospetto di infarto del ventricolo destro o posteriore (Parte 6); sul tracciato va scritto quali derivazioni sono state registrate in posizione non standard.
 
@@ -387,7 +359,7 @@ Un artefatto è qualunque deflessione del tracciato che non nasce dal cuore. Alc
 
 **Tremore muscolare.** Il tremore produce oscillazioni irregolari, rapide e di ampiezza variabile, sovrapposte alla linea di base e talvolta ai complessi. Compare con il freddo, l'ansia, i brividi, il dolore e nelle malattie neurologiche. Il tremore della malattia di Parkinson, di frequenza relativamente bassa e regolare, può imitare le onde del flutter atriale. Il rimedio è far rilassare il paziente, appoggiare bene gli arti, scaldare l'ambiente, spostare gli elettrodi degli arti più in alto, su zone meno muscolose.
 
-**Interferenza elettrica.** La corrente alternata della rete (50 Hz in Europa) genera un'oscillazione fine, regolare e uniforme, che ispessisce tutta la linea: alla velocità di 25 mm/s corrisponde a due oscillazioni per ogni quadretto piccolo. Le cause sono apparecchi elettrici vicini (pompe, letti elettrici, materassi antidecubito, telefoni in carica), cavi attorcigliati o a contatto con quelli di alimentazione, elettrodi asciutti o mal adesi, elettrodo neutro staccato. Il rimedio è allontanare o scollegare, quando è possibile e sicuro, gli apparecchi non indispensabili, distendere i cavi e sostituire gli elettrodi; il filtro di rete dell'apparecchio aiuta, ma non sostituisce la ricerca della causa.
+**Interferenza elettrica.** La corrente alternata della rete (50 Hz in Europa) genera un'oscillazione fine, regolare e uniforme, che ispessisce tutta la linea: alla velocità di 25 mm/s corrisponde a due oscillazioni per ogni quadretto piccolo. Le cause sono apparecchi elettrici vicini (pompe, letti elettrici, materassi antidecubito, telefoni in carica), cavi attorcigliati o a contatto con quelli di alimentazione, elettrodi asciutti o mal adesi, elettrodo neutro staccato. Il rimedio è allontanare o scollegare, quando è possibile e sicuro, gli apparecchi non indispensabili, distendere i cavi e sostituire gli elettrodi; il filtro di rete dell'apparecchio aiuta, ma non sostituisce la ricerca della causa.
 
 **Deriva della linea di base.** La linea di base sale e scende lentamente, spesso con il ritmo del respiro. Dipende dai movimenti respiratori, dal sudore, da elettrodi con gel secco o da cavi che tirano. Rende difficile giudicare il tratto ST, perché la linea di riferimento cambia da battito a battito. Il rimedio è migliorare il contatto degli elettrodi, chiedere al paziente di respirare tranquillamente e, se necessario, registrare durante una breve pausa respiratoria.
 
@@ -396,25 +368,25 @@ Un artefatto è qualunque deflessione del tracciato che non nasce dal cuore. Alc
 | Problema | Come appare | Causa tipica | Rimedio |
 |---|---|---|---|
 | Tremore | oscillazioni irregolari, rapide, di ampiezza variabile | freddo, ansia, brividi, Parkinson | rilassare e scaldare il paziente, appoggiare gli arti, elettrodi in sede prossimale |
-| Interferenza a 50 Hz | oscillazione fine e regolare, due per quadretto piccolo | apparecchi elettrici, cavi, elettrodi mal adesi | allontanare apparecchi, distendere i cavi, cambiare elettrodi |
+| Interferenza a 50 Hz | oscillazione fine e regolare, due per quadretto piccolo | apparecchi elettrici, cavi, elettrodi mal adesi | allontanare apparecchi, distendere i cavi, cambiare elettrodi |
 | Deriva | linea di base che sale e scende lentamente | respiro, sudore, gel secco, cavi in trazione | migliorare il contatto, respirazione tranquilla |
-| Movimento | deflessioni ampie e irregolari, simili a TV o FV | movimenti, fisioterapia, lavarsi i denti | guardare il paziente, cercare i QRS veri, ripetere |
+| Movimento | deflessioni ampie e irregolari, simili a tachicardia o fibrillazione ventricolare | movimenti, fisioterapia, lavarsi i denti | guardare il paziente, cercare i QRS veri, ripetere |
 | Elettrodo staccato | linea piatta in una o più derivazioni | elettrodo o cavo disconnesso | controllare il polso, ricollegare |
 
-<!-- FIG-RICHIESTA: SCH-ARTEFATTI | Pannello in bianco e nero di quattro strisce di derivazione II a 25 mm/s e 10 mm/mV, ciascuna di circa 4 s, tutte con lo stesso ritmo sinusale di base a 75/min chiaramente riconoscibile: (a) tremore muscolare: rumore irregolare ad alta frequenza e ampiezza variabile (0,05–0,2 mV) sovrapposto alla linea di base; (b) interferenza di rete a 50 Hz: sinusoide regolare di circa 0,1 mV, due cicli per quadretto piccolo; (c) deriva della linea di base: oscillazione lenta di circa 0,25 Hz (ritmo respiratorio) e ampiezza fino a 1 mV; (d) artefatto da movimento simile a TV: 2 s di deflessioni ampie e irregolari, con i QRS sinusali visibili alla loro frequenza sotto il disturbo (segnarli con piccole frecce). Etichette (a)–(d), griglia standard. Generabile aggiungendo rumore al simulato SIM-RS-02. Didascalia: «Quattro artefatti sullo stesso ritmo sinusale: il ritmo vero continua sotto il disturbo». -->
+<!-- FIG-RICHIESTA: SCH-ARTEFATTI | Pannello in bianco e nero di quattro strisce di derivazione II a 25 mm/s e 10 mm/mV, ciascuna di circa 4 s, tutte con lo stesso ritmo sinusale di base a 75/min chiaramente riconoscibile: (a) tremore muscolare: rumore irregolare ad alta frequenza e ampiezza variabile (0,05–0,2 mV) sovrapposto alla linea di base; (b) interferenza di rete a 50 Hz: sinusoide regolare di circa 0,1 mV, due cicli per quadretto piccolo; (c) deriva della linea di base: oscillazione lenta di circa 0,25 Hz (ritmo respiratorio) e ampiezza fino a 1 mV; (d) artefatto da movimento simile a TV: 2 s di deflessioni ampie e irregolari, con i QRS sinusali visibili alla loro frequenza sotto il disturbo (segnarli con piccole frecce). Etichette (a)–(d), griglia standard. Generabile aggiungendo rumore al simulato SIM-RS-02. Didascalia: «Quattro artefatti sullo stesso ritmo sinusale: il ritmo vero continua sotto il disturbo». -->
 
 !!! allarme "Allarme di tachicardia o fibrillazione ventricolare al monitor"
     Prima si guarda il paziente, poi il monitor. Se il paziente non risponde e non respira normalmente si avvia la rianimazione secondo l'algoritmo, senza perdere tempo a cercare artefatti. Se il paziente è cosciente e ha polso, si cercano i QRS veri sotto il disturbo, si controllano un'altra derivazione e gli elettrodi, e si registra un ECG a 12 derivazioni se l'aritmia persiste. Un artefatto non si «tratta»: si documenta e si corregge.
 
 ### La calibrazione e la velocità
 
-L'ultima fonte di errore tecnico è l'apparecchio stesso. Con il guadagno a **5 mm/mV** («mezzo standard»), impostato talvolta per contenere complessi molto ampi, l'impulso di calibrazione è alto 5 mm e tutte le ampiezze appaiono dimezzate: un'ipertrofia può sembrare normale e un tracciato normale può sembrare a bassi voltaggi. Con **20 mm/mV** (doppio standard) l'impulso è alto 20 mm e le ampiezze raddoppiano. Alcuni apparecchi usano un guadagno diverso per le periferiche e per le precordiali, e l'impulso di calibrazione assume allora una forma «a gradino»: lo si nota e lo si dichiara nella lettura. Con la velocità a **50 mm/s** tutte le durate raddoppiano sulla carta: il QRS sembra largo, il PR lungo, la frequenza dimezzata se calcolata con il metodo dei 300.
+L'ultima fonte di errore tecnico è l'apparecchio stesso. Con il guadagno a **5 mm/mV** («mezzo standard»), impostato talvolta per contenere complessi molto ampi, l'impulso di calibrazione è alto 5 mm e tutte le ampiezze appaiono dimezzate: un'ipertrofia può sembrare normale e un tracciato normale può sembrare a bassi voltaggi. Con **20 mm/mV** (doppio standard) l'impulso è alto 20 mm e le ampiezze raddoppiano. Alcuni apparecchi usano un guadagno diverso per le periferiche e per le precordiali, e l'impulso di calibrazione assume allora una forma «a gradino»: lo si nota e lo si dichiara nella lettura. Con la velocità a **50 mm/s** tutte le durate raddoppiano sulla carta: il QRS sembra largo, il PR lungo, la frequenza dimezzata se calcolata con il metodo dei 300.
 
-<!-- FIG-RICHIESTA: SCH-CALIB | Schema in bianco e nero di quattro brevi segmenti dello stesso battito sinusale in derivazione II, ciascuno preceduto dal proprio impulso di calibrazione su griglia standard: (a) 10 mm/mV e 25 mm/s (riferimento); (b) 5 mm/mV: impulso alto 5 mm, ampiezze dimezzate; (c) 20 mm/mV: impulso alto 20 mm, ampiezze raddoppiate; (d) 25 mm/s con guadagno misto, impulso «a gradino» (10 mm per le periferiche e 5 mm per le precordiali); facoltativo (e) 50 mm/s: durate raddoppiate sulla carta (QRS di 0,08 s che occupa 4 mm). Didascalia: «L'impulso di calibrazione dice come leggere le ampiezze; la velocità della carta dice come leggere le durate». -->
+<!-- FIG-RICHIESTA: SCH-CALIB | Schema in bianco e nero di quattro brevi segmenti dello stesso battito sinusale in derivazione II, ciascuno preceduto dal proprio impulso di calibrazione su griglia standard: (a) 10 mm/mV e 25 mm/s (riferimento); (b) 5 mm/mV: impulso alto 5 mm, ampiezze dimezzate; (c) 20 mm/mV: impulso alto 20 mm, ampiezze raddoppiate; (d) 25 mm/s con guadagno misto, impulso «a gradino» (10 mm per le periferiche e 5 mm per le precordiali); facoltativo (e) 50 mm/s: durate raddoppiate sulla carta (QRS di 0,08 s che occupa 4 mm). Didascalia: «L'impulso di calibrazione dice come leggere le ampiezze; la velocità della carta dice come leggere le durate». -->
 
 !!! chiave "Checklist – Prima di consegnare un ECG"
     - [ ] Nome, data, ora e sintomi annotati
-    - [ ] 25 mm/s, 10 mm/mV, filtri diagnostici
+    - [ ] 25 mm/s, 10 mm/mV, filtri diagnostici
     - [ ] Linea di base stabile, nessun tremore o interferenza
     - [ ] aVR negativa, I positiva (salvo quadri noti)
     - [ ] Precordiali contate dall'angolo di Louis; posizioni non standard scritte sul tracciato
@@ -432,18 +404,11 @@ Con il sistema più semplice, a **tre elettrodi**, gli elettrodi si posizionano 
 
 ### Derivazione II, V1 e MCL1
 
-La derivazione più usata per il monitoraggio è la **II**, perché il suo asse (+60°) è vicino alla direzione normale dell'attivazione atriale e ventricolare: le onde P sono ben visibili e i QRS ampi, il che facilita sia la lettura del ritmo sia il conteggio automatico della frequenza. La derivazione **V1**, invece, è la migliore per distinguere il blocco di branca destra dal sinistro, per riconoscere l'origine di un battito a QRS largo e spesso anche per vedere l'attività atriale del flutter e della fibrillazione. Gli standard di pratica per il monitoraggio ECG ospedaliero dell'American Heart Association, aggiornati nel 2017, raccomandano per la sorveglianza delle aritmie di includere, quando possibile, la V1 e una derivazione periferica come la II.
+La derivazione più usata per il monitoraggio è la **II**, perché il suo asse (+60°) è vicino alla direzione normale dell'attivazione atriale e ventricolare: le onde P sono ben visibili e i QRS ampi, il che facilita sia la lettura del ritmo sia il conteggio automatico della frequenza. La derivazione **V1**, invece, è la migliore per distinguere il blocco di branca destra dal sinistro, per riconoscere l'origine di un battito a QRS largo e spesso anche per vedere l'attività atriale del flutter e della fibrillazione. Gli standard di pratica dell'American Heart Association per il monitoraggio ECG in ospedale (2004, aggiornati nel 2017) indicano la V1 come derivazione precordiale preferita per la sorveglianza delle aritmie dell'adulto, perché aiuta a distinguere la tachicardia ventricolare dalla conduzione aberrante; la II resta la scelta abituale quando interessa soprattutto l'attività atriale.
 
 Quando è disponibile solo il sistema a tre elettrodi, una derivazione simile a V1 si ottiene con la **MCL1** (*modified chest lead 1*, derivazione toracica modificata 1): l'elettrodo positivo si posiziona in sede V1 (4° spazio intercostale, margine destro dello sterno) e l'elettrodo negativo sotto la clavicola sinistra. In pratica, con il sistema a tre elettrodi, si sposta l'elettrodo della gamba sinistra in sede V1 e si seleziona sul monitor la derivazione III, che ha il polo negativo sul braccio sinistro e il polo positivo sulla gamba sinistra. La MCL1 è un'approssimazione: se si dispone di cinque elettrodi, una V1 vera è preferibile.
 
 <!-- FIG-RICHIESTA: SCH-MCL1 | Schema in bianco e nero del torace con il sistema a 3 elettrodi configurato per la MCL1: elettrodo negativo sotto la clavicola sinistra (LA), elettrodo positivo spostato in sede V1 (4° spazio intercostale, margine destro dello sterno; è l'elettrodo LL), elettrodo RA sotto la clavicola destra (usato come terra). Freccia dal polo negativo al positivo con l'etichetta «derivazione III selezionata sul monitor = MCL1». Accanto, due piccoli complessi schematici: aspetto rS tipico in MCL1 nel ritmo sinusale e aspetto rSR' nel BBD. Didascalia: «MCL1: una V1 approssimata con tre elettrodi». -->
-
-| Derivazione | Vantaggi | Limiti |
-|---|---|---|
-| II | P ben visibili, QRS ampi, buon conteggio della frequenza | distingue male BBD, BBS e battiti ventricolari |
-| V1 (sistema a 5 elettrodi) | morfologia dei QRS larghi, blocchi di branca, onde atriali di flutter e FA | P e QRS a volte piccoli |
-| MCL1 (sistema a 3 elettrodi) | approssima V1 senza elettrodi aggiuntivi | meno accurata della V1 vera |
-| III o aVF | sorveglianza della parete inferiore in casi selezionati | non sostituisce l'ECG a 12 derivazioni |
 
 ### I limiti del monitor
 
@@ -464,68 +429,84 @@ Un ultimo aspetto riguarda gli allarmi. Il numero di allarmi falsi o clinicament
 
 !!! sbar "Cosa dico al medico – Allarme di tachicardia al monitor"
     - S: Il monitor del letto 4 ha segnalato una tachicardia a QRS larghi di circa 10 secondi; il paziente è cosciente e asintomatico.
-    - B: 71 anni, terzo giorno dopo sostituzione valvolare aortica; in terapia con beta-bloccante; ultimo potassio 3,6 mmol/L ieri sera.
-    - A: Al momento dell'allarme stava lavandosi i denti; sotto il disturbo si vedono i QRS sinusali a circa 80/min; PA 128/72 mmHg, polso regolare. Ritengo probabile un artefatto, ma la striscia va valutata.
+    - B: 71 anni, terzo giorno dopo sostituzione valvolare aortica; in terapia con beta-bloccante; ultimo potassio 3,6 mmol/L ieri sera, sotto l'obiettivo di 4,0 mmol/L.
+    - A: Al momento dell'allarme stava lavandosi i denti; sotto il disturbo si vedono i QRS sinusali a circa 80/min; PA 128/72 mmHg, polso regolare. Ritengo probabile un artefatto, ma la striscia va valutata.
     - R: Le chiedo di visionare la striscia salvata; ho registrato un ECG a 12 derivazioni, che è in ritmo sinusale. Vuole che richieda gli elettroliti?
+
+!!! chiave "Ripasso – Le dieci cose da ricordare"
+    1. Prima il foglio (nome, 25 mm/s, 10 mm/mV, segnale), poi il cuore.
+    2. Sette passi, sempre nello stesso ordine: FRA P-Q-S-T.
+    3. Ritmo irregolare: frequenza con i QRS in 10 s moltiplicati per 6.
+    4. Asse: I e aVF, poi II.
+    5. PR 0,12–0,20 s; QRS < 0,12 s.
+    6. ST: si misura al punto J rispetto all'inizio del QRS, con soglie diverse in V2–V3.
+    7. QTc: < 0,45 s nell'uomo e < 0,46 s nella donna; allarme oltre 0,50 s o per un aumento di 0,06 s.
+    8. Il «metà RR» vale solo tra 60 e 100/min.
+    9. aVR positiva e I negativa: prima i cavi, poi il cuore.
+    10. Il monitor sorveglia il ritmo; la morfologia si studia sull'ECG a 12 derivazioni.
 
 ## Esercizi di fine Parte
 
-I tracciati seguenti si leggono con i sette passi, cominciando dal passo zero. I primi sette sono tracciati reali o didattici, normali o con varianti del normale, oppure con un problema tecnico da riconoscere; gli ultimi tre descrivono a parole errori tecnici frequenti. Le soluzioni sono in fondo alla Parte. Le misure dei tracciati reali sono approssimate: in un tracciato vero si accetta una tolleranza di un quadretto piccolo.
+I tracciati seguenti si leggono con i sette passi, cominciando dal passo zero. Sette esercizi presentano tracciati reali o didattici, normali, con varianti del normale oppure con un problema tecnico da riconoscere, e hanno le soluzioni in fondo alla Parte; tre esercizi (A–C) descrivono a parole errori tecnici frequenti, con le risposte nello stesso riquadro. Le misure dei tracciati reali sono approssimate: in un tracciato vero si accetta una tolleranza di un quadretto piccolo.
 
 ::: ecg-esercizio REAL-PTBXL-NORM-01 variante=3x4
 Leggi il tracciato con i sette passi. Il passo zero è superato? Il tracciato è normale?
 ---
-**Ritmo sinusale normale** (etichetta della banca dati). Passo zero: calibrazione di 10 mm, 25 mm/s; nelle derivazioni periferiche la linea di base presenta piccole oscillazioni irregolari (rumore di fondo), che però non impediscono di riconoscere P, QRS e T: il tracciato è interpretabile. Frequenza circa 64/min, regolare; P positive in I e II prima di ogni QRS; asse intorno a +20° (QRS positivo in I e in II); PR circa 0,14 s; QRS stretto (circa 0,08 s), di ampiezza modesta nelle periferiche; tratto ST isoelettrico; QTc circa 0,42 s. In aVR P e QRS sono negativi: elettrodi degli arti in sede corretta.
+**Ritmo sinusale normale** (etichetta della banca dati). Passo zero: calibrazione di 10 mm, 25 mm/s; nelle derivazioni periferiche la linea di base presenta piccole oscillazioni irregolari (rumore di fondo), che però non impediscono di riconoscere P, QRS e T: il tracciato è interpretabile. Frequenza circa 64/min, regolare; P positive in I e II prima di ogni QRS; asse intorno a +20° (QRS positivo in I e in II); PR circa 0,14 s; QRS stretto (circa 0,08 s), di ampiezza modesta nelle periferiche; tratto ST isoelettrico; QTc circa 0,42 s. In aVR P e QRS sono negativi: elettrodi degli arti in sede corretta.
 :::
 
 ::: ecg-esercizio REAL-PTBXL-NORM-02 variante=3x4
 Il QRS è positivo in I e prevalentemente negativo in aVF. L'asse è deviato a sinistra?
 ---
-**Ritmo sinusale normale con asse normale** (etichetta della banca dati). I è positiva e aVF è lievemente negativa: l'asse cade tra 0° e −90°, e decide la derivazione II, in cui il QRS è prevalentemente positivo. L'asse è quindi tra 0° e −30° (intorno a −15°): normale, non deviato a sinistra. III è negativa, reperto compatibile con un asse orizzontale. Frequenza circa 62/min, PR circa 0,15 s, QRS stretto, ST isoelettrico.
+**Ritmo sinusale normale con asse normale** (etichetta della banca dati). I è positiva e aVF è lievemente negativa: l'asse cade tra 0° e −90°, e decide la derivazione II, in cui il QRS è prevalentemente positivo. L'asse è quindi tra 0° e −30° (intorno a −15°): normale, non deviato a sinistra. III è negativa, reperto compatibile con un asse orizzontale, frequente nell'adulto e nell'anziano. Si parlerebbe di deviazione sinistra solo con un QRS prevalentemente negativo anche in II (asse oltre −30°). Frequenza circa 62/min, PR circa 0,15 s, QRS stretto, ST isoelettrico.
 :::
 
 ::: ecg-esercizio REAL-PTBXL-NORM-03 variante=3x4
 Prima di leggere il tracciato, verifica che gli elettrodi degli arti siano in posizione corretta. Poi stima l'asse cercando la derivazione periferica più isodifasica.
 ---
-**Ritmo sinusale normale** (etichetta della banca dati). Controllo degli elettrodi: in aVR P, QRS e T sono negativi e in I sono positivi; le precordiali mostrano una crescita regolare dell'onda R: posizionamento corretto. In aVL il QRS è molto piccolo e quasi isodifasico: l'asse è perpendicolare ad aVL, verso il basso e a sinistra, tra +50° e +60°, con QRS positivo in I, II e aVF. Frequenza circa 76/min con lieve variabilità degli RR (aritmia sinusale lieve), PR circa 0,14 s, QRS stretto, QTc nei limiti.
+**Ritmo sinusale normale** (etichetta della banca dati). Controllo degli elettrodi: in aVR P, QRS e T sono negativi e in I sono positivi; le precordiali mostrano una crescita regolare dell'onda R: posizionamento corretto. In aVL il QRS è molto piccolo e quasi isodifasico: l'asse è perpendicolare ad aVL, verso il basso e a sinistra, tra +50° e +60°, con QRS positivo in I, II e aVF. Frequenza circa 76/min con lieve variabilità degli RR (aritmia sinusale lieve), PR circa 0,14 s, QRS stretto, QTc nei limiti.
 :::
 
-::: ecg-esercizio SIM-LV-01
+::: ecg-esercizio SIM-LV-01 variante=3x4
 Un collega sostiene che i complessi «sono piccoli perché l'apparecchio è tarato male». Ha ragione? Che cosa suggerisce il reperto?
 ---
-**Bassi voltaggi** (tracciato didattico). Il collega non ha ragione: l'impulso di calibrazione è alto 10 mm, quindi il guadagno è standard e la riduzione delle ampiezze è reale. Il QRS è inferiore a 5 mm in tutte le periferiche e a 10 mm in tutte le precordiali. Il resto del tracciato è regolare: ritmo sinusale a circa 88/min, QRS stretto. Le cause vanno cercate nel paziente (obesità, enfisema, versamento pericardico o pleurico, ipotiroidismo, cardiopatie infiltrative); nel postoperatorio cardiochirurgico, bassi voltaggi di nuova comparsa fanno pensare a un versamento pericardico e vanno segnalati subito.
+**Bassi voltaggi** (tracciato didattico). Il collega non ha ragione: l'impulso di calibrazione è alto 10 mm, quindi il guadagno è standard e la riduzione delle ampiezze è reale. Il QRS è inferiore a 5 mm in tutte le periferiche e a 10 mm in tutte le precordiali. Il resto del tracciato è regolare: ritmo sinusale a circa 88/min, QRS stretto. Le cause vanno cercate nel paziente (obesità, enfisema, versamento pericardico o pleurico, ipotiroidismo, cardiopatie infiltrative); nel postoperatorio cardiochirurgico, bassi voltaggi di nuova comparsa fanno pensare a un versamento pericardico e vanno segnalati subito.
 :::
 
 ::: ecg-esercizio SIM-RS-05
 Gli intervalli RR non sono uguali. È una fibrillazione atriale?
 ---
-**Aritmia sinusale respiratoria** (tracciato didattico). Non è una fibrillazione atriale: ogni QRS è preceduto da un'onda P identica alle altre, con PR costante (circa 0,16 s); gli intervalli RR si accorciano e si allungano in modo graduale e ciclico, seguendo il respiro. Frequenza media circa 68/min, QRS stretto. È un fenomeno fisiologico, frequente nei giovani: non richiede trattamento.
+**Aritmia sinusale respiratoria** (tracciato didattico). Non è una fibrillazione atriale: ogni QRS è preceduto da un'onda P identica alle altre, con PR costante (circa 0,16 s); gli intervalli RR si accorciano e si allungano in modo graduale e ciclico, seguendo il respiro. Frequenza media circa 68/min, QRS stretto. È un fenomeno fisiologico, frequente nei giovani: non richiede trattamento.
 :::
 
 ::: ecg-esercizio REAL-CH-ERV-03 variante=3x4
 Uomo di 30 anni, sportivo, asintomatico, visita di controllo. Descrivi il tracciato. Quali elementi orientano verso una variante del normale e quali verifiche sono comunque necessarie?
 ---
-**Ripolarizzazione precoce** (etichetta della banca dati). Ritmo sinusale a circa 53/min (bradicardia sinusale compatibile con l'allenamento), asse intorno a +70°, PR circa 0,18 s, QRS stretto. Nelle precordiali V2–V4 il tratto ST è lievemente sopraslivellato e concavo verso l'alto e si continua in onde T ampie e positive; nelle periferiche non si vedono sottoslivellamenti speculari. Orientano verso una variante l'età, l'assenza di sintomi, la forma concava del tratto ST e l'assenza di speculari. Restano necessari il giudizio del medico e il confronto con un tracciato precedente; se comparissero sintomi, l'ECG andrebbe ripetuto.
+**Ripolarizzazione precoce** (etichetta della banca dati). Ritmo sinusale a circa 53/min (bradicardia sinusale compatibile con l'allenamento), asse intorno a +70°, PR circa 0,18 s, QRS stretto. Nelle precordiali V2–V4 il tratto ST è sopraslivellato e concavo verso l'alto e si continua in onde T ampie e positive; nelle periferiche non si vedono sottoslivellamenti speculari. Orientano verso una variante l'età, l'assenza di sintomi, la forma concava del tratto ST e l'assenza di speculari. Il sopraslivellamento in V2–V3, però, è dell'ordine della soglia prevista per gli uomini sotto i 40 anni, o la supera: la sola misura non distingue la variante da un infarto. Restano quindi necessari il giudizio del medico e il confronto con un tracciato precedente, per verificare che il reperto sia stabile nel tempo; se comparissero sintomi, l'ECG andrebbe ripetuto e consegnato subito. Per lo stesso motivo, nella documentazione infermieristica si descrive il tracciato, senza limitarsi alla parola «variante».
 :::
+
+!!! autotest "Esercizi A–C – Tre errori tecnici descritti a parole"
+    **A.** ECG di controllo in un paziente asintomatico: in I P, QRS e T sono negativi; aVR è positiva; aVF è invariata; le precordiali hanno una progressione normale dell'onda R, identica a quella del tracciato del giorno prima. Che cosa è successo e che cosa fai?
+
+    <!-- FIG-RICHIESTA: SIM-INV-01 | ECG a 12 derivazioni, didattico simulato, con inversione dei cavi braccio destro ↔ braccio sinistro applicata a SIM-RS-01: I invertita (P, QRS, T negativi), II e III scambiate, aVR e aVL scambiate, aVF e precordiali invariate; varianti 6×2 e 3×4. Da usare come esercizio A (soluzione: inversione degli elettrodi delle braccia). -->
+
+    **B.** Monitor in reparto: allarme di «tachicardia ventricolare» con deflessioni ampie e irregolari a circa 250/min in derivazione II per 6 secondi. La paziente, seduta sul letto, sta parlando con la vicina; al polso radiale la frequenza è di 78/min. Esaminando la striscia, tra le deflessioni si riconoscono picchi stretti regolari a circa 80/min. Qual è la tua interpretazione?
+
+    <!-- FIG-RICHIESTA: SIM-ART-01 | Striscia di derivazione II di 10 s, didattica simulata: ritmo sinusale a 80/min (base SIM-RS-02) con, nei secondi 2–8, un artefatto da movimento ampio e irregolare (componenti a 3–5 Hz, ampiezza fino a 1,5 mV) che simula una TV; i QRS sinusali restano visibili alla loro frequenza sotto il disturbo e vanno segnati con piccole frecce nella versione della soluzione. Da usare come esercizio B (soluzione: artefatto da movimento, pseudo-TV). -->
+
+    **C.** Tracciato a 12 derivazioni in cui tutti i complessi appaiono piccoli; nessun QRS periferico raggiunge i 4 mm. All'inizio di ogni riga il rettangolo di calibrazione è alto 5 mm. Il paziente ha bassi voltaggi?
+
+    <!-- FIG-RICHIESTA: SIM-CAL-01 | ECG a 12 derivazioni, didattico simulato: SIM-RS-01 riprodotto con guadagno 5 mm/mV (impulso di calibrazione alto 5 mm, tutte le ampiezze dimezzate), varianti 6×2 e 3×4, da affiancare a SIM-LV-01 (bassi voltaggi veri con calibrazione standard). Da usare come esercizio C (soluzione: guadagno a mezzo standard, non bassi voltaggi). -->
+
+    *Risposte.* A. Inversione degli elettrodi delle braccia: le precordiali normali escludono la destrocardia. Si correggono i cavi, si ripete il tracciato e si annulla quello errato. B. Artefatto da movimento (pseudo-tachicardia ventricolare): la paziente è cosciente, ha un polso regolare a 78/min e i QRS veri «camminano» sotto il disturbo. Si controllano elettrodi e cavi, si documenta l'episodio e, se persiste il dubbio, si registra un ECG a 12 derivazioni e si fa valutare la striscia. C. No, non necessariamente: il guadagno è a 5 mm/mV («mezzo standard») e tutte le ampiezze sono dimezzate. Un QRS di 4 mm a questo guadagno corrisponde a 0,8 mV, cioè 8 mm a calibrazione standard. Si ripete il tracciato a 10 mm/mV prima di qualunque giudizio sui voltaggi.
+
+    {{righe:0}}
 
 ::: ecg-esercizio REAL-PTBXL-SBRAD-01
 La linea di base della derivazione II è irregolare. Il ritmo è interpretabile? Quali sono frequenza e ritmo?
 ---
-**Bradicardia sinusale** (etichetta della banca dati). La linea di base in II presenta piccole oscillazioni irregolari e lente variazioni di livello (rumore e lieve deriva), mentre in V1 è più stabile: il disturbo è tecnico e non riguarda il ritmo. I QRS sono regolari, a circa 47/min (metodo dei 6 secondi); ogni QRS è preceduto da un'onda P, con PR al limite superiore della norma (circa 0,20 s); QRS stretto. Il ritmo si legge sui complessi, non sulle oscillazioni della linea di base; per giudicare il tratto ST, invece, conviene migliorare il contatto degli elettrodi e ripetere la registrazione.
+**Bradicardia sinusale** (etichetta della banca dati). La linea di base in II presenta piccole oscillazioni irregolari e lente variazioni di livello (rumore e lieve deriva), mentre in V1 è più stabile: il disturbo è tecnico e non riguarda il ritmo. I QRS sono regolari, a circa 47/min (metodo dei 6 secondi); ogni QRS è preceduto da un'onda P, con PR al limite superiore della norma (circa 0,20 s); QRS stretto. Il ritmo si legge sui complessi, non sulle oscillazioni della linea di base; per giudicare il tratto ST, invece, conviene migliorare il contatto degli elettrodi e ripetere la registrazione. Una frequenza di 47/min in un paziente asintomatico, per esempio uno sportivo o una persona in terapia con beta-bloccanti, non richiede di per sé interventi: si valutano i sintomi (vertigini, astenia, sincope) e la pressione arteriosa e si riferisce il dato al medico.
 :::
-
-!!! autotest "Tre tracciati descritti: errori tecnici"
-    **8.** ECG di controllo in un paziente asintomatico: in I P, QRS e T sono negativi; aVR è positiva; aVF è invariata; le precordiali hanno una progressione normale dell'onda R, identica a quella del tracciato del giorno prima. Che cosa è successo e che cosa fai?
-    <!-- FIG-RICHIESTA: SIM-INV-01 | ECG a 12 derivazioni, didattico simulato, con inversione dei cavi braccio destro ↔ braccio sinistro applicata a SIM-RS-01: I invertita (P, QRS, T negativi), II e III scambiate, aVR e aVL scambiate, aVF e precordiali invariate; varianti 6×2 e 3×4. Da usare come ecg-esercizio 8 (soluzione: inversione degli elettrodi delle braccia). -->
-    **9.** Monitor in reparto: allarme di «tachicardia ventricolare» con deflessioni ampie e irregolari a circa 250/min in derivazione II per 6 secondi. La paziente, seduta sul letto, sta parlando con la vicina; al polso radiale la frequenza è di 78/min. Esaminando la striscia, tra le deflessioni si riconoscono picchi stretti regolari a circa 80/min. Qual è la tua interpretazione?
-    <!-- FIG-RICHIESTA: SIM-ART-01 | Striscia di derivazione II di 10 s, didattica simulata: ritmo sinusale a 80/min (base SIM-RS-02) con, nei secondi 2–8, un artefatto da movimento ampio e irregolare (componenti a 3–5 Hz, ampiezza fino a 1,5 mV) che simula una TV; i QRS sinusali restano visibili alla loro frequenza sotto il disturbo e vanno segnati con piccole frecce nella versione della soluzione. Da usare come ecg-esercizio 9 (soluzione: artefatto da movimento, pseudo-TV). -->
-    **10.** Tracciato a 12 derivazioni in cui tutti i complessi appaiono piccoli; nessun QRS periferico raggiunge i 4 mm. All'inizio di ogni riga il rettangolo di calibrazione è alto 5 mm. Il paziente ha bassi voltaggi?
-    <!-- FIG-RICHIESTA: SIM-CAL-01 | ECG a 12 derivazioni, didattico simulato: SIM-RS-01 riprodotto con guadagno 5 mm/mV (impulso di calibrazione alto 5 mm, tutte le ampiezze dimezzate), varianti 6×2 e 3×4, da affiancare a SIM-LV-01 (bassi voltaggi veri con calibrazione standard). Da usare come ecg-esercizio 10 (soluzione: guadagno a mezzo standard, non bassi voltaggi). -->
-
-    *Risposte.* 8. Inversione degli elettrodi delle braccia: le precordiali normali escludono la destrocardia. Si correggono i cavi, si ripete il tracciato e si annulla quello errato. 9. Artefatto da movimento (pseudo-tachicardia ventricolare): la paziente è cosciente, ha un polso regolare a 78/min e i QRS veri «camminano» sotto il disturbo. Si controllano elettrodi e cavi, si documenta l'episodio e, se persiste il dubbio, si registra un ECG a 12 derivazioni e si fa valutare la striscia. 10. No, non necessariamente: il guadagno è a 5 mm/mV («mezzo standard») e tutte le ampiezze sono dimezzate. Un QRS di 4 mm a questo guadagno corrisponde a 0,8 mV, cioè 8 mm a calibrazione standard. Si ripete il tracciato a 10 mm/mV prima di qualunque giudizio sui voltaggi.
-
-!!! chiave "Ripasso – Le dieci cose da ricordare"
-    1. Prima il foglio (nome, 25 mm/s, 10 mm/mV, segnale), poi il cuore. 2. Sette passi, sempre nello stesso ordine: FRA P-Q-S-T. 3. Ritmo irregolare: frequenza con i QRS in 10 s × 6. 4. Asse: I e aVF, poi II. 5. PR 0,12–0,20 s; QRS < 0,12 s. 6. ST: si misura al punto J rispetto all'inizio del QRS, con soglie diverse in V2–V3. 7. QTc: < 0,45 s nell'uomo e < 0,46 s nella donna; allarme oltre 0,50 s o per un aumento di 0,06 s. 8. Il «metà RR» vale solo tra 60 e 100/min. 9. aVR positiva e I negativa: prima i cavi, poi il cuore. 10. Il monitor sorveglia il ritmo; la morfologia si studia sull'ECG a 12 derivazioni.
 
 <!-- ABBR: ECG = elettrocardiogramma -->
 <!-- ABBR: AHA = American Heart Association -->
