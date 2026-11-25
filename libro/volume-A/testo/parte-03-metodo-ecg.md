@@ -433,6 +433,8 @@ Un ultimo aspetto riguarda gli allarmi. Il numero di allarmi falsi o clinicament
     - A: Al momento dell'allarme stava lavandosi i denti; sotto il disturbo si vedono i QRS sinusali a circa 80/min; PA 128/72 mmHg, polso regolare. Ritengo probabile un artefatto, ma la striscia va valutata.
     - R: Le chiedo di visionare la striscia salvata; ho registrato un ECG a 12 derivazioni, che è in ritmo sinusale. Vuole che richieda gli elettroliti?
 
+Ogni evento visto al monitor va **documentato**: si salva o si stampa la striscia, vi si annotano data, ora, derivazione e sintomi del paziente in quel momento, e si riportano in cartella la frequenza, la regolarità, la durata del QRS e, quando richiesto, PR e QTc con la formula usata. Una striscia senza ora e senza derivazione non si può confrontare con le successive; una striscia stampata dopo che l'aritmia è finita non documenta nulla. Per gli eventi rilevanti si registra anche un ECG a 12 derivazioni, appena possibile e senza ritardare il trattamento, perché la morfologia completa del QRS durante l'aritmia è spesso decisiva per la diagnosi. Nel passaggio di consegne si riferiscono gli eventi del turno e si mostrano le strisce salvate, perché il collega che subentra conosca il ritmo di base del paziente e sappia riconoscerne i cambiamenti.
+
 !!! chiave "Ripasso – Le dieci cose da ricordare"
     1. Prima il foglio (nome, 25 mm/s, 10 mm/mV, segnale), poi il cuore.
     2. Sette passi, sempre nello stesso ordine: FRA P-Q-S-T.
