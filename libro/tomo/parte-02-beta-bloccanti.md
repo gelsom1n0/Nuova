@@ -1,7 +1,7 @@
 # Beta-bloccanti
 
 !!! obiettivi "In questa parte"
-    Meccanismo, molecole, indicazioni e sicurezza dei beta-bloccanti, con gli aspetti operativi per l'infermiere e le particolarità in cardiochirurgia e pronto soccorso. Sintesi del Volume I del progetto, ancorata alle linee guida della Società europea di cardiologia (ESC) 2023–2026 (scompenso 2026, fibrillazione atriale e sindromi coronariche croniche 2024). Le dosi sono didattiche: fanno sempre fede il riassunto delle caratteristiche del prodotto (RCP) del singolo medicinale, la prescrizione e il protocollo dell'unità operativa.
+    Meccanismo, molecole, indicazioni e sicurezza dei beta-bloccanti, con gli aspetti operativi per l'infermiere e le particolarità in cardiochirurgia e pronto soccorso. Ancorata alle linee guida della Società europea di cardiologia (ESC) 2023–2026 (scompenso 2026, fibrillazione atriale e sindromi coronariche croniche 2024). Le dosi sono didattiche: fanno sempre fede il riassunto delle caratteristiche del prodotto (RCP) del singolo medicinale, la prescrizione e il protocollo dell'unità operativa.
 
     Al termine della Parte il lettore dovrebbe saper spiegare perché frenare il simpatico protegge un cuore ischemico o insufficiente; distinguere le molecole in base a selettività, vasodilatazione ed eliminazione; seguire una titolazione nello scompenso; riconoscere al letto del paziente i segni di un blocco eccessivo; gestire in sicurezza la via endovenosa e i primi minuti di un'intossicazione.
 
